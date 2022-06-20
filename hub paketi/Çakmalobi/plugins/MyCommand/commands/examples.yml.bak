@@ -1,5 +1,0 @@
-'sunucugec':
-  command: /sunucugec
-  type: BUNGEE_TP
-  server_name: lobi
-  permission-required: false
