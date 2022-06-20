@@ -1,0 +1,24 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################          Data.yml           ####################
+
+Data:
+    
+    #What amount should be displayed instead of slots:
+    FakeMaxPlayers: 2021
+    
+    #How many extra players should be added to current online:
+    ExtraOnlinePlayers: 0
+    
+    #How much space should a single player take on the server?
+    #For example, if set this option to 2 and there are 3 players online
+    #you will see that there are 6 players online in player amount text
+    PlayerSpace: 2
+    
+    #Avoid FakeOnlinePlayers been bigger than FakeMaxPlayers:
+    OnlineIsBiggerThenSlotsProtection: false

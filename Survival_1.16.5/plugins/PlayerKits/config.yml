@@ -1,0 +1,103 @@
+Messages:
+  prefix: '&c&lAnkSoft &7» '
+  noPermissions: '&aBunu yapmak için yetkin yok.'
+  commandCreateError: '&cYou need to use: &7/kit create <name>'
+  commandDeleteError: '&cYou need to use: &7/kit delete <name>'
+  commandClaimError: '&cYou need to use: &7/kit claim <kit>'
+  commandGiveError: '&cYou need to use: &7/kit give <kit> <player>'
+  commandEditError: '&cYou need to use: &7/kit edit <kit>'
+  commandPreviewError: '&cYou need to use: &7/kit preview <kit>'
+  commandOpenError: '&cYou need to use: &7/kit open <player> <page>'
+  kitAlreadyExists: '&cThe kit &7%name% &calready exists on the config.'
+  kitDoesNotExists: '&cThe kit &7%name% &cdoesn''t exists.'
+  inventoryEmpty: '&cYou need at least 1 item on your inventory to create a kit.'
+  kitCreated: '&aKit &7%name% &acreated correctly.'
+  kitRemoved: '&aKit &7%name% &aremoved correctly.'
+  inventoryName: '&9Kit'
+  kitReceived: '&e%name% &aKiti verildi.'
+  configReload: '&aConfig Reloaded.'
+  seconds: s
+  minutes: d
+  hours: sa
+  days: g
+  cooldownPlaceholderReady: '&aHazır!'
+  cooldownError: '&aBu kiti tekrar almak için &e%time% &asaniye beklemelisin.'
+  kitNoPermissions: '&aBunu yapmaya yetkin yok.'
+  kitInCooldownLore:
+  - '&aBu kiti almak için &e%time%'
+  - '&cSaniye beklemelisin.'
+  commandList: '&6&lKit List'
+  commandListKit: '&6%number% &8» &a%kit%'
+  commandListKitNoPermissions: '&6%number% &8» &c%kit% &7(No Permissions)'
+  commandListKitInCooldown: '&6%number% &8» &c%kit% &7(Cooldown: &8%time%&7)'
+  commandListKitOneTime: '&6%number% &8» &c%kit% &7(Already claimed&7)'
+  noSpaceError: '&cYou don''t have enough space in your inventory.'
+  materialNameError: '&cThere is an error on your config. Material: &7&l%material%
+    &cis not valid for your Minecraft version.'
+  oneTimeError: '&cYou can''t claim this kit again.'
+  kitOneTimeLore:
+  - '&cYou can''t claim this kit again.'
+  previewInventoryName: '&9Kit Preview'
+  backItemName: '&7Back'
+  playerNotOnline: '&cPlayer &7%player% &cis not online.'
+  kitGive: '&aKit &7%kit% &agiven to &a%player%&a!'
+  noMoneyError: '&cYou don''t have enough money to claim this kit. &8(&a$&c%current_money%&7/&a$&c%required_money%&8)'
+  moneyInventoryName: '&9Buy Kit Confirmation'
+  moneyInventoryYes: '&a&lYES'
+  moneyInventoryNo: '&c&lNO'
+  moneyInventoryConfirmationName: '&6Are you sure?'
+  moneyInventoryConfirmationLore:
+  - '&7This will cost you: &a$%price%'
+  kitInventoryOpen: '&aOpening Kits inventory for &a%player%&a.'
+  errorPage: '&cWrite a valid page.'
+  cantPreviewError: '&cYou can''t preview this kit.'
+  noPreviewError: '&cThere is nothing to preview for this kit.'
+  commandResetError: '&cYou need to use: &7/kit reset <player> <kit>'
+  kitResetCorrect: '&aKit &7%kit% &areset for &7%player%&a!'
+  kitResetFail: '&cNot possible to reset kit &7%kit% &cfor &7%player%&c!'
+Config:
+  inventorySize: 45
+  previewInventorySize: 54
+  preview_inventory_back_item_slot: 45
+  kit_preview: true
+  kit_preview_back_item: true
+  hide_kits_with_permissions: false
+  close_inventory_on_claim: false
+  drop_items_if_full_inventory: false
+  commands_before_items: false
+  kit_error_sound: BLOCK_NOTE_BLOCK_PLING;10;0.1
+  kit_claim_sound: ENTITY_PLAYER_LEVELUP;10;1.5
+  kit_page_sound: BLOCK_LAVA_POP;10;1
+  Inventory:
+    '0':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '8':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '36':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '44':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '18':
+      id: PLAYER_HEAD
+      name: '&6Previous Page'
+      skulldata: 2391d533-ab09-434d-9980-adafde4057a3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      type: previous_page
+    '26':
+      id: PLAYER_HEAD
+      name: '&6Next Page'
+      skulldata: d513d666-0992-42c7-9aa6-e518a83e0b38;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      type: next_page
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: database
+  preview_inventory_requires_permission: false
+  player_data_save_time: 300
+  update_notify: true

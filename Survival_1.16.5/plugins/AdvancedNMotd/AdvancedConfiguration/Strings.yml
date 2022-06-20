@@ -1,0 +1,102 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Strings.yml         ####################
+
+#
+#All strings in this file support placeholders!
+#
+
+#
+#Online Placeholders:
+#
+
+#
+#Placeholder: %online%
+#Description: display real server's online
+#
+
+#
+#Placeholder: %fakeOnline%
+#Description: display fake server's online
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#MaxPlayers Placeholders:
+#
+
+#
+#Placeholder: %maxplayers%
+#Description: display number of real server's slots
+#
+
+#
+#Placeholder: %fakeMaxplayers%
+#Description: display number of fake server's
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#Hex colors placeholder
+#
+#Your server does not support
+#rgb placeholders! Update it to
+#1.16+ spigot/paper/tuinity
+#or use bungeecord.
+#
+#If you believe that this is a mistake,
+#set value of the field below to true
+#and fully reload your server (with server's
+#reload command):
+forceHexSupport: false
+#Only change the field above if you know
+#what you are doing.
+#You can find out how to use rgb placeholders here:
+#https://www.spigotmc.org/resources/advancednmotd-
+#let-your-motd-smile.58677/update?update=370795
+#
+    
+Motd:
+    
+    #What should be displayed on line 1 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineTwo section)
+    LineOne:
+        - "&r       &c&lANKSOFT.NET &7[1.16.5] &8- &eSurvival Paketi"
+    
+    #What should be displayed on line 2 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineOne section)
+    LineTwo:
+        - "&r        &f&lBETA SÜRÜMÜ OLARAK YAYINLANDI!"
+    
+HoverBox:
+
+    #What text should be displayed when you hover over a player amount text:
+    HoverText:
+        - "&c&lANKSOFT.NET"
+        - "&7&m----------"
+        - "&6Çevrimiçi: &e%online%"
+        - "&6Sürüm: &e1.16.5"
+        - "&6Website: &ewww.anksoft.net"
+        - ""
+        - "&fPlugin paketi hakkında yardım ve destek için,"
+        - "&9anksoft.net/discord &fadresini ziyaret edebilirsin."
+        - "&7&m----------"
+        
+Version:
+    
+    #What text should be displayed instead of player amount text:
+    VersionText: "&f"
+    

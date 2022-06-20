@@ -1,0 +1,67 @@
+#--------------------------------------------------
+#This plugin was created by ESKARYOS
+#Visit my YouTube channel www.youtube.com/eskaryos
+#--------------------------------------------------
+
+#Plugin PlaceHolders
+#[%erankup_rank% = player rank]
+#[%erankup_price% = rank price]
+#[%erankup_next% = next rank]
+#[%erankup_coins% = formated player coins]
+#[%erankup_progress% = progress bar]
+#[%erankup_percent% = rank percentage]
+#[%erankup_percent% = rank percentage]
+#[%erankup_remaining% =  remaining coins for next rank]
+
+#[%skill_percent% = Requiriment percentage]
+#[%skill_requiriment% = Requiriment value]
+#[%skill_playerkills% = Total player killed value]
+#[%skill_jumps% = Player total server jumps value]
+#[%skill_walkedblocks% = Player total block walked value]
+#[%skill_mine_<Material>% = Mined blocks value]
+#[%skill_mobkills_<Mob>% = Mob killed value]
+#[%skill_craft_<Mob>% = Craft item value]
+#[%skill_played_time% = Played time in hours]
+
+#Plugin messages, accept Placeholders
+evolvedRank: "&aYou evolved to rank %erankup_rank% &a."
+evolvedGlobal: "$player &aevolved to rank %erankup_rank%&a."
+limitReached: "&cYou reached the rank limit."
+insufficientFunds: "&cYou need %erankup_price% to evolve to the next rank."
+advancedRank: "&cIt is not possible to ascend to a higher rank."
+evolvedTitle: "%erankup_rank%"
+evolvedSubtitle: "&7you evolved"
+rankreset: "&cYour rank has been reset"
+noRequiriments: "&cYou don't have requirements to evolve"
+noPermission: "&cNo permission to run this command"
+rankReseted: "&f<player> &aplayer rank has been reset."
+rankRedefine: "&aYour rank has been successfully reset."
+noAccount: "&f<player> &cdoes not have an account on the server."
+rankModified: "&aPlayer rank &f<player> &ahas been changed to &f<rank>"
+rankInvalid: "&cThe rank &f<rank> &cdoes not exist"
+#This will show up on anything that shows limit.
+Limit: "&cMaximum"
+Progressbar:
+  #This will be the bar item, use symbols preferably in unicode
+  x: "\u275A"
+  #Bar format, do not add another line.
+  Bar:
+    - '&7xxxxxxxxxx %erankup_percent%'
+    - '&ax&7xxxxxxxxx %erankup_percent%'
+    - '&axx&7xxxxxxxx %erankup_percent%'
+    - '&axxx&7xxxxxxx %erankup_percent%'
+    - '&axxxx&7xxxxxx %erankup_percent%'
+    - '&axxxxx&7xxxxx %erankup_percent%'
+    - '&axxxxxx&7xxxx %erankup_percent%'
+    - '&axxxxxxx&7xxx %erankup_percent%'
+    - '&axxxxxxxx&7xx %erankup_percent%'
+    - '&axxxxxxxxx&7x %erankup_percent%'
+    - '&axxxxxxxxxx'
+Requiriments:
+  Jump: "&aJumps $value"
+  Walk: "&6Walk $distance Km"
+  Craft: "&aCraft Item $item"
+  MobKill: "&cKill $value $mob "
+  PlayerKill: "&cKill $value player's"
+  Mine: "&aMine $value $block"
+  TimePlayed: "&6Play $hours hours"

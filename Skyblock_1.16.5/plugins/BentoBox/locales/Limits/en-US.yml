@@ -1,0 +1,27 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+block-limits:
+  hit-limit: '&c[material] limited to [number]!'
+entity-limits:
+  hit-limit: '&c[entity] spawning limited to [number]!'
+limits:
+  panel-title: Island limits
+admin:
+  limits:
+    main:
+      parameters: <player>
+      description: show the island limits for player
+    calc:
+      parameters: <player>
+      description: recalculate the island limits for player
+      finished: '&aIsland recalc finished successfully!'
+island:
+  limits:
+    description: show your island limits
+    max-color: '&c'
+    regular-color: '&a'
+    block-limit-syntax: '[number]/[limit]'
+    no-limits: '&cNo limits set in this world'
+    recount:
+      description: recounts limits for your island

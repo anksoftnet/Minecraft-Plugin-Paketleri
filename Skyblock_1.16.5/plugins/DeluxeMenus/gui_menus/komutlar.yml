@@ -1,0 +1,57 @@
+menu_title: '&8Sunucu komutları'
+open_command: 
+- komutlar
+size: 27
+items:
+      '31':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkYzA0OGE3Y2U3OGY3ZGFkNzJhMDdkYTI3ZDg1YzA5MTY4ODFlNTUyMmVlZWQxZTNkYWYyMTdhMzhjMWEifX19=
+        slot: 15
+        display_name: '&6Ada Komutları'
+        lore:
+        - '&f'
+        - '&8● &f/island go: &7Adana ışınlar.'
+        - '&8● &f/island spawn: &7Başlangıç noktasına ışınlar.'
+        - '&8● &f/island create: &7Ada oluşturur.'
+        - '&8● &f/island settings: &7Ada ayarlarını görünütler.'
+        - '&8● &f/island sethome: &7Adada bir ev oluşturmanı sağlar.'
+        - '&8● &f/island setname: &7Ada ismini değiştirir.'
+        - '&8● &f/island ban: &7Adandan bir oyuncuyu yasaklar.'
+        - '&8● &f/island banlist: &7Adandaki yasaklı oyuncuları gör.'
+        - '&8● &f/island top: &7En iyi ilk 10 adayı görüntüler.' 
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkYzA0OGE3Y2U3OGY3ZGFkNzJhMDdkYTI3ZDg1YzA5MTY4ODFlNTUyMmVlZWQxZTNkYWYyMTdhMzhjMWEifX19=
+        slot: 13
+        display_name: '&6Genel komutlar'
+        lore:
+        - '&f'
+        - '&8● &f/warp: &7Sunucudaki ışınlanma bölgelerini gösterir.'
+        - '&8● &f/kit: &7Sunucudaki savaş eşyalarını gösterir.'
+        - '&8● &f/market: &7Sunucudaki alınabilecek ürünleri gösterir.'
+        - '&8● &f/discord: &7Discord sunucumuzun davet linkini gösterir.'
+        - '&8● &f/tpaccept: &7Bir ışınlanma isteğini kabul eder.'
+        - '&8● &f/tpadeny: &7Bir ışınlanma isteğini reddeder.'
+        - '&8● &f/msg <Oyuncu> <Mesaj>: &7Bir oyuncuya mesaj gönderir.'
+        - '&8● &f/pay <Oyuncu> <Miktar>: &7Bir oyuncuya dinar gönderir.'
+        - '&8● &f/back: &7Eski bulunduğun konuma geri döner.'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      '22':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkYzA0OGE3Y2U3OGY3ZGFkNzJhMDdkYTI3ZDg1YzA5MTY4ODFlNTUyMmVlZWQxZTNkYWYyMTdhMzhjMWEifX19=
+        slot: 11
+        display_name: '&6Pazar komutları'
+        lore:
+        - '&f'
+        - '&8● &f/ah: &7Tüccarın ana menüsünü gösterir.'
+        - '&8● &f/ah sell <Miktar>: &7Elinde tuttuğun eşyayı belirttiğin fiyatla tüccara koyar.'
+        - '&8● &f/ah selling: &7Tüccardaki satışta olan ürünleri gösterir.'
+        - '&8● &f/ah expired: &7Tüccardaki süresi dolmuş olan ürünleri gösterir.'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

@@ -1,0 +1,46 @@
+Prefix: "&6[&4Banka&6]&e"
+Help:
+  - "&7&l&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯&7&l[ &e&lÇek Yardımı &7&l]&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"
+  - "&e/xpbottle <xp> or <all> &8- &2Withdraw your xp to a bottle!"
+  - "&e/withdraw <money> or <all> &8- &2Withdraw your money to a money note!"
+  - "&7&l&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯&7&l[ &e&lWithdraw Admin Help &7&l]&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"
+  - "&e/xpBottle <xp> <player> <amount> <enchanter> &8- &2Give an XP-Bottle to a player. (<amount> and <enchanter> are optional!)"
+  - "&e/bWithdraw <money> <player> <amount> <signer> &8- &2Give a money note to a player. (<amount> and <signer> are optional!)"
+  - "&e/xpBottle giveall <xp> <amount> <enchanter> &8- &2Give an XP-Bottle to all players on the server. (<amount> and <enchanter> are optional!)"
+  - "&e/bWithdraw giveall <money> <amount> <signer> &8- &2Give a money note to all players on the server. (<amount> and <signer> are optional!)"
+  - "&7&l&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯&7&l[ &e&lWithdraw Help &7&l]&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"
+
+Withdraws:
+  XpBottle:
+    NotEnough: "%prefix% &c%value% XP bulunmuyor! &e(Mevcut: %xp% Xp)"
+    Xpb: "%prefix% &2%xp% XP'niz var. &e(/xpBottle <değer>)"
+    Withdraw: "&c- %value% XP"
+    Redeem: "&a+ %value% XP"
+    Min: "%prefix% &cEn az %minxp% XP çekebilirsiniz."
+    Max: "%prefix% &cEn fazla %maxxp% XP çekebilirsiniz!"
+    BottleReceived: "%prefix% &bOyuncu %value% aldı!"
+    RewardReceived: "%prefix% &e%value% XP içeren bir XP-Şişesi aldınız!"
+    GiveAll: "%prefix% &bTüm oyuncular bir XP-Şişesi aldı!"
+
+  CashNote:
+    NotEnough: "%prefix% &c%value% TL bulunmuyor! &e(Mevcut: %balance% TL)"
+    Cash: "%prefix% &2%balance% TL'niz var. &e(/paraçeki <değer>)"
+    Withdraw: "&c- $%value%"
+    Redeem: "&a+ $%value%"
+    Min: "%prefix% &cEn az %mincash% değerinde para çekebilirsiniz!"
+    Max: "%prefix% &cEn fazla %maxcash% değerinde para çekebilirsiniz!"
+    CashReceived: "%prefix% &bOyuncu %value% TL aldı!"
+    RewardReceived: "%prefix% &b%value% TL değerinde bir para çeki aldınız!"
+    GiveAll: "%prefix% &bTüm oyuncular bir para çeki aldı!"
+    Fee:
+      NotEnough: "%prefix% &cBu işlem için ücret ödemek için %value% TL'ye ihtiyacınız var!"
+      TakenFee: "%prefix% &eBu işlem için %value% TL ücret ödediniz!"
+  FullInventory: "%prefix% &cHata: Envanteriniz dolu!"
+  CantFind: "%prefix% &cOyuncu Bulunamadı: %player%!"
+  NoPermission: "%prefix% &4Yeterli izniniz bulunmuyor."
+  NoNumber: "%prefix% &4%value% is not a number!"
+  CancelCrafting: "%prefix% &4Withdraw items can't be used in crafting recipe!"
+  CancelVillagerTrade: "%prefix% &4Geri çekilen eşyalar köylülerle ticaret yapmak için kullanılamaz!"
+  CancelGrindStone: "%prefix% &4Öğütme Taşında'da para çekme eşyaları kullanılamaz!"
+
+ConfigVersion: 2.6

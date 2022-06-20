@@ -1,0 +1,421 @@
+# Skellett the addon with the beast name!
+# 
+# This file generates all new syntax registered for Skellett.
+
+Main:
+  Books:
+  - open book %itemstack% to %players%
+  - '[a] new [written] book'
+  Maps:
+  - '[skellett] map cursor direction (of|for) [[map][ ]cursor] %mapcursor%'
+  - (erase|clear|remove|delete|unregister) [skellett] map %map%
+  - unlimited [tracking] state (of|from|in) [map] %map%
+  - '[map] %map%''s unlimited [tracking] state'
+  - '[map] %map% (1¦is|2¦is(n''t| not)) virtual'
+  - (show|send|display) [skellett] [custom] map %map% to %players%
+  - '[skellett] map cursor type (of|for) [[map][ ]cursor] %mapcursor%'
+  - '[skellett] map cursor (1¦x|2¦y)(-| )(coord[inate]|pos[ition]|loc[ation])[s] of
+    [[map][ ]cursor] %mapcursor%'
+  - '[skellett] [(the|all)] [of] [the] map cursors (in|on|for) [skellett] [map] %map%'
+  - draw [map] cursor %string% pointing %number% at [coordinate[s]] [x] %number%(,|
+    and) [y] %number% on [skellett] map %map%
+  - center (1¦x|2¦z)[( |-)][(position|coord[inate])] (of|from|in) [map] %map%
+  - '%map%''s center (1¦x|2¦z)[( |-)][(position|coord[inate])]'
+  - '[skellett] [the] event[(-| )]map'
+  - world of map %map%
+  - map %map%'s world
+  - '[skellett] map pixel [colo[u]r] at [coordinate[s]] [x] %number%(,| and) [y] %number%
+    (on|in) [skellett] map %map%'
+  - '[skellett] map cursor visibl(e|ity) [state] (of|for) [[map][ ]cursor] %mapcursor%'
+  - draw [buffered] image %mapimage% [at [coordinate[s]] [x] %number%(,| and) [y]
+    %number%] on [skellett] map %map%
+  - (manage|override|overwrite|create) [skellett] map %map% [[and] [with] override
+    %-boolean%]
+  - '[map] %map% (1¦is|2¦is(n''t| not)) being handled [by skellett]'
+  - '[skellett] [the] image (of|from) [the] file [(location|path)] %string%'
+  - '[skellett] [a] new map[[ ]view] (for|from|with) [world] %world%'
+  - map (scale|size) of %map%
+  - map %map%'s (scale|size)
+  - (scale|size) of map %map%
+  - draw text %string% at [coordinate[s]] [x] %number%(,| and) [y] %number% on [skellett]
+    map %map%
+  PrepareEnchant:
+  - '[the] enchant[ment] of [enchant[ment]] offer %enchantmentoffer%'
+  - offer %enchantmentoffer%'s [enchant[ment]] enchant[ment]
+  - '[the] cost of [enchant[ment]] offer %enchantmentoffer%'
+  - offer %enchantmentoffer%'s [enchant[ment]] cost
+  - '[the] level of [enchant[ment]] offer %enchantmentoffer%'
+  - offer %enchantmentoffer%'s [enchant[ment]] level
+  - '[(the|all)] [of] [the] enchant[ment] offers'
+  Brewing:
+  - '[brew[ing]] time (of|in) brew[ing] [stand] [inventory] %brewerinventory%'
+  - brew[ing] [stand] %brewerinventory%'s [brew[ing]] time
+  - '[brew[ing]] fuel time (of|in) [brew[ing] stand] [inventory] %brewerinventory%'
+  - '[brew[ing] stand] %brewerinventory%''s [brew[ing]] fuel time'
+  - (fuel|burning) [item] (of|in) [brew[ing] stand] [inventory] %brewerinventory%
+  - '[brew[ing] stand] %brewerinventory%''s (fuel|burning) [item]'
+  - '[skellett] [event] brew[ing] [stand] inventory'
+  - '[skellett] event-brewinginventory'
+  - ingredient [item] (of|in) [brew[ing] stand] [inventory] %brewerinventory%
+  - '[brew[ing] stand] %brewerinventory%''s ingredient [item]'
+  Nametags:
+  - '[skellett] [(create|set|make)] [a] [name][ ]tag [ID] [(with|named)] [(name|string|text|id)]
+    %string% [(with|from) [player] %-player%]'
+  - '[skellett] [get] suffix [of] [the] [name][ ]tag [with] [id] %string%'
+  - '[skellett] reset [the] [name][ ]tag [with] [id] %string%'
+  - '[skellett] [get] prefix [of] [the] [name][ ]tag [with] [id] %string%'
+  - '[skellett] delete [the] [name][ ]tag [with] [id] %string%'
+  - '[skellett] [(set|make)] prefix [of] [the] [name][ ]tag [(with|of)] [id] %string%
+    to [(string|text)] %string%'
+  - '[skellett] reset [the] [name][ ]tag suffix [(with|of)] [id] %string%'
+  - '[skellett] reset [the] [name][ ]tag prefix [(with|of)] [id] %string%'
+  - '[skellett] remove %player% from [the] [name][ ]tag [(with|of)] [id] %string%'
+  - '[skellett] [(set|make)] suffix [of] [the] [name][ ]tag [(with|of)] [id] %string%
+    to [(string|text)] %string%'
+  - '[skellett] add %player% to [the] [name][ ]tag [(with|of)] [id] %string% [(with|from)
+    [[score][ ]board] %-scoreboard%]'
+  Files:
+  - '[skellett] d[elete][ ][f][ile] %string%'
+  - '[skellett] c[reate][ ][f][ile] %string%'
+  - '[skellett] move file [path] %string% to [path] %string%'
+  - '[skellett] copy file [path] %string% to [path] %string%'
+  - '[skellett] unzip %string% to %string%'
+  Shooting:
+  - '[the] [skellett] [(event|get)] [the] shot (arrow|projectile)'
+  - '[the] [skellett] [(event|get)] bow'
+  - (arrow|shot|velocity) speed [of (shot|arrow)]
+  StylishBoards:
+  - '[the] (stylish|style|simple) [score][ ][board] of %player%'
+  - '%player%''s (stylish|style|simple) [score][ ][board]'
+  - (stylish|style|simple) [score][ ]board %string% (1¦(is set|[does] exist[s])|2¦(is(n't|
+    not) set|does(n't| not) exist[s]))
+  - '[skellett] [(update|edit)] [the] [display] title of (stylish|style|simple) [score][
+    ][board] [named] %string%'
+  - '[skellett] [(update|edit)] [the] (stylish|style|simple) [score][ ][board] %string%[''s]
+    [display] title'
+  - '[skellett] create [a[n]] [new] id [based] [score] [(with [id]|named)] %string%
+    [(with|and)] [(text|string)] %string% [(in|with|for|and)] slot %number% (in|for|of)
+    (stylish|style|simple) [score][ ]board [with] [name[d]] %string%'
+  - '[skellett] [(update|edit)] [the] [(stylish|style|simple)] [score][ ]board [of]
+    id [based] [score] [(with [id]|named)] %string%'
+  - '[skellett] [(update|edit)] [the] (text|name|display|data|string) [of] id [based]
+    [score] [(with [id]|named)] %string%'
+  - '[skellett] (delete|remove) [the] (stylish|style|simple) [score][ ][board] [with]
+    [name[d]] %string%'
+  - '[skellett] create [a] [new] (stylish|style|simple) [score][ ]board [with] [name[d]]
+    %string%'
+  - '[skellett] [(update|edit)] [the] slot [of] id [based] [score] [(with [id]|named)]
+    %string%'
+  - '[skellett] (delete|remove) [the] id [based] [score] [(with [id]|named)] %string%
+    (in|from|for|of) (stylish|style|simple) [score][ ]board [with] [name[d]] %string%'
+  ChatComponent:
+  - add click event with action %clickeventaction% (and|with|to) [(execute|text|link)]
+    %string% to [text component] %textcomponent%
+  - message text component %textcomponent% to %players%
+  - add hover event with action %hovereventaction% (and|with) [(value|text)] %string%
+    to [text component] %textcomponent%
+  - '[a] [new] text component [with [text]] %string%'
+  - add text component %textcomponents% to [book] %itemstack%
+  Fishing:
+  - '[the] [fish[ing]] (xp|experience) [earned]'
+  - '[skellett] caught (fish|item|entity)'
+  - '[skellett] fish[ing] hook'
+  - '[skellett] [fish[ing]] state'
+  Jukebox:
+  - juke[ ]box %block% (1¦is|2¦is(n't| not)) playing [a] (record|track|song)
+  ArmorStands:
+  - armo[u]r stand leg[ging][s] of %entity%
+  - armo[u]r stand %entity%'s leg[ging][s]
+  - armo[u]r stand (helmet|hat) of %entity%
+  - armo[u]r stand %entity%'s (helmet|hat)
+  - armo[u]r stand chest[ ][plate] of %entity%
+  - armo[u]r stand %entity%'s chest[ ][plate]
+  - armo[u]r stand boots of %entity%
+  - armo[u]r stand %entity%'s boots
+  ReturnType:
+  - '[event] method %string% [is [a] loop[able] %-boolean%] [(from|of) [(expression|type|class)]
+    %-object%] [with parameter[s] %-objects%]'
+  Spawners:
+  - (entity|mob|creature) [type] (of|from) spawner [at] %block%
+  - '%block%''s spawn[er] (entity|mob|creature) [type]'
+  - (make|force) spawner [at] %block% to spawn [[a[n]] entit(y|ies)]
+  - delay (of|from) spawner [at] %block%
+  - '%block%''s spawn[er] delay'
+  - spawn[er] delay (of|from) %block%
+ClickedAction:
+- (click[ed]|inventory) action
+ItemframeRotation:
+- '[skellett] rotation (of|from) item[ ]frame %entity%'
+- '[skellett] %entity%''s item[ ]frame rotation'
+- '[skellett] item[ ]frame %entity%''s rotation'
+NoNBT:
+- '%itemstacks% with [all] removed NBT'
+- remove[ed] [all] NBT [from] %itemstacks%
+- '%itemstacks% with hid(den|ing) enchant[ment][s]'
+- '[skellett] (shiny|hidden enchant[ment][s]|glow|glowing) [item] %itemstack%'
+- '%itemstacks% with(out [any]| no) NBT'
+NextEmptySlot:
+- (next|first) empty slot of %inventory%
+SpreadSource:
+- '[spread] source block'
+LeashBlock:
+- (leash|lead) %livingentities% to %block%
+InvulnerableState:
+- invulnerable state of %entity%
+- '%entity%''s silent invulnerable'
+Syntax:
+  Effects:
+    World:
+    - world folder of %world%
+  Events:
+    BrewingFuel:
+    - '[(the|is)] brew[ing] [stand[s]] consuming [state]'
+    - '[skellett] [the] brew[ing] [stand[['']s]] fuel [power]'
+    - '[skellett] [the] fuel [power] of [the] brew[ing] [stand]'
+    - '[skellett] event-fuel[power]'
+    AnvilPrepare:
+    - '[the] [skellett] [event] anvil[['']s] inv[entory]'
+    - event-anvilinventory
+    - '[the] [skellett] [anvil[s]] repair cost (of|from|in) [anvil] [inventory] %anvilinventory%'
+    - '[skellett] [anvil] [inventory] %anvilinventory%''s [anvil] repair cost'
+    Hanging:
+    - '[the] [un](hung|hang)[(ed|ing)] cause'
+    - '[the] (hung|hang)[(ed|ing)] remover [entity]'
+LongDate:
+- date (from|of) [(long|milliseconds)] %number%
+Exhaustion:
+- exhaustion of %player%
+- '%player%''s exhaustion'
+RedstoneCurrent:
+- '[the] [skellett] (1¦(new|future)|2¦(old|past)) [event] [redstone] current'
+LlamaInventory:
+- inventory of Llama %entity%
+- Llama inventory of %entity%
+HitboxSize:
+- '[the] hitbox width of %entity%'
+- '%entity%''s hitbox width'
+- '[the] width of %entity%''s hitbox'
+- '[the] hitbox length of %entity%'
+- '%entity%''s hitbox length'
+- '[the] length of %entity%''s hitbox'
+InstaBreak:
+- '[event] inst(ant|a) break [state]'
+ClientWeather:
+- '[skellett] [client] weather of %player%'
+InventoryType:
+- inventory type of %inventory%
+- '%inventory%''s inventory type'
+AgeLock:
+- '[skellett] age lock of [entity] %entity%'
+- '[entity] %entity%''s age lock'
+PistonReaction:
+- '[the] piston [move] reaction (of|from) %block%'
+- '%block%''s piston [move] reaction'
+EntityID:
+- '[the] [entity] [number] id (of|from) %entities%'
+- '%entities%''s [entity] [number] id'
+EnchantmentLevel:
+- '[skellett] enchant[ment] level (from|of) %enchantment% (of|in|on) %itemstack%'
+- '[skellett] %itemstack%''s enchant[ment] level (from|of|on) %enchantment%'
+CollidableState:
+- '[set] collid(e|able) [state] [of] %livingentity% to %boolean%'
+- collid(e|able) [state] [of] %entity%
+Breed:
+- '[entity] %entity% (1¦can|2¦can([ ]no|'')t) [be] breed'
+PlayerInventoryCursor:
+- '[current [inventory]] cursor of %player%'
+- '%player%''s [current [inventory]] cursor'
+TitleAndSubtitle:
+- remove [(the|all)] [of] [the] arrows stuck in %player%
+- (send|show) [a] title [from] %string% [(with|and) [subtitle] %-string%] (to|for)
+  %players% for %timespan%(,| and| with) %timespan% [fade[ ]in](,| and| with) %timespan%
+  [fade[ ]out]
+- (send|show) %players% [a] title [(with|from)] %string% [(with|and) [subtitle] %-string%]
+  for %timespan%(,| and| with) %timespan% [fade[ ]in](,| and| with) %timespan% [fade[
+  ]out]
+ProjectileBounce:
+- '[skellett] %entity%[['']s] bounc(e|ing) [state]'
+SleepIgnored:
+- ignored sleep[ing] [state] of %player%
+Chunks:
+- '[skellett] load chunk %chunk% [[with] generat(e|ing) %-boolean%]'
+- '[skellett] unload chunk %chunk% [[with] sav(e|ing) %-boolean%]'
+SpectralArrow:
+- '[spectral] arrow glowing time of %entity%'
+- '%entity%''s [spectral] arrow glowing time'
+MaxDamageTicks:
+- '[skellett] [maximum] damage delay of %entity%'
+- '[skellett] %entity%''s [maximum] damage delay'
+CenterMessage:
+- (message|send [message]) center[ed] %strings% to %players% [[with[ text]] %-string%]
+ClickedType:
+- '[the] [skellett] click[ed] type'
+ItemframeItem:
+- '[skellett] item (in|inside|within|of|from) item[ ]frame %entity%'
+- '[skellett] %entity%''s item[ ]frame item'
+- '[skellett] item[ ]frame %entity%''s item'
+Whitelist:
+- reload [the] white[ ]list
+- '[set] white[ ]list [to] %boolean%'
+BreedState:
+- '[skellett] breeding state of [entity] %entity%'
+- '[entity] %entity%''s breeding state'
+BabyAdult:
+- '[(make|set)] [entity] %entity% [to] [a[n]] (1¦baby|2¦adult)'
+PistonPower:
+- '[skellett] piston[s] (power|toggle) [state] of %block%'
+- '%block%''s piston (power|toggle) [state]'
+TNTFuseTime:
+- '[skellett] (fuse time|time until blowup) of [the] [primed] [tnt] %entity%'
+- '[skellett] [primed] [tnt] %entity%[''s] (fuse time|time until blowup)'
+BlockStates:
+- '[(the|all)] [of] [the] [possible] drop[(ped|s)] [items] (from|of) [block [at]]
+  %location% [(with|using) %-itemstack%]'
+- '[redstone] power [[being] receiv(ed|ing)] [(from|at)] %location%'
+- '%location% [redstone] power [[being] received]'
+RoundDecimal:
+- '[Skellett] %number% round[ed] [to] [the] [nearest] %number% decimal (digit[s]|place[s])'
+EntityEffect:
+- '[skellett] (make|force) %entity% [to] [(perform|do)] [entity] effect %entityeffect%'
+ChunkOutlineBlocks:
+- '[(the|all)] [of] [the] blocks [in [a[n]]] (around|outlin(e|ing)) [of] chunk %chunk%
+  [[at] [y(-| )coordinate] %-number%]'
+ActivePotionEffects:
+- '[(the|all)] [of] [the] [active] potion[s] [effects] (on|of) %entity%'
+PistonSticky:
+- '[piston] %block% (1¦is|2¦is(n''t| not)) [a] sticky [piston]'
+PlayerCanSee:
+- '[player] %player% (1¦can|2¦can([ ]no|'')t) see [player] %player%'
+BlockHardness:
+- '[the] block (break delay|durability|hardness) of [all] %block%'
+- '[all] %block%''s block (break delay|durability|hardness)'
+ClickedRow:
+- '[the] click[ed] row'
+MaterialName:
+- '[the] [spigot] material [name] (from|of) %itemtype%'
+- '%itemtype%''s [spigot] material [name]'
+ClickedItem:
+- '[the] [skellett] [click[ed]] item'
+OfRow:
+- '[slot] %number% (1¦is|2¦is(n''t| not)) (within|of|in) row %number% [(of|in|from)
+  [inventory] %-inventory%]'
+Age:
+- '[skellett] age of [entity] %entity%'
+- '[entity] %entity%''s age'
+Spectate:
+- (spec[tat(e|or|ing)]|view[ing]) [(target|state)] of %player%
+- '%player%''s (spec[tat(e|or|ing)]|view[ing]) [(target|state)]'
+LlamaInventoryDecor:
+- '[Llama] decor (of|in) [inventory] [of] [Llama] %llamainventory%'
+- '[Llama] %llamainventory%''s [inventory] decor'
+EnderCrystalBeam:
+- '[ender] crystal (target|beam) [location] of %entity%'
+- '%entity%''s [ender] crystal (target|beam) [location]'
+RepeaterDelay:
+- '[skellett] [redstone] repeater[s] [(redstone|power)] delay of %block%'
+- '[redstone] repeater %block%''s [(redstone|power)] delay'
+EventCancelled:
+- '[(the|this)] event (1¦is|2¦is(n''t| not)) cancelled'
+EntityRemoveWhenFarAway:
+- '[skellett] [(despawn|remove|clear)] [get] %entity% when [it(['']s| is)] far away
+  [state]'
+PlayerWindowProperty:
+- (set|change) %player%['s] (window|[current] inventory) property [of] %inventoryproperty%
+  to %number%
+ClickedTypeNumber:
+- click[ed] type num[ber]
+RedstonePower:
+- '[block] %block% (1¦(is|has)|2¦(is|has)(n''t| not)) [got] [redstone] powered'
+ViewingCredits:
+- '[player] %player% (1¦is|2¦is(n''t| not)) viewing [the] credits'
+ClickedRawSlot:
+- click[ed] raw slot
+ClickedInventory:
+- click[ed] inventory
+SlimeSize:
+- '[skellett] slime size of %entity%'
+- '[skellett] %entity%''s slime size'
+CustomName:
+- '[skellett] custom name visib(le|ility) of %entity%'
+- '[skellett] visib(le|ility) of %entity%''s custom name'
+- '[skellett] custom name of %entity%'
+MathExpressions:
+- absolute [value] of %number%
+EnderCrystalBase:
+- '[ender] crystal base [visib(le|ility)] [state] of %entity%'
+- '%entity%''s [ender] crystal base [visib(le|ility)] [state]'
+NumbersInString:
+- '[get] [the] (digit|num[ber])[s] (of|from|in) %string%'
+SizeOfInventory:
+- '[skellett] (gui|menu|inventory|chest|window) (size|number|slots) (of|from) %inventory%'
+- '%inventory%''s (gui|menu|inventory|chest|window) (size|number|slots)'
+Serialize:
+- '[skellett] serialize [variable] %object%'
+FallDistance:
+- '[the] fall distance (from|of) %entity%'
+- '%entity%''s fall distance'
+ClickedCursor:
+- '[the] [skellett] [click[ed]] cursor'
+ClearSlot:
+- (clear|empty|reset) (inventory|menu|gui) [slot %-integer%] [(of|in)] %inventory%
+OS-Stuff:
+- '[the] server[['']s] java version'
+- '[the] java version of [the] server'
+SprintingState:
+- (sprint|run)[ing] [state] of %player%
+SilentState:
+- (silent|quiet) [state] [of] [entit(y|ies)] %entities%
+AbsorptionHearts:
+- '[skellett] absorption hearts of %player%'
+- '[skellett] %player%''s absorption hearts'
+TeleportPlayerWorldSpawn:
+- teleport %players% to [world] spawn (of|in) [world] %string%
+- '[skellett] teleport %players% to world %string% [spawn]'
+ServerTick:
+- '[the] server tick[s]'
+- '[the] server''s tick[s]'
+- '[the] tick[s] of [the] server'
+ItemsWithin:
+- '[skellett] [get] item[s] (of|in|inside|within) entity %entity%'
+Adult:
+- '[entity] %entity% (1¦is|2¦is(n''t| not)) [a[n]] adult'
+ClickedSlotType:
+- click[ed] slot type
+LineOfSight:
+- '%entity% (1¦can|2¦can([ ]no|'')t) [visibly] see %entity%'
+AmountOfVariables:
+- (size|amount) of [all] variables
+ScoreboardExists:
+- score[ ][board] %string% (1¦(is set|[does] exist[s])|2¦(is(n't| not) set|does(n't|
+  not) exist[s]))
+Statistics:
+- '[the] stat[istic][s] %string% (of|from) %player% [[(with|from|for|of)] entity[[
+  ]type] %-string%] [[(with|from|for|of)] material %-string%]'
+ItemCooldown:
+- '%player% (1¦(has|does)|2¦(has|does)(n''t| not)) [(have|got)] [a] cool[ ]down for
+  [(item|material)] %string%'
+- '[the] cool[ ]down of [(item|material)] %string% (for|of) %players%'
+- '[(item|material)] %string%''s cool[ ]down (for|of) %players%'
+LlamaColour:
+- Llama colo[u]r of %entity%
+- Llama %entity%'s colo[u]r
+- '%entity%[''s] Llama colo[u]r'
+SneakingState:
+- sneak[ing] [state] of %player%
+Operators:
+- '[(the|all)] [of] [the] Op[erator](s|ed) [players]'
+Download:
+- '[skellett] d[ownload][l] [from] [url] %string% to %string%'
+AmountOfItem:
+- '[skellett] [get] (size|number|amount) of dropped %entity%'
+ClientChest:
+- '[skellett] (1¦open|2¦close) [the] %block% for %players%'
+- '[skellett] make [the] %block% (appear|look) (1¦open|2¦closed) for %players%'
+- '[skellett] play chest (1¦open|2¦close) animation at %block% for %players%'
+InventoryRows:
+- '[skellett] (gui|menu|inventory|chest|window) row[s] (of|from) %inventory%'
+- '%inventory%''s (gui|menu|inventory|chest|window) row[s]'
+InWater:
+- '[entity] %entity% (1¦is|2¦is(n''t| not)) in water'
+ClickedSlot:
+- '[the] click[ed] slot'

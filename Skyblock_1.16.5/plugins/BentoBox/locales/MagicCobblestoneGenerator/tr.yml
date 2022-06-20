@@ -1,0 +1,186 @@
+stone-generator:
+  commands:
+    admin:
+      main:
+        description: Main admin command for the Magic Cobblestone Generator Addon
+      import:
+        description: Command that allows to import magic generators into Game Mode
+          Addon
+        confirmation: Please confirm that you want to remove existing generators from
+          [gamemode] and import generators from template
+      why:
+        parameters: <player>
+        description: toggle debug messages about Magic Cobblestone Generator.
+    player:
+      main:
+        description: Main player command that opens GUI with generator selection
+      view:
+        description: Player command that opens GUI with detailed information about
+          requested generator
+        parameters: <generator_id> - id for generator
+  gui:
+    buttons:
+      block-icon:
+        name: '[material]'
+        description: 'Chance to generate: [#.##]'
+      treasure-icon:
+        name: '[material]'
+        description: 'Chance to drop: [#.####]'
+      return:
+        name: "&cÖnceki Menü"
+        description: |-
+          &7Bir önceki menüye geri dön
+      previous:
+        name: Previous Page
+        description: Switch to previous page
+      next:
+        name: Next Page
+        description: Switch to next page
+      info:
+        name: "&6&lGenel Bilgiler"
+        description: |-
+          &7Jeneratör hakkında
+          &7temel bilgiler
+      blocks:
+        name: "&6&lBlok Listesi"
+        description: |-
+          &7Bu Jeneratörden çıkabilecek
+          &7bloklar ve blokların oranlarını
+          &7görüntüler.
+      treasures:
+        name: Treasure List
+        description: |-
+          Shows list of treasures
+          and their chances to
+          be dropped.
+          Treasures are dropped
+          on block generating
+      name:
+        name: Generator name
+      icon:
+        name: Generator icon
+      description:
+        name: "&7Jeneratör Açıklaması"
+      default:
+        name: '&7Jeneratör Bilgileri'
+      priority:
+        name: "&6&lJeneratör Önceliği"
+        description: |-
+          &7Önceliği yüksek olan jeneratörler
+          &7çıkabilecek blok oranını
+          &7daha fazla etkiler
+      type:
+        name: "&7Jeneratör Türü: &eTaş Jeneratörü"
+      required_min_level:
+        name: Required Island Level
+        description: Minimal island level
+      required_permissions:
+        name: Required Permissions
+      purchase_cost:
+        name: "&6&lSatın Al"
+        description: |-
+          &7Jeneratörü satın almak için &e(Tıkla)
+      activation_cost:
+        name: Activation Cost
+        description: |-
+          Amount of credits that
+          need to be paid each time
+          for activating this
+          generator
+      biomes:
+        name: Operational Biomes
+        description: |-
+          List of biomes where
+          this generator will
+          work
+      deployed:
+        name: Deployed
+      treasure_amount:
+        name: Treasure Amount
+        description: |-
+          Amount of treasures
+          that will be dropped.
+      treasure_chance:
+        name: Treasure Chance
+        description: |-
+          Chance of getting treasure
+          to be dropped.
+      show_cobblestone:
+        name: "&6Kırıktaş Jeneratörleri"
+        description: |-
+          &7Aşşağı kısımdan jeneratörleri
+          &7görüntüleyebilir/kapatabilir/açabilirsin
+      show_stone:
+        name: Stone Generators
+        description: |-
+          Shows only stone
+          generators
+      show_basalt:
+        name: Basalt Generators
+        description: |-
+          Shows only basalt
+          generators
+      toggle_visibility:
+        name: "&6Sadece Bende Olanlar"
+        description: |-
+          &7Sadece kilidi açılmış olan
+          &7jeneratörleri listeler
+      show_active:
+        name: "&6Sadece Aktif Jeneratörler"
+        description: |-
+          &7Sadece adanda aktif olan
+          &7jeneratörleri görünütle
+    descriptions:
+      generator-active: '&a&lAktif'
+      activation-cost: 'Activation Cost: [number]'
+      locked: '&c&lKilitli'
+      required-permissions: '&c Required Permissions:'
+      missing-permission: '&c - [permission]'
+      required-level: '&cGereken Ade Seviyesi: &a[number]'
+      purchase-cost: '&cSatın Alma Ücreti: &a[number]&a&l$'
+      current-value: '&7Değeri &a[value]'
+      current-value-list: '&7Değeri &a[value]'
+      click-to-view: '&7Detayları görüntülemek için &e(Sağ-Tık)'
+      click-to-activate: '&7Aktif duruma getirmek için &e(Sol-Tık)'
+      click-to-deactivate: '&7Deaktif duruma getirmek için &e(Sol-Tık)'
+      click-to-purchase: '&a&lSatın Almak için Tıkla'
+    titles:
+      generator-view: '[generator]'
+      generator-list: Jeneratörler
+  messages:
+    import-count: '&6 Imported [number] new generator tiers.'
+    skipping: '&6 Generator ''[generator]'' &r&6 is already in local cache. Skipping.'
+    overwriting: '&6 Overwriting generator ''[generator]'' &r&6 in local cache.'
+    loaded: '&6 Generator ''[generator]'' &r&6  is loaded into local cache.'
+    generator-deactivated: '&6Krallık | [generator] &cdeaktif.'
+    generator-activated: '&6Krallık | [generator] &aaktif.'
+    generator-purchased: '&6Krallık | [generator] &a&lSatın aldındı!'
+  errors:
+    generator-tier-not-found: '&c Generator with id ''[generator]'' &r&c not found
+      in [gamemode].'
+    no-file: '&c generatorTemplate.yml file not found. Cannot perform importing.'
+    no-load: '&c Could not load generatorTemplate.yml file. Error while reading: [description].'
+    not-a-gamemode-world: '&c World ''[world]'' is not a Game Mode Addon world.'
+    active-generators-reached: '&6Krallık | &7Lütfen sadece 1 adet generatörü aktif hale getirmeyi deneyiniz!'
+    generator-not-unlocked: '&6Krallık | &c[generator] &7ü kilitli olduğu için açamazsın!.'
+    generator-already-purchased: '&6Krallık | [generator] &czaten satın alınmış.'
+    island-level-not-reached: '&c Generator ''[generator]'' &r&c requires [number]
+      island level.'
+    missing-permission: '&c Generator ''[generator]'' &r&c requires permission `[permission]`.'
+    no-credits: '&c Not enough credits to activate generator. Activation requires
+      [number] credits.'
+    no-generator-data: '&c Could not find a valid generator data'
+    no-generators-in-world: '&c Could not find any generator in [world]'
+protection:
+  flags:
+    MAGIC_COBBLESTONE_GENERATOR:
+      name: Magic Generator
+      description: |-
+        &a Toggle all Magic Generators
+        &a on whole island
+      hint: '&e Magic Generators are disabled in island settings'
+    MAGIC_COBBLESTONE_GENERATOR_PERMISSION:
+      name: Magic Generator Permissions
+      description: |-
+        &a Switch who can activate
+        &a and deactivate generators

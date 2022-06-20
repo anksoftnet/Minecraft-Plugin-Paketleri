@@ -1,0 +1,16 @@
+# Variables: %player%, %world by default with the plugin, the plugin is compatible with PlaceHolderAPI and hex colors for +1.16
+ChatFormat: '%vault_rankprefix_#% &8» &f%msg%'
+Chat:
+  ChatColor: '&7'
+  ChatInItalic: false
+  ChatInBold: false
+  ChatInUnderline: false
+Title: '&6&lKullanıcı Bilgisi'
+SuggestCommand: true
+PerWorldChat: false
+PerformCommand: false
+Command: /msg %player% Merhaba
+NoPermission: '&cYou don''t have permission to do this!'
+HoverText: |-
+  &7Yetki: &e%vault_rank%
+  &7Bakiye: &e%vault_eco_balance_formatted%

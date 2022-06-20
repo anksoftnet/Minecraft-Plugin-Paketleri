@@ -1,0 +1,71 @@
+Groups:
+  Kurucu:
+    Permission: nte.kurucu
+    Prefix: '&4Yönetici &c'
+    Suffix: '&f'
+    SortPriority: 1
+  Admin:
+    Permission: nte.admin
+    Prefix: '&4Admin &c'
+    Suffix: '&f'
+    SortPriority: 2
+  Moderatör:
+    Permission: nte.moderator
+    Prefix: '&5Moderatör &d'
+    Suffix: '&f'
+    SortPriority: 3
+  Admin:
+    Permission: nte.rehber
+    Prefix: '&2Rehber &6'
+    Suffix: '&f'
+    SortPriority: 4
+  MVIP+:
+    Permission: nte.mvip+
+    Prefix: '&aMVIP&c+ &e'
+    Suffix: '&f'
+    SortPriority: 5
+  MVIP:
+    Permission: nte.mvip
+    Prefix: '&aMVIP &e'
+    Suffix: '&f'
+    SortPriority: 6
+  VIP+:
+    Permission: nte.vip+
+    Prefix: '&6VIP&c+ &e'
+    Suffix: '&f'
+    SortPriority: 7
+  VIP:
+    Permission: nte.vip
+    Prefix: '&6VIP &e'
+    Suffix: '&f'
+    SortPriority: 8
+  Ustad:
+    Permission: nte.ustad
+    Prefix: '&4Ustad &7'
+    Suffix: '&f'
+    SortPriority: 9
+  Soylu:
+    Permission: nte.soylu
+    Prefix: '&cSoylu &7'
+    Suffix: '&f'
+    SortPriority: 10
+  Bilgin:
+    Permission: nte.bilgin
+    Prefix: '&eBilgin &7'
+    Suffix: '&f'
+    SortPriority: 11
+  Çaylak:
+    Permission: nte.çaylak
+    Prefix: '&bÇaylak &7'
+    Suffix: '&f'
+    SortPriority: 12
+  Kalfa:
+    Permission: nte.kalfa
+    Prefix: '&dKalfa &7'
+    Suffix: '&f'
+    SortPriority: 13
+  Oyuncu:
+    Permission: nte.oyuncu
+    Prefix: '&7'
+    Suffix: '&f'
+    SortPriority: 10

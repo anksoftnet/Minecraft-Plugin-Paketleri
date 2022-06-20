@@ -1,0 +1,16 @@
+{
+  "uniqueId": "default",
+  "icon": "GRASS_BLOCK",
+  "displayName": "&6&lKlasik Skyblock Adası",
+  "description": [
+    "&7",
+    "&7Klasik skyblock adası",
+    "&7ada oluşturmak için daha ne bekliyorsun?"
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "island",
+    "NETHER": "nether-island"
+  },
+  "slot": 0
+}

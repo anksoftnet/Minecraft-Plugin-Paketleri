@@ -1,0 +1,87 @@
+﻿
+# Sohbeti silme - efepolat.xyz
+command /sil:  
+	permission: sil.yetki
+	permission message: &fBilinmeyen komut.
+	trigger:
+		loop 300 times:
+			broadcast " "
+		broadcast "&3Sohbet &8» &7Sohbet, &6%player% &7tarafından temizlendi."
+		stop
+
+# Sohbeti açıp kapatma - efepolat.xyz
+Command /sohbet <text>:
+	permission: chatackapa.yetki
+	trigger:
+		if arg 1 is "kapat":
+			set {kilitli} to true
+			broadcast "&3Sohbet &8» &7Sohbet yetkililer tarafından &ckapatıldı."
+		else:
+			if arg 1 is "ac":
+				set {kilitli} to false
+				broadcast "&3Sohbet &8» &7Sohbet yetkililer tarafından &aaçıldı."
+
+
+on chat:
+	{kilitli} is true:
+		if player doesn't have permission "sohbet.konus":
+			cancel event
+			send "&3Sohbet &8» &eSohbet &ckapalıyken &eyazı yazamassın." to player
+			
+# Susturma - efepolat.xyz
+command /sus [<text>] [<text>] [<text>]:
+	permission: sustur.yetki
+	permission message: &cYetkin yok.
+	trigger:
+		if arg 1 is not set:
+			message "&3Susturma &8» &7Kullanım: &e/mute @Oyuncu Süre(Örn:1m) Sebep(Örn:Küfür)!"
+			message "&3Susturma &8» &7Susturulacak kişiyi belirtmedin&c!"
+		if arg 2 is not set:
+			message "&3Susturma &8» &7Bir zaman belirt."
+		if arg 3 is not set:
+			message "&3Susturma &8» &7Bir susturma sebebi belirt."
+		else:
+			execute console command "/tempmute %arg 1% %arg 2%"
+			broadcast "&3Anons &8» &c%arg 1% &7adlı oyuncu &a%player% &7tarafından &3%arg 3% &7sebebi ile &b%arg 2% süre boyunca susturuldu."	
+
+# Çekiliş - efepolat.xyz
+command /cekilisbaslat:
+    trigger:
+        if player has permission "cekilis.yetki":
+            loop all players:
+                add loop-player to {oyuncular::*}
+            wait 1 second
+            broadcast "&3Çekiliş &8» &7Çekilişe son &610 saniye&7!"
+            wait 5 second
+            broadcast "&3Çekiliş &8» &7Çekilişe son &65 saniye&7!"
+            wait 2 second
+            broadcast "&3Çekiliş &8» &7Çekilişe son &63 saniye&7!"
+            wait 1 second
+            broadcast "&3Çekiliş &8» &7Çekilişe son &62 saniye&7!"
+            wait 1 second
+            broadcast "&3Çekiliş &8» &7Çekilişe son &61 saniye&7!"
+            wait 3 seconds
+            set {kazanan} to random element of {oyuncular::*}
+            broadcast " &6&lANKSOTF.NET"
+            broadcast ""
+            broadcast " &aKazanan &8» &d%{kazanan}%"
+            broadcast ""
+            broadcast " &6&lANKSOTF.NET"
+            clear {oyuncular::*}
+
+
+# Para eventi - efepolat.xyz	
+command /herkeseparaver [<integer>]:
+    trigger:
+        if player has permission "paraver.yetki":
+            if arg 1 is not set:
+                message "&3Event &8» &7Bu komutu kullanabilmek icin gerekli yetkiniz yok."
+            else:
+                broadcast "&3Event &8» &6Yönetici %player%&7, herkese &6$%arg 1% &7verdi!"
+                loop all players:
+                    execute console command "eco give %loop-player% %arg 1%"
+        else:
+            message "&3Event &8» &7Bu komutu kullanabilmek icin gerekli yetkiniz yok."
+			
+on weather change to rain or thunder:
+    cancel event

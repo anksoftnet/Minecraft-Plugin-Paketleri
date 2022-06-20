@@ -1,0 +1,64 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+#######################      Colors.yml       #######################
+
+#
+#Imagine you always forget a code of a color
+#you like and always need to look for it somewhere.
+#This must be annoying. To prevent this, just
+#create a placeholder with its name and mention
+#what color should be applied when you use it!
+#Like that you can add any color placeholder you want!
+#
+#Examples:
+#1)
+#Green_Beige: "#BEBD7F" will create %Green_Beige%
+#placeholder which does exactly same thing as %#BEBD7F%
+#2)
+#Intense_Red_Orange: "#FFB961"
+#3)
+#exampleColor: "#F0F0F0"
+#
+#IMPORTANT!
+#Custom placeholders CANNOT have
+#same names as default ones.
+#
+#Example:
+#maxplayers: "#112233" is a wrong placeholder!
+#You cannot use "maxplayers" as a name as there
+#is already %maxplayers% placeholder.
+#
+
+Placeholders:
+    red: "#FF0000"
+    crimson: "#DC143C"
+    brown: "#A52A2A"
+    orange: "#FFA500"
+    rosybrown: "#EEB4B4"
+    lime: "#C7EA46"
+    leaf: "#5A945D"
+    olive: "#808000"
+    skyblue: "#35A8E4"
+    nightsky: "#000F2D"
+    daysky: "#4283FF"
+    yellow: "#FFFF00"
+    green: "#008000"
+    blue: "#0000FF"
+    darkblue: "#00008B"
+    purple: "#800080"
+    
+#Let a player with old client (< 1.16) view
+#your motd (requires ProtocolLib to work if you
+#have a spigot server)
+Replacements:
+    #If a player with a legacy client (< 1.16)
+    #views your server's motd change every #CF3476
+    #color in it to &5 (if a replacement is not directly
+    #written, plugin will automatically find closest
+    #color in its opinion).
+    "#CF3476": "&5"

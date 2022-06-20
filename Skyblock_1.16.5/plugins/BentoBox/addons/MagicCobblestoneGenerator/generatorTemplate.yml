@@ -1,0 +1,141 @@
+# Generator template file for MagicCobblestoneGenerator add-on Version 2.1.0
+
+tiers:
+  # generator ID
+  default:
+    # Display name for users
+    name: "&6&lSeviye 1 Jeneratör"
+    # Description in lore message
+    description:
+      - '&7Ada jeneratörleri; kırıktaş jeneratörünün'
+      - '&7gelişmiş halidir, kırıktaş yerine farklı'
+      - '&7farklı değerli madenler çıkabilir.'
+      - ''
+      - '&6&lBilgiler:'
+      - '&6 * &7Demir Cevheri %2'
+      - '&6 * &7Kömür Cevheri %2'
+      - '&6 * &7Altın Cevheri %1'
+      - ''
+    # Icon used in GUI's
+    icon: "COAL_ORE:1"
+    # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
+    type: COBBLESTONE
+    # Users selects active generators.
+    # Priority indicates which generator will be used
+    # if multiple of them fulfills requirements.
+    priority: 1
+    # There are several requirements that can be defined here.
+    activation-cost: 0.0
+    blocks:
+      COBBLESTONE: 95
+      COAL_ORE: 2
+      IRON_ORE: 2
+      GOLD_ORE: 1
+
+  sv2:
+    # Display name for users
+    name: "&6&lSeviye 2 Jeneratör"
+    # Description in lore message
+    description:
+      - '&7Ada jeneratörleri; kırıktaş jeneratörünün'
+      - '&7gelişmiş halidir, kırıktaş yerine farklı'
+      - '&7farklı değerli madenler çıkabilir.'
+      - ''
+      - '&6&lBilgiler:'
+      - '&6 * &7Demir Cevheri %2'
+      - '&6 * &7Kömür Cevheri %2'
+      - '&6 * &7Altın Cevheri %2'
+      - '&6 * &7Elmas Cevheri %1'
+      - '&6 * &7Zümrüt Cevheri %1'
+      - ''
+    # Icon used in GUI's
+    icon: "GOLD_ORE:1"
+    # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
+    type: COBBLESTONE
+    # Users selects active generators.
+    # Priority indicates which generator will be used
+    # if multiple of them fulfills requirements.
+    priority: 2
+    # There are several requirements that can be defined here.
+    requirements:
+      purchase-cost: 50000.0
+    activation-cost: 0.0
+    blocks:
+      COBBLESTONE: 92
+      IRON_ORE: 2
+      COAL_ORE: 2
+      GOLD_ORE: 2
+      DIAMOND_ORE: 1
+      EMERALD_ORE: 1
+
+  sv3:
+    # Display name for users
+    name: "&6&lSeviye 3 Jeneratör"
+    # Description in lore message
+    description:
+      - '&7Ada jeneratörleri; kırıktaş jeneratörünün'
+      - '&7gelişmiş halidir, kırıktaş yerine farklı'
+      - '&7farklı değerli madenler çıkabilir.'
+      - ''
+      - '&6&lBilgiler:'
+      - '&6 * &7Demir Cevheri %5'
+      - '&6 * &7Kömür Cevheri %5'
+      - '&6 * &7Altın Cevheri %3'
+      - '&6 * &7Elmas Cevheri %2'
+      - '&6 * &7Zümrüt Cevheri %2'
+      - ''
+    # Icon used in GUI's
+    icon: "DIAMOND_ORE:1"
+    # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
+    type: COBBLESTONE
+    # Users selects active generators.
+    # Priority indicates which generator will be used
+    # if multiple of them fulfills requirements.
+    priority: 2
+    # There are several requirements that can be defined here.
+    requirements:
+      purchase-cost: 100000.0
+    activation-cost: 0.0
+    blocks:
+      COBBLESTONE: 83
+      IRON_ORE: 5
+      COAL_ORE: 5
+      GOLD_ORE: 3
+      DIAMOND_ORE: 2
+      EMERALD_ORE: 2
+
+  sv4:
+    # Display name for users
+    name: "&6&lSeviye 4 Jeneratör"
+    # Description in lore message
+    description:
+      - '&7Ada jeneratörleri; kırıktaş jeneratörünün'
+      - '&7gelişmiş halidir, kırıktaş yerine farklı'
+      - '&7farklı değerli madenler çıkabilir.'
+      - ''
+      - '&6&lBilgiler:'
+      - '&6 * &7Demir Cevheri %6'
+      - '&6 * &7Kömür Cevheri %5'
+      - '&6 * &7Altın Cevheri %5'
+      - '&6 * &7Elmas Cevheri %3'
+      - '&6 * &7Zümrüt Cevheri %3'
+      - ''
+    # Icon used in GUI's
+    icon: "EMERALD_ORE:1"
+    # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
+    type: COBBLESTONE
+    # Users selects active generators.
+    # Priority indicates which generator will be used
+    # if multiple of them fulfills requirements.
+    priority: 2
+    # There are several requirements that can be defined here.
+    requirements:
+      purchase-cost: 250000.0
+    activation-cost: 0.0
+    blocks:
+      COBBLESTONE: 78
+      IRON_ORE: 6
+      COAL_ORE: 5
+      GOLD_ORE: 5
+      DIAMOND_ORE: 3
+      EMERALD_ORE: 3

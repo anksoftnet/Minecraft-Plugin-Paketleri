@@ -1,0 +1,314 @@
+# GUI Config Format Guide
+#
+# NOTE: All materials must be 1.16 materials. They will be automatically
+#       converted into other versions materials.
+#
+#       See here for 1.16:
+#       https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+# NOTE: COLOR items represent a color, MODIFIER items represent a modifier
+#       and INVENTORY items link to another inventory.
+#
+# NOTE: All inventory-related messages can be used as a placeholder, like
+#       %gui-available%.
+#
+# NOTE: color-unavailable, modifier-unavailable, modifier-inactive, modifier-active
+#       can all be left out if not needed.
+#
+# NOTE: Please carefully read the format, it includes everything you need for creating a GUI.
+#
+# <inventory name>:
+#   title: [inventory title (colors supported) titles MUST be unique]
+#   size: [must be a multiple of 9]
+#
+#   color-unavailable: <- The item that shows if the player doesn't have permission for a color.
+#     lore: [item lore]
+#     material: [item material]
+#
+#   modifier-unavailable: <- The item that shows if the player doesn't have permission for a modifier.
+#     lore: [item lore]
+#     material: [item material]
+#
+#   color-active: <- The lore that is applied to a color item if it's active.
+#     lore: [item lore]
+#
+#   color-inactive: <- The lore that is applied to a color item if it's inactive.
+#     lore: [item lore]
+#
+#   modifier-inactive: <- The item that shows if a modifier is not in use.
+#     lore: [item lore]
+#     material: [item material]
+#
+#   modifier-active: <- The item that shows if a modifier is in use.
+#     lore: [item lore]
+#     material: [item material]
+#
+#   items:
+#     <slot number>:
+#       type: [COLOR / MODIFIER / INVENTORY]
+#       data: [color char / modifier char / inventory name]
+#       name: [item name (colors supported)]
+#       material: [item material (MUST be 1.16 material!) ONLY FOR COLORS / INVENTORIES]
+#
+#     <slot number>: ...
+#
+# <inventory name>: ...
+#
+
+# There MUST be an inventory called main. This is the one the plugin will open first.
+main:
+  title: '&8Sohbet Yazı Rengi'
+  size: 54
+
+  color-unavailable:
+    lore:
+      - '&cKullanılamaz'
+    material: BARRIER
+
+  modifier-unavailable:
+    lore:
+      - '&cKullanılamaz'
+    material: RED_DYE
+
+  color-active:
+    lore:
+      - '&aSeçildi.'
+
+  color-inactive:
+    lore:
+      - ''
+      - '&eTıkla ve seç!'
+
+  modifier-inactive:
+    lore:
+      - ''    
+      - '&7Etkin değil!'
+      - ''      
+      - '&eGeçiş yapmak için tıkla.'
+    material: GRAY_DYE
+
+  modifier-active:
+    lore:
+      - ''
+      - '&aAktif.'
+    material: LIME_DYE
+
+  hex-colors-not-supported:
+    lore:
+      - '&cHex colors are only supported on 1.16+.'
+    material: BARRIER
+
+  items:
+    10:
+      type: COLOR
+      data: 1
+      name: "&1Koyu Mavi"
+      material: BLUE_STAINED_GLASS_PANE
+
+    11:
+      type: COLOR
+      data: 2
+      name: "&2Koyu Yeşil"
+      material: GREEN_STAINED_GLASS_PANE
+
+    12:
+      type: COLOR
+      data: 3
+      name: "&3Koyu Lacivert"
+      material: CYAN_STAINED_GLASS_PANE
+
+    13:
+      type: COLOR
+      data: 4
+      name: "&4Koyu Kırmızı"
+      material: RED_STAINED_GLASS_PANE
+
+    14:
+      type: COLOR
+      data: 5
+      name: "&5Koyu Mor"
+      material: PURPLE_STAINED_GLASS_PANE
+
+    15:
+      type: COLOR
+      data: 6
+      name: "&6Turuncu"
+      material: ORANGE_STAINED_GLASS_PANE
+
+    16:
+      type: COLOR
+      data: 7
+      name: "&7Gri"
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+    25:
+      type: COLOR
+      data: 9
+      name: "&9Mavi"
+      material: BLUE_STAINED_GLASS_PANE
+
+    19:
+      type: COLOR
+      data: a
+      name: "&aYeşil"
+      material: LIME_STAINED_GLASS_PANE
+
+    20:
+      type: COLOR
+      data: b
+      name: "&bMavi"
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+
+    21:
+      type: COLOR
+      data: c
+      name: "&cKırmızı"
+      material: PINK_STAINED_GLASS_PANE
+
+    22:
+      type: COLOR
+      data: d
+      name: "&dPembe"
+      material: MAGENTA_STAINED_GLASS_PANE
+
+    23:
+      type: COLOR
+      data: e
+      name: "&eSarı"
+      material: YELLOW_STAINED_GLASS_PANE
+
+    24:
+      type: COLOR
+      data: f
+      name: "&fBeyaz"
+      material: WHITE_STAINED_GLASS_PANE
+
+    48:
+      type: INVENTORY
+      data: custom
+      name: '&6Karışık Renkler'
+      material: GOLD_BLOCK
+
+    29:
+      type: MODIFIER
+      data: k
+      name: "&e&kMObfuscated &e(Rastgele)"
+
+    30:
+      type: MODIFIER
+      data: l
+      name: "&e&lKalın"
+
+    31:
+      type: MODIFIER
+      data: m
+      name: "&e&mÜstüÇizgili"
+
+    32:
+      type: MODIFIER
+      data: n
+      name: "&e&nAltıÇizgili"
+
+    33:
+      type: MODIFIER
+      data: o
+      name: "&e&oİtalik"
+
+    50:
+      type: INVENTORY
+      data: hex
+      name: "&bGeçiş Renkler"
+      material: DIAMOND_BLOCK
+
+hex:
+  title: '&8Geçiş Renkler'
+  size: 45
+
+  items:
+    10:
+      type: COLOR
+      data: '#FFFFFF'
+      name: '&#FFFFFFBeyaz'
+      material: WHITE_STAINED_GLASS_PANE
+
+    11:
+      type: COLOR
+      data: '#F2F2F2'
+      name: '&#F2F2F2Açık Gri 1'
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+
+    12:
+      type: COLOR
+      data: '#E6E6E6'
+      name: '&#E6E6E6Açık Gri 2'
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+
+    13:
+      type: COLOR
+      data: '#D9D9D9'
+      name: '&#D9D9D9Açık Gri 3'
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+
+    14:
+      type: COLOR
+      data: '#BFBFBF'
+      name: '&#BFBFBFGri 1'
+      material: GRAY_STAINED_GLASS_PANE
+
+    15:
+      type: COLOR
+      data: '#A6A6A6'
+      name: '&#A6A6A6Gri 2'
+      material: GRAY_STAINED_GLASS_PANE
+
+    16:
+      type: COLOR
+      data: '#8C8C8C'
+      name: '&#8C8C8CGri 3'
+      material: GRAY_STAINED_GLASS_PANE
+
+    21:
+      type: COLOR
+      data: '#666666'
+      name: '&#666666Koyu Gri 1'
+      material: BLACK_STAINED_GLASS_PANE
+
+    22:
+      type: COLOR
+      data: '#4D4D4D'
+      name: '&#4D4D4DKoyu Gri 2'
+      material: BLACK_STAINED_GLASS_PANE
+
+    23:
+      type: COLOR
+      data: '#333333'
+      name: '&#333333Koyu Gri 3'
+      material: BLACK_STAINED_GLASS_PANE
+
+    40:
+      type: INVENTORY
+      data: main
+      name: "&eNormal Renkler"
+      material: IRON_BLOCK
+
+custom:
+  title: '&8Karışık Renkler'
+  size: 36
+
+  items:
+    12:
+      type: COLOR
+      data: '%bright-rainbow'
+      name: '&bR&ca&di&en&ab&bo&cw'
+      material: GLASS
+
+    14:
+      type: COLOR
+      data: '%blue-rainbow'
+      name: '&#0000ffÖ&#0066ffz&#3399ffe&#66ccffl &#0000ffM&#0066ffa&#3399ffv&#66ccffi'
+      material: BLUE_STAINED_GLASS
+
+    31:
+      type: INVENTORY
+      data: main
+      name: '&eNormal Renkler'
+      material: IRON_BLOCK

@@ -1,0 +1,16 @@
+users:
+  ElgarL:
+    group: Oyuncu
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Oyuncu
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Oyuncu
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

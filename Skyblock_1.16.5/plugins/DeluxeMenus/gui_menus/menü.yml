@@ -1,0 +1,100 @@
+# 
+#  BU PAKET ANKSOFT.NET MÜŞTERİLERİ İÇİN:
+#  EFE POLAT TARAFINDAN YAPILMIŞTIR.
+#
+#
+menu_title: 'Ana Menü'
+open_command:
+  - menü
+  - menu
+  - yardım
+  - help
+size: 27
+
+items:
+  'warps':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM4Y2YzZjhlNTRhZmMzYjNmOTFkMjBhNDlmMzI0ZGNhMTQ4NjAwN2ZlNTQ1Mzk5MDU1NTI0YzE3OTQxZjRkYyJ9fX0=
+    data: 1
+    slot: 10
+    display_name: "&6&lIşınlanma Noktaları"
+    left_click_commands:
+      - "[openguimenu] warp"
+    lore:
+      - '&7Sunucudaki genel ışınlanma noktalarını'
+      - '&7görmek ve ziyaret etmek için, tıkla.'
+      - ''
+      - '&6| &eAçmak için (Sol-Tık)'
+  'Discord Bağlantısı':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEyYWZhN2JiMDYzYWMxZmYzYmJlMDhkMmM1NThhN2RmMmUyYmFjZGYxNWRhYzJhNjQ2NjJkYzQwZjhmZGJhZCJ9fX0=
+    data: 1
+    slot: 12
+    display_name: "&6&lGenel komutlar"
+    left_click_commands:
+      - "[player] komutlar"
+    lore:
+      - '&7Sunucu içerisindeki komutlar hakkında'
+      - '&7bilgi almak için, tıkla.'
+      - ''
+      - '&6| &eAçmak için (Sol-Tık)'
+  'Market':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgyMjg2YTk3YzkwMDZmMDY3NTgyOGJjZjYwMTI5YmU2NjFiYzY2YjdiOTBhZjJjOWVlMDkyOWQ1YmNlODkyIn19fQ==
+    data: 1
+    slot: 14
+    display_name: "&6&lMarket"
+    left_click_commands:
+      - "[openguimenu] market"
+    lore:
+      - '&7Sunucumuzda bulunan sanal marketi'
+      - '&7kullanmak için, tıkla.'
+      - ''
+      - '&6| &eAçmak için (Sol-Tık)'
+  'Kitler':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVlYjNjNDQyYTFkMWE1ZDRhY2ZmZDMwY2U1MjcxY2I3MjEzN2FjMWQ5NzExNDc0ZjZhZWQxMWZiOGZiNTBmZSJ9fX0==
+    data: 1
+    slot: 13
+    display_name: "&6&lKitler"
+    left_click_commands:
+      - "[openguimenu] kitler"
+    lore:
+      - '&7Sunucumuzda bulunan tüm kitleri'
+      - '&7görüntülemek için, tıkla.'
+      - ''
+      - '&6| &eAçmak için (Sol-Tık)'      
+  'skyblock-komutları':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3NDcwMTBkODRhYTU2NDgzYjc1ZjYyNDNkOTRmMzRjNTM0NjAzNTg0YjJjYzY4YTQ1YmYzNjU4NDAxMDVmZCJ9fX0=
+    data: 1
+    slot: 16
+    display_name: "&6&lHesap ayarları"
+    left_click_commands:
+      - "[openguimenu] hesapayar"
+    lore:
+      - '&7Hesabın hakkındaki ayarlamaları'
+      - '&7yapmak için, tıkla'
+      - ''
+      - '&6| &eAçmak için (Sol-Tık)'
+  'filler_item':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 15
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

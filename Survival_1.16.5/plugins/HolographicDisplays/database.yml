@@ -1,0 +1,93 @@
+spawn:
+  location: world, 1.535, 107.732, -27.908
+  lines:
+  - '&6&lANKSOFT.NET'
+  - '&f'
+  - '&fSunucumuza hoşgeldin, &a{player}'
+  - Seninle birlikte toplam &a{online} &fkisi Survival oynuyor.
+  - '&f'
+  - '&fSunucu hakkında bilgi almak için: &e/menü'
+  - '&9Discord &fsunucumuza katılmak için: &e/discord'
+  - '&dEdit ürünler &fsatın almak ve destek talebi açmak için:'
+  - '&f'
+  - '&uwww.ank.web.tr'
+gödül:
+  location: world, -12.282, 95.608, -0.470
+  lines:
+  - '&a/günlüködül'
+  - Sana özel günlük ödülünü
+  - Almaya mı geldin?
+menu:
+  location: world, -0.524, 95.657, 9.327
+  lines:
+  - '&a/bilgi'
+  - Sunucu hakkında bilgi almaya ne dersin?
+  - Detaylı bilgi için sağ tıkla!
+market:
+  location: world, -6.419, 95.476, 8.442
+  lines:
+  - '&a/sanalmarket'
+  - Eşyanı mı kaybettin!
+  - Yenisini almaya ne dersin?
+pazar:
+  location: world, -11.368, 95.468, 4.343
+  lines:
+  - '&a/pazar'
+  - Diğer oyuncuların sattığı eşyaları
+  - Satın almak ister misin?
+vip:
+  location: world, 5.511, 95.628, 8.428
+  lines:
+  - '&a/vip'
+  - Edit üyelik mi satın almak istiyorsun?
+  - Detaylı bilgi için sağ tıkla!
+spawnerkasa:
+  location: world, -27.506, 178.000, 0.544
+  lines:
+  - '&e&lSpawner Kasası'
+  - '&fGöz atmak için sol tıklayın.'
+  - '&fAçmak için sağ tıklayın.'
+para:
+  location: world, -23.484, 94.000, 1.522
+  lines:
+  - '&e&lPara Kasası'
+  - '&fGöz atmak için sol tıklayın.'
+  - '&fAçmak için sağ tıklayın.'
+event:
+  location: world, -27.492, 94.000, 0.402
+  lines:
+  - '&e&lEvent Kasası'
+  - '&fGöz atmak için sol tıklayın.'
+  - '&fAçmak için sağ tıklayın.'
+vote:
+  location: world, -31.492, 94.000, -2.440
+  lines:
+  - '&e&lVote Kasası'
+  - '&fGöz atmak için sol tıklayın.'
+  - '&fAçmak için sağ tıklayın.'
+arena:
+  location: world, 415.577, 112.143, 1136.425
+  lines:
+  - '&c&lArena Bölgesi'
+  - '&fYuvarlak alan dışına çıktığında'
+  - '&fsavaş modu aktif edilecektir!'
+  - '&4Dipnot: &cÖlürsen eşyaların yere düşer.'
+  - '&r'
+  - '&ewww.anksoft.net'
+arenachest:
+  location: world, 418.538, 111.000, 1139.522
+  lines:
+  - '&fHey, eşyalarını saklaman mı gerek?'
+  - '&2Ender Chest&f''ine koymaya ne dersin!'
+banka:
+  location: world, 10.486, 95.600, 4.484
+  lines:
+  - '&a/banka'
+  - '&fPara veya exp depolamak mı istiyorsun?'
+  - Detaylı bilgi için sağ tıkla!
+kaptan:
+  location: world, 11.399, 95.663, -0.494
+  lines:
+  - '&a/kaptan'
+  - '&fTek başına yolculuğa çıkmaya hazır mısın?'
+  - Detaylı bilgi için sağ tıkla!

@@ -1,0 +1,34 @@
+{
+  "uniqueId": "bskyblock-default",
+  "friendlyName": "&6&lSeviye 1 Jeneratör",
+  "description": [
+    "&7Ada jeneratörleri; kırıktaş jeneratörünün",
+    "&7gelişmiş halidir, kırıktaş yerine farklı",
+    "&7farklı değerli madenler çıkabilir.",
+    "",
+    "&6&lBilgiler:",
+    "&6 * &7Demir Cevheri %2",
+    "&6 * &7Kömür Cevheri %2",
+    "&6 * &7Altın Cevheri %1",
+    ""
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COAL_ORE\n",
+  "generatorType": "COBBLESTONE",
+  "defaultGenerator": false,
+  "priority": 1,
+  "requiredMinIslandLevel": 0,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 0.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "95.0": "COBBLESTONE",
+    "97.0": "COAL_ORE",
+    "99.0": "IRON_ORE",
+    "100.0": "GOLD_ORE"
+  },
+  "treasureChanceMap": {},
+  "treasureChance": 0.0,
+  "maxTreasureAmount": 1
+}

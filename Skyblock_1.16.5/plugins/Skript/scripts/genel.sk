@@ -1,0 +1,32 @@
+command /renk:
+  trigger:
+    execute player command "/chatcolor2:chatcolor gui"
+command /spawn:
+	trigger:
+		teleport the player to {spawn}
+command /setspawns:
+	permission: skript.admin
+	trigger:
+		set {spawn} to location of the player 
+		send "&3SkyBlock &8» &7Spawn yeri &abaşarıyla &7ayarlandı!" to player
+on damage:
+    if victim is in "bskyblock_world":
+        if y-coordinate of victim is below 0:
+            cancel event
+            teleport victim to {spawn}
+            send "&3Skyblock &8» &eAdadan düştüğün için başlangıç noktasına ışınlandın." to victim
+            stop	
+on join:
+	teleport the player to {spawn}
+on first join:
+	teleport the player to {spawn}			
+on death:
+	teleport the player to {spawn}				
+command /discord:
+    trigger:
+        send "&e" to player
+        send "&e                                &9&lDISCORD" to player
+        send "&e          &7Alt bölümdeki linke tıklayarak &ediscorda &7katılabilirsin!" to player
+        send "&e" to player
+        send "&e                     <link:https://anksoft.net/discord>&e&nTıkla ve sunucuya katıl!<reset> " to player	
+        send "&e" to player

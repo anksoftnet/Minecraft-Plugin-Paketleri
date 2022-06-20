@@ -1,0 +1,60 @@
+on first join:
+    if {tpaydm::%player%} is not set:
+        set {tpaydm::%player%} to "Açık"
+
+on first join:
+    if {mesaj::%player%} is not set:
+        set {mesaj::%player%} to "Açık"
+
+on first join:
+    if {tablo::%player%} is not set:
+        set {tablo::%player%} to "Açık"
+
+on first join:
+    if {ihalemesaj::%player%} is not set:
+        set {ihalemesaj::%player%} to "Açık"
+
+
+command /tpaistekleri:
+    trigger:
+        if {tpaydm::%player%} is "Kapalı":
+            set {tpaydm::%player%} to "Açık"
+            send "&3SkyBlock &8» &eIşınlanma isteği &7gönderileri başarıyla &aaçıldı." to player
+            execute player command "tptoggle"
+        else:
+            set {tpaydm::%player%} to "Kapalı"
+            send "&3SkyBlock &8» &eIşınlanma isteği &7gönderileri başarıyla &ckapatıldı." to player		
+            execute player command "tptoggle"		
+
+command /özelmesaj:
+    trigger:
+        if {mesaj::%player%} is "Kapalı":
+            set {mesaj::%player%} to "Açık"
+            send "&3SkyBlock &8» &eÖzel mesajlar &7başarıyla &aaçıldı." to player
+            execute player command "msgtoggle"
+        else:
+            set {mesaj::%player%} to "Kapalı"
+            send "&3SkyBlock &8» &eÖzel mesajlar &7başarıyla &ckapatıldı." to player		
+            execute player command "msgtoggle"
+			
+command /tablo:
+    trigger:
+        if {tablo::%player%} is "Kapalı":
+            set {tablo::%player%} to "Açık"
+            send "&3SkyBlock &8» &eTablo &7başarıyla &aaçıldı." to player
+            execute player command "tm scoreboard toggle"
+        else:
+            set {tablo::%player%} to "Kapalı"
+            send "&3SkyBlock &8» &eTablo &7başarıyla &ckapatıldı." to player		
+            execute player command "tm scoreboard toggle"	
+
+command /ihalemesaj:
+    trigger:
+        if {ihalemesaj::%player%} is "Kapalı":
+            set {ihalemesaj::%player%} to "Açık"
+            send "&3SkyBlock &8» &eIhale mesajları &7başarıyla &aaçıldı." to player
+            execute player command "tm scoreboard toggle"
+        else:
+            set {ihalemesaj::%player%} to "Kapalı"
+            send "&3SkyBlock &8» &eIhale mesajları &7başarıyla &ckapatıldı." to player		
+            execute player command "tm scoreboard toggle"	

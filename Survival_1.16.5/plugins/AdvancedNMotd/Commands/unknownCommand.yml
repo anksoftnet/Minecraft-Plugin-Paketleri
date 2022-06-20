@@ -1,0 +1,15 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################     UnknownCommand.yml      ####################
+
+#
+#Intercept the unknown command
+#
+
+#Message you see when an unknown command was typed
+Message: "Unknown command! Use &c/anm help&f for more information."

@@ -1,0 +1,23 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+armor_stands:
+  loc(10,177,-42):
+    commands:
+    - 'rRlL-player ödül '
+  loc(19,177,-45):
+    commands:
+    - 'rRlL-player menü '
+  loc(14,177,-25):
+    commands:
+    - 'rRlL-player market '
+  loc(23,177,-21):
+    commands:
+    - 'rRlL-player pazar '
+  loc(6,177,-32):
+    commands:
+    - 'rRlL-player vip '
+  loc(418,108,1139):
+    commands:
+    - 'rRlL-player ec '

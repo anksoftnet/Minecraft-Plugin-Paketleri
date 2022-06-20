@@ -1,0 +1,93 @@
+#
+#
+# BU PAKET ANKSOFT MÜŞTERİLERİ İÇİN:
+# EFE POLAT TARAFINDAN HAZIRLANMIŞTIR.
+#
+#
+
+menu_title: '&8Hesap Ayarları'
+open_command: 
+- hesapayar
+- ayarlar
+- settings
+- accountsettings
+size: 27
+items:
+      'lonca':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmODJhY2ViOThmZTA2OWU4YzE2NmNlZDAwMjQyYTc2NjYwYmJlMDcwOTFjOTJjZGRlNTRjNmVkMTBkY2ZmOSJ9fX0=
+        slot: 12
+        display_name: '&6Özel Mesaj'
+        lore:
+        - '&f'
+        - '&7Oyuncular size &e/msg &7komutu ile,'
+        - '&7Özel mesaj gönderemeyecekler.'
+        - '&7'
+        - '&eAyarlamak için tıklayın.'
+        left_click_commands:
+        - '[player] özelmesaj'
+        - '[close]'
+        right_click_commands:
+        - '[player] özelmesaj'
+        - '[close]'
+      '13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE5OTk3NTkzZjJjNTkyYjlmYmQ0ZjE1ZWFkMTY3M2I3NmY1MTlkN2FiM2VmYTE1ZWRkMTk0NDhkMWEyMGJmYyJ9fX0=
+        slot: 13
+        display_name: '&6Işınlanma İstekleri'
+        lore:
+        - '&f'
+        - '&7Oyuncular size &e/tpa &7komutu ile,'
+        - '&7ışınlanma isteği gönderemeyecekler.'
+        - '&7'
+        - '&eAyarlamak için tıklayın.'
+        left_click_commands:
+        - '[player] tpaistekleri'
+        - '[close]'
+        right_click_commands:
+        - '[player] tpaistekleri'
+        - '[close]'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQxMjE1ZDEwNmNkNWFkZWRhZTcxNzM2NGY2NDNjNjE5YTBjODgyNmYyYzZhYzRlOTdlZThjOTQ0NTQwYjkwZSJ9fX0=
+        slot: 14
+        display_name: '&6Ihale Mesajları'
+        lore:
+        - '&f'
+        - '&7Sohbetde yapılan &eihale,'
+        - '&7Tekliflerini ve mesajlarını göremeyeceksin.'
+        - '&7'
+        - '&eAyarlamak için tıklayın.'
+        left_click_commands:
+        - '[player] ihalemesaj'
+        - '[close]'
+        right_click_commands:
+        - '[player] ihalemesaj'
+        - '[close]'
+      '22':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVkYjg0OWExNWVmMDFhMDMyMTNkMzZjN2M2MmUwN2I4OGMyNzdkYmE4NjkzMTdiN2UyNzU3MWZkZGIyOTNkNCJ9fX0=
+        slot: 11
+        display_name: '&6ScoreBoard'
+        lore:
+        - '&f'
+        - '&eSağ tarafta &7bulunan tabloyu,'
+        - '&7Görünmez hale getirir.'
+        - '&7'
+        - '&eAyarlamak için tıklayın.'
+        left_click_commands:
+        - '[player] tablo'
+        - '[close]'
+        right_click_commands:
+        - '[player] tablo'
+        - '[close]'
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTllMzE2YmE0OGU1MWM2ZWI3M2NiMDY4YTJkNDY4ZjY3OGVlZDgyZDQ1MjlkNGIxMmVlYzhiZmE3ODE5YWE4NiJ9fX0=
+        slot: 15
+        display_name: '&6Duyuru Mesajları'
+        lore:
+        - '&f'
+        - '&7Sohbetde &e10 dakikada &7bir,'
+        - '&7Gönderilen duyuruları kapatır.'
+        - '&7'
+        - '&eAyarlamak için tıklayın.'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

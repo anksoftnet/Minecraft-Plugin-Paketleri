@@ -1,0 +1,9 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+bskyblock:
+  sign:
+    line0: '&6&lANKSOFT.NET'
+    line1: Hoşgeldin,
+    line2: '[name]'
+    line3: Kolay gelsin&c!

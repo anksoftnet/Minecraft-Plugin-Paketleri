@@ -1,0 +1,264 @@
+#
+#
+#
+#  BU PAKET ANKSOFT.NET MÜŞTERİLERİ İÇİN:
+#  EFE POLAT TARAFINDAN YAPILMIŞTIR.
+#
+#
+#
+
+groups:
+  Kurucu:
+    default: false
+    permissions: 
+    - nte.kurucu # Bu yetkideki kişinin OP yetkisi olacağı tahmin edilip perm verilmemiştir.
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&4Yönetici &c%player%'
+      suffix: ''
+  Admin:
+    default: false
+    permissions: 
+    - nte.admin # Bu yetkideki kişinin OP yetkisi olacağı tahmin edilip perm verilmemiştir.
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&4Admin &c%player%'
+      suffix: ''
+  Moderatör:
+    default: false
+    permissions: 
+    - nte.moderator
+    - chatcolor.color.*
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&5Moderatör &d%player%'
+      suffix: ''
+  Rehber:
+    default: false
+    permissions: 
+    - nte.rehber
+    - chatcolor.color.*
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&2Rehber &6%player%'
+      suffix: ''
+  MVIP+:
+    default: false
+    permissions: 
+    - essentials.kits.mvip+
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - chatcolor.color.*
+    - nte.mvip+
+    - playerkits.kit.mvip+
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&aMVIP&c+ &e%player%'
+      suffix: ''
+  MVIP:
+    default: false
+    permissions: 
+    - essentials.kit.mvip
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - chatcolor.color.*
+    - nte.mvip
+    - playerkits.kit.mvip
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&aMVIP &e%player%'
+      suffix: ''
+  VIP+:
+    default: false
+    permissions: 
+    - essentials.kits.vip+
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - chatcolor.color.*
+    - nte.vip+
+    - playerkits.kit.vip+
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&6VIP&c+ &e%player%'
+      suffix: ''
+  VIP:
+    default: false
+    permissions: 
+    - essentials.kits.vip
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - nte.vip
+    - playerkits.kit.vip
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&6VIP &e%player%'
+      suffix: ''
+  Ustad:
+    default: true
+    permissions:
+    - essentials.kits.ustad
+    - nte.ustad
+    - playerkits.kit.ustad
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&4Ustad &7%player%'
+      suffix: ''
+  Soylu:
+    default: true
+    permissions:
+    - essentials.kits.soylu
+    - nte.soylu
+    - playerkits.kit.soylu
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&cSoylu &7%player%'
+      suffix: ''
+  Bilgin:
+    default: true
+    permissions:
+    - essentials.kits.bilgin
+    - nte.bilgin
+    - playerkits.kit.bilgin
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&eBilgin &7%player%'
+      suffix: ''
+  Kalfa:
+    default: true
+    permissions:
+    - essentials.kits.kalfa
+    - nte.kalfa
+    - playerkits.kit.kalfa
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&bKalfa &7%player%'
+      suffix: ''
+  Çaylak:
+    default: true
+    permissions:
+    - essentials.kits.çaylak
+    - nte.çaylak
+    - playerkits.kit.çaylak
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&dÇaylak &7%player%'
+      suffix: ''
+  Oyuncu:
+    default: true
+    permissions:
+    - essentials.kits.oyuncu
+    - playerkits.kit.oyuncu
+    - nte.oyuncu
+    - pa.open
+    - pa.cancel
+    - pa.amount
+    - pa.purchase
+    - pa.collect
+    - randomteleport.rtp.bafra
+    - randomteleport.rtp.sera
+    - deluxemenus.open.*
+    - chatcolor.gui
+    - EconomyShopGUI.shop
+    - EconomyShopGUI.shop.all
+    - EconomyShopGUI.sellall
+    - EconomyShopGUI.sellallitem
+    - EconomyShopGUI.sellallhand
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - rankup.rankup
+    - tempfly.time.self
+    - tempfly.toggle.self
+    - tempfly.pay
+    - tempfly.help
+    - essentials.ignore
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpadeny
+    - essentials.msg
+    - essentials.msgtoggle
+    - essentials.paytoggle
+    - essentials.kit
+    - essentials.kits
+    - essentials.pay
+    - essentials.balance
+    - essentials.warp
+    - essentials.warps
+    - essentials.warps.*
+    - essentials.signs.use.disposal
+    - essentials.signs.use.free
+    - essentials.signs.use.repair
+    - essentials.signs.use.warp
+    - pixelvip.cmd.player
+    - ultimateclaims.claim
+    - ultimateclaims.accept
+    - ultimateclaims.unclaim
+    - ultimateclaims.home
+    - ultimateclaims.sethome
+    - ultimateclaims.invite
+    - ultimateclaims.kick
+    - ultimateclaims.recipe
+    - ultimateclaims.leave
+    - ultimateclaims.lock
+    - ultimateclaims.show
+    - betterrtp.use
+    - betterrtp.world
+    - betterrtp.world.bafra
+    inheritance: []
+    info:
+      build: false
+      prefix: '&7%player%'
+      suffix: ''

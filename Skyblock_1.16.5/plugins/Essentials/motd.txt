@@ -1,0 +1,7 @@
+&6&lANKSOFT.NET
+&f
+&7Sunucuya hoşgeldin, &e{PLAYER}
+&e/menü &7komutunu kullanarak sunucu hakkında bilgi alabilirsin.
+&9/discord &7yazarak discord sunucumuza katılabilirsin.
+&a
+

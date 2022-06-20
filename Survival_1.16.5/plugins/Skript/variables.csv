@@ -1,0 +1,31 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.5.3
+
+bilgin::<player>, boolean, 00
+bilgin::sadpax, boolean, 00
+caylak::<player>, boolean, 00
+caylak::sadpax, boolean, 00
+ihalemesaj::kalviken, string, 800641C3A7C4B16B
+ihalemesaj::resul, string, 800641C3A7C4B16B
+ihalemesaj::toprak2010, string, 800641C3A7C4B16B
+kalfa::<player>, boolean, 00
+kalfa::sadpax, boolean, 00
+mesaj::kalviken, string, 800641C3A7C4B16B
+mesaj::resul, string, 800641C3A7C4B16B
+mesaj::toprak2010, string, 800641C3A7C4B16B
+oyuncu::<player>, boolean, 01
+oyuncu::sadpax, boolean, 00
+soylu::<player>, boolean, 00
+soylu::sadpax, boolean, 00
+spawn, location, 8605776F726C6480FF0000000181046E616D65208005776F726C64017809C00C557119F63ECF017909405A800000000000017A09C04347CDF2CFF42305706974636808413D9976037961770843AD98D7
+tablo::kalviken, string, 800641C3A7C4B16B
+tablo::resul, string, 800641C3A7C4B16B
+tablo::toprak2010, string, 800641C3A7C4B16B
+tpaydm::kalviken, string, 800641C3A7C4B16B
+tpaydm::resul, string, 800641C3A7C4B16B
+tpaydm::toprak2010, string, 800641C3A7C4B16B
+ustad::<player>, boolean, 00
+ustad::sadpax, boolean, 01
+

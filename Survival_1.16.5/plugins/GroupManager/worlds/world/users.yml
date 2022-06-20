@@ -1,0 +1,21 @@
+users:
+  4a342d6d-cd86-39a8-8b7e-6bf7fbce3122:
+    lastname: Phontox_
+    group: VIP
+    subgroups: []
+    permissions: []
+  847b1536-53c4-398d-b029-01c79e7cf180:
+    lastname: SadPax
+    group: Kurucu
+    subgroups: []
+    permissions: []
+  aca3522c-ee39-379b-90f6-11af48432465:
+    lastname: Katsuhira
+    group: Kurucu
+    subgroups: []
+    permissions: []
+  c35a6e40-ca33-3659-9fc0-27392a751a83:
+    lastname: Eingeweide
+    group: VIP
+    subgroups: []
+    permissions: []

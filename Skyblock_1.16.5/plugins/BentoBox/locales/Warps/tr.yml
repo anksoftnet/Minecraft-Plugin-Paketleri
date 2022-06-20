@@ -1,0 +1,31 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+warp:
+  help:
+    description: Oyuncunun bölge tabelası.
+    parameters: <name>
+warps:
+  deactivate: '&6Krallık | &cEski ada warpı silindi!'
+  error:
+    does-not-exist: '&6Krallık | &4Malasef sorun oluştu. Tekrar dene.'
+    no-permission: '&6Krallık | &4Buna yetkin yok!'
+    no-remove: '&6Krallık | &4Bu tabelayı kıramazsın!'
+    no-warps-yet: '&6Krallık | &4Böyle bir bölge henüz yok.'
+    not-enough-level: '&6Krallık | &4Bunu koyman için daha fazla ada seviyesine ihtiyacın
+      var.'
+    not-on-island: '&6Krallık | &4Adanda değilsin.'
+    not-safe: '&6Krallık | &4Ada bölgesi güvenli değil!'
+    your-level-is: '&6Krallık | &7Ada seviyen &e[level] &7ve &e[required]&7''den fazla
+      olması gerekiyor!'
+  help:
+    description: Bölge panelini açar.
+  next: '&6Sonraki Sayfa'
+  player-warped: '&6Krallık | &e[name] &7adana ışınlandı!'
+  previous: '&6Önceki sayfa'
+  sign-removed: '&6Krallık | &4Ada tabelası kaldırıldı!'
+  success: '&6Krallık | &aBaşarıyla oluşturuldu!'
+  title: '&6Krallık |  &e&lBölgeler &7'
+  warpTip: '&6Krallık | &7Ada warpı açmak için tabelanın en üstüne &e[text] &7yaz!'
+  warpToPlayersSign: '&6Krallık | &d[player] &7adasına gidiliyor!'
+  random: '&4Rastgele bölgeye git!'

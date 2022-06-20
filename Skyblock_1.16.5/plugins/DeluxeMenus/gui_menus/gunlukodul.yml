@@ -1,0 +1,62 @@
+menu_title: 'Günlük Ödül'
+open_command:
+  - gunlukodul
+  - gunluk-odul
+  - günlüködül
+  - günlük-ödül
+  - günlük ödül
+  - gunluk odul
+  - odul
+  - ödül
+  - günlük
+  - gunluk
+size: 27
+items:
+      'rewards':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZkZDc3Mjc0ZGQ1ZDRkYWMwMzhkNmViN2E2ZDlhYWMzNmExOWNlN2RkNTM0MTk2NDAyMmFmYjViNmNmZGExZSJ9fX0==
+        slot: 12
+        priority: 3
+        update: true
+        display_name: '&eGünlük Ödül'
+        lore:
+        - ' &f'
+        - '&eGünlük ödülünü &7her &b24 &7saatte bir kullanabilirsin.' 
+        - '&7Ödülü aldıkdan sonra tekrardan ücretsiz olarak'
+        - '&7alabilirsin.'
+        - ''
+        - '&6Ödüller:'
+        - '&8● &7100 Para. '
+        - '&8● &75 dakika uçuş hakkı.'
+        - '&8● &71 adet para kasa anahtarı.'
+        - ''
+        - '&eAlmak için tıklayın.'
+        left_click_commands:
+        - '[close]'
+        - '[player] günlüködülal'
+        right_click_commands:
+        - '[close]'
+        - '[player] günlüködülal'    
+      'rewardsvip':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFlNDJiOGY1MGZlZDgyOGQ0Yjk4MWMyN2NhMTNkMDcxY2U4NjNmNjE1NDBiMjc2MzgyNjZmNzcyZDQxZCJ9fX0
+        slot: 14
+        priority: 3
+        update: true
+        display_name: '&6VIP &eGünlük Ödül'
+        lore:
+        - ' &f'
+        - '&6VIP &7günlük ödülünü her &b24 &7saatte bir kullanabilirsin.' 
+        - '&7Ödülü aldıkdan sonra tekrardan ücretsiz olarak'
+        - '&7alabilirsin.'
+        - ''
+        - '&6Ödüller:'
+        - '&8● &7500 Para.'
+        - '&8● &720 dakika uçuş hakkı.'
+        - '&8● &72 adet günlük ödül kasa anahtarı.'        
+        - ''
+        - '&eAlmak için tıklayın.'
+        left_click_commands:
+        - '[close]'
+        - '[player] vipgünlüködülal'
+        right_click_commands:
+        - '[close]'
+        - '[player] vipgünlüködülal'         

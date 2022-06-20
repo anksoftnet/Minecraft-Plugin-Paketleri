@@ -1,0 +1,37 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Config.yml          ####################
+ 
+AdvancedNMotd:
+   
+    #Configuration Options
+    Configuration:
+    
+        #What should the plugin use from Strings.yml file:
+        Strings:
+           
+            #Should the plugin customize default motd:
+            Motd: true
+           
+            #Should the plugin customize hover over player amount box:
+            HoverBox: false
+ 
+            #Should the plugin customize player amount text:
+            Version: false
+ 
+        #Should the plugin use Data.yml file:
+        Data: true
+       
+        #Should the plugin take icons from the Icons folder:
+        Icons: true
+    
+    #Error Detection System
+    Errors:
+        
+        #Should the plugin check for errors in configuration:
+        Check: true

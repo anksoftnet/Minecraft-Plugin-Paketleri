@@ -1,0 +1,37 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+admin:
+  level:
+    parameters: <player>
+    description: Bir oyuncunun ada seviyesini hesapla
+  top:
+    description: Ilk 10 adayı sırala
+    unknown-world: '&cBilinmeyen kelime'
+    display: '&f[rank]. &a[name] &7- &b[level]'
+island:
+  level:
+    parameters: '[player]'
+    description: '&7Kendi ada seviyeni hesapla veya başka oyuncunun ada seviyesini
+      öğren'
+    calculating: '&6Krallık | &7Seviye hesaplanıyor...'
+    island-level-is: '&6Krallık | &7Ada seviyesi &e[level] seviye'
+    required-points-to-next-level: '&6Krallık | &7Adayı seviye atlatmak için için
+      &a[points] &7puan daha gerekiyor'
+    deaths: '&6Krallık | &c(Ölümler: [number])'
+    cooldown: '&6Krallık | &7Bunu tekrar yapmak için &b[time] &7beklemelisin'
+    estimated-wait: '&6Krallık | &7Tahmini bekleme süresi: &e[number] saniye'
+    in-queue: '&6Krallık | &7Lütfen bekleyin &e[number]. &7sıradasınız adanız hesaplanacak.'
+  top:
+    description: Ilk 10 adayı sırala
+    gui-title: '&8Ada Sıralaması - En iyi 10'
+    gui-heading: '&7Sıra: &e[rank].'
+    island-level: '&7Seviye: &e[level] seviye'
+    warp-to: '&a[name] &7oyuncusunun adasına ışınlanıyor'
+  value:
+    description: Herhangi bir bloğun değerini gösterir
+    success: '&6Krallık | &7Bu bloğun değeri: &e[value]'
+    success-underwater: '&6Krallık | &7Deniz seviyesinin altındaki bu bloğun değeri:
+      &e[value]'
+    empty-hand: '&6Krallık | &cElinde hiç blok yok'
+    no-value: '&6Krallık | &cBu eşyanın bir değeri yok.'

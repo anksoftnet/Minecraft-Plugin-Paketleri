@@ -1,0 +1,102 @@
+#--------------------------------------------------
+#This plugin was created by ESKARYOS
+#Visit my YouTube channel www.youtube.com/eskaryos
+#--------------------------------------------------
+
+#Plugin PlaceHolders
+#[%erankup_rank% = player rank]
+#[%erankup_price% = rank price]
+#[%erankup_next% = next rank]
+#[%erankup_coins% = formated player coins]
+#[%erankup_progress% = progress bar]
+#[%erankup_percent% = rank percentage]
+#[%erankup_percent% = rank percentage]
+#[%erankup_remaining% =  remaining coins for next rank]
+
+#[%skill_percent% = Requiriment percentage]
+#[%skill_requiriment% = Requiriment value]
+#[%skill_playerkills% = Total player killed value]
+#[%skill_jumps% = Player total server jumps value]
+#[%skill_walkedblocks% = Player total block walked value]
+#[%skill_mine_<Material>% = Mined blocks value]
+#[%skill_mobkills_<Mob>% = Mob killed value]
+#[%skill_craft_<Mob>% = Craft item value]
+#[%skill_played_time% = Played time in hours]
+
+#Rank system,the first rank will be the server default
+Ranks:
+  Rank1:
+    #Name that will appear everywhere
+    Name: "&e[Skull III]"
+    #Price required to upgrade rank, use Vault.
+    Price: 0.0
+    #Item material, use head:<texture> to wear head,and use "MATERIAL:DATA" for minecraft items
+    #template MATERIAL:DATA example STONE:0
+    Material: head:4c5269206a70039eba4fa2182eac24b4b4e85fa23e7bff221a6f71cfca1476b3
+    #Rank description,supports Placeholders
+    Lore:
+      - '&7This is the server default'
+      - '&7everyone starts with him.'
+    Completed:
+      Name: "&aCompleted"
+      Material: head:4312ca4632def5ffaf2eb0d9d7cc7b55a50c4e3920d90372aab140781f5dfbc4
+      Lore:
+        - '&7Rank completed !'
+    #Commands that will be executed when rising to this rank.
+    #use to give group or prizes.
+    Commands:
+      - ''
+  Rank2:
+    Name: "&e[Skull II]"
+    Price: 5000.0
+    Material: head:4c5269206a70039eba4fa2182eac24b4b4e85fa23e7bff221a6f71cfca1476b3
+    #All requirements [CRAFT_<Material>, JUMP,PLAYER_KILLS,MOB_KILL_<Mob>,MINE_<Block>,WALKED_BLOCKS,PLAYED_TIME (hours)]
+    #Template [VALUE]:[REQUIRIMENT]
+    Requiriments: 10:PLAYED_TIME
+    Lore:
+      - '&7This is level 2 of rank Skull'
+      - ''
+      - '&7Next rank: %erankup_next%'
+      - ''
+      - '&7Requiriments:'
+      - ' &e%erankup_price% coins'
+      - ' %skill_requiriment%'
+      - ''
+      - '&7Rewards:'
+      - ' &8- &a100 coins'
+      - ''
+      - '&eClick to evolve'
+    Completed:
+      Name: "&aCompleted"
+      Material: head:4312ca4632def5ffaf2eb0d9d7cc7b55a50c4e3920d90372aab140781f5dfbc4
+      Lore:
+        - '&7Rank completed !'
+    Commands:
+      - 'pex user %player group add rank2'
+      - 'money give %player 100'
+  Rank3:
+    Name: "&e[Skull I]"
+    Price: 20000.0
+    Material: head:4c5269206a70039eba4fa2182eac24b4b4e85fa23e7bff221a6f71cfca1476b3
+    Requiriments: 500:MOB_KILL_SKELETON
+    Lore:
+      - '&7This is level 1 of rank Skull'
+      - ''
+      - '&7Next rank: %erankup_next%'
+      - ''
+      - '&7Requiriments:'
+      - ' &e%erankup_price% coins'
+      - " %skill_requiriment%"
+      - ''
+      - '&7Rewards:'
+      - ' &8- &a1.000 coins'
+      - ''
+      - '&eClick to evolve'
+    Completed:
+      Name: "&aCompleted"
+      Material: head:4312ca4632def5ffaf2eb0d9d7cc7b55a50c4e3920d90372aab140781f5dfbc4
+      Lore:
+        - '&7Rank completed !'
+    Commands:
+      - 'pex user %player group add rank1'
+      - 'money give %player 1.000'

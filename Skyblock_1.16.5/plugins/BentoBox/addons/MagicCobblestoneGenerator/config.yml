@@ -1,0 +1,29 @@
+# Config file for MagicCobblestoneGenerator add-on Version 2.1.0
+# This config file is dynamic and saved when the server is shutdown.
+#
+#
+# Allows to block addon to generate blocks if all island members are offline.
+offline-generation: false
+#
+# If physics should be used when placing a block.
+# Using physics allow certain redstone machines to work,
+# but might have unwanted side effectsAllows to block addon to generate blocks if all island members are offline.
+# /!\ In order to apply the changes made to this option, you must restart your server. Reloading BentoBox or the server won't work.
+use-physic: true
+#
+# The range in blocks that an island member has to be in to make the generator generate `magic` blocks.
+# 0 or less will mean that no range is checked.
+# Can be changed with a permission `[gamemode].stone-generator.max-range.[number]`.
+working-range: 0
+#
+# This allows to define how many generators can be activated at once per each island.
+# 0 or less will mean that there is no limitation.
+# Can be changed with a permission `[gamemode].stone-generator.active-generators.[number]`.
+default-active-generators: 1
+#
+# This list stores GameModes in which the addon should not work.
+# To disable addon it is necessary to write its name in new line that starts with -. Example:
+# disabled-gamemodes:
+#  - BSkyBlock
+# /!\ In order to apply the changes made to this option, you must restart your server. Reloading BentoBox or the server won't work.
+disabled-gamemodes: []

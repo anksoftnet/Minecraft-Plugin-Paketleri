@@ -1,0 +1,156 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Oyuncu:
+    delay: 86400
+    items:
+    - LEATHER_HELMET
+    - LEATHER_CHESTPLATE
+    - LEATHER_LEGGINGS
+    - LEATHER_BOOTS
+    - WOODEN_SWORD
+    - WOODEN_PICKAXE
+    - WOODEN_AXE
+    - WOODEN_SHOVEL
+    - WOODEN_HOE
+    - COOKED_BEEF 4
+  SkyNovice:
+    delay: 86400
+    items:
+    - LEATHER_HELMET
+    - CHAINMAIL_CHESTPLATE
+    - LEATHER_LEGGINGS
+    - LEATHER_BOOTS
+    - STONE_SWORD
+    - STONE_PICKAXE
+    - STONE_AXE
+    - STONE_SHOVEL
+    - STONE_HOE
+    - COOKED_BEEF 4
+  SkyExpert:
+    delay: 86400
+    items:
+    - CHAINMAIL_HELMET 
+    - CHAINMAIL_CHESTPLATE
+    - LEATHER_LEGGINGS
+    - LEATHER_BOOTS
+    - STONE_SWORD   
+    - IRON_PICKAXE
+    - IRON_AXE
+    - IRON_SHOVEL
+    - IRON_HOE
+    - COOKED_BEEF 4
+    - GOLDEN_APPLE 1
+  SkyLord:
+    delay: 86400
+    items:
+    - CHAINMAIL_HELMET
+    - CHAINMAIL_CHESTPLATE
+    - CHAINMAIL_LEGGINGS
+    - CHAINMAIL_BOOTS
+    - IRON_SWORD
+    - IRON_PICKAXE
+    - IRON_AXE
+    - IRON_SHOVEL
+    - IRON_HOE
+    - COOKED_BEEF 8
+    - GOLDEN_APPLE 2
+  SkyKing:
+    delay: 86400
+    items:
+    - IRON_HELMET 1
+    - IRON_CHESTPLATE 1
+    - CHAINMAIL_LEGGINGS 1
+    - CHAINMAIL_BOOTS 1
+    - IRON_SWORD 1
+    - IRON_PICKAXE 1
+    - IRON_AXE 1
+    - IRON_SHOVEL 1
+    - IRON_HOE 1
+    - GOLDEN_APPLE 4
+    - COOKED_BEEF 8
+  SkyDevil:
+    delay: 86400
+    items:
+    - DIAMOND_HELMET 1 protection:2 durability:2
+    - DIAMOND_CHESTPLATE 1 protection:2 durability:2
+    - DIAMOND_LEGGINGS   1 protection:2 durability:2
+    - DIAMOND_BOOTS 1 protection:2 durability:2
+    - DIAMOND_SWORD 1 sharpness:2 durability:2 fire_aspect:1 SMITE:1
+    - DIAMOND_PICKAXE 1 efficiency:2 durability:2 fortune:2
+    - DIAMOND_AXE 1 efficiency:2 durability:2
+    - DIAMOND_SHOVEL 1 efficiency:2 durability:2
+    - DIAMOND_HOE 1 efficiency:2 durability:2
+    - GOLDEN_APPLE 12
+    - ENCHANTED_GOLDEN_APPLE 1
+    - COOKED_BEEF 32
+  Vip:
+    delay: 86400
+    items:
+    - DIAMOND_HELMET 1 protection:2 durability:2 name:&8[&6VIP&8]
+    - DIAMOND_CHESTPLATE 1 protection:2 durability:2 name:&8[&6VIP&8]
+    - DIAMOND_LEGGINGS   1 protection:2 durability:2 name:&8[&6VIP&8]
+    - DIAMOND_BOOTS 1 protection:2 durability:2 name:&8[&6VIP&8]
+    - DIAMOND_SWORD 1 sharpness:2 durability:2 fire_aspect:1 SMITE:1 name:&8[&6VIP&8]
+    - DIAMOND_PICKAXE 1 efficiency:2 durability:2 fortune:2 name:&8[&6VIP&8]
+    - DIAMOND_AXE 1 efficiency:2 durability:2 name:&8[&6VIP&8] 
+    - DIAMOND_SHOVEL 1 efficiency:2 durability:2 name:&8[&6VIP&8]
+    - DIAMOND_HOE 1 efficiency:2 durability:2 name:&8[&6VIP&8]
+    - GOLDEN_APPLE 12
+    - ENCHANTED_GOLDEN_APPLE 1
+    - COOKED_BEEF 32
+  Vip+:
+    delay: 86400
+    items:
+    - DIAMOND_HELMET 1 protection:3 durability:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_CHESTPLATE 1 protection:3 durability:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_LEGGINGS   1 protection:3 durability:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_BOOTS 1 protection:3 durability:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_SWORD 1 sharpness:3 durability:2 fire_aspect:1 SMITE:1 name:&8[&6VIP&c+&8]
+    - DIAMOND_PICKAXE 1 efficiency:2 durability:2 fortune:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_AXE 1 efficiency:2 durability:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_SHOVEL 1 efficiency:2 durability:2 name:&8[&6VIP&c+&8]
+    - DIAMOND_HOE 1 efficiency:2 durability:2  name:&8[&6VIP&c+&8]
+    - GOLDEN_APPLE 20
+    - ENCHANTED_GOLDEN_APPLE 2
+    - COOKED_BEEF 32
+  MVip:
+    delay: 86400
+    items:
+    - DIAMOND_HELMET 1 protection:4 durability:2 name:&8[&aMVIP&8]
+    - DIAMOND_CHESTPLATE 1 protection:4 durability:2 name:&8[&aMVIP&8]
+    - DIAMOND_LEGGINGS   1 protection:4 durability:2 name:&8[&aMVIP&8]
+    - DIAMOND_BOOTS 1 protection:4 durability:2 name:&8[&aMVIP&8]
+    - DIAMOND_SWORD 1 sharpness:4 durability:2 fire_aspect:1 SMITE:1 name:&8[&aMVIP&8]
+    - DIAMOND_PICKAXE 1 efficiency:2 durability:2 fortune:2 name:&8[&aMVIP&8]
+    - DIAMOND_AXE 1 efficiency:2 durability:2 name:&8[&aMVIP&8]
+    - DIAMOND_SHOVEL 1 efficiency:2 durability:2 name:&8[&aMVIP&8]
+    - DIAMOND_HOE 1 efficiency:2 durability:2 name:&8[&aMVIP&8]
+    - GOLDEN_APPLE 24
+    - ENCHANTED_GOLDEN_APPLE 2
+    - COOKED_BEEF 32
+  MVip+:
+    delay: 86400
+    items:
+    - DIAMOND_HELMET 1 protection:4 durability:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_CHESTPLATE 1 protection:4 durability:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_LEGGINGS   1 protection:4 durability:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_BOOTS 1 protection:4 durability:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_SWORD 1 sharpness:5 durability:2 fire_aspect:1 SMITE:1 name:&8[&aMVIP&c+&8]
+    - DIAMOND_PICKAXE 1 efficiency:2 durability:2 fortune:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_AXE 1 efficiency:2 durability:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_SHOVEL 1 efficiency:2 durability:2 name:&8[&aMVIP&c+&8]
+    - DIAMOND_HOE 1 efficiency:2 durability:2 name:&8[&aMVIP&c+&8]
+    - GOLDEN_APPLE 32
+    - ENCHANTED_GOLDEN_APPLE 3
+    - COOKED_BEEF 32

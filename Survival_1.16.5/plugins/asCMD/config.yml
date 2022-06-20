@@ -1,0 +1,29 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+armor_stands:
+  loc(11,92,0):
+    commands:
+    - 'rRlL-player kaptan '
+  loc(5,92,8):
+    commands:
+    - 'rRlL-player vip '
+  loc(0,92,9):
+    commands:
+    - 'rRlL-player menu '
+  loc(-6,92,8):
+    commands:
+    - 'rRlL-player market '
+  loc(-11,92,4):
+    commands:
+    - 'rRlL-player market '
+  loc(-12,92,0):
+    commands:
+    - 'rRlL-player günlüködül '
+  loc(10,92,4):
+    commands:
+    - 'rRlL-player banka '
+  loc(1,103,-27):
+    commands:
+    - 'rRlL-player discord '

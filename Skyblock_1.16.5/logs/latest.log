@@ -1,0 +1,663 @@
+[22:14:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:14:26] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[22:14:27] [Worker-Main-2/INFO]: Loaded 7 recipes
+[22:14:28] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[22:14:28] [Server thread/INFO]: Loading properties
+[22:14:28] [Server thread/INFO]: This server is running Purpur version git-Purpur-1171 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[22:14:28] [Server thread/INFO]: Debug logging is disabled
+[22:14:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:14:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:14:28] [Server thread/INFO]: Default game type: SURVIVAL
+[22:14:28] [Server thread/INFO]: Generating keypair
+[22:14:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:14:28] [Server thread/INFO]: Using default channel type
+[22:14:28] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
+[22:14:28] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[22:14:29] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:14:32] [Server thread/WARN]: Legacy plugin NametagEdit v4.4.10 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin EpicChatFormat v1.1 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin SimpleVIPPerks v3.5 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin asCMD v2.3 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin JustOneMore v1 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin DisableJoinMessage v1.0 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin PixelVip v3.0.3 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin SkStuff v2.2.1 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin skript-placeholders v1.5 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin skUtilities v0.9.2 does not specify an api-version.
+[22:14:32] [Server thread/WARN]: Legacy plugin skRayFall v1.9.20 does not specify an api-version.
+[22:14:32] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.10
+[22:14:32] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.4.10
+[22:14:32] [Server thread/INFO]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.8.5
+[22:14:32] [Server thread/INFO]: [EpicChatFormat] Loading EpicChatFormat v1.1
+[22:14:32] [Server thread/INFO]: [SimpleVIPPerks] Loading SimpleVIPPerks v3.5
+[22:14:32] [Server thread/INFO]: [asCMD] Loading asCMD v2.3
+[22:14:32] [Server thread/INFO]: [JustOneMore] Loading JustOneMore v1
+[22:14:32] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[22:14:32] [Server thread/INFO]: [WorldBorderAPI] Loading WorldBorderAPI v1.171.0
+[22:14:32] [Server thread/INFO]: [DisableJoinMessage] Loading DisableJoinMessage v1.0
+[22:14:32] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[22:14:32] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.16.5) has not yet been tested! Proceed with caution.
+[22:14:33] [Server thread/INFO]: [HamsterAPI] Loading HamsterAPI v0.1.8
+[22:14:33] [Server thread/INFO]: [MovingDevApi] Loading MovingDevApi v1.1.10
+[22:14:33] [Server thread/INFO]: [AutoPickup] Loading AutoPickup v5.4.0
+[22:14:33] [Server thread/INFO]: [ExploitFixer] Loading ExploitFixer v1.6.2
+[22:14:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[22:14:33] [Server thread/INFO]: [ChatColor2] Loading ChatColor2 v1.12.2
+[22:14:33] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.9 (Phoenix)
+[22:14:33] [Server thread/INFO]: [Rankup] Loading Rankup v3.11.3
+[22:14:33] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[22:14:33] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[22:14:33] [Server thread/INFO]: [ANM] Loading AdvancedNMotd v9.2.0
+[22:14:33] [Server thread/INFO]: [CratesPlus] Loading CratesPlus v4.5.3
+[22:14:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[22:14:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2e0d2a4a]
+[22:14:33] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.21.4
+[22:14:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0
+[22:14:33] [Server thread/INFO]: [TradeSystem] Loading TradeSystem v2.0.5
+[22:14:33] [Server thread/INFO]: [BentoBox] Loading BentoBox v1.15.2
+[22:14:33] [Server thread/INFO]: [PlayerAuctions] Loading PlayerAuctions v1.11.1
+[22:14:33] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[22:14:33] [Server thread/INFO]: [PixelVip] Loading PixelVip v3.0.3
+[22:14:33] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[22:14:33] [Server thread/INFO]: [antiRedstoneClock] Loading antiRedstoneClock v1.4.0
+[22:14:33] [Server thread/INFO]: [antiRedstoneClock] WorldGuard 7 found
+[22:14:33] [Server thread/INFO]: [antiRedstoneClock] Flag antiredstoneclock registered
+[22:14:33] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.3.3
+[22:14:33] [Server thread/INFO]: [TempFly] Loading TempFly v3.0.6
+[22:14:33] [Server thread/INFO]: [Skript] Loading Skript v2.5.3
+[22:14:33] [Server thread/INFO]: [SkQuery] Loading SkQuery v4.1.4
+[22:14:33] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.5.0
+[22:14:33] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[22:14:33] [Server thread/INFO]: [SkStuff] Loading SkStuff v2.2.1
+[22:14:33] [Server thread/INFO]: [SK-NBeeT] Loading SK-NBeeT v2.11.1
+[22:14:33] [Server thread/INFO]: [Skellett] Loading Skellett v1.9.11
+[22:14:33] [Server thread/INFO]: [skript-placeholders] Loading skript-placeholders v1.5
+[22:14:33] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v3.8.1
+[22:14:33] [Server thread/INFO]: [skUtilities] Loading skUtilities v0.9.2
+[22:14:33] [Server thread/INFO]: [ArmorStandTools] Loading ArmorStandTools v3.7.1
+[22:14:33] [Server thread/INFO]: [ArmorStandTools] Registered custom WorldGuard flag: ast
+[22:14:33] [Server thread/INFO]: [QuickShop] Loading QuickShop v4.0.6.3
+[22:14:33] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up...
+[22:14:33] [Server thread/INFO]: [QuickShop] Loading up integration modules.
+[22:14:33] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booted up...
+[22:14:33] [Server thread/INFO]: [skRayFall] Loading skRayFall v1.9.20
+[22:14:33] [Server thread/INFO]: [skript-yaml] Loading skript-yaml v1.3.2
+[22:14:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:14:33] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.8.5
+[22:14:33] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.16.5
+[22:14:33] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
+[22:14:33] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
+[22:14:33] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[22:14:33] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[22:14:33] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[22:14:33] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:14:33] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0 which is not a depend, softdepend or loadbefore of this plugin.
+[22:14:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:14:33] [Server thread/WARN]: [Vault] Loaded class org.anjocaido.groupmanager.GroupManager from GroupManager v2.9 (Phoenix) which is not a depend, softdepend or loadbefore of this plugin.
+[22:14:33] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[22:14:33] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:14:33] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[22:14:33] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:14:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[22:14:33] [Server thread/WARN]: [WorldEdit] Loaded class org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder from GroupManager v2.9 (Phoenix) which is not a depend, softdepend or loadbefore of this plugin.
+[22:14:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:14:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[22:14:34] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.15.2
+[22:14:34] [Server thread/WARN]: [BentoBox] ************ Disclaimer **************
+[22:14:34] [Server thread/WARN]: [BentoBox] BentoBox may not be compatible with this server!
+[22:14:34] [Server thread/WARN]: [BentoBox] BentoBox is tested only on the following Spigot versions:
+[22:14:34] [Server thread/WARN]: [BentoBox] 1.15.2, 1.16.1, 1.16.2, 1.16.3, 1.16.4
+[22:14:34] [Server thread/WARN]: [BentoBox] **************************************
+[22:14:34] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[22:14:36] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[22:14:36] [Server thread/INFO]: [BentoBox] Loading addons...
+[22:14:36] [Server thread/INFO]: [BentoBox] Loaded 8 addons.
+[22:14:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:14:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:14:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:14:36] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[22:14:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:14:36] [Server thread/INFO]: Preparing level "world"
+[22:14:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:14:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:14:37] [Server thread/INFO]: Time elapsed: 155 ms
+[22:14:37] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.10
+[22:14:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:14:37] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.4.10*
+[22:14:37] [Server thread/INFO]: [NametagEdit] Found GroupManager! Hooking in.
+[22:14:37] [Server thread/WARN]: [NametagEdit] Loaded class org.anjocaido.groupmanager.events.GMUserEvent from GroupManager v2.9 (Phoenix) which is not a depend, softdepend or loadbefore of this plugin.
+[22:14:37] [Server thread/INFO]: [EpicChatFormat] Enabling EpicChatFormat v1.1*
+[22:14:37] [Server thread/INFO]: ------------------------------------------------------
+[22:14:37] [Server thread/INFO]:                   EpicChatFormat Enabled
+[22:14:37] [Server thread/INFO]: ------------------------------------------------------
+[22:14:37] [Server thread/INFO]: [SimpleVIPPerks] Enabling SimpleVIPPerks v3.5*
+[22:14:37] [Server thread/INFO]: [SimpleVIPPerks] SimpleVIPPerks 3.50 has been enabled!
+[22:14:37] [Server thread/INFO]: [asCMD] Enabling asCMD v2.3*
+[22:14:37] [Server thread/INFO]: [asCMD] asCMD version 2.3 is enabled!
+[22:14:37] [Server thread/INFO]: [JustOneMore] Enabling JustOneMore v1*
+[22:14:37] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[22:14:37] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[22:14:37] [Server thread/INFO]: [ClearLag] Loading modules...
+[22:14:37] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[22:14:37] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[22:14:37] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[22:14:37] [Server thread/INFO]: [WorldBorderAPI] Enabling WorldBorderAPI v1.171.0
+[22:14:37] [Server thread/INFO]: [WorldBorderAPI] Version: v1_16_r3
+[22:14:37] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[22:14:37] [Server thread/INFO]: [DisableJoinMessage] Enabling DisableJoinMessage v1.0*
+[22:14:37] [Server thread/INFO]: ===================================
+[22:14:37] [Server thread/INFO]: ===================================
+[22:14:37] [Server thread/INFO]: Check out my other Plugins!
+[22:14:37] [Server thread/INFO]: I also sell a BedWars Plugin!
+[22:14:37] [Server thread/INFO]: ===================================
+[22:14:37] [Server thread/INFO]: ===================================
+[22:14:37] [Server thread/INFO]: [HamsterAPI] Enabling HamsterAPI v0.1.8
+[22:14:37] [Server thread/INFO]: [MovingDevApi] Enabling MovingDevApi v1.1.10
+[22:14:37] [Server thread/INFO]: MovingDevApiAPI is enabled!
+[22:14:37] [Server thread/INFO]: [AutoPickup] Enabling AutoPickup v5.4.0
+[22:14:37] [Server thread/INFO]: [ExploitFixer] Enabling ExploitFixer v1.6.2
+[22:14:37] [Server thread/INFO]: [ExploitFixer] Successfully registered commands!
+[22:14:37] [Server thread/INFO]: [ExploitFixer] Successfully registered listeners!
+[22:14:37] [Server thread/INFO]: [ExploitFixer] Successfully hooked with HamsterAPI!
+[22:14:37] [Server thread/INFO]: [ExploitFixer] Successfully registered tasks!
+[22:14:37] [Server thread/INFO]: [ChatColor2] Enabling ChatColor2 v1.12.2
+[22:14:37] [Server thread/INFO]: Renk » ChatColor 2 Version 1.12.2 has been enabled.
+[22:14:37] [Server thread/INFO]: Renk » Current update: Custom colours v2.0!
+[22:14:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cc
+[22:14:37] [Server thread/INFO]: Renk » PlaceholderAPI has been hooked.
+[22:14:37] [Server thread/INFO]: Renk » Metrics is enabled for this plugin. Stats sent to https://bstats.org/plugin/bukkit/ChatColor2
+[22:14:37] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.9 (Phoenix)
+[22:14:38] [Server thread/WARN]: [GroupManager] The group 'SkyKing' is claiming to be default where 'SkyDevil' already was.
+[22:14:38] [Server thread/WARN]: [GroupManager] Overriding first default request in file: plugins\GroupManager\worlds\world\groups.yml
+[22:14:38] [Server thread/WARN]: [GroupManager] The group 'SkyLord' is claiming to be default where 'SkyKing' already was.
+[22:14:38] [Server thread/WARN]: [GroupManager] Overriding first default request in file: plugins\GroupManager\worlds\world\groups.yml
+[22:14:38] [Server thread/WARN]: [GroupManager] The group 'SkyExpert' is claiming to be default where 'SkyLord' already was.
+[22:14:38] [Server thread/WARN]: [GroupManager] Overriding first default request in file: plugins\GroupManager\worlds\world\groups.yml
+[22:14:38] [Server thread/WARN]: [GroupManager] The group 'SkyNovice' is claiming to be default where 'SkyExpert' already was.
+[22:14:38] [Server thread/WARN]: [GroupManager] Overriding first default request in file: plugins\GroupManager\worlds\world\groups.yml
+[22:14:38] [Server thread/WARN]: [GroupManager] The group 'Oyuncu' is claiming to be default where 'SkyNovice' already was.
+[22:14:38] [Server thread/WARN]: [GroupManager] Overriding first default request in file: plugins\GroupManager\worlds\world\groups.yml
+[22:14:38] [Server thread/INFO]: [GroupManager] World Found: world
+[22:14:38] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[22:14:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupmanager
+[22:14:38] [Server thread/INFO]: [GroupManager] Add-ons: PlaceholderAPI v2.10.10
+[22:14:38] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[22:14:38] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[22:14:38] [Server thread/INFO]: [GroupManager] version 2.9 (Phoenix) is enabled!
+[22:14:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:14:38] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[22:14:38] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[22:14:38] [Server thread/INFO]: [Rankup] Enabling Rankup v3.11.3
+[22:14:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: rankup
+[22:14:38] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[22:14:38] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_16_R3, using PaperSkinRefresher.
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREFIX to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER_URL to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_APPLY_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_CREATECUSTOM to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_DEFAULTCOMMAND to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINURL to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINUPDATE_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINCLEAR_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINNAME to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINURL to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_URL to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINURL_DISALLOWED to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_UPDATING_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_CREATE_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_URL to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_CUSTOMSKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_INVALID_URLSKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_FULL to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_GENERIC to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_NO_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_OPEN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_TITLE_NEW to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_NEXT_PAGE to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_PREVIOUS_PAGE to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_REMOVE_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_SELECT_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value DATA_DROPPED to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_API_FAILED to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] Saving new config value CUSTOM_HELP_IF_ENABLED to messages.yml
+[22:14:38] [Thread-10/INFO]: [ClearLag] No updates found!
+[22:14:38] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:14:40] [Server thread/INFO]: [ANM] Enabling AdvancedNMotd v9.2.0
+[22:14:40] [Server thread/INFO]: 
+[22:14:40] [Server thread/INFO]: ---------------- AdvancedNMotd --------------
+[22:14:40] [Server thread/INFO]:            AdvancedNMotd is enabled!
+[22:14:40] [Server thread/INFO]: ---------------------------------------------
+[22:14:40] [Server thread/INFO]: 
+[22:14:40] [Server thread/INFO]: [CratesPlus] Enabling CratesPlus v4.5.3
+[22:14:40] [Server thread/WARN]: [CratesPlus] CratesPlus has not yet been officially tested with Bukkit 1.16.5 but should still work
+[22:14:40] [Server thread/WARN]: [CratesPlus] Please let me know if there are any errors or issues
+[22:14:40] [Server thread/INFO]: CratesPlus Version 4.5.3
+[22:14:40] [Server thread/INFO]: HolographicDisplays was found, hooking in!
+[22:14:40] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.21.4
+[22:14:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits
+[22:14:40] [Server thread/INFO]: [PlayerKits] Has been enabled! Version: 2.21.4
+[22:14:40] [Server thread/INFO]: [PlayerKits] Thanks for using my plugin!  ~Ajneb97
+[22:14:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0
+[22:14:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:14:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:14:41] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
+[22:14:41] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:14:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:14:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:14:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[22:14:41] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[22:14:41] [Server thread/INFO]: [TradeSystem] Enabling TradeSystem v2.0.5
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]: __________________________________________________________
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]:                        TradeSystem [2.0.5]
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]: Status:
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]: MC-Version: 1.16.5 (R0.1-SNAPSHOT, Purpur)
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]:   > Loading sounds
+[22:14:41] [Server thread/INFO]:   > Loading blacklist
+[22:14:41] [Server thread/INFO]:     ...got 3 blocked item(s)
+[22:14:41] [Server thread/INFO]:   > Loading layouts
+[22:14:41] [Server thread/INFO]:     ...got 4 layout(s)
+[22:14:41] [Server thread/INFO]:   > Database logging is disabled
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]: Finished (171ms)
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]: __________________________________________________________
+[22:14:41] [Server thread/INFO]:  
+[22:14:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tradesystem
+[22:14:41] [Server thread/INFO]: [PlayerAuctions] Enabling PlayerAuctions v1.11.1
+[22:14:41] [Server thread/INFO]: [PlayerAuctions] Vault found, now enabling PlayerAuctions...
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Found 12 config files to load!
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Found PlaceholderAPI integrating support...
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Permissions plugin found!
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Economy plugin found!
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Chat plugin found!
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] SQLite database is enabling...
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Loading Metrics...
+[22:14:43] [Server thread/INFO]: [PlayerAuctions] Successfully loaded Metrics!
+[22:14:43] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[22:14:43] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[22:14:43] [Server thread/WARN]: [DeluxeMenus] Material for item: 11 in menu: kit is not a valid material name / id!
+[22:14:43] [Server thread/WARN]: [DeluxeMenus] Skipping item: 11
+[22:14:43] [Server thread/WARN]: [DeluxeMenus] open_command specified for menu: vipkit already exists for another menu!
+[22:14:43] [Server thread/WARN]: [DeluxeMenus] Skipping menu: vipkit
+[22:14:43] [Server thread/INFO]: [DeluxeMenus] 8 GUI menus loaded!
+[22:14:43] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[22:14:43] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[22:14:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus
+[22:14:43] [Server thread/INFO]: [PixelVip] Enabling PixelVip v3.0.3*
+[22:14:43] [Server thread/INFO]: [PixelVip] Init config module...
+[22:14:43] [Server thread/INFO]: [PixelVip] Init utils module...
+[22:14:43] [Server thread/INFO]: [PixelVip] Init essentials module...
+[22:14:43] [Server thread/INFO]: [PixelVip] Essentials found. Hooked!
+[22:14:43] [Server thread/INFO]: [PixelVip] Init economy module...
+[22:14:43] [Server thread/INFO]: [PixelVip] -> Vault found. Hooked.
+[22:14:43] [Server thread/INFO]: [PixelVip] Init commands module...
+[22:14:43] [Server thread/INFO]: [PixelVip] Init scheduler module...
+[22:14:43] [Server thread/INFO]: [PixelVip] Reloading tasks...
+[22:14:43] [Server thread/INFO]: [PixelVip] -> Task started
+[22:14:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: pixelvip
+[22:14:43] [Server thread/INFO]: [PixelVip] -> PlaceHolderAPI found. Hooked.
+[22:14:43] [Server thread/INFO]: [PixelVip] We have 0 active Vips on file
+[22:14:43] [Server thread/INFO]: [PixelVip] PixelVip enabled!
+[22:14:43] [Server thread/INFO]: [PixelVip] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/PixelVip
+[22:14:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[22:14:43] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:14:43] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:14:43] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:14:43] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:14:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:14:43] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:14:44] [Server thread/INFO]: [antiRedstoneClock] Enabling antiRedstoneClock v1.4.0
+[22:14:44] [Server thread/INFO]: [antiRedstoneClock] Enabling Metrics
+[22:14:44] [Server thread/INFO]: [antiRedstoneClock] Metrics loaded
+[22:14:44] [Server thread/WARN]: [antiRedstoneClock] PlotSquared hasn't been found!
+[22:14:44] [Server thread/INFO]: [antiRedstoneClock] Plugin loaded in 8 ms
+[22:14:44] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.3.3
+[22:14:44] [Server thread/WARN]: [TitleManager] No script engine found. Consider adding Nashorn or GraalVM to be able to create custom animation scripts. (This warning can be ignored)
+[22:14:44] [Server thread/INFO]: [TempFly] Enabling TempFly v3.0.6
+[22:14:44] [Server thread/INFO]: [TempFly] Attempting to initialize (BSkyBlock) hook...
+[22:14:44] [Server thread/INFO]: [TempFly] (BSkyBlock) hook is disabled, skipping...
+[22:14:44] [Server thread/INFO]: [TempFly] Initializing ClipAPI
+[22:14:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tempfly
+[22:14:44] [Server thread/INFO]: [Skript] Enabling Skript v2.5.3
+[22:14:45] [ForkJoinPool.commonPool-worker-5/INFO]: [Skript] A new version of Skript is available: 2.6.1 (you're currently running 2.5.3)
+[22:14:45] [ForkJoinPool.commonPool-worker-5/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.6.1/Skript.jar>https://github.com/SkriptLang/Skript/releases/download/2.6.1/Skript.jar
+[22:14:48] [Server thread/INFO]: [Skript] Loaded 128188 aliases in 3817ms
+[22:14:48] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[22:14:48] [Server thread/INFO]: [SkQuery] Enabling SkQuery v4.1.4
+[22:14:48] [Server thread/INFO]: [skQuery] Locating classes from SkQuery...
+[22:14:49] [Server thread/INFO]: [skQuery] Beginning to process a total of 138 from SkQuery
+[22:14:49] [Server thread/INFO]: [skQuery] Out of 138 classes, 136 classes were loaded from SkQuery
+[22:14:49] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.5.0
+[22:14:49] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[22:14:49] [Server thread/INFO]: [SilkSpawners] Loading support for v1_16_R3
+[22:14:49] [Server thread/INFO]: [SilkSpawners] AutoUpdater is disabled due to config setting.
+[22:14:49] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[22:14:49] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[22:14:49] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:14:49] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:14:49] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: bskyblock_world_nether
+[22:14:49] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[22:14:49] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: bskyblock_world
+[22:14:49] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[22:14:49] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:14:49] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled!
+[22:14:49] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[22:14:49] [Server thread/INFO]: [SkStuff] Enabling SkStuff v2.2.1*
+[22:14:49] [Server thread/INFO]: [SkStuff] SkStuff 2.2.1 has been successfully enabled!
+[22:14:49] [Server thread/INFO]: [SkStuff] Registering general non version specific stuff...
+[22:14:49] [Server thread/INFO]: [SkStuff] It looks like you're running 1.16.4!
+[22:14:49] [Server thread/INFO]: [SkStuff] Trying to register version specific stuff...
+[22:14:49] [Server thread/INFO]: [SkStuff] Hooked into Metrics! Woohoo!!
+[22:14:49] [Server thread/INFO]: [SkStuff] Everything's ready!
+[22:14:49] [Server thread/INFO]: [SK-NBeeT] Enabling SK-NBeeT v2.11.1
+[22:14:49] [Server thread/INFO]: [Sk-NBeeT] Incompatible NMS version found: v1_16_R3
+[22:14:49] [Server thread/INFO]: [Sk-NBeeT]   - NBT syntaxes not supported on your server version.
+[22:14:49] [Server thread/INFO]: [Sk-NBeeT]   - The plugin will still work for all non NBT related syntaxes.
+[22:14:49] [Server thread/INFO]: [Sk-NBeeT] Successfully enabled v2.11.1
+[22:14:49] [Server thread/INFO]: [Skellett] Enabling Skellett v1.9.11
+[22:14:49] [Server thread/INFO]: [Skellett] Registered 47 Effects, 16 Conditions, 128 Expressions and 25 Events
+[22:14:49] [Server thread/INFO]: [Skellett] Has been enabled!
+[22:14:49] [Server thread/INFO]: [skript-placeholders] Enabling skript-placeholders v1.5*
+[22:14:49] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v3.8.1
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] lang-tr.yml dil dosyasını dil dosyası olarak kullan.
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Shops.yml bulundu!
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Sections.yml bulundu!
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Minecraft sürümü 1.16.5 kullanılıyor...
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Eklentinin varsayılan yumurtlayıcılarını kullanma...
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Hata ayıklama modu etkinleştirildi!
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Mağaza ayarları güncelleniyor...
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Tüm öğeler yükleniyor...
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Bir güncelleme var!
+[22:14:50] [Server thread/INFO]: [EconomyShopGUI] Tamamlandı!
+[22:14:50] [Server thread/INFO]: [skUtilities] Enabling skUtilities v0.9.2*
+[22:14:50] [Server thread/INFO]: [skUtilities] v0.9.2: loaded modules (Conversions, Files, Yaml, Urls, Utilities) in 55ms
+[22:14:50] [Server thread/INFO]: [ArmorStandTools] Enabling ArmorStandTools v3.7.1
+[22:14:50] [Server thread/INFO]: [ArmorStandTools] Loading support for v1_16_R3
+[22:14:50] [Server thread/INFO]: [ArmorStandTools] PlotSquared plugin not found. Continuing without PlotSquared support.
+[22:14:50] [Server thread/INFO]: [ArmorStandTools] WorldGuard plugin found. WorldGuard support enabled.
+[22:14:50] [Server thread/INFO]: [QuickShop] Enabling QuickShop v4.0.6.3
+[22:14:50] [Server thread/INFO]: [QuickShop] Quickshop Reremake
+[22:14:50] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_16_R3 For Minecraft version 1.16.5
+[22:14:50] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[22:14:50] [Server thread/INFO]: [QuickShop] Developers: PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne, sandtechnology
+[22:14:50] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[22:14:50] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[22:14:50] [Server thread/INFO]: [QuickShop] Chat processor selected: BUNGEECHAT
+[22:14:50] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[22:14:50] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[22:14:50] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[22:14:50] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[22:14:50] [Thread-17/INFO]: [QuickShop] Downloading version manifest...
+[22:14:51] [Thread-17/INFO]: [QuickShop] Downloading version index...
+[22:14:51] [Thread-17/WARN]: [QuickShop] Cannot get file hash for language en_us, fallback to en_us...
+[22:14:51] [Thread-17/WARN]: [QuickShop] Cannot download require files, some items/blocks/potions/enchs language will use default English name.
+[22:14:52] [Server thread/INFO]: [QuickShop] Çevirmen: NOYB
+[22:14:52] [Server thread/INFO]: [QuickShop] Katkıda Bulunanlar: Timtower, Netherfoam, KaiNoMood, Mgazul, JackTheChicken and Andre_601
+[22:14:52] [Server thread/INFO]: [QuickShop] Dil Bölgesi: Türkçe (tr_TR)
+[22:14:52] [Server thread/INFO]: [QuickShop] Completed to load plugin translations files.
+[22:14:52] [Server thread/INFO]: [QuickShop] Starting loading items translation...
+[22:14:52] [Server thread/INFO]: [QuickShop] Complete to load items translation.
+[22:14:52] [Server thread/INFO]: [QuickShop] Starting loading enchantments translation...
+[22:14:52] [Server thread/INFO]: [QuickShop] Complete to load enchantments translation.
+[22:14:52] [Server thread/INFO]: [QuickShop] Starting loading potions translation...
+[22:14:52] [Server thread/INFO]: [QuickShop] Complete to load potions effect translation.
+[22:14:52] [Server thread/INFO]: [QuickShop] Successfully loaded PlaceHolderAPI support!
+[22:14:52] [Server thread/INFO]: [QuickShop] Using Virtual item Display, loading ProtocolLib support...
+[22:14:52] [Server thread/INFO]: [QuickShop] Successfully loaded ProtocolLib support!
+[22:14:52] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[22:14:52] [Server thread/INFO]: [QuickShop] Manager now selected: BukkitEventManager
+[22:14:52] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[22:14:52] [Server thread/INFO]: [QuickShop] Used 1ms to fetch all shops from the database.
+[22:14:52] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops! (Used 1ms, Avg 0ms per shop)
+[22:14:52] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[22:14:52] [Server thread/INFO]: [QuickShop] Registering Listeners...
+[22:14:52] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[22:14:52] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[22:14:52] [Server thread/INFO]: [QuickShop] Registering UpdateWatcher...
+[22:14:52] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 2258 ms.
+[22:14:52] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[22:14:52] [Server thread/INFO]: [skRayFall] Enabling skRayFall v1.9.20*
+[22:14:52] [Server thread/INFO]: [skRayFall] Yay! You are running skRayFall 1.9.20!
+[22:14:52] [Server thread/INFO]: [skRayFall] Nathan and Lewis <3 you.
+[22:14:52] [Server thread/INFO]: [skRayFall] Cooking Bacon...
+[22:14:52] [Server thread/WARN]: [skRayFall] EffectLib 6.0 for 1.13 is not supported as of right now since it has backwards breaking changes for users below 1.10
+[22:14:52] [Server thread/INFO]: [skRayFall] Citizens not found! Sorry you cant make friends, but don't worry we will still be your friend <3
+[22:14:52] [Server thread/WARN]: [skRayFall] EffectLib 6.0 for 1.13 is not supported as of right now since it has backwards breaking changes for users below 1.10
+[22:14:52] [Server thread/INFO]: [skRayFall] No Votifier Found! *Checks oven for finished bacon*
+[22:14:52] [Server thread/INFO]: [skRayFall] Bacon holograms found
+[22:14:52] [Server thread/INFO]: [skRayFall] Client Side bacon holograms enabled
+[22:14:52] [Server thread/INFO]: [skRayFall] Enabling general 1.8+ bacon!
+[22:14:52] [Server thread/INFO]: [skRayFall] Getting the general 1.9+ bacon!
+[22:14:53] [Server thread/INFO]: [skRayFall] An update for skRayFall is available!
+[22:14:53] [Server thread/INFO]: [skRayFall] Bacon is ready!
+[22:14:53] [Server thread/INFO]: [skript-yaml] Enabling skript-yaml v1.3.2
+[22:14:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:14:53] [Server thread/INFO]: Running delayed init tasks
+[22:14:53] [Server thread/INFO]: [BentoBox] Hooking with PlaceholderAPI...
+[22:14:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bentobox
+[22:14:53] [Server thread/INFO]: [BentoBox] Enabling game mode addons...
+[22:14:53] [Server thread/INFO]: [BentoBox] Enabling BSkyBlock (1.14.3)...
+[22:14:53] [Server thread/INFO]: [BentoBox] [BSkyBlock] Creating BSkyBlock world ...
+[22:14:53] [Server thread/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]
+[22:14:53] [Craft Scheduler Thread - 17 - PlayerAuctions/INFO]: [PlayerAuctions] Loading auction items...
+[22:14:53] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:14:53] [Craft Scheduler Thread - 16 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:14:53] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] No new version available
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[22:14:53] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:14:53] [Craft Scheduler Thread - 19 - GroupManager/INFO]: [GroupManager] There was an issue parsing the version string.
+[22:14:53] [Craft Scheduler Thread - 19 - GroupManager/INFO]: [GroupManager] No new version available
+[22:14:53] [Craft Scheduler Thread - 16 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.19.2.
+[22:14:53] [Craft Scheduler Thread - 16 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[22:14:56] [Server thread/INFO]: Preparing start region for dimension minecraft:bskyblock_world
+[22:14:56] [Server thread/INFO]: Time elapsed: 29 ms
+[22:14:56] [Server thread/INFO]: [WorldGuard] (bskyblock_world) TNT ignition is PERMITTED.
+[22:14:56] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lighters are PERMITTED.
+[22:14:56] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lava fire is PERMITTED.
+[22:14:56] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Fire spread is UNRESTRICTED.
+[22:14:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world'
+[22:14:56] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[22:14:56] [Server thread/INFO]: [QuickShop] Used 0ms to fetch all shops from the database.
+[22:14:56] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops! (Used 0ms, Avg 0ms per shop)
+[22:14:56] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[22:14:56] [Server thread/INFO]: [BentoBox] [BSkyBlock] Creating BSkyBlock's Nether...
+[22:14:56] [Server thread/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]
+[22:14:56] [Server thread/WARN]: Unable to find spawn biome
+[22:15:00] [Server thread/INFO]: Preparing start region for dimension minecraft:bskyblock_world_nether
+[22:15:00] [Server thread/INFO]: Time elapsed: 37 ms
+[22:15:00] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) TNT ignition is PERMITTED.
+[22:15:00] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lighters are PERMITTED.
+[22:15:00] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lava fire is PERMITTED.
+[22:15:00] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Fire spread is UNRESTRICTED.
+[22:15:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_nether'
+[22:15:00] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[22:15:00] [Server thread/INFO]: [QuickShop] Used 0ms to fetch all shops from the database.
+[22:15:00] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops! (Used 0ms, Avg 0ms per shop)
+[22:15:00] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling other addons...
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling Level (2.5.0)...
+[22:15:00] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in blockconfig.yml : caveblock-world
+[22:15:00] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in blockconfig.yml : acidisland_world
+[22:15:00] [Server thread/INFO]: [BentoBox] [Level] Level hooking into BSkyBlock
+[22:15:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: level
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling Challenges (0.8.3)...
+[22:15:00] [Server thread/INFO]: [BentoBox] [Challenges] Loading challenges...
+[22:15:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bskyblock
+[22:15:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: challenges
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling Chat (1.1.1)...
+[22:15:00] [Server thread/INFO]: [BentoBox] [Chat] Hooking team chat into BSkyBlock
+[22:15:00] [Server thread/INFO]: [BentoBox] [Chat] Hooking island chat into BSkyBlock
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling ControlPanel (1.7.0)...
+[22:15:00] [Server thread/INFO]: [BentoBox] Loading control panels...
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling Limits (1.15.0)...
+[22:15:00] [Server thread/ERROR]: [BentoBox] [Limits] Unknown entity type: PIG_ZOMBIE - skipping...
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Entity limits:
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit ELDER_GUARDIAN to 1
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit WITHER_SKELETON to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit STRAY to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit HUSK to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit ARMOR_STAND to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit DONKEY to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit MULE to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit EVOKER to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit VINDICATOR to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit CREEPER to 20
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SKELETON to 20
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SPIDER to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit ZOMBIE to 20
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SLIME to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit ENDERMAN to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit CAVE_SPIDER to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SILVERFISH to 30
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit BLAZE to 15
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit MAGMA_CUBE to 8
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit WITHER to 1
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit BAT to 1
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit WITCH to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit ENDERMITE to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit GUARDIAN to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SHULKER to 1
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PIG to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SHEEP to 50
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit COW to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit CHICKEN to 25
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit WOLF to 20
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit OCELOT to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit HORSE to 6
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit RABBIT to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit POLAR_BEAR to 2
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit LLAMA to 6
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PARROT to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit VILLAGER to 12
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit TURTLE to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PHANTOM to 1
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit COD to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SALMON to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PUFFERFISH to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit TROPICAL_FISH to 5
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit DROWNED to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit DOLPHIN to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit CAT to 20
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PANDA to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PILLAGER to 20
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit TRADER_LLAMA to 2
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit WANDERING_TRADER to 1
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit FOX to 2
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit BEE to 10
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Entity group limits:
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limits will apply to BSkyBlock
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Loading default limits
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit HOPPER to 5000
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit PISTON to 20000
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit STICKY_PISTON to 10000
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit SAND to 75000
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit OBSERVER to 10
+[22:15:00] [Server thread/ERROR]: [BentoBox] [Limits] Material REDSTONE is not a valid block. Skipping...
+[22:15:00] [Server thread/INFO]: [BentoBox] [Limits] Limit RED_SAND to 2500
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling MagicCobblestoneGenerator (2.1.0)...
+[22:15:00] [Server thread/INFO]: [BentoBox] [MagicCobblestoneGenerator] Loading generator tiers from database...
+[22:15:00] [Server thread/INFO]: [BentoBox] [MagicCobblestoneGenerator] Done
+[22:15:00] [Server thread/INFO]: [BentoBox] [MagicCobblestoneGenerator] Imported 4 generator tiers into database.
+[22:15:00] [Server thread/INFO]: [BentoBox] Enabling Warps (1.9.7)...
+[22:15:00] [Server thread/INFO]: [BentoBox] [Warps] Loading warps...
+[22:15:00] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[22:15:00] [Server thread/INFO]: [BentoBox] Hooking with Multiverse-Core...
+[22:15:00] [Server thread/INFO]: Multiverse already knows about 'bskyblock_world'!
+[22:15:00] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[22:15:00] [Server thread/INFO]: Multiverse already knows about 'bskyblock_world_nether'!
+[22:15:00] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[22:15:00] [Server thread/INFO]: [BentoBox] Hooking with WorldEdit...
+[22:15:00] [Server thread/INFO]: 
+ ____             _        ____
+|  _ \           | |      |  _ \             
+| |_) | ___ _ __ | |_ ___ | |_) | _____  __  
+|  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /  Yapımcısı : tastybento and Poslovitch
+| |_) |  __/ | | | || (_) | |_) | (_) >  <   Versiyon 1.15.2
+|____/ \___|_| |_|\__\___/|____/ \___/_/\_\  9503 saniyede yüklendi!
+[22:15:01] [Server thread/INFO]: 
+[22:15:01] [Server thread/INFO]: ------------ AdvancedNMotd Updater ----------
+[22:15:01] [Server thread/INFO]: You have the latest version of AdvancedNMotd!
+[22:15:01] [Server thread/INFO]: Current version: 9.2.0 for every 1.8+ server!
+[22:15:01] [Server thread/INFO]: ---------------------------------------------
+[22:15:01] [Server thread/INFO]: 
+[22:15:01] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[22:15:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: pa
+[22:15:01] [Server thread/INFO]: [Skript] Loading variables...
+[22:15:01] [Server thread/INFO]: [Skript] Loaded 14 variables in 0.0 seconds
+[22:15:01] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[22:15:01] [Server thread/INFO]: [Skript] Loaded 4 scripts with a total of 12 triggers and 14 commands in 0.49 seconds
+[22:15:01] [Server thread/INFO]: [Skript] Finished loading.
+[22:15:01] [Server thread/INFO]: [QuickShop] Registering bStats metrics...
+[22:15:01] [Server thread/INFO]: [QuickShop] Metrics submitted.
+[22:15:01] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[22:15:01] [Server thread/INFO]: [QuickShop] Using economy system: EssentialsX Economy
+[22:15:01] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[22:15:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[22:15:01] [Server thread/INFO]: 1 placeholder hooks successfully registered!
+[22:15:01] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.1) is available at:
+[22:15:01] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[22:15:02] [Server thread/INFO]: [BentoBox] Added world BSkyBlock (NORMAL)
+[22:15:02] [Server thread/INFO]: Done (33.982s)! For help, type "help"
+[22:15:02] [Server thread/INFO]: Timings Reset
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'classic-island' for BSkyBlock.
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for BSkyBlock.
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'classic-lshape' for BSkyBlock
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'double' for BSkyBlock
+[22:15:02] [Craft Scheduler Thread - 15 - CratesPlus/INFO]: Checking for updates via Spigot...
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'end-island' for BSkyBlock
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'harder' for BSkyBlock
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'island' for BSkyBlock
+[22:15:02] [Craft Scheduler Thread - 21 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'nether-island' for BSkyBlock
+[22:15:02] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[22:15:02] [Craft Scheduler Thread - 34 - BentoBox/INFO]: [BentoBox] [Level] Generating Top Ten Tables
+[22:15:02] [Server thread/INFO]: [ProtocolLib] The updater found an update: 4.7.0 (Running 4.5.1). Download at https://www.spigotmc.org/resources/protocollib.1997/
+[22:15:02] [Craft Scheduler Thread - 15 - CratesPlus/INFO]: Skyblock » No update was found, you are running the latest version. Will check again later.

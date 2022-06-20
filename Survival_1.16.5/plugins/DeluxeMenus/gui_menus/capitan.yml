@@ -1,0 +1,74 @@
+# 
+#  BU PAKET ANKSOFT.NET MÜŞTERİLERİ İÇİN:
+#  EFE POLAT TARAFINDAN YAPILMIŞTIR.
+#
+#
+menu_title: 'Kaptan'
+open_command:
+  - captan
+  - kaptan
+  - warp
+size: 27
+
+items:
+  'filler_item':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '
+  'bafra':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIyYTRjNjJkZTgxZTVlNzBjMDI0MWUxYzI2MDBlNzU2YjllYWE4NzViY2UyNTUzYzQyOWNiZjZlNmViNjVkIn19fQ==
+    data: 1
+    slot: 11
+    display_name: "&6Bafra"
+    left_click_commands:
+      - "[player] bafraisinlan"
+    lore:
+      - '&f'
+      - '&eGitmek için tıklayın.'  
+
+  'nether':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM1ZDNmOTA5OTI0MDJlNTY2Y2NkMzI3MGI4ZTU0MzdiMjY5ZjQ1ZDE3MzRiNDA1ODUxN2YyMjFkODE4YzE4YSJ9fX0=
+    data: 1
+    slot: 15
+    display_name: "&6Nether"
+    left_click_commands:
+      - "[player] nethergit"
+    lore:
+      - '&f'
+      - '&7Bu dünyaya katılmak için,'
+      - '&6VIP &7ürününü satın almalısınız.'
+      - '&f'
+      - '&eGitmek için tıklayın.'
+  'Geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3MDdkYjQ2YTVhY2JmZWJmNjEyMzk1MzZkMjU2NDgxMzRiYjQzYjY1YzE2NzE2YmEzMjljNmRiZjQxMiJ9fX0=
+    data: 1
+    slot: 26
+    left_click_commands:
+      - "[openguimenu] menü"
+    display_name: "&e&l<-"

@@ -1,0 +1,68 @@
+options:
+    prefix: &9&lANKSOFT &6&l>
+    paranyok: &cRütbe atlamak için yeteri kadar paran yok!
+    sonrank: &aZaten en yüksek rütbedesin!
+    
+variables:
+        {oyuncu::%player%} = true
+        {caylak::%player%} = false
+        {kalfa::%player%} = false
+        {bilgin::%player%} = false
+        {soylu::%player%} = false
+        {ustad::%player%} = false
+        
+        
+command /rankup:
+    trigger:
+        if {oyuncu::%player%} is true:
+            if player's balance is bigger than or equal to 1000:
+                set {caylak::%player%} to true
+                set {oyuncu::%player%} to false
+                remove 1000 from player's balance
+                execute console command "manuadd %player% Çaylak"
+                send "{@prefix} Çaylak Rutbesine Terfi Ettin!"
+                stop
+            else:
+                send "{@prefix} {@paranyok}"
+        if {caylak::%player%} is true:
+            if player's balance is bigger than or equal to 5000:
+                set {kalfa::%player%} to true
+                set {caylak::%player%} to false
+                remove 5000 from player's balance
+                execute console command "manuadd %player% Kalfa"
+                send "{@prefix} Kalfa Rutbesine Terfi Ettin!"
+                stop
+            else:
+                send "{@prefix} {@paranyok}"
+        if {kalfa::%player%} is true:
+            if player's balance is bigger than or equal to 25000:
+                set {bilgin::%player%} to true
+                set {kalfa::%player%} to false
+                remove 25000 from player's balance
+                execute console command "manuadd %player% Bilgin"
+                send "{@prefix} Bilgin Rutbesine Terfi Ettin!"
+                stop
+            else:
+                send "{@prefix} {@paranyok}"
+        if {bilgin::%player%} is true:
+            if player's balance is bigger than or equal to 100000:
+                set {soylu::%player%} to true
+                set {bilgin::%player%} to false
+                remove 100000 from player's balance
+                execute console command "manuadd %player% Soylu"
+                send "{@prefix} Soylu Rutbesine Terfi Ettin!"
+                stop
+            else:
+                send "{@prefix} {@paranyok}"
+        if {soylu::%player%} is true:
+            if player's balance is bigger than or equal to 300000:
+                set {ustad::%player%} to true
+                set {soylu::%player%} to false
+                remove 300000 from player's balance
+                execute console command "manuadd %player% Ustad"
+                send "{@prefix} Ustad Rutbesine Terfi Ettin!"
+                stop
+            else:
+                send "{@prefix} {@paranyok}"
+        if {ustad::%player%} is true:
+            send "{@prefix} {@sonrank}"

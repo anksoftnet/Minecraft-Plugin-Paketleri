@@ -1,0 +1,21 @@
+Info:
+- Smelt Fortune means if you have autosmelt on, when you mine something like an iron
+  ore, fortune effects will work on it, meaning you would get more iron ingots if
+  you had fortune
+- Fortune all allows to add make fortune work on anything.  For example, you could
+  mine a gold ore with a fortune pick, and get few gold ores as the result.
+- To prevent ore duping, this plugin will need to keep a list of placed blocks.  This
+  will require some more RAM and hard drive space (This should only require a few
+  MB)
+- The Fortune All Whitelist allows you to determine which blocks are affected by fortune,
+  so you don't get billions of stacks of cobble
+- 'NOTE: The Fortune All Whitelist does not replace the default vanilla fortune whitelist,
+  it just adds to it'
+Fortune All: false
+Fortune All Whitelist:
+- GOLD_ORE
+- IRON_ORE
+- DIAMOND_ORE
+- LAPIS_ORE
+- QUARTZ_ORE
+- MYCEL

@@ -1,0 +1,16 @@
+islandfly:
+  fly-outside-alert: '&cAdandan çıkış yaptın uçuş modun &e[number]&c saniye içerisinde kapanacak.'
+  fly-turning-off-alert: '&cBurada uçmak için iznin yok uçuş modun &e[number]&c saniye içinde kapanacak.'
+  disable-fly: '&6Krallık | &cUçuş Modun kapatıldı.'
+  reallowed-fly: '&6Krallık | &aUçuş modun tekrar kullanılabilir.'
+  enable-fly: '&6Krallık | &aUçuş Modun aktif edildi.'
+  cancel-disable: '&6Krallık | &aAdana yetişebildin! Huh! az kalsın uçuş modun kapanıyordu.'
+  wrong-world: '&cYou are not in the right gamemode world'
+  command:
+    description: allows you to fly on your island
+    not-allowed-fly: '&6Krallık | &cBu adada uçmak için iznin yok!'
+protection:
+  flags:
+    ISLAND_FLY_PROTECTION:
+      description: '&aAdanda kimler uçabilir ayarını yapar'
+      name: '&aUçuş İzni'

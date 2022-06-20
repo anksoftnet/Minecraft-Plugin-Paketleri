@@ -1,0 +1,137 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&6&lBloklar"
+    place: 19
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Decoration:
+    enable: true
+    material: "TUBE_CORAL"
+    displayname: "&6&lDekarasyon"
+    place: 23
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Dyes:
+    enable: false
+    material: "CYAN_DYE"
+    displayname: "&2&lDyes"
+    place: 23
+
+  Enchanting:
+    enable: true
+    material: "ENCHANTED_BOOK"
+    displayname: "&6&lBüyüler"
+    place: 22
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Farming:
+    enable: true
+    material: "WHEAT"
+    displayname: "&6&lFarm"
+    place: 20
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Food:
+    enable: true
+    material: "COOKED_BEEF"
+    displayname: "&6&lYemek"
+    place: 25
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Mobs:
+    enable: true
+    material: "GUNPOWDER"
+    displayname: "&6&lMob"
+    place: 21
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Music:
+    enable: false
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lMüzik"
+    place: 14
+
+  Ores:
+    enable: true
+    material: "IRON_INGOT"
+    displayname: "&6&lMaden"
+    place: 13
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Others:
+    enable: true
+    material: "SADDLE"
+    displayname: "&6&lDiğer"
+    place: 24
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Potions:
+    enable: false
+    material: "POTION"
+    displayname: "&d&lPotions + Tipped Arrows"
+    potion-glow: true
+    place: 40
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&6&lKızıltaş"
+    place: 31
+    lore:
+    - ''
+    - "&eMenüyü açmak için tıklayın!"
+
+  Spawners:
+    enable: false
+    material: "SPAWNER"
+    displayname: "&8&lSpawners"
+    place: 31
+
+  Workstations:
+    enable: false
+    material: "GRINDSTONE"
+    displayname: "&7&lWorkstations"
+    place: 12
+    lore:
+    - "&8&lGive your villager a job,"
+    - "&8&lor use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    place: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    place: 41
+
+Fill-item:
+  material: "GRAY_STAINED_GLASS_PANE"
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: true

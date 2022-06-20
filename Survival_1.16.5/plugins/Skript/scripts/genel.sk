@@ -1,0 +1,85 @@
+#
+#
+# BU PAKET ANKSOFT MÜŞTERİLERİ İÇİN:
+# EFE POLAT TARAFINDAN HAZIRLANMIŞTIR.
+#
+#
+
+command /renk:
+  trigger:
+    execute player command "/chatcolor2:chatcolor gui"
+
+command /bafraisinlan:
+  trigger:
+    execute player command "/rtp world bafra"
+  
+options:
+	prefix: &3Spawn &8»
+	firstjoin: true
+	tpjoin: true
+
+command /setspawn:
+	trigger:
+		if player has permission "spawn.setspawn":
+			set {spawn} to location of player
+			send "{@prefix} &7Spawn noktası ayarlandı." to player
+		else:
+			send "{@prefix} &7Bunun için yetkin yok!"
+
+command /spawn [<player>]:
+	trigger:
+		if player has permission "spawn.spawn":
+			if {spawn} is not set:
+				send "{@prefix} &7Spawn noktası ayarlanmamış." to player
+				stop
+			if arg 1 is not set:
+				if {spawn} is not set:
+					send "{@prefix} &7Spawn noktası ayarlanmamış." to player
+					stop
+				else:
+					teleport player to {spawn}
+					send "{@prefix} &7Spawn noktasına ışınlandın."
+			if arg 1 is set:
+				if sender has permission "spawn.spawn.others":
+					if arg 1 is online:
+						teleport arg 1 to {spawn}
+						send "{@prefix} &8&l» &7You have teleported &8%player% &7to the spawn!" to sender
+						send "{@prefix} &8&l» &7You have been teleported to the spawn by &8%player%&7!" to arg 1
+					else:
+						send "{@prefix} &8&l» &7This player is not online!"
+				else:
+					send "{@prefix} &8&l» &7You don't have the permission to do that!"
+
+command /delspawn:
+	trigger:
+		if player has permission "spawn.delete":
+			delete {spawn}
+			send "{@prefix} &8&l» &7You have deleted the spawnpoint!" to player
+		else:
+			send "{@prefix} &8&l» &7You don't have the permission to do that!" to player
+
+on first join:
+	teleport player to {spawn}
+
+on join:
+	teleport player to {spawn}
+
+on death:
+	teleport player to {spawn}
+
+on damage:
+    if victim is in "world":
+        if y-coordinate of victim is below 0:
+            cancel event
+            teleport victim to {spawn}
+            send "&3Survival &8» &eBoşluktan düştüğün için başlangıç noktasına ışınlandın." to victim
+            stop	
+			
+command /discord:
+    trigger:
+        send "&e" to player
+        send "&e                                &9&lDISCORD" to player
+        send "&e          &7Alt bölümdeki linke tıklayarak &ediscorda &7katılabilirsin!" to player
+        send "&e" to player
+        send "&e                     <link:https://anksoft.net/discord>&e&nTıkla ve sunucuya katıl!<reset> " to player	
+        send "&e" to player

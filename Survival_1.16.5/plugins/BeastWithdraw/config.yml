@@ -1,0 +1,166 @@
+##Configuration for BeastWithdraw by MrAxeTv
+##Plugin use intended for MC 1.7 - 1.16+
+##Notic all values of withdraw amount are stored as NBT data on items so make sure other plugins for storing items have support for storing NBT data.  
+WithdrawItems:
+##--------------------------------------------------------------------------------------------------------##
+##Expiriance bottle xp storing.
+ XpBottle:
+##Set up your item display name & lores how do you like.
+##This is part of configuration for item which player will get when they withdraw there xp /Xpbottle <xp>.
+  Player:
+   Name: "&a&lTecrübe Şişesi &7(Fırlat)"
+   Lore:
+    - "&dDeğer:&r %value% XP"
+    - "&dBüyücü:&r %player%"
+
+##This is part of configuration for item withdraw by staff or console /Xpbottle <xp> <player> <bottle-amount>.
+  Server:
+   Name: "&a&lTecrübe Şişesi &7(Fırlat)"
+   Lore:
+    - "&dDeğer:&r %value% XP"
+    - "&dBüyücü:&r &kBilinmiyor!"
+  ##This is invisible lore name in which is stored amount of xp change the name if you want disable old bottles.
+  NBTLore: "bWithdrawXp"
+
+##Minimum amount which can be withdraw to bottle.
+  Min: 25
+##Maximum amount which can be withdraw to bottle.
+  Max: 10000
+
+##Min and Max amount per permissions.
+##Permission should be BeastWithdraw.PermNotes.<name_of_perm>
+##Here is one example: if player has "BeastWithdraw.PermNotes.Tomato" permission there max amount which they will be able to withdraw min 20 and max 50000.
+##You can rename this permissions settings and add new ones how you like.
+##If PermNotes are enabled they will override default min and max setting if player has any of permissions for this groups.
+  PermNotes:
+   Enabled: false
+   Tomato:
+    Min: 20
+    Max: 50000
+   Potato:
+    Min: 10
+    Max: 100000
+
+##Charge "Tax" or "Fee" to players when they withdraw XpBottle.
+  Charges:
+##Tax will take specified percentage amount when player withdraw's XpBottle (0.01% to 100% Possible values).
+##Bypass Tax permission "BeastWithdraw.XpBottle.ByPass.Tax"
+   Tax:
+    Enabled: false
+    Percentage: 5
+##Fee will charge money when player withdraw's XpBottle.
+##Bypass Fee permission "BeastWithdraw.XpBottle.ByPass.Fee"
+   Fee:
+    Enabled: false
+    Cost: 100
+
+##Play a sounds when player withdraw or redeem Xp!
+##Sounds  for 1.9 and above: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+##Sounds for 1.7 and 1.8: https://www.spigotmc.org/wiki/cc-sounds-list/
+  Sounds:
+   Withdraw:
+    Sound: "ENTITY_GENERIC_EXPLODE"
+    Enabled: true  
+   Redeem:
+    Sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    Enabled: true
+
+##Allow droping player xp to XpBottle on there death.
+  DropOnDeath: false
+
+##Set up procenttage of droped xp in bottle. Min Chance 1 / Max Chance 100 going over it or under it will break plugin! 
+  DropPercentage: 100
+
+##Set up aliases for /Xpbottle command
+  Aliases: [xpb, beastxpb, bottle]
+
+##By setting this option to true xp from bottle will be automaticly given to player it won't be dropped on floor.
+  AutoCollect: true
+##--------------------------------------------------------------------------------------------------------##
+
+
+ CashNote:
+##Set up your item display name & lores how do you like.
+##This is part of configuration for item which player will get when they withdraw there money /bWithdraw <money>.
+  Player:
+   Name: "&a&lPara Çeki &7(Sağ-Tıkla)"
+   Lore:
+    - "&dDeğer:&r $%value%"
+    - "&dSahibi:&r %player%"
+
+##This is part of configuration for item withdraw by staff or console /bWithdraw <money> <player> <note-amount>.
+  Server:
+   Name: "&a&lPara Çeki &7(Sağ-Tıkla)"
+   Lore:
+    - "&dDeğer:&r $%value%"
+    - "&dSahibi:&r Banka"
+  ##This is invisible lore name in which is stored amount of money change the name if you want disable old cashnotes.
+  NBTLore: "bCashNote"
+
+##Minimum amount which can be withdraw to cash-note.
+  Min: 25
+##Maximum amount which can be withdraw to cash-note.
+  Max: 10000
+
+##Min and Max amount per permissions.
+##Permission should be BeastWithdraw.PermNotes.<name_of_perm>
+##Here is one example: if player has "BeastWithdraw.PermNotes.Tomato" permission there max amount which they will be able to withdraw min 20 and max 50000.
+##You can rename this permissions settings and add new ones how you like.
+##If PermNotes are enabled they will override default min and max setting if player has any of permissions for this groups.
+  PermNotes:
+   Enabled: false
+   Tomato:
+    Min: 20
+    Max: 50000
+   Potato:
+    Min: 10
+    Max: 100000
+
+##Charge "Tax" or "Fee" to players when they withdraw CashNote.
+  Charges:
+##Tax will take specified percentage amount when player withdraw's CashNote (0.01% to 100% Possible values).
+##Bypass Tax permission "BeastWithdraw.CashNote.ByPass.Tax".
+   Tax:
+    Enabled: false
+    Percentage: 1
+##Fee will take amount when player withdraw's CashNote.
+##Bypass Fee permission "BeastWithdraw.CashNote.ByPass.Fee".
+   Fee:
+    Enabled: false
+    Cost: 100
+
+##Play a sounds when player withdraw or redeem CashNote!
+##Sounds  for 1.9 and above: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+##Sounds for 1.7 and 1.8: https://www.spigotmc.org/wiki/cc-sounds-list/
+  Sounds:
+   Withdraw:
+    Sound: "ENTITY_GENERIC_EXPLODE"
+    Enabled: true  
+   Redeem:
+    Sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    Enabled: true
+
+##Set which item you want to use for Cash-Notes.
+##Even if u changed to new item the old withdrawed items by player will be usable because of NBT  data storing.
+  Item: "PAPER"
+
+##Add enchant glow to item.
+  Glow: true
+
+##Set up aliases for /bWithdraw command
+  Aliases: [cashnote, withdraw, moneywithdraw, moneynote, çek, paraçeki]
+##--------------------------------------------------------------------------------------------------------##
+
+
+##Cancle villager treading with withdraw items.
+ CancelVillagerTrade: true
+
+##Disable using withdraw items in crafting.
+ CancelCrafting: true
+
+##Drop withdraw item on floor if there is no space in player inventory
+ WithdrawDropFloor: true
+
+##Config version (PLEASE DO NOT EDIT & DON'T COPY PAST OLD CONFIG OVER)
+ConfigVersion: 2.5
+

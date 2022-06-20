@@ -1,0 +1,20 @@
+controlpanel:
+  messages:
+    import-count: Imported [number] control panels
+  errors:
+    no-load: '&4Cannot load controlPanels.yml file: [message]'
+    no-file: '&4Missing controlPanels.yml file'
+    no-valid-panels: '&4Could not find any valid control panel.'
+    no-valid-panels-op: '&4Could not find any valid control panel. You should try
+      to import it using /[admin] cp import'
+  commands:
+    admin:
+      help:
+        parameters: ''
+        description: shows admin help commands
+      import:
+        parameters: '[overwrite]'
+        description: imports control panels from controlPanels.yml
+    help:
+      parameters: ''
+      description: opens control panel

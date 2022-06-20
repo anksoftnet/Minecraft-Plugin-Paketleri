@@ -1,0 +1,31 @@
+# Dakika cinsindendir. Önerilen Min 10-30
+IntervalTick: 30
+# Buradan yeni komutlar oluşturabilirsiniz
+# Yeni başlıklar ekleyebilir veya başlıkları düzenleyerek
+# istediğiniz kadar süre sorgulu işlem üretebilirsiniz.
+Commands:
+   vip:
+      start:
+      - "manuadd %player% vip"
+      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &6VIP &fürününü satın aldı."
+      end:
+      - "manuadd %player% oyuncu"
+   vip+:
+      start:
+      - "manuadd %player% vip+"
+      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &6VIP&c+ &fürününü satın aldı."
+      end:
+      - "manuadd %player% oyuncu"
+   mvip:
+      start:
+      - "manuadd %player% mvip"
+      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &aMVIP &fürününü satın aldı."
+      end:
+      - "manuadd %player% oyuncu"
+   mvip+:
+      start:
+      - "manuadd %player% mvip+"
+      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &aMVIP&c+ &fürününü satın aldı."
+      end:
+      - "manuadd %player% oyuncu"
+   

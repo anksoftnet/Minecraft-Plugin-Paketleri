@@ -1,0 +1,71 @@
+#
+#
+#
+#  BU PAKET ANKSOFT.NET MÜŞTERİLERİ İÇİN:
+#  EFEPOLAT.XYZ TARAFINDAN YAPILMIŞTIR.
+#
+#
+#
+
+integrateWithWorldGuard: true
+allowMovingStandsBetweenWorlds: false
+deactivateToolsOnWorldChange: true
+requireCreativeForSaveAsCmdBlock: false
+defaultASCmdCooldownTicks: 0
+bypassWorldguardForASCmdExecution: false
+# Uncomment the section below to deny players access to commands of your choice when they have any AST tools in their inventory
+# Add as many command as you wish. Only the first word of each command is needed, anything after the first space is ignored.
+#deniedCommandsWhileUsingTools:
+#  - sell
+helmet: AIR 0
+chest: AIR 0
+pants: AIR 0
+boots: AIR 0
+inHand: AIR 0
+inOffHand: AIR 0
+isVisible: true
+isSmall: false
+hasArms: true
+hasBasePlate: false
+hasGravity: false
+name: ''
+invulnerable: false
+equipmentLock: false
+enableTool:
+  headX: true
+  headY: true
+  headZ: true
+  lArmX: true
+  lArmY: true
+  lArmZ: true
+  rArmX: true
+  rArmY: true
+  rArmZ: true
+  moveX: true
+  moveY: true
+  moveZ: true
+  lLegX: true
+  lLegY: true
+  lLegZ: true
+  rLegX: true
+  rLegY: true
+  rLegZ: true
+  bodyX: true
+  bodyY: true
+  bodyZ: true
+  summon: true
+  gui: true
+  rotat: true
+  gui_clone: true
+  gui_save: true
+  gui_invis: true
+  gui_size: true
+  gui_base: true
+  gui_grav: true
+  gui_arms: true
+  gui_name: true
+  gui_slots: true
+  gui_pHead: true
+  gui_invul: true
+  gui_move: true
+  gui_glow: true

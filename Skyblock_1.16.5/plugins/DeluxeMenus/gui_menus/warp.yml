@@ -1,0 +1,86 @@
+#
+# Requirements tutorial menu v1.0
+# authors: clip
+#
+# contributor: Andre_601
+#
+# In this tutorial you will learn all about menu requirements
+# Requirements allow you to restrict actions or even an entire menu to specific players.
+#
+# You can read more about requirements here:
+#   https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements
+#
+menu_title: 'Işınlanma noktaları'
+open_command:
+  - warp
+  - warps
+size: 27
+
+items:
+  'filler_item':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '
+  'arena':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIyYTRjNjJkZTgxZTVlNzBjMDI0MWUxYzI2MDBlNzU2YjllYWE4NzViY2UyNTUzYzQyOWNiZjZlNmViNjVkIn19fQ==
+    data: 1
+    slot: 11
+    display_name: "&4&lArena"
+    left_click_commands:
+      - "[player] warp arena"
+    lore:
+      - ''
+      - '&c| &cIşınlanmak için (Sol-Tık)'    
+  'spawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcyNWVjNGFkZDNkNzEzZTgyZWJkZmMzYzdiZTViYWZlM2E4ZWM5MzUzNzEyNzYyNjkxMmYxNmI2OTZiYzYifX19
+    data: 1
+    slot: 13
+    display_name: "&2&lBaşlangıç"
+    left_click_commands:
+      - "[player] warp spawn"
+    lore:
+      - ''
+      - '&a| &aIşınlanmak için (Sol-Tık)'
+  'godul':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkM2M0NWQ3YjgzODRlOGExOTYzZTRkYTBhZTZiMmRhZWIyYTNlOTdhYzdhMjhmOWViM2QzOTU5NzI1Nzk5ZiJ9fX0=
+    data: 1
+    slot: 15
+    display_name: "&6&lKasalar"
+    left_click_commands:
+      - "[player] warp kasalar"
+    lore:
+      - ''
+      - '&e| &eIşınlanmak için (Sol-Tık)'
+  'Geri':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3MDdkYjQ2YTVhY2JmZWJmNjEyMzk1MzZkMjU2NDgxMzRiYjQzYjY1YzE2NzE2YmEzMjljNmRiZjQxMiJ9fX0=
+    data: 1
+    slot: 26
+    left_click_commands:
+      - "[openguimenu] menü"
+    display_name: "&e&l<-"

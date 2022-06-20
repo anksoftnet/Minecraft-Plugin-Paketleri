@@ -1,0 +1,47 @@
+#
+#
+# BU PAKET ANKSOFT MÜŞTERİLERİ İÇİN:
+# EFE POLAT VE SADPAX TARAFINDAN HAZIRLANMIŞTIR.
+#
+#
+
+options:
+    anksoft: &3Survival &8»
+command /vipgünlüködülal:
+    permission: gunlukodul.vip
+    aliases: vipgunlukodul
+    trigger:
+        gunlukOdul(player) 
+function gunlukOdul(p: player):
+    set {_odulsure} to difference between {odulsuree::%{_p}%} and now
+    if {_odulsure} is less than 24 hour:
+        set {_odulsure} to difference between {_odulsure} and 24 hours    
+        set {_odulsure} to "%{_odulsure}%"
+        replace all "hours" with "saat" in {_odulsure}
+        replace all "hour" with "saat" in {_odulsure}            
+        replace all "minutes" with "salise" in {_odulsure}    
+        replace all "minute" with "saniye " in {_odulsure}    
+        replace all "." with "&c dakika&e &c" in {_odulsure}    
+        replace all "second" with "saniye" in {_odulsure}    
+        replace all " and " with " " in {_odulsure}
+        send "{@anksoft} &eGünlük ödülünü alabilmek için &c%{_odulsure}% &ebeklemelisin." to {_p}         
+    else:
+        give a potion named "&cGünlük Ödül" to {_p}
+        set {odulsuree::%{_p}%} to now 
+on consume of potion:
+    if the name of player's tool is "&6Günlük Ödül": 
+        execute console command "crate key %player% para"
+        execute console command "eco give %player% 200"
+        send "{@anksoft} &aBaşarıyla günlük ödülün alındı. 24 saat sonra tekrardan almayı unutma!" to player        
+        wait 0.1 second        
+        remove player's held item from player's inventory
+on command "/günlüködülal":
+    cancel event
+    {%player%.bekleme} is set:
+        difference between {%player%.bekleme} and now is less than a day:
+            message "{@anksoft} &cBugün zaten ödülünü almışsın."
+            stop trigger
+    execute console command "eco give %player% 50"
+    set {%player%.bekleme} to now
+    send "{@anksoft} &aBaşarıyla ödülünü aldın. 24 saat sonra tekrardan almayı untuma!" to player
+    stop		

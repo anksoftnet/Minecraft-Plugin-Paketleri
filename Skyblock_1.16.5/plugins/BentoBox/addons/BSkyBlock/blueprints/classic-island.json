@@ -1,0 +1,16 @@
+{
+  "uniqueId": "classic-island",
+  "icon": "GRASS_PATH",
+  "displayName": "&6&lMedium Ada",
+  "description": [
+    "&7",
+    "&7Bir tık zorlayıcı başlangıç,",
+    "&7seviyorsan bu ada tam sana göre!"
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "classic-lshape",
+    "NETHER": "nether-island"
+  },
+  "slot": 1
+}

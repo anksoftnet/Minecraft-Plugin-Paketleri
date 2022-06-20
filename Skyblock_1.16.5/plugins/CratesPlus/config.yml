@@ -1,0 +1,193 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.5.3 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 5
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- null
+Crates:
+  Spawner:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: SPAWNER
+        Item Data: 0
+        Percentage: 0
+        Name: '&eSkeleton &fSpawner'
+        Amount: 1
+      '2':
+        Type: ITEM
+        Item Type: SPAWNER
+        Item Data: 0
+        Percentage: 0
+        Name: '&eCow &fSpawner'
+        Amount: 1
+      '3':
+        Type: ITEM
+        Item Type: SPAWNER
+        Item Data: 0
+        Percentage: 0
+        Name: '&eSheep &fSpawner'
+        Amount: 1
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Kasa Anahtarı'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+  Para:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 0
+        Name: '&a100TL'
+        Amount: 1
+      '2':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 0
+        Name: '&a150TL'
+        Amount: 1
+      '3':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 0
+        Name: '&a200TL'
+        Amount: 1
+      '4':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 0
+        Name: '&a250TL'
+        Amount: 1
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Kasa Anahtarı'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+  Event:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Percentage: 0
+        Name: '&fElmas'
+        Amount: 4
+      '2':
+        Type: ITEM
+        Item Type: EMERALD
+        Item Data: 0
+        Percentage: 0
+        Name: '&aZümrüt'
+        Amount: 6
+      '3':
+        Type: ITEM
+        Item Type: GOLD_BLOCK
+        Item Data: 0
+        Percentage: 0
+        Name: '&eAltın Blok'
+        Amount: 8
+      '4':
+        Type: ITEM
+        Item Type: IRON_BLOCK
+        Item Data: 0
+        Percentage: 0
+        Name: '&fDemir Blok'
+        Amount: 12
+      '5':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Percentage: 0
+        Name: '&AZümrüt Blok'
+        Amount: 2
+      '6':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Percentage: 0
+        Name: '&fSpawner Kasa Anahtarı'
+        Amount: 1
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Kasa Anahtarı'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+  Vote:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: TRIPWIRE_HOOK
+        Item Data: 0
+        Percentage: 0
+        Name: '&fSpawner Kasa Anahtarı'
+        Amount: 2
+      '2':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Percentage: 0
+        Name: '&AZümrüt Blok'
+        Amount: 8
+      '4':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Percentage: 0
+        Name: '&a500TL'
+        Amount: 1
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Percentage: 0
+        Name: '&fElmas'
+        Amount: 16
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Kasa Anahtarı'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE

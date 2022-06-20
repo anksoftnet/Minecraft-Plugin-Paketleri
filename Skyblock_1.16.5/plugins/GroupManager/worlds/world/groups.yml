@@ -1,0 +1,256 @@
+#
+#
+#
+#  BU PAKET ANKSOFT.NET MÜŞTERİLERİ İÇİN:
+#  EFE POLAT TARAFINDAN YAPILMIŞTIR.
+#
+#
+#
+
+groups:
+  Kurucu:
+    default: false
+    permissions: 
+    - nte.kurucu # Bu yetkideki kişinin OP yetkisi olacağı tahmin edilip perm verilmemiştir.
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&4Yönetici &c%player%'
+      suffix: ''
+  Admin:
+    default: false
+    permissions: 
+    - nte.admin # Bu yetkideki kişinin OP yetkisi olacağı tahmin edilip perm verilmemiştir.
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&4Admin &c%player%'
+      suffix: ''
+  Moderatör:
+    default: false
+    permissions: 
+    - nte.moderator
+    - chatcolor.color.*
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&5Moderatör &d%player%'
+      suffix: ''
+  Rehber:
+    default: false
+    permissions: 
+    - nte.rehber
+    - chatcolor.color.*
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&2Rehber &6%player%'
+      suffix: ''
+  MVIP+:
+    default: false
+    permissions: 
+    - essentials.kits.mvip+
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - chatcolor.color.*
+    - nte.mvip+
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&aMVIP&c+ &e%player%'
+      suffix: ''
+  MVIP:
+    default: false
+    permissions: 
+    - essentials.kit.mvip
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - chatcolor.color.*
+    - nte.mvip
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&aMVIP &e%player%'
+      suffix: ''
+  VIP+:
+    default: false
+    permissions: 
+    - essentials.kits.vip+
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - chatcolor.color.*
+    - nte.vip+
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&6VIP&c+ &e%player%'
+      suffix: ''
+  VIP:
+    default: false
+    permissions: 
+    - essentials.kits.vip
+    - essentials.feed
+    - essentials.hat
+    - SimpleVIPPerks.vipspd
+    - SimpleVIPPerks.vipstr
+    - SimpleVIPPerks.vipjmp
+    - SimpleVIPPerks.vipair
+    - SimpleVIPPerks.vipfir
+    - SimpleVIPPerks.vipdig
+    - SimpleVIPPerks.vipris
+    - nte.vip
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&6VIP &e%player%'
+      suffix: ''
+  SkyDevil:
+    default: true
+    permissions:
+    - playerkits.kit.skydevil
+    - nte.skydevil
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&4SkyDevil &7%player%'
+      suffix: ''
+  SkyKing:
+    default: true
+    permissions:
+    - playerkits.kit.skyking
+    - nte.skyking
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&cSkyKing &7%player%'
+      suffix: ''
+  SkyLord:
+    default: true
+    permissions:
+    - playerkits.kit.skylord
+    - nte.skylord
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&eSkyLord &7%player%'
+      suffix: ''
+  SkyExpert:
+    default: true
+    permissions:
+    - playerkits.kit.skyexpert
+    - nte.skyexpert
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&bSkyExpert &7%player%'
+      suffix: ''
+  SkyNovice:
+    default: true
+    permissions:
+    - playerkits.kit.skynovice
+    - nte.skynovice
+    inheritance: 
+    - oyuncu
+    info:
+      build: false
+      prefix: '&dSkyNovice &7%player%'
+      suffix: ''
+  Oyuncu:
+    default: true
+    permissions:
+    - essentials.kits.oyuncu
+    - nte.oyuncu
+    - pa.open
+    - pa.cancel
+    - pa.amount
+    - pa.purchase
+    - pa.collect
+    - bskyblock.island
+    - bskyblock.island.ban
+    - bskyblock.island.create
+    - bskyblock.island.expel
+    - bskyblock.island.home
+    - bskyblock.island.info
+    - bskyblock.island.lock
+    - bskyblock.island.name
+    - bskyblock.island.reset
+    - bskyblock.island.sethome 
+    - bskyblock.island.settings	 
+    - bskyblock.island.spawn 
+    - bskyblock.island.team.* 
+    - bskyblock.island.team
+    - bskyblock.team.maxsize.3
+    - bskyblock.island.maxhomes.2
+    - bskyblock.island.range.500	
+    - bskyblock.settings.*
+    - deluxemenus.open.*
+    - chatcolor.gui
+    - EconomyShopGUI.shop
+    - EconomyShopGUI.shop.all
+    - EconomyShopGUI.sellall
+    - EconomyShopGUI.sellallitem
+    - EconomyShopGUI.sellallhand
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - rankup.rankup
+    - tempfly.time.self
+    - tempfly.toggle.self
+    - tempfly.pay
+    - tempfly.help
+    - essentials.ignore
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpadeny
+    - essentials.msg
+    - essentials.msgtoggle
+    - essentials.paytoggle
+    - essentials.kit
+    - essentials.kits
+    - essentials.pay
+    - essentials.balance
+    - essentials.warp
+    - essentials.warps
+    - essentials.warps.*
+    - essentials.signs.use.disposal
+    - essentials.signs.use.free
+    - essentials.signs.use.repair
+    - essentials.signs.use.warp
+    - pixelvip.cmd.player
+    inheritance: []
+    info:
+      build: false
+      prefix: '&7%player%'
+      suffix: ''

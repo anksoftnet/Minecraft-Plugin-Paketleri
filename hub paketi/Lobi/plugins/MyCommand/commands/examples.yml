@@ -1,0 +1,5 @@
+'survival':
+  command: /survival
+  type: BUNGEE_TP
+  server_name: aktarılacak sunucu adı
+  permission-required: false

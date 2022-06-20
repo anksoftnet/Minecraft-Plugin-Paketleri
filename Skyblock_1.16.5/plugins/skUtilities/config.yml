@@ -1,0 +1,55 @@
+#skUtilities Configuration File
+
+#--------------------------------[ Updates ]--------------------------------
+
+#Should we check for updates every 12 hours.
+#Note: if 'checkForUpdates' is 'false' it will disable all other checks
+
+checkForUpdates: true
+downloadUpdates: false
+downloadChangelog: false
+
+#Broadcasts updates to players with the permission 'skUtilities.update'
+
+broadcastUpdates: true
+
+#-------------------------------[ Security! ]-------------------------------
+
+#(UnSafe Option) If set to 'true' anything using paths in this addon (files)
+#Starts looking in the root directory of your whole server!
+#Example: Paths would start at 'root' or if your using windows 'c:/'
+
+useRootAsDefaultPath: false
+
+#(Safe Option) If set to 'false' anything using paths in this addon (files)
+#Starts looking in the root directory of the minecraft server!
+#Example: Paths would start at 'MinecraftServerRootFolder'
+
+#--------------------------------[ Loading ]--------------------------------
+
+#Disables or Enables parts of the addon.
+#If you wish to re-enable a part, you will have to change the option back
+#to 'true' and restart the server. (Only takes effect on server load)
+
+loadConversions: true
+loadFiles: true
+loadYaml: true
+loadUrls: true
+loadUtilities: true
+
+#---------------------------------[ Debug ]---------------------------------
+
+#Forces this addon to send StackTraces instead of shortened errors.
+#This should only be enabled if you need to get more info from an Error!
+
+debug: false
+
+#Broadcasts errors to players with the permission 'skUtilities.error'
+
+broadcastErrors: true
+
+#---------------------------------------------------------------------------
+
+#DO NOT CHANGE THIS! (If changed this config will reset!)
+
+configVersion: 9

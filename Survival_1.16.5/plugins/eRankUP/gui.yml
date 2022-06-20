@@ -1,0 +1,174 @@
+#--------------------------------------------------
+#This plugin was created by ESKARYOS
+#Visit my YouTube channel www.youtube.com/eskaryos
+#--------------------------------------------------
+
+#Plugin PlaceHolders
+#[%erankup_rank% = player rank]
+#[%erankup_price% = rank price]
+#[%erankup_next% = next rank]
+#[%erankup_coins% = formated player coins]
+#[%erankup_progress% = progress bar]
+#[%erankup_percent% = rank percentage]
+#[%erankup_percent% = rank percentage]
+#[%erankup_remaining% =  remaining coins for next rank]
+
+#[%skill_percent% = Requiriment percentage]
+#[%skill_requiriment% = Requiriment value]
+#[%skill_playerkills% = Total player killed value]
+#[%skill_jumps% = Player total server jumps value]
+#[%skill_walkedblocks% = Player total block walked value]
+#[%skill_mine_<Material>% = Mined blocks value]
+#[%skill_mobkills_<Mob>% = Mob killed value]
+#[%skill_craft_<Mob>% = Craft item value]
+#[%skill_played_time% = Played time in hours]
+
+#This is the player menu, everything accepts Placeholders
+Profile:
+  Title: "&7Profile"
+  Items:
+    Name: "&6Information"
+    Material: PLAYER_HEAD
+    Slot: 13
+    Lore:
+      - '&7Your information'
+      - ''
+      - '&7Rank: %erankup_rank%'
+      - '&7Next: %erankup_next%'
+      - ''
+      - '&7Requiriments:'
+      - ' &e%erankup_price% coins'
+      - ' %skill_requiriment%'
+      - ''
+      - '&7Concluded: &c%skill_percent%'
+      - ''
+      - '&7Coins: &a%erankup_coins%'
+      - ''
+      - '&eClick to evolve'
+Confirm:
+  Title: "&7Confirm purchase ?"
+  Items:
+    Confirm:
+      Name: "&aConfirm"
+      Material: head:4312ca4632def5ffaf2eb0d9d7cc7b55a50c4e3920d90372aab140781f5dfbc4
+      Slot: 12
+      Lore:
+        - '&7This action after done'
+        - '&7will not be reversed.'
+    Cancel:
+      Name: "&aCancel"
+      Material: head:beb588b21a6f98ad1ff4e085c552dcb050efc9cab427f46048f18fc803475f7
+      Slot: 14
+      Lore:
+        - ''
+Gui:
+  Title: "&7Ranks"
+  Slots: 54
+  Pages: 1
+  Items:
+    Back:
+      Name: "&aPrevious page"
+      Material: ARROW:0
+      Slot: 48
+      Lore:
+        - '&7Click here to return'
+        - '&7the previous page'
+    Next:
+      Name: "&aNext page"
+      Material: ARROW:0
+      Slot: 50
+      Lore:
+        - '&7Click here to go to'
+        - '&7the next page.'
+    Close:
+      Name: "&cClose menu"
+      Material: BARRIER:0
+      Slot: 49
+      Lore:
+        - '&7Click here to close menu.'
+    Profile:
+      Name: "&6More information"
+      Material: PLAYER_HEAD
+      Slot: 53
+      Lore:
+        - '&7Click here to see your'
+        - '&7information, about your'
+        - '&7rank, and how much do you need'
+        - '&7to evolve.'
+  Add:
+    #If you want the item to appear on a page add [Page:]
+    Book:
+      Name: "&aInformations"
+      Material: DOUBLE_PLANT:0
+      Slot: 45
+      Page: 1
+      Lore:
+        - '&7Your informations'
+        - ''
+        - '&7Rank: %erankup_rank%'
+        - '&7Next: %erankup_next%'
+        - ''
+    Glass1:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 0
+      Lore:
+        - ''
+    Glass2:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 1
+      Lore:
+        - ''
+    Glass3:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 2
+      Lore:
+        - ''
+    Glass4:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 3
+      Lore:
+        - ''
+    Glass5:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 4
+      Lore:
+        - ''
+    Glass6:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 5
+      Lore:
+        - ''
+    Glass7:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 6
+      Lore:
+        - ''
+    Glass8:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 7
+      Lore:
+        - ''
+    Glass9:
+      Name: "&a-"
+      Material: STAINED_GLASS_PANE:5
+      Slot: 8
+      Lore:
+        - ''
+  Ranks:
+    Rank1:
+      Slot: 10
+      Page: 1
+    Rank2:
+      Slot: 11
+      Page: 1
+    Rank3:
+      Slot: 12
+      Page: 1

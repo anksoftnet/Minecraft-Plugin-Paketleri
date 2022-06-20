@@ -1,0 +1,26 @@
+# DeluxeMenus 1.13.3-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: false
+gui_menus:
+  menü:
+    file: menü.yml
+  warp:
+    file: warp.yml
+  hesapayar:
+    file: hesapayar.yml
+  vipbilgi:
+    file: vipbilgi.yml
+  gunlukodul:
+    file: gunlukodul.yml
+  komutlar:
+    file: komutlar.yml
+  kit:
+    file: kit.yml
+  vipkit:
+    file: vipkit.yml
+  market:
+    file: market.yml

@@ -1,0 +1,43 @@
+#--------------------------------------------------
+#This plugin was created by ESKARYOS
+#Visit my YouTube channel www.youtube.com/eskaryos
+#--------------------------------------------------
+
+#Plugin PlaceHolders
+#[%erankup_rank% = player rank]
+#[%erankup_price% = rank price]
+#[%erankup_next% = next rank]
+#[%erankup_coins% = formated player coins]
+#[%erankup_progress% = progress bar]
+#[%erankup_percent% = rank percentage]
+#[%erankup_percent% = rank percentage]
+#[%erankup_remaining% =  remaining coins for next rank]
+
+#[%skill_percent% = Requiriment percentage]
+#[%skill_requiriment% = Requiriment value]
+#[%skill_playerkills% = Total player killed value]
+#[%skill_jumps% = Player total server jumps value]
+#[%skill_walkedblocks% = Player total block walked value]
+#[%skill_mine_<Material>% = Mined blocks value]
+#[%skill_mobkills_<Mob>% = Mob killed value]
+#[%skill_craft_<Mob>% = Craft item value]
+#[%skill_played_time% = Played time in hours]
+
+#MySQL System.If you leave the plugin turned off, save the files locally.
+MySQL:
+  Activated: false
+  Host: "localhost"
+  Database: "test"
+  User: "root"
+  Password: ""
+  Port: "3306"
+#If it is active, when you type /rankup it will open the confirmation menu
+#instead of opening the menu with the ranks.
+SkipMenu: false
+#If active, a confirmation menu will appear before the rank evolve.
+ConfirmMenu: true
+#These sounds will be played when performing something.
+Sounds:
+  Evolved: 'WITHER_DEATH'
+  Limit: 'WITHER_SHOOT'
+  InsufficientFunds: 'WITHER_SHOOT'

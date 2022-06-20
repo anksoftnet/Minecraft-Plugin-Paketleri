@@ -1,0 +1,13 @@
+on join:
+	teleport player to location at 0, 252, 0 in world "world"
+	set join message to ""
+	
+on quit:
+	set quit message to ""
+	
+on first join:
+	teleport player to location at 0, 252, 0 in world "world"
+	
+on weather change to rain or thunder:
+	cancel event
+	

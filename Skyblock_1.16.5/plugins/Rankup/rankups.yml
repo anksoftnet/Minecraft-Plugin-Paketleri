@@ -1,0 +1,73 @@
+#
+#
+#
+#  BU PAKET ANKSOFT.NET MÜŞTERİLERİ İÇİN:
+#  EFEPOLAT.XYZ TARAFINDAN YAPILMIŞTIR.
+#
+#
+#
+rutbe1:
+  rank: 'Oyuncu'
+  next: 'SkyNovice'
+  requirements:
+    - 'placeholder %Level_bskyblock_island_level% >= 10000'
+  commands:
+  - 'manuadd {PLAYER} SkyNovice'
+  rankup:
+    requirements-not-met: '&3SkyNovice &7olabilmek için &b10,000 &7seviye &colmalısın.'
+    list:
+      complete: "&7"
+      current: "&c"
+      incomplete: "&r"
+rutbe2:
+  rank: 'SkyNovice'
+  next: 'SkyExpert'
+  requirements:
+    - 'placeholder %Level_bskyblock_island_level% >= 50000'
+  commands:
+  - 'manuadd {PLAYER} SkyExpert'
+  rankup:
+    requirements-not-met: '&3SkyExpert &7olabilmek için &b50,000 &7seviye &colmalısın.'
+    list:
+      complete: "&7"
+      current: "&c"
+      incomplete: "&r"
+rutbe3:
+  rank: 'SkyExpert'
+  next: 'SkyLord'
+  requirements:
+    - 'placeholder %Level_bskyblock_island_level% >= 100000'
+  commands:
+  - 'manuadd {PLAYER} SkyLord'
+  rankup:
+    requirements-not-met: '&3SkyLord &7olabilmek için &b100,000 &7seviye &colmalısın.'
+    list:
+      complete: "&7"
+      current: "&c"
+      incomplete: "&r"
+rutbe4:
+  rank: 'SkyLord'
+  next: 'SkyKing'
+  requirements:
+    - 'placeholder %Level_bskyblock_island_level% >= 150000'
+  commands:
+  - 'manuadd {PLAYER} SkyKing'
+  rankup:
+    requirements-not-met: '&3SkyLegend &7olabilmek için &b150,000 &7seviye &colmalısın.'
+    list:
+      complete: "&7"
+      current: "&c"
+      incomplete: "&r"
+rutbe5:
+  rank: 'SkyKing'
+  next: 'SkyDevil'
+  requirements:
+    - 'placeholder %Level_bskyblock_island_level% >= 250000'
+  commands:
+  - 'manuadd {PLAYER} SkyDevil'
+  rankup:
+    requirements-not-met: '&3SkyDevil &7olabilmek için &b250,000 &7seviye &colmalısın.'
+    list:
+      complete: "&7"
+      current: "&c"
+      incomplete: "&r"

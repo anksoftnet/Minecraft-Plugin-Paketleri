@@ -1,0 +1,154 @@
+#
+#
+# BU PAKET ANKSOFT MÜŞTERİLERİ İÇİN:
+# EFE POLAT TARAFINDAN HAZIRLANMIŞTIR.
+#
+#
+
+menu_title: 'Sunucu Menüsü'
+open_command:
+- yardım
+- yardim
+- bilgi
+- help
+- menu 
+- menü
+size: 36
+items:
+      '1':
+        material: comparator
+        slot: 12
+        display_name: '&6Hesap ayarları'
+        lore:
+        - ''
+        - '&7Buradan hesabına ait,'
+        - '&7ayarları görebilirsin.'
+        - ''
+        - '&eMenüye gitmek için tıkla!'
+        left_click_commands:
+        - '[player] ayarlar'          
+        right_click_commands:
+        - '[player] ayarlar'
+      'kaptan':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzZGMyY2UyOTA5ZjM1MjViMmQwNGQxMTEzYmUxMjQ5MzlmYTJiN2I5ZmIxYzY4NzZhMTk3ZDE2ODJhIn19fQ==
+        slot: 12
+        display_name: '&6Kaptan'
+        lore:
+        - ''
+        - '&7Sunucuda bulunan dünyalara'
+        - '&7kaptan sayesinde'
+        - '&7ışınlanabilirsiniz.'
+        - ''
+        - '&eKaptan için tıklayın.'
+        left_click_commands:
+        - '[player] kaptan'       
+        right_click_commands:
+        - '[player] kaptan'
+      'rank':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFkNTQyNGQ5OTAzOTUzODQzNTI2YTdjNDE2ODY2ZTdkNzk1MDFjODhjZTdjZGFiZWVlNTI4NGVhMzlmIn19fQ==
+        slot: 13
+        display_name: '&6Rütbe &e"/rankup"'
+        lore:
+        - ''
+        - '&7Rütbe atlayarak daha fazla yetkiye'
+        - '&7sahip olur, yani daha güçlü olmuş'
+        - '&7olursunuz.'
+        - ''
+        - '&eRütbeler için tıklayın.'
+        left_click_commands:
+        - '[player] rütbe'
+        - '[close]'           
+        right_click_commands:
+        - '[player] rütbe'
+        - '[close]'     
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNjg4NmU4NGVhZTViYTJiMmI2MDI0MzI0MjljNmZiMjg2OTFmYzAyZTlmOWNjYjVjNTdmMmNkZDBmMWQ4In19fQ==
+        slot: 14
+        display_name: '&6VIP Özellikleri'
+        lore:
+        - ''
+        - '&7Özel oyuncu olmak size'
+        - '&7daha ayrıcalıklı bir oyun'
+        - '&7deneyimini sunar.'
+        - ''
+        - '&eMenüye gitmek için tıklayın.'
+        left_click_commands:
+        - '[player] vipbilgi'
+        right_click_commands:
+        - '[player] vipbilgi'
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjNTEwOWM5YzYzYzI0ZTEyMDQ4MmY0ZDEyZjUxY2Q4ZTUyZDhkMGE1ZmQ2ZWUxOWVjM2ZjZjcxNWMzOTQxNiJ9fX0=
+        slot: 10
+        display_name: '&6Survival &7(%server_unique_joins% kayıtlı oyuncu)'
+        lore:
+        - ''
+        - '&fResmi web sitesi:'
+        - '&dwww.anksoft.web.tr'
+        - ''
+        - '&fYoutube: &awww.youtube.com/anksoft'
+        - '&fInstagram: &awww.instagram.com/anksoft'
+        - '&fDiscord: &adiscord.anksoft.net'
+        - ''
+        - '&7Discord sunucumuza gelerek'
+        - '&7birçok yenilik ve duyurudan'
+        - '&7haberdar olabilirsiniz.'
+        - ''
+        - '&eKatılmak için tıklayın.'
+        left_click_commands:
+        - '[player] discord'
+      '31':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRkNWE3MDcwYjFlMjEyMDc3ZjdiNzdiY2RlMWFlMTkxN2VmNTYxYmNjMWFkMzgyMjk2ZGU0M2E2YjJkYjZhMiJ9fX0=
+        slot: 22
+        display_name: '&6Sistemler'
+        lore:
+        - ''
+        - '&7Merak ettiğiniz başlıca sunucu komutları ve'
+        - '&7sunucu sistemleri hakkında bilgiye buradan'
+        - '&7ulaşabilirsiniz.'
+        - ''
+        - '&eMenüye gitmek için tıklayın.'
+        left_click_commands:
+        - '[player] komutlar'
+        right_click_commands:
+        - '[player] komutlar'
+      '99':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdiMTYwMzE2YmMxMDNjZTk3NmY3Yzg4MmM5MmQ4ZTllODA4NWY4M2NmNzFkNGFkYzNlMjI2OWFkNGY5ZmFjZSJ9fX0=
+        slot: 21
+        display_name: '&6Market'
+        lore:
+        - ''
+        - '&7Sunucuda marketinden eşya satın alabilirsiniz'
+        - '&7veya eşya satabilirsiniz.'
+        - ''
+        - '&eMenüye gitmek için tıklayın.'
+        left_click_commands:
+        - '[player] sanalmarket'       
+      '1231231':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEyYWZhN2JiMDYzYWMxZmYzYmJlMDhkMmM1NThhN2RmMmUyYmFjZGYxNWRhYzJhNjQ2NjJkYzQwZjhmZGJhZCJ9fX0=
+        slot: 19
+        display_name: '&6Bilgilerin'
+        lore:
+        - ''
+        - ' &8▪ &7Isim: &e%player_name%'
+        - ' &8▪ &7Ilk giriş: &e%player_first_join_date%'
+        - ' &8▪ &7Bakiye: &e%vault_eco_balance_formatted%'
+        - ' &8▪ &7Seviye: &e%player_level%'
+        - ' &8▪ &7Can: &e%player_health_rounded%'
+        - ''
+        left_click_commands:
+        - '[player] menu'
+        right_click_commands:
+        - '[player] menu'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4MzJjMTQ2NmM4NDFjYzc5ZDVmMTAyOTVkNDY0Mjc5OTY3OTc1YTI0NTFjN2E1MzNjNzk5Njg5NzQwOGJlYSJ9fX0=
+        slot: 23
+        display_name: '&6Kitler'
+        lore:
+        - ''
+        - '&7Grubunuza, rütbenize göre çeşitli kitler'
+        - '&7mevcuttur. Daha güçlü eşyalara sahip olmak'
+        - '&7için bu kitleri alabilirsiniz.'
+        - ''
+        - '&eKitlere gitmek için tıklayın.'
+        left_click_commands:
+        - '[player] kit'           

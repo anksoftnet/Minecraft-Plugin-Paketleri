@@ -1,0 +1,28 @@
+Bungeecord hakkında:
+	Motd değiştirme:
+		- BungeeCord\plugins\ServerListPlus\ServerListPlus.yml üzerinden düzenleyebilirsiniz.
+	Ayrı sunucu eklemek için:
+		- BungeeCord\config.yml üzerinden ekleyebilirsiniz.
+	
+Çakmalobi hakkında:
+	Authme mesajlarını değiştirme:
+		- Çakmalobi\plugins\AuthMe\messages\messages_en.yml üzerinden düzenleyebilirsiniz.
+	ScoreBoard düzenleme:
+		- Çakmalobi\plugins\TitleManager\config.yml üzerinden düzenleyebilirsiniz.
+		
+Lobi hakkında:
+	Öncelikle lobide sadece oyuncu permi vardır ve grup plugini olarak Luckperms kullanılmaktadır.
+	Kendi sunucunuza göre şekillendirebilirsiniz.
+	Luckperms wikisi: https://luckperms.net/wiki/General-Commands
+	
+	Tab değiştirme:
+		- Lobi\plugins\TAB\config.yml üzerinden düzenleyebilirsiniz.
+	ScoreBoard düzenleme: 
+		- Lobi\plugins\DeluxeHub\config.yml üzerinden değiştirebilirsiniz.
+	/web - /discord komutlarını değiştirme:
+		- Lobi\plugins\DeluxeHub\commands.yml üzerinden değiştirebilirsiniz.
+	NPC komut ekleme:
+		- Oyun içinden npc yi seçerek (/npc select) sonrasında (/npc cmdadd <komut>) ile ekleyebilirsiniz.
+	Bungeecord üzerinden farklı bir sunucuya aktarma:
+		- Lobi\plugins\MyCommand\commands\examples.yml üzerinden ekleyebilirsiniz. Örnek bir config bıraktım :)
+		

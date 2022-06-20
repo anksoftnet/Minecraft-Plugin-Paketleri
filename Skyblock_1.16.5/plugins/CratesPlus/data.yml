@@ -1,0 +1,10 @@
+Data Version: 2
+Crate Locations:
+  spawner:
+  - world|-28|176|0
+  event:
+  - world|-33|176|-7
+  para:
+  - world|-36|176|-11
+  vote:
+  - world|-33|176|-3
