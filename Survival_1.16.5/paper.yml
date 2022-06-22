@@ -101,10 +101,10 @@ world-settings:
     seed-based-feature-search-loads-chunks: true
     max-leash-distance: 10.0
     water-over-lava-flow-speed: 5
-    use-faster-eigencraft-redstone: false
-    grass-spread-tick-rate: 1
+    use-faster-eigencraft-redstone: true
+    grass-spread-tick-rate: 4
     nether-ceiling-void-damage-height: 0
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     allow-non-player-entities-on-scoreboards: false
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
@@ -113,7 +113,7 @@ world-settings:
     disable-teleportation-suffocation-check: false
     skeleton-horse-thunder-spawn-chance: 0.01
     fix-items-merging-through-walls: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 3
     keep-spawn-loaded: true
     disable-ice-and-snow: false
     disable-thunder: false
@@ -132,21 +132,21 @@ world-settings:
     allow-using-signs-inside-spawn-protection: false
     remove-corrupt-tile-entities: false
     experience-merge-max-value: -1
-    per-player-mob-spawns: false
+    per-player-mob-spawns: true
     fixed-chunk-inhabited-time: -1
-    optimize-explosions: false
+    optimize-explosions: true
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     should-remove-dragon: false
     piglins-guard-chests: true
-    max-entity-collisions: 8
+    max-entity-collisions: 2
     fix-wither-targeting-bug: false
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
-    armor-stands-tick: true
-    mob-spawner-tick-rate: 1
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
+    armor-stands-tick: false
+    mob-spawner-tick-rate: 3
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     zombies-target-turtle-eggs: true
@@ -158,14 +158,14 @@ world-settings:
     auto-save-interval: -1
     use-vanilla-world-scoreboard-name-coloring: false
     baby-zombie-movement-modifier: 0.5
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 6
     count-all-mobs-for-spawning: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     filter-nbt-data-from-spawn-eggs-and-related: true
     disable-creeper-lingering-effect: false
     game-mechanics:
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       shield-blocking-delay: 5
       disable-sprint-interruption-on-attack: false
       nerf-pigmen-from-nether-portals: false
@@ -187,7 +187,7 @@ world-settings:
           day: 5
     anti-xray:
       enabled: false
-      engine-mode: 1
+      engine-mode: 2
       max-chunk-section-index: 3
       update-radius: 2
       lava-obscures: false
@@ -212,7 +212,7 @@ world-settings:
       no-tick-view-distance: -1
     hopper:
       cooldown-when-full: true
-      disable-move-event: false
+      disable-move-event: true
     spawn-limits:
       monsters: -1
       animals: -1
@@ -263,6 +263,10 @@ world-settings:
       enabled: false
       items:
         COBBLESTONE: 300
+        NETHERRACK: 300
+        SAND: 300
+        DIRT: 300
+        GRAVEL: 300
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
     squid-spawn-height:
