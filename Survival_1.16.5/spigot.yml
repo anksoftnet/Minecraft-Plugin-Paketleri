@@ -69,7 +69,7 @@ world-settings:
     zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
     end-portal-sound-radius: 0
-    view-distance: default
+    view-distance: 6
     item-despawn-rate: 6000
     arrow-despawn-rate: 300
     trident-despawn-rate: 300
