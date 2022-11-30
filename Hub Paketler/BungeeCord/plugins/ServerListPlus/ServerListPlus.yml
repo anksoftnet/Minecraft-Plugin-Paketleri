@@ -35,13 +35,13 @@
 Default:
   Description:
   - |-
-    &eAnkSoft.Net &6| 1.8-1.18.
-    &7Burayı kendinize göre kişişelleştirin!
+    &c&lAnkSOFT.Net &8- &f1.8-1.19.2
+    &eplugins\ServerListPlus\ServerListPlus.yml!
 Personalized:
   Description:
   - |-
-    &eAnkSoft.Net &6| &eMerhaba, &l%player%!
-    &7Burayı kendinize göre kişişelleştirin!
+    &c&lAnkSOFT.Net &8- &fMerhaba, &l%player%!
+    &eplugins\ServerListPlus\ServerListPlus.yml!
 # Stats: Enable/disable sending plugin statistics.
 # PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
 #   - Persistence can be disabled with the toggle in the Storage section.
