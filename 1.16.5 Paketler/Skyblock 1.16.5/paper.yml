@@ -1,14 +1,14 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# 
+#
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-# 
+#
 # Discord: https://discord.gg/papermc
-# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
-# Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper )
+# Website: https://papermc.io/
+# Docs: https://paper.readthedocs.org/
 
 verbose: false
 use-display-name-in-quit-message: false
@@ -33,12 +33,15 @@ settings:
     allow-headless-pistons: false
     allow-piston-duplication: false
     allow-permanent-block-break-exploits: false
-    allow-headless-pistons-readme: This setting controls if players should be able
+    allow-headless-pistons-readme:
+      This setting controls if players should be able
       to create headless pistons.
-    allow-piston-duplication-readme: This setting controls if player should be able
+    allow-piston-duplication-readme:
+      This setting controls if player should be able
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
-    allow-permanent-block-break-exploits-readme: This setting controls if players
+    allow-permanent-block-break-exploits-readme:
+      This setting controls if players
       should be able to break bedrock, end portals and other intended to be permanent
       blocks.
   watchdog:
@@ -60,7 +63,7 @@ settings:
   velocity-support:
     enabled: false
     online-mode: false
-    secret: ''
+    secret: ""
   console:
     enable-brigadier-highlighting: true
     enable-brigadier-completions: true
@@ -70,11 +73,12 @@ settings:
   async-chunks:
     threads: -1
 messages:
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
+  no-permission:
+    "&cI'm sorry, but you do not have permission to perform this command.
+    Please contact the server administrators if you believe that this is in error."
   kick:
     connection-throttle: Connection throttled! Please wait before reconnecting.
-    authentication-servers-down: ''
+    authentication-servers-down: ""
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
 timings:
@@ -82,14 +86,14 @@ timings:
   verbose: true
   server-name-privacy: false
   hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
-  - settings.velocity-support.secret
-  - server-ip
-  - settings.seed
-  - settings.seed.dungeon
-  - settings.seed.end-spike
-  - worldgen.seeds.populator
+    - database
+    - settings.bungeecord-addresses
+    - settings.velocity-support.secret
+    - server-ip
+    - settings.seed
+    - settings.seed.dungeon
+    - settings.seed.end-spike
+    - worldgen.seeds.populator
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -204,10 +208,10 @@ world-settings:
       skeletons: false
     door-breaking-difficulty:
       zombie:
-      - HARD
+        - HARD
       vindicator:
-      - NORMAL
-      - HARD
+        - NORMAL
+        - HARD
     spawn-limits:
       monsters: -1
       animals: -1
@@ -263,20 +267,20 @@ world-settings:
       lava-obscures: false
       use-permission: false
       hidden-blocks:
-      - gold_ore
-      - iron_ore
-      - coal_ore
-      - lapis_ore
-      - mossy_cobblestone
-      - obsidian
-      - chest
-      - diamond_ore
-      - redstone_ore
-      - clay
-      - emerald_ore
-      - ender_chest
+        - gold_ore
+        - iron_ore
+        - coal_ore
+        - lapis_ore
+        - mossy_cobblestone
+        - obsidian
+        - chest
+        - diamond_ore
+        - redstone_ore
+        - clay
+        - emerald_ore
+        - ender_chest
       replacement-blocks:
-      - stone
-      - oak_planks
+        - stone
+        - oak_planks
     squid-spawn-height:
       maximum: 0.0
