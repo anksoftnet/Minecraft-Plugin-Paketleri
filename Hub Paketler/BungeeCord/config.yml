@@ -45,10 +45,10 @@ disabled_commands:
   - disabledcommandhere
 servers:
   cakmalobi:
-    motd: "&1Just another FlameCord - Forced Host"
+    motd: "Server 1"
     address: localhost:25560
     restricted: false
   lobi:
-    motd: "&1Just another FlameCord - Forced Host"
+    motd: "Server 2"
     address: localhost:25561
     restricted: false
