@@ -10,7 +10,7 @@
 Tada 🎉 Korumalı paketin hazır, dilediğin gibi kullanabilirsin.
 
 # Not
-Herhangi bir hata bulursanız veya sorunuz varsa bana ulaşmaktan çekinmeyin.
+Herhangi bir hata bulursanız veya sorunuz varsa bize ulaşmaktan çekinmeyin.
 
 [Site](https://anksoft.net) / [Discord](https://anksoft.net/discord)
 
