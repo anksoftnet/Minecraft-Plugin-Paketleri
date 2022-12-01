@@ -20,30 +20,29 @@
 # - See http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
 # - Now with multiworld support (see example)
 
-
 ignore-nijiperms-bridges: true
 resolvers:
     enabled:
-    - PluginPermissionsResolver
-    - PermissionsExResolver
-    - bPermissionsResolver
-    - GroupManagerResolver
-    - NijiPermissionsResolver
-    - DinnerPermsResolver
-    - FlatFilePermissionsResolver
+        - PluginPermissionsResolver
+        - PermissionsExResolver
+        - bPermissionsResolver
+        - GroupManagerResolver
+        - NijiPermissionsResolver
+        - DinnerPermsResolver
+        - FlatFilePermissionsResolver
 permissions:
     groups:
         default:
             permissions:
-            - worldedit.reload
-            - worldedit.selection
-            - worlds.creative.worldedit.region
+                - worldedit.reload
+                - worldedit.selection
+                - worlds.creative.worldedit.region
         admins:
             permissions:
-            - '*'
+                - "*"
     users:
         sk89q:
             permissions:
-            - worldedit
+                - worldedit
             groups:
-            - admins
+                - admins

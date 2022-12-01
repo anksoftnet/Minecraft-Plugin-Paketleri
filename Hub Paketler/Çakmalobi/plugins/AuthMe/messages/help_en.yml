@@ -3,29 +3,29 @@
 # -------------------------------------------------------
 # List of texts used in the help section
 common:
-    header: '==========[ AuthMeReloaded HELP ]=========='
-    optional: 'Optional'
-    hasPermission: 'You have permission'
-    noPermission: 'No permission'
-    default: 'Default'
-    result: 'Result'
+    header: "==========[ AuthMeReloaded HELP ]=========="
+    optional: "Optional"
+    hasPermission: "You have permission"
+    noPermission: "No permission"
+    default: "Default"
+    result: "Result"
     defaultPermissions:
-        notAllowed: 'No permission'
-        opOnly: 'OP''s only'
-        allowed: 'Everyone allowed'
+        notAllowed: "No permission"
+        opOnly: "OP's only"
+        allowed: "Everyone allowed"
 
 # -------------------------------------------------------
 # Titles of the individual help sections
 # Set the translation text to empty text to disable the section, e.g. to hide alternatives:
 #   alternatives: ''
 section:
-    command: 'Command'
-    description: 'Short description'
-    detailedDescription: 'Detailed description'
-    arguments: 'Arguments'
-    permissions: 'Permissions'
-    alternatives: 'Alternatives'
-    children: 'Commands'
+    command: "Command"
+    description: "Short description"
+    detailedDescription: "Detailed description"
+    arguments: "Arguments"
+    permissions: "Permissions"
+    alternatives: "Alternatives"
+    children: "Commands"
 
 # -------------------------------------------------------
 # You can translate the data for all commands using the below pattern.
@@ -35,11 +35,11 @@ section:
 # Important: Put main commands like "authme" before their children (e.g. "authme.reload")
 commands:
     authme.register:
-        description: 'Register a player'
-        detailedDescription: 'Register the specified player with the specified password.'
+        description: "Register a player"
+        detailedDescription: "Register the specified player with the specified password."
         arg1:
-            label: 'player'
-            description: 'Player name'
+            label: "player"
+            description: "Player name"
         arg2:
-            label: 'password'
-            description: 'Password'
+            label: "password"
+            description: "Password"

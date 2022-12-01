@@ -1,17 +1,16 @@
-
 # This configuration file allows you to execute commands on various events.
 # Supported placeholders in commands:
 #   %p is replaced with the player name.
 #   %nick is replaced with the player's nick name
 #   %ip is replaced with the player's IP address
 #   %country is replaced with the player's country
-# 
+#
 # For example, if you want to send a welcome message to a player who just registered:
 # onRegister:
 #   welcome:
 #     command: 'msg %p Welcome to the server!'
 #     executor: CONSOLE
-# 
+#
 # This will make the console execute the msg command to the player.
 # Each command under an event has a name you can choose freely (e.g. 'welcome' as above),
 # after which a mandatory 'command' field defines the command to run,
@@ -23,16 +22,16 @@
 #   broadcast:
 #     command: 'broadcast %p has joined, welcome back!'
 #     executor: CONSOLE
-# 
+#
 # You can also add delay to command. It will run after the specified ticks. Example:
 # onLogin:
 #   rules:
 #     command: 'rules'
 #     executor: PLAYER
 #     delay: 200
-# 
+#
 # Supported command events: onLogin, onSessionLogin, onFirstLogin, onJoin, onLogout, onRegister, onUnregister
-# 
+#
 # For onLogin and onFirstLogin, you can use 'ifNumberOfAccountsLessThan' and 'ifNumberOfAccountsAtLeast'
 # to specify limits to how many accounts a player can have (matched by IP) for a command to be run:
 # onLogin:
@@ -43,14 +42,13 @@
 # Commands to run for players logging in whose 'last login date' was empty
 onFirstLogin:
   sunucugec:
-    command: 'sunucugec'
+    command: "sunucugec"
     executor: PLAYER
 onJoin: {}
 onLogin:
   sunucugec:
-    command: 'sunucugec'
+    command: "sunucugec"
     executor: PLAYER
-
 
 # These commands are called whenever a logged in player uses /logout or quits.
 # The commands are not run if a player that was not logged in quits the server.
@@ -59,11 +57,11 @@ onLogin:
 onLogout: {}
 onRegister:
   sunucugec:
-    command: 'sunucugec'
+    command: "sunucugec"
     executor: PLAYER
 onSessionLogin:
   sunucugec:
-    command: 'sunucugec'
+    command: "sunucugec"
     executor: PLAYER
 # Commands to run whenever a player is unregistered (by himself, or by an admin)
 onUnregister: {}

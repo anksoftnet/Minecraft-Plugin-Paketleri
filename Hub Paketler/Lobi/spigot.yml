@@ -3,10 +3,10 @@
 # with caution, and make sure you know what each option does before configuring.
 # For a reference for any variable inside this file, check out the Spigot wiki at
 # http://www.spigotmc.org/wiki/spigot-configuration/
-# 
+#
 # If you need help with the configuration or have any questions related to Spigot,
 # join us at the IRC or drop by our forums and leave a post.
-# 
+#
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
@@ -40,12 +40,12 @@ stats:
 commands:
   silent-commandblock-console: false
   spam-exclusions:
-  - /skill
+    - /skill
   replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
+    - setblock
+    - summon
+    - testforblock
+    - tellraw
   log: true
   tab-complete: 0
 messages:
@@ -60,8 +60,8 @@ timings:
   verbose: true
   server-name-privacy: false
   hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
+    - database
+    - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
 world-settings:
@@ -87,22 +87,22 @@ world-settings:
       enabled: true
       engine-mode: 1
       hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
+        - 14
+        - 15
+        - 16
+        - 21
+        - 48
+        - 49
+        - 54
+        - 56
+        - 73
+        - 74
+        - 82
+        - 129
+        - 130
       replace-blocks:
-      - 1
-      - 5
+        - 1
+        - 5
     max-bulk-chunks: 10
     entity-activation-range:
       animals: 32

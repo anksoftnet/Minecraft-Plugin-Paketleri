@@ -8,7 +8,7 @@ DataSource:
     # Database host address
     mySQLHost: localhost
     # Database port
-    mySQLPort: '3306'
+    mySQLPort: "3306"
     # Connect to MySQL database over SSL
     mySQLUseSSL: true
     # Verification of server's certificate.
@@ -18,7 +18,7 @@ DataSource:
     # Username to connect to the MySQL database
     mySQLUsername: root
     # Password to connect to the MySQL database
-    mySQLPassword: ''
+    mySQLPassword: ""
     # Driver Name of the MySQL database
     mySQLDriverClassName: com.mysql.jdbc.Driver
     # Database Name, use with converters or as SQLITE database name
@@ -34,7 +34,7 @@ DataSource:
     # Column for storing players passwords
     mySQLColumnPassword: password
     # Column for storing players passwords salts
-    mySQLColumnSalt: ''
+    mySQLColumnSalt: ""
     # Column for storing players emails
     mySQLColumnEmail: email
     # Column for storing if a player is logged in or not
@@ -64,7 +64,7 @@ DataSource:
     # Column for storing player LastLocation - Pitch
     mySQLlastlocPitch: pitch
     # Column for storing players uuids (optional)
-    mySQLPlayerUUID: ''
+    mySQLPlayerUUID: ""
     # Overrides the size of the DB Connection Pool, default = 10
     poolSize: 10
     # The maximum lifetime of a connection in the pool, default = 1800 seconds
@@ -72,7 +72,7 @@ DataSource:
     maxLifetime: 1800
 ExternalBoardOptions:
     # Column for storing players groups
-    mySQLColumnGroup: ''
+    mySQLColumnGroup: ""
     # -1 means disabled. If you want that only activated players
     # can log into your server, you can set here the group number
     # of unactivated users, needed for some forum/CMS support
@@ -129,16 +129,16 @@ settings:
         # Hide the chat log from players who are not authenticated?
         hideChat: false
         # Allowed commands for unauthenticated players
-        allowCommands: 
-        - /login
-        - /log
-        - /l
-        - /register
-        - /reg
-        - /email
-        - /captcha
-        - /2fa
-        - /totp
+        allowCommands:
+            - /login
+            - /log
+            - /l
+            - /register
+            - /reg
+            - /email
+            - /captcha
+            - /2fa
+            - /totp
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
         maxRegPerIp: 1
@@ -159,10 +159,10 @@ settings:
             enabled: false
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds: 
-            - world
-            - world_nether
-            - world_the_end
+            worlds:
+                - world
+                - world_nether
+                - world_the_end
         # This option will save the quit location of the players.
         SaveQuitLocation: false
         # To activate the restricted user feature you need
@@ -192,7 +192,7 @@ settings:
         # be kicked? Set to 0 to disable.
         timeout: 30
         # Regex pattern of allowed characters in the player name.
-        allowedNicknameCharacters: '[a-zA-Z0-9_]*'
+        allowedNicknameCharacters: "[a-zA-Z0-9_]*"
         # How far can unregistered players walk?
         # Set to 0 for unlimited radius
         allowedMovementRadius: 100
@@ -214,7 +214,7 @@ settings:
         # Regex syntax for allowed chars in passwords. The default [!-~] allows all visible ASCII
         # characters, which is what we recommend. See also http://asciitable.com
         # You can test your regex with https://regex101.com
-        allowedPasswordCharacters: '[!-~]*'
+        allowedPasswordCharacters: "[!-~]*"
     GameMode:
         # Force survival gamemode when player joins?
         ForceSurvivalMode: false
@@ -262,14 +262,14 @@ settings:
         # - '123456'
         # - 'password'
         # - 'help'
-        unsafePasswords: 
-        - '123456'
-        - password
-        - qwerty
-        - '12345'
-        - '54321'
-        - '123456789'
-        - help
+        unsafePasswords:
+            - "123456"
+            - password
+            - qwerty
+            - "12345"
+            - "54321"
+            - "123456789"
+            - help
     registration:
         # Enable registration on the server?
         enabled: true
@@ -312,7 +312,7 @@ settings:
     # {PLAYERNAME}: the player name (no colors)
     # {DISPLAYNAME}: the player display name (with colors)
     # {DISPLAYNAMENOCOLOR}: the player display name (without colors)
-    customJoinMessage: ''
+    customJoinMessage: ""
     # Should we remove the leave messages of unlogged users?
     removeUnloggedLeaveMessage: false
     # Should we remove join messages altogether?
@@ -338,10 +338,10 @@ GroupOptions:
     # Please note that the group name is case-sensitive, so 'admin' is different from 'Admin'
     # Otherwise your group will be wiped and the player will join in the default group []!
     # Example: registeredPlayerGroup: 'NotLogged'
-    registeredPlayerGroup: ''
+    registeredPlayerGroup: ""
     # Similar to above, unregistered players can be set to the following
     # permissions group
-    unregisteredPlayerGroup: ''
+    unregisteredPlayerGroup: ""
 Email:
     # Email SMTP server host
     mailSMTP: smtp.gmail.com
@@ -350,13 +350,13 @@ Email:
     # Only affects port 25: enable TLS/STARTTLS?
     useTls: true
     # Email account which sends the mails
-    mailAccount: ''
+    mailAccount: ""
     # Email account password
-    mailPassword: ''
+    mailPassword: ""
     # Email address, fill when mailAccount is not the email address of the account
-    mailAddress: ''
+    mailAddress: ""
     # Custom sender name, replacing the mailAccount name in the email
-    mailSenderName: ''
+    mailSenderName: ""
     # Recovery password length
     RecoveryPasswordLength: 8
     # Mail Subject
@@ -368,21 +368,21 @@ Email:
     # Delay in minute for the recall scheduler
     delayRecall: 5
     # Blacklist these domains for emails
-    emailBlacklisted: 
-    - 10minutemail.com
+    emailBlacklisted:
+        - 10minutemail.com
     # Whitelist ONLY these domains for emails
     emailWhitelisted: []
     # Send the new password drawn in an image?
     generateImage: false
     # The OAuth2 token
-    emailOauth2Token: ''
+    emailOauth2Token: ""
 Hooks:
     # Do we need to hook with multiverse for spawn checking?
     multiverse: true
     # Do we need to hook with BungeeCord?
     bungeecord: false
     # Send player to this BungeeCord server after register/login
-    sendPlayerTo: ''
+    sendPlayerTo: ""
     # Do we need to disable Essentials SocialSpy on join?
     disableSocialSpy: false
     # Do we need to force /motd Essentials command on join?
@@ -397,21 +397,21 @@ Protection:
         # get one at https://www.maxmind.com/en/accounts/current/license-key
         # The EssentialsX project has a very useful tutorial on how to generate
         # the license key: https://essentialsx.cf/wiki/GeoIP.html
-        clientId: ''
+        clientId: ""
         # The MaxMind licenseKey used to download the GeoIp database.
-        licenseKey: ''
+        licenseKey: ""
     # Countries allowed to join the server and register. For country codes, see
     # https://dev.maxmind.com/geoip/legacy/codes/iso3166/
     # Use "LOCALHOST" for local addresses.
     # PLEASE USE QUOTES!
-    countries: 
-    - US
-    - GB
-    - LOCALHOST
+    countries:
+        - US
+        - GB
+        - LOCALHOST
     # Countries not allowed to join the server and register
     # PLEASE USE QUOTES!
-    countriesBlacklist: 
-    - A1
+    countriesBlacklist:
+        - A1
     # Do we need to enable automatic antibot system?
     enableAntiBot: true
     # The interval in seconds
@@ -476,7 +476,7 @@ Security:
         minutesBeforeCounterReset: 480
         # The command to execute instead of using the internal ban system, empty if disabled.
         # Available placeholders: %player%, %ip%
-        customCommand: ''
+        customCommand: ""
     recoveryCode:
         # Number of characters a recovery code should have (0 to disable)
         length: 8
@@ -563,10 +563,10 @@ Converter:
         useSqlite: true
         mySql:
             # LoginSecurity MySQL: database host
-            host: ''
+            host: ""
             # LoginSecurity MySQL: database name
-            database: ''
+            database: ""
             # LoginSecurity MySQL: database user
-            user: ''
+            user: ""
             # LoginSecurity MySQL: password for database user
-            password: ''
+            password: ""
