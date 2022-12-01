@@ -1,12 +1,12 @@
 # This is the main configuration file for Purpur.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# 
+#
 # If you need help with the configuration or have any questions related to Purpur,
 # join us in our Discord guild.
-# 
-# Website: https://github.com/pl3xgaming/Purpur 
-# Wiki: https://github.com/pl3xgaming/Purpur/wiki 
+#
+# Website: https://github.com/pl3xgaming/Purpur
+# Wiki: https://github.com/pl3xgaming/Purpur/wiki
 
 verbose: false
 config-version: 13
@@ -21,8 +21,8 @@ settings:
   messages:
     afk-broadcast-away: §e§o%s is now AFK
     afk-broadcast-back: §e§o%s is no longer AFK
-    afk-tab-list-prefix: '[AFK] '
-    afk-tab-list-suffix: ''
+    afk-tab-list-prefix: "[AFK] "
+    afk-tab-list-suffix: ""
     demo-command-output: §a%s has been shown the demo screen
     credits-command-output: §a%s has been shown the end credits
     ping-command-output: §a%s's ping is %sms
@@ -90,7 +90,7 @@ world-settings:
       animal-breeding-cooldown-seconds: 0
       tick-fluids: true
       shovel-turns-block-to-grass-path:
-      - minecraft:grass_block
+        - minecraft:grass_block
       entity-blindness-multiplier: 1.0
       player:
         fix-stuck-in-portal: false
@@ -215,12 +215,12 @@ world-settings:
         enabled: false
         spawner-name: Spawner
         spawner-lore:
-        - Spawns a {mob}
+          - Spawns a {mob}
         tools:
-        - minecraft:iron_pickaxe
-        - minecraft:golden_pickaxe
-        - minecraft:diamond_pickaxe
-        - minecraft:netherite_pickaxe
+          - minecraft:iron_pickaxe
+          - minecraft:golden_pickaxe
+          - minecraft:diamond_pickaxe
+          - minecraft:netherite_pickaxe
     blocks:
       no-random-tick: []
       stonecutter:
@@ -494,7 +494,7 @@ world-settings:
       polar_bear:
         ridable: false
         ridable-in-water: false
-        breedable-item: ''
+        breedable-item: ""
         breeding-delay-ticks: 6000
         attributes:
           max_health: 30.0
@@ -538,16 +538,16 @@ world-settings:
         ridable-in-water: false
         bypass-mob-griefing: false
         griefable-blocks:
-        - minecraft:oak_leaves
-        - minecraft:spruce_leaves
-        - minecraft:birch_leaves
-        - minecraft:jungle_leaves
-        - minecraft:acacia_leaves
-        - minecraft:dark_oak_leaves
-        - minecraft:beetroots
-        - minecraft:carrots
-        - minecraft:potatoes
-        - minecraft:wheat
+          - minecraft:oak_leaves
+          - minecraft:spruce_leaves
+          - minecraft:birch_leaves
+          - minecraft:jungle_leaves
+          - minecraft:acacia_leaves
+          - minecraft:dark_oak_leaves
+          - minecraft:beetroots
+          - minecraft:carrots
+          - minecraft:potatoes
+          - minecraft:wheat
         attributes:
           max_health: 100.0
       squid:

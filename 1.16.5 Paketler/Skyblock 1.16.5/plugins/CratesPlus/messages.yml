@@ -10,18 +10,21 @@
 # - %prize% - The name of the winning.
 # - %percentage% - Percentage of the winning, useful for "Chance Message".
 
-Prefix: '&3Skyblock &8»'
-Command No Permission: '&cBu komutu kullanabilmek için yetkin yok.'
-Crate No Permission: '&cBu kasayı açmak için yetkin yok.'
-Crate Open Without Key: '&cBu kasayı açabilmek için %crate% &cadlı kasa anahtarın
-  olması lazım!'
-Key Given: '&aEnvanterine %crate% &acadlı kasa anahtarı verildi.'
-Broadcast: '&d%displayname% &dopened a %crate% &dcrate'
-Cant Place: '&cYou can not place crate keys'
-Cant Drop: '&cYou can not drop crate keys'
-Chance Message: '&d%percentage%% Chance'
-Inventory Full Claim: '&7Envanterin dolu olduğu için &e/crate &7komutunu kullanarak
-  kasa anahtarını alabilirsin.'
-Claim Join: '&7Alınmamış kasa anahtarların var. &e/crate &7komutunu kullan anahtarlarını
-  al.'
-Possible Wins Title: 'Possible Wins:'
+Prefix: "&3Skyblock &8»"
+Command No Permission: "&cBu komutu kullanabilmek için yetkin yok."
+Crate No Permission: "&cBu kasayı açmak için yetkin yok."
+Crate Open Without Key:
+  "&cBu kasayı açabilmek için %crate% &cadlı kasa anahtarın
+  olması lazım!"
+Key Given: "&aEnvanterine %crate% &acadlı kasa anahtarı verildi."
+Broadcast: "&d%displayname% &dopened a %crate% &dcrate"
+Cant Place: "&cYou can not place crate keys"
+Cant Drop: "&cYou can not drop crate keys"
+Chance Message: "&d%percentage%% Chance"
+Inventory Full Claim:
+  "&7Envanterin dolu olduğu için &e/crate &7komutunu kullanarak
+  kasa anahtarını alabilirsin."
+Claim Join:
+  "&7Alınmamış kasa anahtarların var. &e/crate &7komutunu kullan anahtarlarını
+  al."
+Possible Wins Title: "Possible Wins:"

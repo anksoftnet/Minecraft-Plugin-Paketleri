@@ -13,7 +13,7 @@ player-chunks:
   target-chunk-send-rate: -35.0
   enable-frustum-priority: false
 packet-limiter:
-  kick-message: '&cSent too many packets'
+  kick-message: "&cSent too many packets"
   limits:
     all:
       interval: 7.0

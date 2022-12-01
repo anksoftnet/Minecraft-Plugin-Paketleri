@@ -1,5 +1,5 @@
 # Config file for SimpleVIPPerks - Created by Chalkie.
-# 
+#
 # All times are minutes BESIDES RegTime, that is in seconds.
 # Effects option is Dragon sound, Lighting ect when using a Perk.
 Settings:
@@ -24,13 +24,13 @@ Settings:
   InvTime: 1
   SeeTime: 1
 Messages:
-  Speed: '&6You have been imbued with the speed of the Ender Dragon'
-  Jump: '&6You have been imbued with the acrobatics of the Ender Dragon'
-  Strength: '&6You have been imbued with the strength of the Ender Dragon'
-  Air: '&6You have been imbued with the breath of the Ender Dragon'
-  FireResistance: '&6You have been imbued with the fire resistance of the Ender Dragon'
-  Dig: '&6You have been imbued with the digging power of the Ender Dragon'
-  Resistance: '&6You have been imbued with the damage resistance of the Ender Dragon'
-  Regeneration: '&6You have been imbued with the regeneration of the Ender Dragon'
-  Invisibility: '&6You have been imbued with the stealth of the Ender Dragon'
-  NightVision: '&6You have been imbued with the vision of the Ender Dragon'
+  Speed: "&6You have been imbued with the speed of the Ender Dragon"
+  Jump: "&6You have been imbued with the acrobatics of the Ender Dragon"
+  Strength: "&6You have been imbued with the strength of the Ender Dragon"
+  Air: "&6You have been imbued with the breath of the Ender Dragon"
+  FireResistance: "&6You have been imbued with the fire resistance of the Ender Dragon"
+  Dig: "&6You have been imbued with the digging power of the Ender Dragon"
+  Resistance: "&6You have been imbued with the damage resistance of the Ender Dragon"
+  Regeneration: "&6You have been imbued with the regeneration of the Ender Dragon"
+  Invisibility: "&6You have been imbued with the stealth of the Ender Dragon"
+  NightVision: "&6You have been imbued with the vision of the Ender Dragon"

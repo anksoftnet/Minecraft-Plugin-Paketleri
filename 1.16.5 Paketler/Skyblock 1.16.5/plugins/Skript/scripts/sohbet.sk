@@ -1,5 +1,5 @@
 ﻿
-# Sohbeti silme - efepolat.xyz
+# Sohbeti silme 
 command /sil:  
 	permission: sil.yetki
 	permission message: &fBilinmeyen komut.
@@ -9,7 +9,7 @@ command /sil:
 		broadcast "&3Sohbet &8» &7Sohbet, &6%player% &7tarafından temizlendi."
 		stop
 
-# Sohbeti açıp kapatma - efepolat.xyz
+# Sohbeti açıp kapatma 
 Command /sohbet <text>:
 	permission: chatackapa.yetki
 	trigger:
@@ -28,7 +28,7 @@ on chat:
 			cancel event
 			send "&3Sohbet &8» &eSohbet &ckapalıyken &eyazı yazamassın." to player
 			
-# Susturma - efepolat.xyz
+# Susturma 
 command /sus [<text>] [<text>] [<text>]:
 	permission: sustur.yetki
 	permission message: &cYetkin yok.
@@ -44,7 +44,7 @@ command /sus [<text>] [<text>] [<text>]:
 			execute console command "/tempmute %arg 1% %arg 2%"
 			broadcast "&3Anons &8» &c%arg 1% &7adlı oyuncu &a%player% &7tarafından &3%arg 3% &7sebebi ile &b%arg 2% süre boyunca susturuldu."	
 
-# Çekiliş - efepolat.xyz
+# Çekiliş 
 command /cekilisbaslat:
     trigger:
         if player has permission "cekilis.yetki":
@@ -70,7 +70,7 @@ command /cekilisbaslat:
             clear {oyuncular::*}
 
 
-# Para eventi - efepolat.xyz	
+# Para eventi 	
 command /herkeseparaver [<integer>]:
     trigger:
         if player has permission "paraver.yetki":

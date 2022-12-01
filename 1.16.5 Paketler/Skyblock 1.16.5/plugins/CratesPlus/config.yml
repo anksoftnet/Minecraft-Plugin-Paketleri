@@ -22,34 +22,34 @@ Default Cooldown: 5
 Crate Protection: false
 Disable Key Swapping: false
 Default Hologram Text:
-- null
+  - null
 Crates:
   Spawner:
     Winnings:
-      '1':
+      "1":
         Type: ITEM
         Item Type: SPAWNER
         Item Data: 0
         Percentage: 0
-        Name: '&eSkeleton &fSpawner'
+        Name: "&eSkeleton &fSpawner"
         Amount: 1
-      '2':
+      "2":
         Type: ITEM
         Item Type: SPAWNER
         Item Data: 0
         Percentage: 0
-        Name: '&eCow &fSpawner'
+        Name: "&eCow &fSpawner"
         Amount: 1
-      '3':
+      "3":
         Type: ITEM
         Item Type: SPAWNER
         Item Data: 0
         Percentage: 0
-        Name: '&eSheep &fSpawner'
+        Name: "&eSheep &fSpawner"
         Amount: 1
     Key:
       Item: TRIPWIRE_HOOK
-      Name: '%type% Kasa Anahtarı'
+      Name: "%type% Kasa Anahtarı"
       Enchanted: true
     Knockback: 0.0
     Broadcast: false
@@ -59,37 +59,37 @@ Crates:
     Color: WHITE
   Para:
     Winnings:
-      '1':
+      "1":
         Type: ITEM
         Item Type: PAPER
         Item Data: 0
         Percentage: 0
-        Name: '&a100TL'
+        Name: "&a100TL"
         Amount: 1
-      '2':
+      "2":
         Type: ITEM
         Item Type: PAPER
         Item Data: 0
         Percentage: 0
-        Name: '&a150TL'
+        Name: "&a150TL"
         Amount: 1
-      '3':
+      "3":
         Type: ITEM
         Item Type: PAPER
         Item Data: 0
         Percentage: 0
-        Name: '&a200TL'
+        Name: "&a200TL"
         Amount: 1
-      '4':
+      "4":
         Type: ITEM
         Item Type: PAPER
         Item Data: 0
         Percentage: 0
-        Name: '&a250TL'
+        Name: "&a250TL"
         Amount: 1
     Key:
       Item: TRIPWIRE_HOOK
-      Name: '%type% Kasa Anahtarı'
+      Name: "%type% Kasa Anahtarı"
       Enchanted: true
     Knockback: 0.0
     Broadcast: false
@@ -99,51 +99,51 @@ Crates:
     Color: WHITE
   Event:
     Winnings:
-      '1':
+      "1":
         Type: ITEM
         Item Type: DIAMOND
         Item Data: 0
         Percentage: 0
-        Name: '&fElmas'
+        Name: "&fElmas"
         Amount: 4
-      '2':
+      "2":
         Type: ITEM
         Item Type: EMERALD
         Item Data: 0
         Percentage: 0
-        Name: '&aZümrüt'
+        Name: "&aZümrüt"
         Amount: 6
-      '3':
+      "3":
         Type: ITEM
         Item Type: GOLD_BLOCK
         Item Data: 0
         Percentage: 0
-        Name: '&eAltın Blok'
+        Name: "&eAltın Blok"
         Amount: 8
-      '4':
+      "4":
         Type: ITEM
         Item Type: IRON_BLOCK
         Item Data: 0
         Percentage: 0
-        Name: '&fDemir Blok'
+        Name: "&fDemir Blok"
         Amount: 12
-      '5':
+      "5":
         Type: ITEM
         Item Type: EMERALD_BLOCK
         Item Data: 0
         Percentage: 0
-        Name: '&AZümrüt Blok'
+        Name: "&AZümrüt Blok"
         Amount: 2
-      '6':
+      "6":
         Type: ITEM
         Item Type: TRIPWIRE_HOOK
         Item Data: 0
         Percentage: 0
-        Name: '&fSpawner Kasa Anahtarı'
+        Name: "&fSpawner Kasa Anahtarı"
         Amount: 1
     Key:
       Item: TRIPWIRE_HOOK
-      Name: '%type% Kasa Anahtarı'
+      Name: "%type% Kasa Anahtarı"
       Enchanted: true
     Knockback: 0.0
     Broadcast: false
@@ -153,37 +153,37 @@ Crates:
     Color: WHITE
   Vote:
     Winnings:
-      '1':
+      "1":
         Type: ITEM
         Item Type: TRIPWIRE_HOOK
         Item Data: 0
         Percentage: 0
-        Name: '&fSpawner Kasa Anahtarı'
+        Name: "&fSpawner Kasa Anahtarı"
         Amount: 2
-      '2':
+      "2":
         Type: ITEM
         Item Type: EMERALD_BLOCK
         Item Data: 0
         Percentage: 0
-        Name: '&AZümrüt Blok'
+        Name: "&AZümrüt Blok"
         Amount: 8
-      '4':
+      "4":
         Type: ITEM
         Item Type: PAPER
         Item Data: 0
         Percentage: 0
-        Name: '&a500TL'
+        Name: "&a500TL"
         Amount: 1
-      '3':
+      "3":
         Type: ITEM
         Item Type: DIAMOND
         Item Data: 0
         Percentage: 0
-        Name: '&fElmas'
+        Name: "&fElmas"
         Amount: 16
     Key:
       Item: TRIPWIRE_HOOK
-      Name: '%type% Kasa Anahtarı'
+      Name: "%type% Kasa Anahtarı"
       Enchanted: true
     Knockback: 0.0
     Broadcast: false

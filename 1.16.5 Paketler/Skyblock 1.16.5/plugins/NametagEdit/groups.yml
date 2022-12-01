@@ -1,71 +1,66 @@
 Groups:
   Kurucu:
     Permission: nte.kurucu
-    Prefix: '&4Yönetici &c'
-    Suffix: '&f'
+    Prefix: "&4Yönetici &c"
+    Suffix: "&f"
     SortPriority: 1
   Admin:
     Permission: nte.admin
-    Prefix: '&4Admin &c'
-    Suffix: '&f'
+    Prefix: "&4Admin &c"
+    Suffix: "&f"
     SortPriority: 2
   Moderatör:
     Permission: nte.moderator
-    Prefix: '&5Moderatör &d'
-    Suffix: '&f'
+    Prefix: "&5Moderatör &d"
+    Suffix: "&f"
     SortPriority: 3
-  Admin:
-    Permission: nte.rehber
-    Prefix: '&2Rehber &6'
-    Suffix: '&f'
-    SortPriority: 4
   MVIP+:
     Permission: nte.mvip+
-    Prefix: '&aMVIP&c+ &e'
-    Suffix: '&f'
+    Prefix: "&aMVIP&c+ &e"
+    Suffix: "&f"
     SortPriority: 5
   MVIP:
     Permission: nte.mvip
-    Prefix: '&aMVIP &e'
-    Suffix: '&f'
+    Prefix: "&aMVIP &e"
+    Suffix: "&f"
     SortPriority: 6
   VIP+:
     Permission: nte.vip+
-    Prefix: '&6VIP&c+ &e'
-    Suffix: '&f'
+    Prefix: "&6VIP&c+ &e"
+    Suffix: "&f"
     SortPriority: 7
   VIP:
     Permission: nte.vip
-    Prefix: '&6VIP &e'
-    Suffix: '&f'
+    Prefix: "&6VIP &e"
+    Suffix: "&f"
     SortPriority: 8
   SkyDevil:
     Permission: nte.skydevil
-    Prefix: '&4SkyDevil &7'
-    Suffix: '&f'
+    Prefix: "&4SkyDevil &7"
+    Suffix: "&f"
     SortPriority: 9
   SkyKing:
     Permission: nte.skyking
-    Prefix: '&cSkyKing &7'
-    Suffix: '&f'
+    Prefix: "&cSkyKing &7"
+    Suffix: "&f"
     SortPriority: 10
   SkyLord:
     Permission: nte.skylord
-    Prefix: '&eSkyLord &7'
-    Suffix: '&f'
+    Prefix: "&eSkyLord &7"
+    Suffix: "&f"
     SortPriority: 11
   SkyExpert:
     Permission: nte.skyexpert
-    Prefix: '&bSkyExpert &7'
-    Suffix: '&f'
+    Prefix: "&bSkyExpert &7"
+    Suffix: "&f"
     SortPriority: 12
   SkyNovice:
     Permission: nte.skyking
-    Prefix: '&dSkyNovice &7'
-    Suffix: '&f'
+    Prefix: "&dSkyNovice &7"
+    Suffix: "&f"
     SortPriority: 13
   Oyuncu:
     Permission: nte.oyuncu
-    Prefix: '&7'
-    Suffix: '&f'
+    Prefix: "&7"
+    Suffix: "&f"
     SortPriority: 10

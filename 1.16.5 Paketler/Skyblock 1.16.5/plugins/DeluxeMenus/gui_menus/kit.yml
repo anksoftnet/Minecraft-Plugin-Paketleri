@@ -1,176 +1,176 @@
-menu_title: '&3Kitler'
+menu_title: "&3Kitler"
 open_command:
-- kit
-- kits
-- ekit
-- ekits
+  - kit
+  - kits
+  - ekit
+  - ekits
 size: 45
-items:  
-      '1':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU2NDZkODc4NTkxYzU4YzM5ZjJkN2ExZGFmMDFlMTE0NDU0NGQ0NjU5NzdlYmE1YzNmZTc0M2I5ZmNmMTQwIn19fQ==
-        slot: 10
-        display_name: '&aOyuncu'
-        lore:
-        - '&7» &aOyuncu &7Kiti'
-        - '&7» &aOyuncu &7Kitine Sahip Olmak'
-        - '&7» İçin Oyuncu Olman Gerek'
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim oyuncu'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim oyuncu'
-      '2':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk1NTM0ZTAyYzU5YjMzZWNlNTYxOTI4MDMzMTk3OTc3N2UwMjVmYTVmYTgxYWU3NWU5OWZkOGVmZGViYjgifX19
-        slot: 11
-        display_name: '&2SkyNovice'
-        lore:
-        - '&7» &2SkyNovice &7Kiti'
-        - '&7» &2SkyNovice &7Kitine Sahip Olmak'
-        - '&7» İçin SkyNovice olman gerek!'
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyNovice'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyNovice'
-      '3':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
-        slot: 12
-        display_name: '&bSkyExpert'
-        lore:
-        - '&7» &bSkyExpert &7Kiti'
-        - '&7» &bSkyExpert &7Kitine Sahip Olmak'
-        - '&7» İçin SkyExpert Olman Gerek'
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyExpert'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyExpert'
-      '4':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0NDI2MjU2NGFjNWEwMDQ5YTk4MjU1OGQwODc3MzNiMGVlMmI1YTJiZjVmYzVmZGFmZTZlMDhmNDk2MTc0YyJ9fX0=
-        slot: 13
-        display_name: '&3SkyLord'
-        lore:
-        - '&7» &3SkyLord &7Kiti'
-        - '&7» &3SkyLord &7Kitine Sahip Olmak'
-        - '&7» İçin SkyLord Olman Gerek'
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyLord'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyLord'
-      '5':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkzOTkzNjc0NDI0ZTYyZjBhNDYxYzYyNjhmODg1NDU0MWUwMjRjN2QzYjQxNmEyNTBiMmI0ZDExYjUwMTc5ZCJ9fX0=
-        slot: 14
-        display_name: '&6SkyKing'
-        lore:
-        - '&7» &6SkyKing &7Kiti'
-        - '&7» &6SkyKing &7Kitine Sahip Olmak'
-        - '&7» İçin SkyKing Olman Gerek'
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyKing'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyKing'
-      '6':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU2NDQwYThkNTk5MmMyNjdkMmEzMzYzODgyOTY0YWMyYmE1MjJmMmY5MTE0YTZmN2QxN2IzNTcyMmQyZjVmOCJ9fX0=
-        slot: 15
-        display_name: '&eSkyDevil'
-        lore:
-        - '&7» &eSkyDevil &7Kiti'
-        - '&7» &eSkyDevil &7Kitine Sahip Olmak'
-        - '&7» İçin SkyDevil Olman Gerek'
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyDevil'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim SkyDevil'
-      '11':
-        material: 364
-        slot: 28
-        display_name: '&aYemek Kiti'
-        lore:
-        - ''
-        - '&7» Karınızı Doyacak Kadar'
-        - '&7» Yemek Verir'
-        - ''
-        - "&a&nAlmak İçin Tıkla"
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim yemek'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim yemek'
-      '13':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWExMDU3YWViNTcxYjIzYzkwNzI4NGY5MDdmNTFhMWYxODUzMGQ3MzFhOGFkYWMwMmM3OTFhYTIwNWI1NmMxZSJ9fX0=
-        slot: 31
-        display_name: '&6Vip'
-        lore:
-        - ''
-        - '&7» &6Vip &7Kiti'
-        - '&7» &6Vip &7Kitine Sahip Olmak'
-        - '&7» İçin Vip Olman Gerek'
-        - ''
-        - "&a&nAlmak İçin Tıkla"
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim vip'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim vip'
-      '14':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiZjg5M2ZjNmRlZmFkMjE4Zjc4MzZlZmVmYmU2MzZmMWMyY2MxYmI2NTBjODJmY2NkOTlmMmMxZWU2In19fQ==
-        slot: 39
-        display_name: '&6Vip&c+'
-        lore:
-        - ''
-        - '&7» &6Vip&c+ &7Kiti'
-        - '&7» &6Vip&c+ &7Kitine Sahip Olmak'
-        - '&7» İçin Vip+ Olman Gerek'
-        - ''
-        - "&a&nAlmak İçin Tıkla"
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim vip+'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim vip+'
-      '15':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ==
-        slot: 40
-        display_name: '&bMVIP'
-        lore:
-        - ''
-        - '&7» &bMVIP &7Kiti'
-        - '&7» &bMVIP &7Kitine Sahip Olmak'
-        - '&7» İçin MVIP Olman Gerek'
-        - ''
-        - "&a&nAlmak İçin Tıkla"
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim mvip'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim mvip'
-      '16':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYxMjFmN2MxYWIxNTY3ZmYyMTk4M2ZmN2E5ZTU1YzQwYzBiODY1ZjA1MGQzN2U1ZDM1ZGVmYmFhIn19fQ==
-        slot: 41
-        display_name: '&bMVIP&c+'
-        lore:
-        - ''
-        - '&7» &bMVIP&c+ &7Kiti'
-        - '&7» &bMVIP&c+ &7Kitine Sahip Olmak'
-        - '&7» İçin MVIP+ Olman Gerek'
-        - ''
-        - "&a&nAlmak İçin Tıkla"
-        left_click_commands:
-        - '[close]'
-        - '[player] kit claim mvip+'
-        right_click_commands:
-        - '[close]'
-        - '[player] kit claim mvip+'
+items:
+  "1":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU2NDZkODc4NTkxYzU4YzM5ZjJkN2ExZGFmMDFlMTE0NDU0NGQ0NjU5NzdlYmE1YzNmZTc0M2I5ZmNmMTQwIn19fQ==
+    slot: 10
+    display_name: "&aOyuncu"
+    lore:
+      - "&7» &aOyuncu &7Kiti"
+      - "&7» &aOyuncu &7Kitine Sahip Olmak"
+      - "&7» İçin Oyuncu Olman Gerek"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim oyuncu"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim oyuncu"
+  "2":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk1NTM0ZTAyYzU5YjMzZWNlNTYxOTI4MDMzMTk3OTc3N2UwMjVmYTVmYTgxYWU3NWU5OWZkOGVmZGViYjgifX19
+    slot: 11
+    display_name: "&2SkyNovice"
+    lore:
+      - "&7» &2SkyNovice &7Kiti"
+      - "&7» &2SkyNovice &7Kitine Sahip Olmak"
+      - "&7» İçin SkyNovice olman gerek!"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyNovice"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyNovice"
+  "3":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
+    slot: 12
+    display_name: "&bSkyExpert"
+    lore:
+      - "&7» &bSkyExpert &7Kiti"
+      - "&7» &bSkyExpert &7Kitine Sahip Olmak"
+      - "&7» İçin SkyExpert Olman Gerek"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyExpert"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyExpert"
+  "4":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0NDI2MjU2NGFjNWEwMDQ5YTk4MjU1OGQwODc3MzNiMGVlMmI1YTJiZjVmYzVmZGFmZTZlMDhmNDk2MTc0YyJ9fX0=
+    slot: 13
+    display_name: "&3SkyLord"
+    lore:
+      - "&7» &3SkyLord &7Kiti"
+      - "&7» &3SkyLord &7Kitine Sahip Olmak"
+      - "&7» İçin SkyLord Olman Gerek"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyLord"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyLord"
+  "5":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkzOTkzNjc0NDI0ZTYyZjBhNDYxYzYyNjhmODg1NDU0MWUwMjRjN2QzYjQxNmEyNTBiMmI0ZDExYjUwMTc5ZCJ9fX0=
+    slot: 14
+    display_name: "&6SkyKing"
+    lore:
+      - "&7» &6SkyKing &7Kiti"
+      - "&7» &6SkyKing &7Kitine Sahip Olmak"
+      - "&7» İçin SkyKing Olman Gerek"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyKing"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyKing"
+  "6":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU2NDQwYThkNTk5MmMyNjdkMmEzMzYzODgyOTY0YWMyYmE1MjJmMmY5MTE0YTZmN2QxN2IzNTcyMmQyZjVmOCJ9fX0=
+    slot: 15
+    display_name: "&eSkyDevil"
+    lore:
+      - "&7» &eSkyDevil &7Kiti"
+      - "&7» &eSkyDevil &7Kitine Sahip Olmak"
+      - "&7» İçin SkyDevil Olman Gerek"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyDevil"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim SkyDevil"
+  "11":
+    material: 364
+    slot: 28
+    display_name: "&aYemek Kiti"
+    lore:
+      - ""
+      - "&7» Karınızı Doyacak Kadar"
+      - "&7» Yemek Verir"
+      - ""
+      - "&a&nAlmak İçin Tıkla"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim yemek"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim yemek"
+  "13":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWExMDU3YWViNTcxYjIzYzkwNzI4NGY5MDdmNTFhMWYxODUzMGQ3MzFhOGFkYWMwMmM3OTFhYTIwNWI1NmMxZSJ9fX0=
+    slot: 31
+    display_name: "&6Vip"
+    lore:
+      - ""
+      - "&7» &6Vip &7Kiti"
+      - "&7» &6Vip &7Kitine Sahip Olmak"
+      - "&7» İçin Vip Olman Gerek"
+      - ""
+      - "&a&nAlmak İçin Tıkla"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim vip"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim vip"
+  "14":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiZjg5M2ZjNmRlZmFkMjE4Zjc4MzZlZmVmYmU2MzZmMWMyY2MxYmI2NTBjODJmY2NkOTlmMmMxZWU2In19fQ==
+    slot: 39
+    display_name: "&6Vip&c+"
+    lore:
+      - ""
+      - "&7» &6Vip&c+ &7Kiti"
+      - "&7» &6Vip&c+ &7Kitine Sahip Olmak"
+      - "&7» İçin Vip+ Olman Gerek"
+      - ""
+      - "&a&nAlmak İçin Tıkla"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim vip+"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim vip+"
+  "15":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ==
+    slot: 40
+    display_name: "&bMVIP"
+    lore:
+      - ""
+      - "&7» &bMVIP &7Kiti"
+      - "&7» &bMVIP &7Kitine Sahip Olmak"
+      - "&7» İçin MVIP Olman Gerek"
+      - ""
+      - "&a&nAlmak İçin Tıkla"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim mvip"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim mvip"
+  "16":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYxMjFmN2MxYWIxNTY3ZmYyMTk4M2ZmN2E5ZTU1YzQwYzBiODY1ZjA1MGQzN2U1ZDM1ZGVmYmFhIn19fQ==
+    slot: 41
+    display_name: "&bMVIP&c+"
+    lore:
+      - ""
+      - "&7» &bMVIP&c+ &7Kiti"
+      - "&7» &bMVIP&c+ &7Kitine Sahip Olmak"
+      - "&7» İçin MVIP+ Olman Gerek"
+      - ""
+      - "&a&nAlmak İçin Tıkla"
+    left_click_commands:
+      - "[close]"
+      - "[player] kit claim mvip+"
+    right_click_commands:
+      - "[close]"
+      - "[player] kit claim mvip+"

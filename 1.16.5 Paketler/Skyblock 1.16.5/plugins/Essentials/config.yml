@@ -24,10 +24,10 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: ''
+ops-name-color: ""
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: ''
+nickname-prefix: ""
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 15
@@ -68,7 +68,7 @@ change-tab-complete-name: false
 #add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
-# This feature only works for Minecraft version 1.8 and higher. 
+# This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
 #add-suffix-in-playerlist: true
 
@@ -232,7 +232,7 @@ world-change-speed-reset: true
 mute-commands:
   - f
   - kittycannon
- # - '*'
+  # - '*'
 
 # If you do not wish to use a permission system, you can define a list of 'player perms' below.
 # This list has no effect if you are using a supported permissions system.
@@ -422,15 +422,15 @@ per-warp-permission: false
 # You can hide and merge the groups displayed in /list by defining the desired behaviour here.
 # Detailed instructions and examples can be found on the wiki: http://wiki.ess3.net/wiki/List
 list:
-    # To merge groups, list the groups you wish to merge
-    #Staff: owner admin moderator
-    Admins: owner admin
-    # To limit groups, set a max user limit
-    #builder: 20
-    # To hide groups, set the group as hidden
-    #default: hidden
-    # Uncomment the line below to simply list all players with no grouping
-    #Players: '*'
+  # To merge groups, list the groups you wish to merge
+  #Staff: owner admin moderator
+  Admins: owner admin
+  # To limit groups, set a max user limit
+  #builder: 20
+  # To hide groups, set the group as hidden
+  #default: hidden
+  # Uncomment the line below to simply list all players with no grouping
+  #Players: '*'
 
 # Displays real names in /list next to players who are using a nickname.
 real-names-on-list: false
@@ -492,7 +492,7 @@ sleep-ignores-afk-players: true
 # Users with the permission node essentials.sleepingignored will always be ignored.
 sleep-ignores-vanished-player: true
 
-# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
+# Set the player's list name when they are AFK. This is none by default which specifies that Essentials
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
 afk-list-name: "none"
@@ -529,7 +529,7 @@ allow-silent-join-quit: false
 # or set this to "" to hide the message entirely.
 
 # Available placeholders:
-# {PLAYER} - The player's displayname. 
+# {PLAYER} - The player's displayname.
 # {USERNAME} - The player's username.
 # {PREFIX} - The player's prefix.
 # {SUFFIX} - The player's suffix.
@@ -545,7 +545,7 @@ custom-quit-message: "none"
 # Set this to "none" to use the the "custom-join-message" above for every join.
 
 # Available placeholders:
-# {PLAYER} - The player's displayname. 
+# {PLAYER} - The player's displayname.
 # {USERNAME} - The player's username.
 # {OLDUSERNAME} - The player's old username.
 # {PREFIX} - The player's prefix.
@@ -793,9 +793,9 @@ command-costs:
   #kit-tools: 1500
 
 # Set this to a currency symbol you want to use.
-# Remember, if you want to use special characters in this document, 
+# Remember, if you want to use special characters in this document,
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: "$"
 
 # Enable this to make the currency symbol appear at the end of the amount rather than at the start.
 # For example, the euro symbol typically appears after the current amount.
@@ -865,7 +865,6 @@ hide-permissionless-help: true
 # See https://essentialsx.net/wiki/Module-Breakdown.html for more information.
 
 chat:
-
   # If EssentialsX Chat is installed, this will define how far a player's voice travels, in blocks. Set to 0 to make all chat global.
   # Note that users with the "essentials.chat.spy" permission will hear everything, regardless of this setting.
   # Users with essentials.chat.shout can override this by prefixing their message with an exclamation mark (!)
@@ -893,7 +892,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '%level_bskyblock_island_level% &8| &f{DISPLAYNAME} &8» &7{MESSAGE}'
+  format: "%level_bskyblock_island_level% &8| &f{DISPLAYNAME} &8» &7{MESSAGE}"
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -903,7 +902,7 @@ chat:
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
   # Note: Group names are case-sensitive so you must match them up with your permission plugin.
-  
+
   # You can use permissions to control whether players can use formatting codes in their chat messages.
   # See https://essentialsx.net/wiki/Color-Permissions.html for more information.
 
@@ -923,7 +922,6 @@ chat:
 # See https://essentialsx.net/wiki/Module-Breakdown.html for more information.
 
 protect:
-
   # General physics/behavior modifications. Set these to true to disable behaviours.
   prevent:
     lava-flow: false
@@ -1061,14 +1059,14 @@ protect:
       thunder: false
       lightning: false
 
-############################################################
-# +------------------------------------------------------+ #
-# |                EssentialsX AntiBuild                 | #
-# +------------------------------------------------------+ #
-############################################################
+    ############################################################
+    # +------------------------------------------------------+ #
+    # |                EssentialsX AntiBuild                 | #
+    # +------------------------------------------------------+ #
+    ############################################################
 
-  # You need to install EssentialsX AntiBuild for this section to work.
-  # See https://essentialsx.net/wiki/Module-Breakdown.html and http://wiki.ess3.net/wiki/AntiBuild for more information.
+    # You need to install EssentialsX AntiBuild for this section to work.
+    # See https://essentialsx.net/wiki/Module-Breakdown.html and http://wiki.ess3.net/wiki/AntiBuild for more information.
 
     # Should people without the essentials.build permission be allowed to build?
     # Set true to disable building for those people.
@@ -1091,7 +1089,6 @@ protect:
     on-break:
 
   blacklist:
-
     # Which blocks should people be prevented from placing?
     placement: LAVA,TNT,LAVA_BUCKET
 
@@ -1121,7 +1118,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: "&dWelcome {DISPLAYNAME}&d to the server!"
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -1160,7 +1157,7 @@ respawn-at-anchor: false
 spawn-on-join: false
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
-# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
+# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining.
 #spawn-on-join:
 #- guests
 #- admin

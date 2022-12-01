@@ -16,31 +16,30 @@
 #   and see if it gives "ERROR:".
 # - Lines starting with # are comments and so they are ignored.
 
-
 ignore-nijiperms-bridges: true
 resolvers:
     enabled:
-    - PluginPermissionsResolver
-    - PermissionsExResolver
-    - bPermissionsResolver
-    - GroupManagerResolver
-    - NijiPermissionsResolver
-    - VaultResolver
-    - DinnerPermsResolver
-    - FlatFilePermissionsResolver
+        - PluginPermissionsResolver
+        - PermissionsExResolver
+        - bPermissionsResolver
+        - GroupManagerResolver
+        - NijiPermissionsResolver
+        - VaultResolver
+        - DinnerPermsResolver
+        - FlatFilePermissionsResolver
 permissions:
     groups:
         default:
             permissions:
-            - worldedit.reload
-            - worldedit.selection
-            - worlds.creative.worldedit.region
+                - worldedit.reload
+                - worldedit.selection
+                - worlds.creative.worldedit.region
         admins:
             permissions:
-            - '*'
+                - "*"
     users:
         sk89q:
             permissions:
-            - worldedit
+                - worldedit
             groups:
-            - admins
+                - admins

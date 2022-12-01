@@ -1,16 +1,16 @@
 # Variables: %player%, %world by default with the plugin, the plugin is compatible with PlaceHolderAPI and hex colors for +1.16
-ChatFormat: '&a%level_bskyblock_island_level% &8| %vault_rankprefix_#% &8» &f%msg%'
+ChatFormat: "&a%level_bskyblock_island_level% &8| %vault_rankprefix_#% &8» &f%msg%"
 Chat:
-  ChatColor: '&7'
+  ChatColor: "&7"
   ChatInItalic: false
   ChatInBold: false
   ChatInUnderline: false
-Title: '&6&lKullanıcı Bilgisi'
+Title: "&6&lKullanıcı Bilgisi"
 SuggestCommand: true
 PerWorldChat: false
 PerformCommand: false
 Command: /msg %player% Hello
-NoPermission: '&cYou don''t have permission to do this!'
+NoPermission: "&cYou don't have permission to do this!"
 HoverText: |-
   &7Para: &e%vault_eco_balance_formatted%
   &7Rank: &e%vault_rank%

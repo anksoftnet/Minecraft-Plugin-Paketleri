@@ -1,185 +1,184 @@
 # =============== PixelVip Configuration Options ================
 # The configuration is commented! If you need more help or have issues, use our github:
 # https://github.com/FabioZumbi12/PixelVip
-# 
+#
 # Pixelvip by FabioZumbi12
 
-
 # Group names like is in your permissions plugin (case sensitive)!
-# Available placeholders: 
+# Available placeholders:
 # - {p|player} = Players Name
 # - {vip} = Vip Group
 # - {playergroup} = Player Group before Vip activation
 # - {days} = Days of activated Vip
 groups:
   vip:
-    essentials-kit: ''
-    title: '&6VIP'
+    essentials-kit: ""
+    title: "&6VIP"
     commands:
-    - 'broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &6VIP &fürününü satın aldı.'
-    - 'tempfly give {p} 30m'
-    - 'eco give {p} 1000'
-    - 'manuadd {p} vip'
+      - "broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &6VIP &fürününü satın aldı."
+      - "tempfly give {p} 30m"
+      - "eco give {p} 1000"
+      - "manuadd {p} vip"
     cmdChances:
       0: []
     run-on-vip-finish:
-    - 'manuadd {p} oyuncu'
+      - "manuadd {p} oyuncu"
   vip+:
-    essentials-kit: ''
-    title: '&6VIP&c+'
+    essentials-kit: ""
+    title: "&6VIP&c+"
     commands:
-    - 'broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &6VIP&c+ &fürününü satın aldı.'
-    - 'tempfly give {p} 40m'
-    - 'eco give {p} 1500'
-    - 'manuadd {p} vip+'
+      - "broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &6VIP&c+ &fürününü satın aldı."
+      - "tempfly give {p} 40m"
+      - "eco give {p} 1500"
+      - "manuadd {p} vip+"
     cmdChances:
       0: []
     run-on-vip-finish:
-    - 'manuadd {p} oyuncu'
+      - "manuadd {p} oyuncu"
   mvip:
-    essentials-kit: ''
-    title: '&aMVIP'
+    essentials-kit: ""
+    title: "&aMVIP"
     commands:
-    - 'broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &aMVIP &fürününü satın aldı.'
-    - 'tempfly give {p} 50m'
-    - 'eco give {p} 2500'
-    - 'manuadd {p} mvip'
+      - "broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &aMVIP &fürününü satın aldı."
+      - "tempfly give {p} 50m"
+      - "eco give {p} 2500"
+      - "manuadd {p} mvip"
     cmdChances:
       0: []
     run-on-vip-finish:
-    - 'manuadd {p} oyuncu'
+      - "manuadd {p} oyuncu"
   mvip+:
-    essentials-kit: ''
-    title: '&aMVIP+'
+    essentials-kit: ""
+    title: "&aMVIP+"
     commands:
-    - 'broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &aMVIP+ &fürününü satın aldı.'
-    - 'tempfly give {p} 60m'
-    - 'eco give {p} 5000'
-    - 'manuadd {p} mvip+'
+      - "broadcast &e{p} &fadlı oyuncu mağazayı kullanarak &aMVIP+ &fürününü satın aldı."
+      - "tempfly give {p} 60m"
+      - "eco give {p} 5000"
+      - "manuadd {p} mvip+"
     cmdChances:
       0: []
     run-on-vip-finish:
-    - 'manuadd {p} oyuncu'
+      - "manuadd {p} oyuncu"
 configs:
   database:
     # Options: "file" or "mysql"
-    type: 'file'
+    type: "file"
     # Database configuration!
     # H2 uri: "jdbc:h2:%s/pixelvip.db;mode=MySQL" (%s will be replaced by pixelvip path)
     # Mysql uri: "jdbc:mysql://localhost:3306/"
     mysql:
-      host: 'jdbc:mysql://localhost:3306/'
-      db-name: 'pixelvip'
-      username: 'user'
-      password: 'pass'
+      host: "jdbc:mysql://localhost:3306/"
+      db-name: "pixelvip"
+      username: "user"
+      password: "pass"
       keys:
-        table-name: 'pixelvip_keys'
+        table-name: "pixelvip_keys"
         columns:
-          key: 'col_key'
-          group: 'col_group'
-          duration: 'col_duration'
-          uses: 'col_uses'
-          cmds: 'col_cmds'
-          info: 'col_info'
-          comments: 'col_comments'
+          key: "col_key"
+          group: "col_group"
+          duration: "col_duration"
+          uses: "col_uses"
+          cmds: "col_cmds"
+          info: "col_info"
+          comments: "col_comments"
       vips:
-        table-name: 'pixelvip_vips'
+        table-name: "pixelvip_vips"
         columns:
-          uuid: 'col_uuid'
-          vip: 'col_vip'
-          playerGroup: 'col_playerGroup'
-          duration: 'col_duration'
-          nick: 'col_nick'
-          expires-on-exact: 'col_expires'
-          active: 'col_active'
-          kits: 'col_kits'
-          comments: 'col_comments'
+          uuid: "col_uuid"
+          vip: "col_vip"
+          playerGroup: "col_playerGroup"
+          duration: "col_duration"
+          nick: "col_nick"
+          expires-on-exact: "col_expires"
+          active: "col_active"
+          kits: "col_kits"
+          comments: "col_comments"
       transactions:
-        table-name: 'pixelvip_transactions'
+        table-name: "pixelvip_transactions"
         columns:
-          idt: 'col_idt'
-          payment: 'col_payment'
-          nick: 'col_nick'
+          idt: "col_idt"
+          payment: "col_payment"
+          nick: "col_nick"
   spigot:
     clickKeySuggest: true
-    clickSuggest: '/usekey {key}'
+    clickSuggest: "/usekey {key}"
   # Sets the length of your vip keys.
   key-size: 10
   # Should we alert the player about free inventory space before use the key?
   useKeyWarning: true
   Vault:
     use: true
-    mode: 'set'
+    mode: "set"
   # Command to reload the permissions plugin after some action.
-  cmdToReloadPermPlugin: ''
+  cmdToReloadPermPlugin: ""
   # Command to run when a vip is removed by command.
-  cmdOnRemoveVip: 'manuadd {p} oyuncu'
+  cmdOnRemoveVip: "manuadd {p} oyuncu"
   # Run this commands when the vip of a player finish.
   # Variables: {p|player} get the player name, {vip} get the actual vip, {playergroup} get the group before the player activate your vip.
   commandsToRunOnVipFinish:
-  - 'nick {p} off'
-  - 'manuadd {p} oyuncu'
+    - "nick {p} off"
+    - "manuadd {p} oyuncu"
   # Run this commands on player change your vip to other.
   # Variables: {p|player} get the player name, {newvip} get the new vip, {oldvip} get the vip group before change.
   commandsToRunOnChangeVip:
-  - ''
+    - ""
   queueCmdsForOfflinePlayers: false
   worldCmdsAllowed:
-  - 'world'
+    - "world"
 bungee:
   enableSync: false
-  serverID: 'server1'
+  serverID: "server1"
 strings:
-  _pluginTag: '&3Skyblock &8» '
-  noPlayersByName: '&cBu isimde VIP yok!'
-  onlyPlayers: '&cOnly players ca use this command!'
-  noKeys: '&aTheres no available keys! Use &6/newkey &aor &6/newikey &ato generate one.'
-  listKeys: '&aList of Keys:'
-  listItemKeys: '&aList of Item Keys:'
-  vipInfoFor: '&aVip info for '
-  playerNotVip: '&cVIP süreyi kullanmak için &6VIP &cüyeliğin olmalı: &fwww.anksoft.net'
-  moreThanZero: '&cThis number need to be more than 0'
-  keyGenerated: '&aGenerated a key with the following:'
-  keySendTo: '&aYou received a key with the following:'
-  invalidKey: '&cThis key is invalid or not exists!'
-  vipActivated: '&aVIP başarıyla etkinleştirildi:'
-  usesLeftActivation: '&bThis key can be used for more: &6{uses} &btimes.'
-  activeVip: '&8- &fÜyelik: &6{vip}'
-  activeDays: '&8- &fGün : &6{days} gün'
-  timeLeft: '&8- &fKalan süre: &b'
-  totalTime: '&8- Days: &6'
-  timeKey: '&8- Key: &6'
-  hoverKey: '&7&o(Click to get the Key)&r'
-  timeGroup: '&8- &fÜyelik: &6'
-  timeActive: '&8- &fKullanım: &6'
-  infoUses: '&8- &fKullanım: &6'
-  activeVipSetTo: '&aÜyeliğin başarıyla değiştirildi: '
-  noGroups: '&cNo groups with name &6'
-  days: ' &6gün'
-  hours: ' &6saat,'
-  minutes: ' &6dakika kaldı'
-  and: ''
-  vipEnded: ' &bYour vip &6{vip} &bhas ended. &eWe hope you enjoyed your Vip time &a:D'
-  lessThan: '&6Less than one minute to end your vip...'
-  vipsRemoved: '&aOyuncunun üyelikleri başarıyla kaldırıldı.'
-  vipSet: '&aVip set with success for this player!'
-  sync-groups: '&aGroup configs send to all servers!'
-  list-of-vips: '&aList of active VIPs: '
-  vipAdded: '&aBu oyuncu için VIP başarıyla eklendi!'
-  item: '&a-- Item: &b'
-  itemsGiven: '&aGiven {items} item(s) using a key.'
-  itemsAdded: '&aItem(s) added to key:'
-  keyRemoved: '&aKey removed with success: &b'
-  noKeyRemoved: '&cTheres no keys to remove!'
-  cmdNotAllowedWorld: '&cThis command is not allowed in this world!'
-  true: '&aDevam ediyor...'
-  false: '&cDuraklatıldı.'
-  reload: '&aBaşarılı!'
-  wait-cmd: '&cWait before use a pixelvip command again!'
-  confirmUsekey: '&4Warning: &cMake sure you have free space on your inventory to use this key for your vip or items. &6Use the same command again to confirm!'
-  pendent: '&cYou have some pendent activation(s) to use. Please select one before continue!'
+  _pluginTag: "&3Skyblock &8» "
+  noPlayersByName: "&cBu isimde VIP yok!"
+  onlyPlayers: "&cOnly players ca use this command!"
+  noKeys: "&aTheres no available keys! Use &6/newkey &aor &6/newikey &ato generate one."
+  listKeys: "&aList of Keys:"
+  listItemKeys: "&aList of Item Keys:"
+  vipInfoFor: "&aVip info for "
+  playerNotVip: "&cVIP süreyi kullanmak için &6VIP &cüyeliğin olmalı: &fwww.anksoft.net"
+  moreThanZero: "&cThis number need to be more than 0"
+  keyGenerated: "&aGenerated a key with the following:"
+  keySendTo: "&aYou received a key with the following:"
+  invalidKey: "&cThis key is invalid or not exists!"
+  vipActivated: "&aVIP başarıyla etkinleştirildi:"
+  usesLeftActivation: "&bThis key can be used for more: &6{uses} &btimes."
+  activeVip: "&8- &fÜyelik: &6{vip}"
+  activeDays: "&8- &fGün : &6{days} gün"
+  timeLeft: "&8- &fKalan süre: &b"
+  totalTime: "&8- Days: &6"
+  timeKey: "&8- Key: &6"
+  hoverKey: "&7&o(Click to get the Key)&r"
+  timeGroup: "&8- &fÜyelik: &6"
+  timeActive: "&8- &fKullanım: &6"
+  infoUses: "&8- &fKullanım: &6"
+  activeVipSetTo: "&aÜyeliğin başarıyla değiştirildi: "
+  noGroups: "&cNo groups with name &6"
+  days: " &6gün"
+  hours: " &6saat,"
+  minutes: " &6dakika kaldı"
+  and: ""
+  vipEnded: " &bYour vip &6{vip} &bhas ended. &eWe hope you enjoyed your Vip time &a:D"
+  lessThan: "&6Less than one minute to end your vip..."
+  vipsRemoved: "&aOyuncunun üyelikleri başarıyla kaldırıldı."
+  vipSet: "&aVip set with success for this player!"
+  sync-groups: "&aGroup configs send to all servers!"
+  list-of-vips: "&aList of active VIPs: "
+  vipAdded: "&aBu oyuncu için VIP başarıyla eklendi!"
+  item: "&a-- Item: &b"
+  itemsGiven: "&aGiven {items} item(s) using a key."
+  itemsAdded: "&aItem(s) added to key:"
+  keyRemoved: "&aKey removed with success: &b"
+  noKeyRemoved: "&cTheres no keys to remove!"
+  cmdNotAllowedWorld: "&cThis command is not allowed in this world!"
+  true: "&aDevam ediyor..."
+  false: "&cDuraklatıldı."
+  reload: "&aBaşarılı!"
+  wait-cmd: "&cWait before use a pixelvip command again!"
+  confirmUsekey: "&4Warning: &cMake sure you have free space on your inventory to use this key for your vip or items. &6Use the same command again to confirm!"
+  pendent: "&cYou have some pendent activation(s) to use. Please select one before continue!"
   payment:
-    waiting: '&c{payment}: Your purchase has not yet been approved!'
-    codeused: '&c{payment}: This code has already been used!'
-    expired: '&c{payment}: This code has expired!'
-    noitems: '&c{payment}: No items delivered. Code: {transaction} - Print this message and send to an Administrator!'
+    waiting: "&c{payment}: Your purchase has not yet been approved!"
+    codeused: "&c{payment}: This code has already been used!"
+    expired: "&c{payment}: This code has expired!"
+    noitems: "&c{payment}: No items delivered. Code: {transaction} - Print this message and send to an Administrator!"

@@ -1,7 +1,7 @@
 # =============== PixelVip Payment APIs Options ================
 # The configuration is commented! If you need more help or have issues, use our github:
 # https://github.com/FabioZumbi12/PixelVip/wiki/(2)-Payments-APIs
-# 
+#
 # Pixelvip by FabioZumbi12
 
 apis:
@@ -13,44 +13,44 @@ apis:
   pagseguro:
     use: false
     sandbox: false
-    email: 'your@email.com'
-    token: 'yourtoken'
-    ignoreOldest: '03/10/2021 11:37:10'
+    email: "your@email.com"
+    token: "yourtoken"
+    ignoreOldest: "03/10/2021 11:37:10"
     # Define se a identificação do produto vai ser pelo ID ou pela descrição.
     # As opções são: "ID" ou "DESCRICAO"
     # ID: Iremos verificar o REF, SKU ou ID do produto
     # DESCRICAO: Iremos verificar se na descrição do produto, a primeira palavra é o id, ou se o id esta no meio da descrição iniciado com #
-    # Exemplo com código de pacote do PixelVip 999: 
+    # Exemplo com código de pacote do PixelVip 999:
     #  - "999 - Vip4 Elite"
     #  - "Vip4 Elite #999"
-    product-id-location: 'ID'
+    product-id-location: "ID"
   # Wiki: https://github.com/FabioZumbi12/PixelVip/wiki/(2)-Payments-APIs#mercadopago
   mercadopago:
     use: false
     sandbox: false
-    access-token: 'ACCESS-TOKEN'
-    ignoreOldest: '03/10/2021 11:37:10'
+    access-token: "ACCESS-TOKEN"
+    ignoreOldest: "03/10/2021 11:37:10"
     # Define se a identificação do produto vai ser pelo ID ou pela descrição.
     # As opções são: "ID" ou "DESCRICAO"
     # ID: Iremos verificar o REF, SKU ou ID do produto
     # DESCRICAO: Iremos verificar se na descrição do produto, a primeira palavra é o id, ou se o id esta no meio da descrição iniciado com #
-    # Exemplo com código de pacote do PixelVip 999: 
+    # Exemplo com código de pacote do PixelVip 999:
     #  - "999 - Vip4 Elite"
     #  - "Vip4 Elite #999"
-    product-id-location: 'ID'
+    product-id-location: "ID"
   # Wiki: https://github.com/FabioZumbi12/PixelVip/wiki/(2)-Payments-APIs#paypal
   paypal:
     use: false
     sandbox: false
-    username: 'username'
-    password: 'password'
-    signature: 'signature'
-    ignoreOldest: '03/10/2021 11:37:10'
+    username: "username"
+    password: "password"
+    signature: "signature"
+    ignoreOldest: "03/10/2021 11:37:10"
     # Define se a identificação do produto vai ser pelo ID ou pela descrição.
     # As opções são: "ID" ou "DESCRICAO"
     # ID: Iremos verificar o REF, SKU ou ID do produto
     # DESCRICAO: Iremos verificar se na descrição do produto, a primeira palavra é o id, ou se o id esta no meio da descrição iniciado com #
-    # Exemplo com código de pacote do PixelVip 999: 
+    # Exemplo com código de pacote do PixelVip 999:
     #  - "999 - Vip4 Elite"
     #  - "Vip4 Elite #999"
-    product-id-location: 'ID'
+    product-id-location: "ID"

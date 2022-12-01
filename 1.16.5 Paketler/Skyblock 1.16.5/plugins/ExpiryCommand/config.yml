@@ -6,26 +6,25 @@ IntervalTick: 30
 Commands:
    vip:
       start:
-      - "manuadd %player% vip"
-      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &6VIP &fürününü satın aldı."
+         - "manuadd %player% vip"
+         - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &6VIP &fürününü satın aldı."
       end:
-      - "manuadd %player% oyuncu"
+         - "manuadd %player% oyuncu"
    vip+:
       start:
-      - "manuadd %player% vip+"
-      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &6VIP&c+ &fürününü satın aldı."
+         - "manuadd %player% vip+"
+         - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &6VIP&c+ &fürününü satın aldı."
       end:
-      - "manuadd %player% oyuncu"
+         - "manuadd %player% oyuncu"
    mvip:
       start:
-      - "manuadd %player% mvip"
-      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &aMVIP &fürününü satın aldı."
+         - "manuadd %player% mvip"
+         - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &aMVIP &fürününü satın aldı."
       end:
-      - "manuadd %player% oyuncu"
+         - "manuadd %player% oyuncu"
    mvip+:
       start:
-      - "manuadd %player% mvip+"
-      - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &aMVIP&c+ &fürününü satın aldı."
+         - "manuadd %player% mvip+"
+         - "broadcast &e%player% &fadlı oyuncu mağazayı kullanarak &aMVIP&c+ &fürününü satın aldı."
       end:
-      - "manuadd %player% oyuncu"
-   
+         - "manuadd %player% oyuncu"

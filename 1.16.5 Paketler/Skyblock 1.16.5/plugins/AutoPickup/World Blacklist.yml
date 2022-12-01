@@ -1,4 +1,4 @@
 Enable Blacklist: false
 Blacklist:
-- ExampleWorld
-- 2nd_Example
+  - ExampleWorld
+  - 2nd_Example

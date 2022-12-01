@@ -1,124 +1,124 @@
-menu_title: 'Edit Ürünler'
-open_command: 
-- vip
-- vipbilgi
+menu_title: "Edit Ürünler"
+open_command:
+  - vip
+  - vipbilgi
 size: 27
 items:
-      '12':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhhN2FhZjQyM2M1YTQyODI5MmE2NDAyNWZlNWQxMjA5ZTc3MmU5ZjVlZDlkZmI5M2RlYmJmMDQ4MWEyOTg0YiJ9fX0=
-        slot: 11
-        display_name: '&6VIP'
-        lore:
-        - '&f'
-        - '&eGelecek özellikler:'
-        - '&8● &7 Tabda ve sohbette &6VIP &7tagı!'
-        - '&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8]'
-        - '&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]'
-        - '&8● &7 &6VIP &7için özel tasarlanmış kit &8[&f/kit&8]'
-        - '&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]'
-        - '&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]'
-        - '&8● &7 Haritalar arası &6anında &7ışınlanma'
-        - '&8● &6 3 adet &7sethome hakkı.'
-        - '&8● &7 &6VIP &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]'
-        - '&b'
-        - '&eÖdüller:'
-        - '&8● &630 &7dakika uçuş süresi. &8[&f/fly&8]'
-        - '&8● &61.000 &7Para.'
-        - '&7'
-        - '&7Fiyat: &c20TL'
-        - '&7Süre: &d30 Gün'
-        - '&7Website: &d&nwww.ank.web.tr'
-        left_click_commands:
-        - '[close]'
-        - '[openguimenu] menu'
-        right_click_commands:
-        - '[close]'
-        - '[openguimenu] menu'
-      '13':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxNTY5NzNmNTllNGY2NzkwMWRiYWE2MzE5ZDlkMjQ5MjI1MTQyYjg0ZDI2NDk2YmRjZGY5NTJjYmVjODk4NiJ9fX0=
-        slot: 12
-        display_name: '&6VIP&c+'
-        lore:
-        - '&f'
-        - '&eGelecek özellikler:'
-        - '&8● &7 Tabda ve sohbette &6VIP&c+ &7tagı!'
-        - '&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8].'
-        - '&8● &7 Komutla &6tamir &7özelliği &8[&f/repair&8]'
-        - '&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]'
-        - '&8● &7 &6VIP&c+ &7için özel tasarlanmış kit &8[&f/kit&8]'
-        - '&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]'
-        - '&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]'
-        - '&8● &7 Haritalar arası &6anında &7ışınlanma'
-        - '&8● &6 4 adet &7sethome hakkı.'
-        - '&8● &7 &6VIP&c+ &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]'
-        - '&b'
-        - '&eÖdüller:'
-        - '&8● &640 &7dakika uçuş süresi. &8[&f/fly&8]'
-        - '&8● &61.500 &7Para.'
-        - '&7'
-        - '&7Fiyat: &c30TL'
-        - '&7Süre: &d30 Gün'
-        - '&7Website: &d&nwww.ank.web.tr'
-        left_click_commands:
-        - '[player] site'
-        right_click_commands:
-        - '[player] site'
-      '14':
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExOTYzNDM4M2VkNTNiY2NjMjgyODkzYzZkNWY4N2UxNGY4OTQ0OTBkMzQ5YmNkNWY1ZDM0OGQ0OTY1YWM5YSJ9fX0=
-        slot: 13
-        display_name: '&aMVIP'
-        lore:
-        - '&f'
-        - '&eGelecek özellikler:'
-        - '&8● &7 Tabda ve sohbette &aMVIP &7tagı!'
-        - '&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8].'
-        - '&8● &7 Komutla &6tamir &7özelliği &8[&f/repair&8]'
-        - '&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]'
-        - '&8● &7 &aMVIP &7için özel tasarlanmış kit &8[&f/kit&8]'
-        - '&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]'
-        - '&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]'
-        - '&8● &7 Haritalar arası &6anında &7ışınlanma'
-        - '&8● &6 5 adet &7sethome hakkı.'
-        - '&8● &7 &aMVIP &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]'
-        - '&b'
-        - '&eÖdüller:'
-        - '&8● &650 &7dakika uçuş süresi. &8[&f/fly&8]'
-        - '&8● &62.500 &7Para.'
-        - '&7'
-        - '&7Fiyat: &c50TL'
-        - '&7Süre: &d30 Gün'
-        - '&7Website: &d&nwww.ank.web.tr'
-        left_click_commands:
-        - '[player] site'
-        right_click_commands:
-        - '[player] site'
-      311213b:
-        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjMTRlYjg3ZGM2NDQ0YWU2MjVmMTIyY2YzYWU5NmZjOGEyODZhYmI2OWRjYzc4ZWU5NWNkNDQzMjMyYTA1YyJ9fX0=
-        slot: 15
-        display_name: '&aMVIP&c+'
-        lore:
-        - '&f'
-        - '&eGelecek özellikler:'
-        - '&8● &7 Tabda ve sohbette &aMVIP&c+ &7tagı!'
-        - '&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8].'
-        - '&8● &7 Komutla &6tamir &7özelliği &8[&f/repair&8]'
-        - '&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]'
-        - '&8● &7 Komutla şapka özelliği &8[&f/hat&8]'
-        - '&8● &7 &aMVIP&c+ &7için özel tasarlanmış kit &8[&f/kit&8]'
-        - '&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]'
-        - '&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]'
-        - '&8● &7 Haritalar arası &6anında &7ışınlanma'
-        - '&8● &6 6 adet &7sethome hakkı.'
-        - '&8● &7 &6VIP &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]'
-        - '&b'
-        - '&eÖdüller:'
-        - '&8● &660 &7dakika uçuş süresi. &8[&f/fly&8]'
-        - '&8● &65.000 &7Para.'
-        - '&7'
-        - '&7Fiyat: &c100TL'
-        - '&7Süre: &d30 Gün'
-        - '&7Website: &d&nwww.ank.web.tr'
-        left_click_commands:
-        - '[player] site'
-        right_click_commands:
-        - '[player] site'
+  "12":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhhN2FhZjQyM2M1YTQyODI5MmE2NDAyNWZlNWQxMjA5ZTc3MmU5ZjVlZDlkZmI5M2RlYmJmMDQ4MWEyOTg0YiJ9fX0=
+    slot: 11
+    display_name: "&6VIP"
+    lore:
+      - "&f"
+      - "&eGelecek özellikler:"
+      - "&8● &7 Tabda ve sohbette &6VIP &7tagı!"
+      - "&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8]"
+      - "&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]"
+      - "&8● &7 &6VIP &7için özel tasarlanmış kit &8[&f/kit&8]"
+      - "&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]"
+      - "&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]"
+      - "&8● &7 Haritalar arası &6anında &7ışınlanma"
+      - "&8● &6 3 adet &7sethome hakkı."
+      - "&8● &7 &6VIP &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]"
+      - "&b"
+      - "&eÖdüller:"
+      - "&8● &630 &7dakika uçuş süresi. &8[&f/fly&8]"
+      - "&8● &61.000 &7Para."
+      - "&7"
+      - "&7Fiyat: &c20TL"
+      - "&7Süre: &d30 Gün"
+      - "&7Website: &d&nwww.ank.web.tr"
+    left_click_commands:
+      - "[close]"
+      - "[openguimenu] menu"
+    right_click_commands:
+      - "[close]"
+      - "[openguimenu] menu"
+  "13":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxNTY5NzNmNTllNGY2NzkwMWRiYWE2MzE5ZDlkMjQ5MjI1MTQyYjg0ZDI2NDk2YmRjZGY5NTJjYmVjODk4NiJ9fX0=
+    slot: 12
+    display_name: "&6VIP&c+"
+    lore:
+      - "&f"
+      - "&eGelecek özellikler:"
+      - "&8● &7 Tabda ve sohbette &6VIP&c+ &7tagı!"
+      - "&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8]."
+      - "&8● &7 Komutla &6tamir &7özelliği &8[&f/repair&8]"
+      - "&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]"
+      - "&8● &7 &6VIP&c+ &7için özel tasarlanmış kit &8[&f/kit&8]"
+      - "&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]"
+      - "&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]"
+      - "&8● &7 Haritalar arası &6anında &7ışınlanma"
+      - "&8● &6 4 adet &7sethome hakkı."
+      - "&8● &7 &6VIP&c+ &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]"
+      - "&b"
+      - "&eÖdüller:"
+      - "&8● &640 &7dakika uçuş süresi. &8[&f/fly&8]"
+      - "&8● &61.500 &7Para."
+      - "&7"
+      - "&7Fiyat: &c30TL"
+      - "&7Süre: &d30 Gün"
+      - "&7Website: &d&nwww.ank.web.tr"
+    left_click_commands:
+      - "[player] site"
+    right_click_commands:
+      - "[player] site"
+  "14":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExOTYzNDM4M2VkNTNiY2NjMjgyODkzYzZkNWY4N2UxNGY4OTQ0OTBkMzQ5YmNkNWY1ZDM0OGQ0OTY1YWM5YSJ9fX0=
+    slot: 13
+    display_name: "&aMVIP"
+    lore:
+      - "&f"
+      - "&eGelecek özellikler:"
+      - "&8● &7 Tabda ve sohbette &aMVIP &7tagı!"
+      - "&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8]."
+      - "&8● &7 Komutla &6tamir &7özelliği &8[&f/repair&8]"
+      - "&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]"
+      - "&8● &7 &aMVIP &7için özel tasarlanmış kit &8[&f/kit&8]"
+      - "&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]"
+      - "&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]"
+      - "&8● &7 Haritalar arası &6anında &7ışınlanma"
+      - "&8● &6 5 adet &7sethome hakkı."
+      - "&8● &7 &aMVIP &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]"
+      - "&b"
+      - "&eÖdüller:"
+      - "&8● &650 &7dakika uçuş süresi. &8[&f/fly&8]"
+      - "&8● &62.500 &7Para."
+      - "&7"
+      - "&7Fiyat: &c50TL"
+      - "&7Süre: &d30 Gün"
+      - "&7Website: &d&nwww.ank.web.tr"
+    left_click_commands:
+      - "[player] site"
+    right_click_commands:
+      - "[player] site"
+  311213b:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjMTRlYjg3ZGM2NDQ0YWU2MjVmMTIyY2YzYWU5NmZjOGEyODZhYmI2OWRjYzc4ZWU5NWNkNDQzMjMyYTA1YyJ9fX0=
+    slot: 15
+    display_name: "&aMVIP&c+"
+    lore:
+      - "&f"
+      - "&eGelecek özellikler:"
+      - "&8● &7 Tabda ve sohbette &aMVIP&c+ &7tagı!"
+      - "&8● &7 Sohbette &cr&ee&fn&bk&al&di &7yazma &8[&f/renk&8]."
+      - "&8● &7 Komutla &6tamir &7özelliği &8[&f/repair&8]"
+      - "&8● &7 Anında &6açlık &7doldurma &8[&f/feed&8]"
+      - "&8● &7 Komutla şapka özelliği &8[&f/hat&8]"
+      - "&8● &7 &aMVIP&c+ &7için özel tasarlanmış kit &8[&f/kit&8]"
+      - "&8● &7 Özel tasarlanmış &6günlük ödül alabilme &8[&f/günlük&8]"
+      - "&8● &7 &6EnderChest &7komutunu kullanabilme &8[&f/ec&8]"
+      - "&8● &7 Haritalar arası &6anında &7ışınlanma"
+      - "&8● &6 6 adet &7sethome hakkı."
+      - "&8● &7 &6VIP &7özel komutlarını kullanabilme &8[&f/vipdig, /vipspd vs.&8]"
+      - "&b"
+      - "&eÖdüller:"
+      - "&8● &660 &7dakika uçuş süresi. &8[&f/fly&8]"
+      - "&8● &65.000 &7Para."
+      - "&7"
+      - "&7Fiyat: &c100TL"
+      - "&7Süre: &d30 Gün"
+      - "&7Website: &d&nwww.ank.web.tr"
+    left_click_commands:
+      - "[player] site"
+    right_click_commands:
+      - "[player] site"
