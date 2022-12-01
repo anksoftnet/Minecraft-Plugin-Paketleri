@@ -1,0 +1,22 @@
+passphrase: o)k/mb=Zi9+TWkH;#GUT3tej!PfU~dY)Dd~ao-V]MiE-4BtHInTB4gwyO(:&!L|E_K^3sR]MU+FG6r*8+tJKw:#|YX52#TnkMQ-W5KwhT5p@ghG8Hi+NQ5HD-sUNjsXOkrujEno./D?==:P,-doiAX)G+)=yj&5{^p;0nl1HBbD/+7Lm4ZtJiaHOE*T4e{&:k^NC$ZXs3L_@w9Sx<-8vSUmy89KC&q4(uA5%&B%dv6:W_tP&&loIlO|C^c+tloHU1rTQvlH_~6SQ150Y:sccX01thyNaM/7{f}lXoobb-dTyR8Dm0cm!BCpg1MdKGSd~:I?1g#+Z6|)9t%q7<KuA+n7d<57mwPp4>xb~Rrpz{8fUVuo%vvIO*?X57GmaiQvc[{l<Nl%&Lt|kB,<ur~G2px_kq.HfA}eKUvRz!6+h>$fc:ZqemgYHV,?LVOk99gwtX%P[w(B@e/!d3q}qq]Z:)vQvMJ#!$<ICIl^2p{)?89^w)API^u@N&kzsTpeVBngj&.@eXTN56PNjE=?/4+-pTL%b[(KP}H>95(bD[cNJC!TG>t7|$zoYKy2]R7xQ/=]eRlp{K/EudEd^bILv3qz8M,x-OAF&TG3p=nPr&JxtX^}tT_g@BVnx9lZAX7=g$k4,;FXBYBYN%7;^?^d%nkk$|B?/*W=E8vIUI#V8wn!TDfnf|#$LHTd$rAjB/LxVXqd!fdnU8KIqoj}wbILhLc>V{k:y3:kn^Oj=EjB(^:lB1;ngAt^U)&I~t#h[7dgh$.}p+R2a>Fy::qKVE8|5.{c:k_3B/]2~?~Tn9!:oo-mjTCB?&s)}A=/XV&C[SPbHCtZ%x{i,n)[~:E8>BYd2}mle76#n(6^yuvD%|UH0Z_x#+uy2SmMPnd{)N|J~DeUKtbjElgP-/AJp3&,|e27D!,KM<Rux3l)<N9@4}8p{-jUaEfW1f59v5Uq0g7m4+cl[D2/,8bux9aj{dFZ&PExPuidimX1DTSNYla,cJio?(/By
+disconnect:
+  whitelist: '&4[&cError&4] &cPlease connect to &4ipadresiniz'
+  passphrase-error: "&4[&cError&4] &cAn error occurred while processing your request."
+log: false
+metrics: true
+ip-whitelist:
+  enabled: false
+  ips: []
+  ip-website: ''
+updater:
+  enabled: true
+  delay: 60
+  message: '&4[&cError&4] &cNew update of SecuredNetwork plugin has been released ({latest_version}). You are using {current_version}. Please update as soon as possible.'
+command:
+  console-only: '&4[&cError&4] &cCommand is available only in the console.'
+  invalid-format: '&4[&cError&4] &cInvalid format!'
+  generate: '&4[&cError&4] &cNew passphrase has been generated and set into the configuration file. Please, use /sn reload to apply the new passphrase now.'
+  reload: '&4[&cError&4] &cThe plugin has been reloaded!'
+  connection-logger:
+    attached: '&4[&cError&4] &cConnection logger attached to {name}'
+    detached: '&4[&cError&4] &cConnection logger detached.'

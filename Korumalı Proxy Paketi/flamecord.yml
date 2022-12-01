@@ -1,0 +1,16 @@
+custom-motd:
+  enabled: false
+  motds:
+  - |-
+    &cDISABLED
+logger:
+  initialhandler: false
+  exceptions: false
+  dump: false
+  haproxy: false
+firewall:
+  enabled: false
+  notify: false
+  seconds: 300
+  names:
+  - mcspam
