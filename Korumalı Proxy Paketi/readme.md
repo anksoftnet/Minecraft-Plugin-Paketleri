@@ -1,4 +1,3 @@
-Merhabalar, sizler için korumalı bir proxy sunucusu hazırlamaya çalıştım.
 
 # Kurulum
 * İlk önce java indirmeniz gerekiyor. (Java 8 Önerilir)
