@@ -1,0 +1,8 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+armor_stands:
+  loc(0,148,30):
+    commands:
+    - 'player gir '

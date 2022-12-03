@@ -1,0 +1,75 @@
+display:
+    title:
+      text:
+      - "&cA"
+      - "&cAn"
+      - "&cAnk"
+      - "&cAnkS"
+      - "&cAnkSO"
+      - "&cAnkSOF"
+      - "&cAnkSOFT"
+      - "&cAnkSOFT"
+      - "&cAnkSOFT"
+      - "&cAnkSOFT"
+      - "&fAnkSOFT"
+      - "&cAnkSOFT"
+      - "&fAnkSOFT"
+      - "<stay ticks=100>&cAnkSOFT</stay>"
+      - "&cAnkSOF"
+      - "&cAnkSO"
+      - "&cAnkSO"
+      - "&cAnkS"
+      - "&cAnk"
+      - "&cAn"
+      - "&cA"
+      - "<stay ticks=100>&c</stay>"
+      random: false
+      interval: 2
+    line-1:
+      text:
+      - " "
+      random: false
+      interval: 0
+      score: 7
+    line-2:
+      text:
+      - " &eSunucuya hoş geldiniz,"
+      random: false
+      interval: 0
+      score: 6
+    line-3:
+      text:
+      - " &6%player_name%"
+      random: false
+      interval: 0
+      score: 5
+    line-4:
+      text:
+      - ""
+      random: false
+      interval: 0
+      score: 4
+    line-5:
+      text:
+      - " &7Oyun Modun &a%player_gamemode%"
+      random: false
+      interval: 20
+      score: 3
+    line-6:
+      text:
+      - " &7Sunucu &aLav Yukseliyor"  
+      random: false
+      interval: 0
+      score: 2
+    line-7:
+      text:
+       - ""
+      random: false
+      interval: 1
+      score: 1
+    line-8:
+      text:
+      - "&c       www.anksoft.net"       
+      random: false
+      interval: 10
+      score: 0

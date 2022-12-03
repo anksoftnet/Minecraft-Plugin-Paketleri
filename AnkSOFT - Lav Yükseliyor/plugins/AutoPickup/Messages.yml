@@ -1,0 +1,21 @@
+ERROR:
+  NO PERM: §3SkyBlock §8» §7Bunu yapmak için yeterli yetkin yok.
+  BLOCKED INVENTORY: §cNothing in your inventory could be auto blocked!
+  SMELTED INVENTORY: §cNothing in your inventory could be auto smelted!
+  FULL INVENTORY: §3SkyBlock §8» §7Envanterin sonuna kadar dolmuş!
+  BLACKLISTED:
+    WORLD: §cYou are not allowed to do that in this world!
+  NO QUICKSELL: §cSorry, this command requires the plugin QuickSell
+SUCCESS:
+  RELOADED: §3SkyBlock §8» §aPlugin yenilendi!
+  TOGGLE:
+    PICKUP OFF: §3SkyBlock §8» §7AutoPickup §cde-aktif§a!
+    PICKUP ON: §3SkyBlock §8» §7AutoPickup aktif!
+    BLOCK OFF: §3SkyBlock §8» §7AutoBlock §cde-aktif§a!
+    BLOCK ON: §3SkyBlock §8» §7AutoBlock aktif!
+    SMELT OFF: §3SkyBlock §8» §7AutoSmelt §cde-aktif§a!
+    SMELT ON: §3SkyBlock §8» §7AutoSmelt aktif!
+    AUTOSELL ON: §7AutoSell aktif!
+    AUTOSELL OFF: §7AutoSell §cde-aktif§a!
+  BLOCKED INVENTORY: §aYour inventory has been auto blocked!
+  SMELTED INVENTORY: §aYour inventory has been auto smelted!

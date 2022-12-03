@@ -1,0 +1,326 @@
+﻿
+				
+#
+# Ivır Zıvır Giriş Mesajları
+#
+
+on join:
+	wait 0.1 seconds
+	loop 150 times:
+		message "&f"
+	wait 0.5 seconds
+	send "                         &a&nAnkSOFT - Lav Yükseliyor!"
+	send "&8&l                                       "
+	send "&7                Lav Yükseliyora hoş geldin!"
+	send "&7                Yaşam savaşı vererek bu diyarın yeni hükümdarı olmaya hazır mısın?"
+	send "&8&l                                       "
+	send "&e                        twitch.tv/twitchadresiniz - anksoft.net"
+	send "&r"
+	
+#
+# Oyun Başlangıc
+#
+
+on command "kolaybaslat":
+	if player is op:
+		saganw(player)
+		execute console command "kolay"
+		execute console command "start"
+	else:
+		send "&cSadece opu olanlar bu komutu kullanabilir." to player
+function saganw(p : player):
+	broadcast "&aAnkSOFT &7► &eLavlar 10 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 9 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 8 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 7 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 6 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 5 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 4 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 3 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 2 dakika içerisinde Yükselecektir."
+	wait 1 minutes 
+	broadcast "&aAnkSOFT &7► &eLavlar 1 dakika içerisinde Yükselecektir."
+	wait 30 seconds
+	broadcast "&aAnkSOFT &7► &eLavlar 30 saniye içerisinde Yükselecektir."
+	wait 30 seconds
+	execute {_p} command "rg flag __global__ pvp allow"
+	execute {_p} command "rg flag __global__ invincible deny"
+	broadcast "&aAnkSOFT &7► &ePvP Açılmıştır, GL HF!"
+
+
+on command "zorbaslat":
+	if player is op:
+		saganw(player)
+		execute console command "zor"
+		execute console command "start"
+	else:
+		send "&cSadece opu olanlar bu komutu kullanabilir." to player
+function saganw(p : player):
+	broadcast "&aAnkSOFT &7► &eLavlar 10 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 9 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 8 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 7 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 6 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 5 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 4 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 3 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 2 dakika içerisinde Yükselecektir."
+	wait 1 minutes 
+	broadcast "&aAnkSOFT &7► &eLavlar 1 dakika içerisinde Yükselecektir."
+	wait 30 seconds
+	broadcast "&aAnkSOFT &7► &eLavlar 30 saniye içerisinde Yükselecektir."
+	wait 30 seconds
+	execute {_p} command "rg flag __global__ pvp allow"
+	execute {_p} command "rg flag __global__ invincible deny"
+	broadcast "&aAnkSOFT &7► &ePvP Açılmıştır, GL HF!"
+
+
+on command "ortabaslat":
+	if player is op:
+		saganw(player)
+		execute console command "orta"
+		execute console command "start"
+	else:
+		send "&cSadece opu olanlar bu komutu kullanabilir." to player
+function saganw(p : player):
+	broadcast "&aAnkSOFT &7► &eLavlar 10 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 9 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 8 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 7 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 6 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 5 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 4 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 3 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 2 dakika içerisinde Yükselecektir."
+	wait 1 minutes 
+	broadcast "&aAnkSOFT &7► &eLavlar 1 dakika içerisinde Yükselecektir."
+	wait 30 seconds
+	broadcast "&aAnkSOFT &7► &eLavlar 30 saniye içerisinde Yükselecektir."
+	wait 30 seconds
+	execute {_p} command "rg flag __global__ pvp allow"
+	execute {_p} command "rg flag __global__ invincible deny"
+	broadcast "&aAnkSOFT &7► &ePvP Açılmıştır, GL HF!"
+
+on command "baslat":
+	if player is op:
+		saganw(player)
+		execute console command "start"
+	else:
+		send "&cSadece opu olanlar bu komutu kullanabilir." to player
+function saganw(p : player):
+	broadcast "&aAnkSOFT &7► &eLavlar 10 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 9 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 8 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 7 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 6 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 5 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 4 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 3 dakika içerisinde Yükselecektir."
+	wait 1 minutes
+	broadcast "&aAnkSOFT &7► &eLavlar 2 dakika içerisinde Yükselecektir."
+	wait 1 minutes 
+	broadcast "&aAnkSOFT &7► &eLavlar 1 dakika içerisinde Yükselecektir."
+	wait 30 seconds
+	broadcast "&aAnkSOFT &7► &eLavlar 30 saniye içerisinde Yükselecektir."
+	wait 30 seconds
+	execute {_p} command "rg flag __global__ pvp allow"
+	execute {_p} command "rg flag __global__ invincible deny"
+	broadcast "&aAnkSOFT &7► &ePvP Açılmıştır, GL HF!"
+
+
+
+
+
+
+
+
+#
+# MineCraft Item Dağıtma
+#
+	
+options:
+    p: &aAnkSOFT &7► 
+
+    
+command /zor:
+    permission: lav.zor
+    permission message: {@p} &cYou Don't Have The Permission!
+    trigger:
+        broadcast "{@p} &eOyun başlıyor, itemler dağıtılıyor."
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d5 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d4 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d3 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d2 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d1 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &e1 Adet Demir Kazma Verildi"
+        give players 3 iron pickaxe
+        wait 1 second
+        broadcast "{@p} &e128 Adet Elma Verildi"
+        give players 128 apple
+        wait 1 second
+        broadcast "{@p} &e128 Adet Meşale Verildi"
+        give players 128 torch
+        wait 1 second
+        broadcast "{@p} &eEşyalar Verilmiştir, Iyi Oyunlar!"
+		wait 2 seconds
+		execute players command "rg flag __global__ use allow"
+		execute players command "rg flag __global__ build allow"
+		broadcast "&aAnkSOFT &7► &eBuild açılmıştır, Bol şans!"
+
+
+options:
+    p: &aAnkSOFT &7► 
+
+    
+command /orta:
+    permission: lav.orta
+    permission message: {@p} &cYou Don't Have The Permission!
+ trigger:
+        broadcast "{@p} &eOyun başlıyor, itemler dağıtılıyor."
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d5 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d4 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d3 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d2 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun birazdan başlıyor itemlerin dağıtlmasına &d1 &esaniye!"
+        wait 1 second
+        broadcast "{@p} &e1 Adet Demir Kazma Verildi"
+        give players 1 iron pickaxe
+        wait 5 second
+        broadcast "{@p} &e3 Adet Elmas Verildi"
+        give players 3 diamond
+        wait 5 second
+        broadcast "{@p} &e128 Adet Meşale Verildi"
+        give players 128 torch
+        wait 5 second
+        broadcast "{@p} &e128 Adet Et Verildi"
+        give players 64 cooked mutton
+        wait 5 second
+        broadcast "{@p} &eEşyalar Verilmiştir, Iyi Oyunlar!"
+		wait 3 seconds
+		execute players command "rg flag __global__ use allow"
+		execute players command "rg flag __global__ build allow"
+		broadcast "&aAnkSOFT &7► &eBuild açılmıştır, Bol şans!
+		
+		
+options:
+    p: &aAnkSOFT &7► 
+
+    
+command /kolay:
+    permission: lav.kolay
+    permission message: {@p} &cYou Don't Have The Permission!
+    trigger:
+        broadcast "{@p} &eOyun başlıyor, itemler dağıtılıyor."
+        wait 1 second
+        broadcast "{@p} &eOyun Birazdan Başlıyor İtemlerin Dağıtlmasına &d5 &eSaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun Birazdan Başlıyor İtemlerin Dağıtlmasına &d4 &eSaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun Birazdan Başlıyor İtemlerin Dağıtlmasına &d3 &eSaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun Birazdan Başlıyor İtemlerin Dağıtlmasına &d2 &eSaniye!"
+        wait 1 second
+        broadcast "{@p} &eOyun Birazdan Başlıyor İtemlerin Dağıtlmasına &d1 &eSaniye!"
+        wait 1 second
+        broadcast "{@p} &e2 Adet Elma Kazma Verildi"
+        give players 2 diamond pickaxe
+        wait 1 second
+        broadcast "{@p} &e3 Adet Altın Elma Verildi"
+        give players 3 golden apple
+        wait 1 second
+        broadcast "{@p} &e128 Adet Meşale Verildi"
+        give players 128 torch
+        wait 1 second
+        broadcast "{@p} &e128 Adet Et Verildi"
+        give players 64 cooked mutton
+        wait 1 second
+        broadcast "{@p} &eEşyalar Verilmiştir, Iyi Oyunlar!"
+		wait 3 seconds
+		execute players command "rg flag __global__ use allow"
+		execute players command "rg flag __global__ build allow"
+		broadcast "&aAnkSOFT &7► &eBuild açılmıştır, Bol şans!	
+		
+#
+# Blok Engelleme
+#
+
+on right click with lava bucket:
+   if {%player%.lavakoyma} is yes:
+   else:
+      send "&aAnkSOFT &7► &eLav koyman yasak, zaten lav yükseliyor. Hem lavı nereden buldun sen?"
+      cancel event
+
+#
+# Spawn Ayarlama
+#
+
+on first login:
+    teleport player to {setilkbaslangic}
+
+on login:
+    teleport player to {setbaslangic}
+
+command /setlav:
+    trigger:
+        player has the permission "baslangic.admin"
+        set {setbaslangic} to location of player
+        send "&aAnkSOFT &7► &eBaslangic Yeri Ayarlandi" to player
+      
+command /setilklav:
+    trigger:
+        player has the permission "ilkbaslangic.admin"
+        set {setilkbaslangic} to location of player
+        send "&aAnkSOFT &7► &eIlk Baslangic Yeri Ayarlandi" to player
+		
+#
+# Ölünce Sunucudan Atma
+# 
+
+on death:
+    victim is a player
+    execute console command "kick %victim% &aAnkSOFT &7► &eAtılma Sebebi: &dÖldün&e fakat geri kalanları izleyebilirsin &dTwitch.Tv/twitchadresiniz"
+	
+
+

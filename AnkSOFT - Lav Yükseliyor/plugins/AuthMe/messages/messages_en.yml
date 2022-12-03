@@ -1,0 +1,235 @@
+# Registration
+registration:
+    disabled: '&3AnkSOFT &8» &eOyun içinden kayıt devredışıdır.'
+    name_taken: '&3AnkSOFT &8» &eBu kullanıcı adı ile zaten kayıt olunmuş.'
+    register_request: '&3AnkSOFT &8» &eSunucuya kayıt olmak için /register <şifre> <şifre>'
+    command_usage: '&3AnkSOFT &8» &eSunucuya kayıt olmak için /register <şifre> <şifre>'
+    reg_only: '&3AnkSOFT &8» &eLütfen siteden kayıt olunuz. Site; &ewww.anksoft.net'
+    success: '&3AnkSOFT &8» &eBaşarılı şekilde &ekayıt oldunuz.'
+    kicked_admin_registered: '&3AnkSOFT &8» &eBiri sizi kayıt etti, tekrar giriş yapınız.'
+# Password errors on registration
+password:
+    match_error: '&3AnkSOFT &8» &eŞifreler uyuşmuyor , lütfen kontrol ediniz.'
+    name_in_password: '&3AnkSOFT &8» &eKullanıcı adınızı şifre yapamazsınız, lütfen başka birşey deneyiniz.'
+    unsafe_password: '&3AnkSOFT &8» &eSeçilen şifre güvenli değil , lütfen başka birşey deneyiniz.'
+    forbidden_characters: '&3AnkSOFT &8» &eŞifreniz çok uzun. İzin verilen sayı; &e%valid_chars'
+    wrong_length: '&3AnkSOFT &8» &eŞifreniz çok uzun veya çok kısa , başka birşey deneyiniz.'
+# Login
+login:
+    command_usage: '&3AnkSOFT &8» &eSunucuya giriş yapmak için /login <şifre>'
+    wrong_password: '&3AnkSOFT &8» &eŞifrenizi yanlış girdiniz lütfen tekrar deneyiniz.'
+    success: '&3AnkSOFT &8» &eBaşarılı şekilde &egiriş yaptınız.'
+    login_request: '&3AnkSOFT &8» &eSunucuya giriş yapmak için /login <şifre>'
+    timeout_error: '&3AnkSOFT &8» &eŞifrenizi girmediğiniz için atıldınız.'
+# Errors
+error:
+    denied_command: '&3AnkSOFT &8» &eBu komutu kullanabilmeniz için doğrulanmanız gerekiyor.'
+    denied_chat: '&3AnkSOFT &8» &eSohbet edebilmeniz için kimliğiniz doğrulanmalıdır.'
+    unregistered_user: '&3AnkSOFT &8» &eİstenen kullanıcı veri tabanında bulunmuyor.'
+    not_logged_in: '&3AnkSOFT &8» &eGiriş yapmadınız.'
+    no_permission: '&3AnkSOFT &8» &eBu eylemi gerçekleştirmeye izniniz yok.'
+    unexpected_error: '&3AnkSOFT &8» &eBeklenmedik bir hata oluştu , lütfen yetkiliye bildiriniz.'
+    max_registration: '&3AnkSOFT &8» &eBağlantınız için maksimum kayıt limitini (&e%reg_count/%max_acc %reg_names&7) aştınız.'
+    logged_in: '&3AnkSOFT &8» &eZaten giriş yapmışsınız.'
+    kick_for_vip: '&8» &f&lA VIP player has joined the server when it was full! &8» '
+    tempban_max_logins: '&3AnkSOFT &8» &eÇok fazla oturum açmanız yasaklandı.'
+# AntiBot
+antibot:
+    kick_antibot: '&8» &cAntiBot protection mode is enabled! You have to wait some minutes before joining the server.'
+    auto_enabled: '&f[Server] AntiBot enabled due to the huge number of connections!'
+    auto_disabled: '&f[Server]  AntiBot disabled after %m minutes!'
+# Unregister
+unregister:
+    success: '&3AnkSOFT &8» &eBaşarılı şekilde kayıt silindi.'
+    command_usage: '&3AnkSOFT &8» &eKullanımı; &e/unregister <şifre>'
+# Other messages
+misc:
+    account_not_activated: '&8» &cYour account isn''t activated yet, please check your emails!'
+    password_changed: '&3AnkSOFT &8» &eŞifreniz başarılı şekilde değişti.'
+    logout: '&3AnkSOFT &8» &eBaşarılı şekilde çıkış yapıldı.'
+    reload: '&3AnkSOFT &8» &eDosyalar yeniden yüklendi.'
+    usage_change_password: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e              &7Şifreyi Değiştirmek için
+    
+      &e     &7/changepass <oldpassword> <newpassword>
+    
+      &8
+    
+      &8'
+    accounts_owned_self: '&8» &eYou own &c%count&e accounts:'
+    accounts_owned_other: ' &8» &e%name&e &7adlı oyuncu &c%count &7hesaba sahip isimleri;'
+# Session messages
+session:
+    valid_session: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e                    &a&lAuto Session Login.
+    
+      &e                         &a&lWelcome Back
+    
+      &8
+    
+      &8'
+    invalid_session: '&8» &cYour IP has been changed and your session data has expired!'
+# Error messages when joining
+on_join_validation:
+    same_ip_online: '&8» &c&lA player with the same IP is already in game! &8»'
+    same_nick_online: '&8» &4The same username is already playing on the server!'
+    name_length: '&8»&f&lYour username is either too short or too long! &8»'
+    characters_in_name: '&8» &f&lYour username contains illegal characters. Allowed chars: %valid_chars &8»'
+    kick_full_server: '&8»  &f&lThe server is full, try again later! &8» '
+    country_banned: '&8» &4&lYour country is banned from this server! &8» '
+    not_owner_error: '&8» &f&lThis name aready registered &8» '
+    invalid_name_case: '&8» &f&lYou should join using username %valid, not %invalid. &8» '
+    quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
+# Email
+email:
+    add_email_request: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e            &ePlease add your email to your account.
+    
+      &e                    &e/email add <email> <email>
+    
+      &8
+    
+      &8'
+    usage_email_add: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e            &ePlease add your email to your account.
+    
+      &e                    &e/email add <email> <email>
+    
+      &8
+    
+      &8'
+    usage_email_change: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e            &ePlease add your email to your account.
+    
+      &e                  &e/email add <OldEmail> <NewEmail>
+    
+      &8
+    
+      &8'
+    new_email_invalid: '&8» &cInvalid new email, try again!'
+    old_email_invalid: '&8» &cInvalid old email, try again!'
+    invalid: '&8» &cInvalid email address, try again!'
+    added: '&8» &eEmail address successfully added to your account!'
+    add_not_allowed: '&cAdding email was not allowed'
+    request_confirmation: '&8» &cPlease confirm your email address!'
+    changed: '&8» &eEmail address changed correctly!'
+    change_not_allowed: '&cChanging email was not allowed'
+    email_show: '&2Your current email address is: &f%email'
+    no_email_for_account: '&2You currently don''t have email address associated with this account.'
+    already_used: '&8» &4The email address is already being used'
+    incomplete_settings: '&8&l(&e&l✗&8&l) Error: not all required settings are set for sending emails. Please contact an admin.'
+    send_failure: 'The email could not be sent. Please contact an administrator.'
+    change_password_expired: 'You cannot change your password using this command anymore.'
+    email_cooldown_error: '&cAn email was already sent recently. You must wait %time before you can send a new one.'
+# Password recovery by email
+recovery:
+    forgot_password_hint: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e                     &eForgot your password?.
+    
+      &e                   &e/email recovery <yourEmail>
+    
+      &8
+    
+      &8'
+    command_usage: '&8
+    
+      &e
+    
+      &e               &8▬▬▬ &6&lAnkSOFT Network &8▬▬▬
+    
+      &e
+    
+      &e                     &eForgot your password?.
+    
+      &e                   &e/email recovery <yourEmail>
+    
+      &8
+    
+      &8'
+    email_sent: '&8» &eRecovery email sent successfully! Please check your email inbox!'
+    code:
+        code_sent: '&8» &eA recovery code to reset your password has been sent to your email.'
+        incorrect: '&8» The recovery code is not correct! Use /email recovery [email] to generate a new one'
+        tries_exceeded: 'You have exceeded the maximum number attempts to enter the recovery code. Use "/email recovery [email]" to generate a new one.'
+        correct: 'Recovery code entered correctly!'
+        change_password: 'Please use the command /email setpassword <new password> to change your password immediately.'
+# Captcha
+captcha:
+    usage_captcha: '&8» &cTo login you have to solve a captcha code, please use the command "/captcha %captcha_code"'
+    wrong_captcha: '&8» &cWrong captcha, please type "/captcha %captcha_code" into the chat!'
+    valid_captcha: '&8» &eCaptcha code solved correctly!'
+    captcha_for_registration: 'To register you have to solve a captcha first, please use the command: /captcha %captcha_code'
+    register_captcha_valid: '&2Valid captcha! You may now register with /register'
+# Verification code
+verification:
+    code_required: '&3This command is sensitive and requires an email verification! Check your inbox and follow the email''s instructions.'
+    command_usage: '&cUsage: /verification <code>'
+    incorrect_code: '&cIncorrect code, please type "/verification <code>" into the chat, using the code you received by email'
+    success: '&2Your identity has been verified! You can now execute all commands within the current session!'
+    already_verified: '&2You can already execute every sensitive command within the current session!'
+    code_expired: '&3Your code has expired! Execute another sensitive command to get a new code!'
+    email_needed: '&3To verify your identity you need to link an email address with your account!!'
+# Time units
+time:
+    second: 'second'
+    seconds: 'seconds'
+    minute: 'minute'
+    minutes: 'minutes'
+    hour: 'hour'
+    hours: 'hours'
+    day: 'day'
+    days: 'days'
+# Two-factor authentication
+two_factor:
+    code_created: '&8» &eYour secret code is %code. You can scan it from here %url'
+    confirmation_required: 'Please confirm your code with /2fa confirm <code>'
+    code_required: 'Please submit your two-factor authentication code with /2fa code <code>'
+    already_enabled: 'Two-factor authentication is already enabled for your account!'
+    enable_error_no_code: 'No 2fa key has been generated for you or it has expired. Please run /2fa add'
+    enable_success: 'Successfully enabled two-factor authentication for your account'
+    enable_error_wrong_code: 'Wrong code or code has expired. Please run /2fa add'
+    not_enabled_error: 'Two-factor authentication is not enabled for your account. Run /2fa add'
+    removed_success: 'Successfully removed two-factor auth from your account'
+    invalid_code: 'Invalid code!'

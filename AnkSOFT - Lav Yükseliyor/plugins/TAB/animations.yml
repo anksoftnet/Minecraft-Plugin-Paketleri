@@ -1,0 +1,121 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '&d-&3--------------'
+  - '&3-&d-&3-------------'
+  - '&3--&d-&3------------'
+  - '&3---&d-&3-----------'
+  - '&3----&d-&3----------'
+  - '&3-----&d-&3---------'
+  - '&3------&d-&3--------'
+  - '&3-------&d-&3-------'
+  - '&3--------&d-&3------'
+  - '&3---------&d-&3-----'
+  - '&3----------&d-&3----'
+  - '&3-----------&d-&3---'
+  - '&3------------&d-&3--'
+  - '&3-------------&d-&3-'
+  - '&3--------------&d-'
+  - '&3-------------&d-&3-'
+  - '&3------------&d-&3--'
+  - '&3-----------&d-&3---'
+  - '&3----------&d-&3----'
+  - '&3---------&d-&3-----'
+  - '&3--------&d-&3------'
+  - '&3-------&d-&3-------'
+  - '&3------&d-&3--------'
+  - '&3-----&d-&3---------'
+  - '&3----&d-&3----------'
+  - '&3---&d-&3-----------'
+  - '&3--&d-&3------------'
+  - '&3-&d-&3-------------'
+  - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lAnkSOFT - Lav Yükseliyor'
+  - '&c&n&lAnkSOFT - Lav Yükseliyor'
+  - '&b&lAnkSOFT - Lav Yükseliyor'
+  - '&b&l&nAnkSOFT - Lav Yükseliyor'
+  - '&e&lAnkSOFT - Lav Yükseliyor'
+  - '&e&n&lAnkSOFT - Lav Yükseliyor'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&6w&eww.anksoft.net'
+  - '&ew&6w&ew.anksoft.net'
+  - '&eww&6w&e.anksoft.net'
+  - '&ewww&6.&eanksoft.net'
+  - '&ewww.&6a&enksoft.net'
+  - '&ewww.a&6n&ksoft.net'
+  - '&ewww.an&6k&esoft.net'
+  - '&ewww.ank&6s&oft.net'
+  - '&ewww.anks&6oft&e.net'
+  - '&ewww.ankso&6ft&e.net'
+  - '&ewww.anksof&6.&enet'
+  - '&ewww.anksoft.&6.&enet'
+  - '&ewww.anksoft.&6n&eet'
+  - '&ewww.anksoft.ne&6t'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+  - '&ewww.anksoft.net'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 900
+  texts:
+  - '&7Time &b%time%'
+  - '&7> Time &b%time% &7<'
+  - '&7>> Time &b%time% &7<<'
+  - '&7>>> Time &b%time% &7<<<'
+  - '&7Date &b%date%'
+  - '&7> Date &b%date% &7<'
+  - '&7>> Date &b%date% &7<<'
+  - '&7>>> Date &b%date% &7<<<'
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+  - '&bServer TPS: &8%tps%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW
