@@ -1,0 +1,20 @@
+lastAccountName: NopeMert
+timestamps:
+  login: 1580558556718
+  logout: 1580559817529
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -134.3129833945173
+  y: 96.0
+  z: -403.417272918325
+  yaw: -51.65036
+  pitch: 60.9751

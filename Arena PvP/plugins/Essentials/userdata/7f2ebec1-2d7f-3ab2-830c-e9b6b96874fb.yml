@@ -1,0 +1,20 @@
+lastAccountName: KaanStyle
+timestamps:
+  login: 1580466101321
+  logout: 1580466502381
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -101.74336130561254
+  y: 96.0
+  z: -406.3469801136573
+  yaw: 120.51129
+  pitch: 5.1690364
+money: '500.0'

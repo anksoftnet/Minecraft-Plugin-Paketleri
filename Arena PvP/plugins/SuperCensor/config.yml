@@ -1,0 +1,123 @@
+# SuperCensor by Wruczek. All rights reserved
+# Dev bukkit page: http://dev.bukkit.org/bukkit-plugins/supercensor/
+
+Logger:
+  Use: false
+  Log running commands: false
+  Running command format: '[%date% %time%] Running command: %command%'
+  File name: Log.txt
+  Time format: HH:mm:ss
+  Date format: dd-MM-yyyy
+Updater:
+  Enabled: false
+  Check on enable: true
+  Auto download: false
+  Information on admin join: true
+Censoring:
+  Enabled: true
+  Special charters: ',. -_+-[];/(){}=!?:%123456789'
+  Command checker:
+    Enabled: true
+    Log on found:
+      Enabled: true
+      Format: '[%date% %time%] Player %player% wrote %word% on command. (Command:
+        %command%)'
+    Cancel: true
+    Replace to charters: false
+    Charters: '****'
+    Send message: true
+    Sound:
+      Enabled: false
+      Sound: GHAST_SCREAM
+      Pitch: 1.0
+      Volume: 1.0
+    Check all commands: true
+    CheckedCommands:
+    - msg
+    - tell
+    - t
+    - helpop
+    - m
+    Commands:
+      Enabled: false
+      Commands:
+      - mute %player% 60
+      - announce say&c%player% &7isimli oyuncu özelden reklam yapmaya çalıştığı için 1 dakika mute yedi!
+  ChatCensoring:
+    Enabled: true
+    Log on found:
+      Enabled: true
+      Format: '[%date% %time%] Player %player% wrote %word% on chat. (Full message:
+        %message%)'
+    Cancel: true
+    Replace to charters: false
+    Charters: '****'
+    Send message: true
+    Sound:
+      Enabled: false
+      Sound: GHAST_SCREAM
+      Pitch: 1.0
+      Volume: 1.0
+    Commands:
+      Enabled: false
+      Commands:
+      - mute %player% 15
+      - announce say &c%player% &7adlı oyuncu yasaklı bir kelime kullandığı için 15 saniye mute yedi!
+SlowChat:
+  Enabled: true
+  Time: 2
+  Log on found:
+    Enabled: true
+    Format: '[%date% %time%] Player %player% want to bypass SlowChat. (Full message:
+      %message%)'
+  Commands:
+    Enabled: false
+    Commands:
+    - mute %player% 30
+    - announce say &c%player% &7isimli oyuncu spam yaptığı icin 30 saniye mute yedi!
+CapsBlock:
+  Enabled: true
+  Minimum message lenght: 1
+  Precentage: 1
+  Put to lower case: true
+  Cancel: false
+  Send message: true
+  Log on found:
+    Enabled: false
+    Format: '[%date% %time%] Player %player% want to use capital letters on chat.
+      (Full message: %message%)'
+  Commands:
+    Enabled: false
+    Commands:
+    - command 1
+    - '%player% is the player name!'
+IPBlocker:
+  Enabled: true
+  Censor IP: true
+  Censor sites: true
+  Log on found:
+    Enabled: true
+    Format: '[%date% %time%] Player %player% want to advertise. (Full message: %message%)'
+  Whitelist:
+  - example.com
+  - google.com
+  - 123.456.789
+  Cancel: true
+  Send message: true
+  Commands:
+    Enabled: false
+    Commands:
+    - kick %player% &bReklam yaptığın için atıldın!
+AntiSpam:
+  Enabled: true
+  Allow Repreats: 2
+  Log on found:
+    Enabled: true
+    Format: '[%date% %time%] Player %player% want to spam on chat. (Full message:
+      %message%)'
+  Send message: true
+  Commands:
+    Enabled: false
+    Commands:
+    - mute %player% 30
+    - announce say &c%player% &7adlı oyuncu spam yaptığı icin 30 saniye mute yedi!

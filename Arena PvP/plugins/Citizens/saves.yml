@@ -1,0 +1,131 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 4020
+npc:
+  '37':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTY3MDA3MjI2ODY4NCwKICAicHJvZmlsZUlkIiA6ICIwZjgzMjk4OWU0YWI0MDNjOTYyNjc3ZmYwZjFjMDU5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpaUNIM0tSIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2OTg1YTllYzRmZmU2MmI3MTY0NjZlNmNkNzRlNGJmNDU0ODJmODRlNTlkYTcwODkxMzBkNTI0Mzk1MjM3OTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: iich3kr
+      cached-skin-uuid: 0f832989-e4ab-403c-9626-77ff0f1c0594
+      player-skin-name: iich3kr
+      player-skin-signature: PKkc+KVbAvtDV05c4R2T60MrPlScBkrav3HUnk8STLcsL79bcPUhO/9jly8Cds1nMrn+THGJbWBEFnAL5QjDUTgm4eFJSWBTzXGC4sDRpT1UwEcadKqbfVM4aG9XgD/ab1bbKws9BhhsUu9FJ78VtUXQWoSBXXx5tKVqOllukBRGFMKbeTy1bYAzaJItiMeQwGTz9+E/HiTXocgcW9P4rv2tOe9mBMQQyv+NJVSpePEHojwuNoE53ZwaWzB8qKCZVvTmTm/UbwKyRd00JOc+wpTrXA8lS+zOcHkSYXEOKg678z4dCNU5Mms9f6VUR/jfx8+qeLLgyoMxYRUhsa9nQFpnEJvrW0w+o0Pd31AhV3qRAkBdKRvNIl0iRwUxMp9Op6AHJRFKDnZgANFz/sCNCiR8Xvzv99jsucvq5kxeAP7i+9gnbA/KSeKYSs3lV2D/ct1pitI49NASkcKGrLXp/r2KsnkoZGDDbrAP3jv3N9vpnN4mqgwwUMQbwDf+Cy/g02G69FSJwkgb35uvifkOLix8+d2g6NNFj8FOrEkkFrIhjasnCQzVsR1XsOwC7ERiUvg0KODMFlgjLTz1qenj5yOZlYnnYI+Gc+bM394avEtEPQY6nJ5DcCF9egFl3FDlb0533EdfM0JZeUBaVrQk4d5NhH6gVQt5BA044QKkLPM=
+    name: §e§lDÜELLO
+    uuid: 8c1416d0-58ca-41a5-9689-3d92b0fea40c
+    traits:
+      location:
+        world: world
+        x: '155.46243297396788'
+        y: '4.0'
+        z: '1444.550722537415'
+        yaw: '-45.50651550292969'
+        pitch: '0.0'
+      inventory: {}
+      spawned: true
+      owner:
+        owner: BaranMRJ
+        uuid: 7013cd01-d0d1-3320-83f9-99578ec4bd6f
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: type,owner,spawned,inventory,location,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '56':
+    name: §7
+    uuid: 0e1f1e05-3b40-43d8-b823-b878edc19567
+    traits:
+      type: Skeleton
+      inventory: {}
+      spawned: true
+      location:
+        world: world
+        x: '-131.50115885024513'
+        y: '98.0'
+        z: '-445.52683222748027'
+        yaw: '-53.69696044921875'
+        pitch: '0.0'
+      skeletontype:
+        type: WITHER
+      owner:
+        owner: MetehanSN
+        uuid: 755107a2-c605-34ee-b671-abdd6777103a
+    traitnames: type,skeletontype,owner,location,inventory,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '55':
+    name: §7
+    uuid: 29a6b5eb-8cc8-46b2-b379-a277141edc3a
+    traits:
+      type: Skeleton
+      inventory: {}
+      spawned: true
+      location:
+        world: world
+        x: '-133.530721672774'
+        y: '98.0'
+        z: '-442.50991551882436'
+        yaw: '-49.9691162109375'
+        pitch: '0.0'
+      skeletontype:
+        type: WITHER
+      owner:
+        owner: MetehanSN
+        uuid: 755107a2-c605-34ee-b671-abdd6777103a
+    traitnames: type,skeletontype,owner,spawned,inventory,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '54':
+    name: §7
+    uuid: e3716f3b-d13b-467d-a042-11a338a26c90
+    traits:
+      type: Skeleton
+      inventory: {}
+      spawned: true
+      location:
+        world: world
+        x: '-135.51029124828153'
+        y: '98.0'
+        z: '-439.4956143000085'
+        yaw: '-50.611236572265625'
+        pitch: '0.0'
+      skeletontype:
+        type: WITHER
+      owner:
+        owner: MetehanSN
+        uuid: 755107a2-c605-34ee-b671-abdd6777103a
+    traitnames: type,skeletontype,owner,inventory,spawned,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '53':
+    name: §7
+    uuid: 3e8b4c49-6228-49a2-9a81-0da52251761b
+    traits:
+      type: Skeleton
+      inventory: {}
+      spawned: true
+      location:
+        world: world
+        x: '-137.57564697441126'
+        y: '98.0'
+        z: '-436.5787664754332'
+        yaw: '-50.02972412109375'
+        pitch: '0.0'
+      skeletontype:
+        type: WITHER
+      owner:
+        owner: MetehanSN
+        uuid: 755107a2-c605-34ee-b671-abdd6777103a
+    traitnames: type,skeletontype,owner,location,inventory,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

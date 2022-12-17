@@ -1,0 +1,19 @@
+lastAccountName: beasts
+timestamps:
+  login: 1580567123881
+  logout: 1580567142227
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -134.2151594225293
+  y: 96.0
+  z: -417.1049274314025
+  yaw: -143.65474
+  pitch: 12.727163

@@ -1,0 +1,19 @@
+NPCS:
+  '36':
+    Commands:
+    - 1~~~duel~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '37':
+    Commands:
+    - 1~~~duel~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '53':
+    Commands:
+    - 1~~~unranked~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '54':
+    Commands:
+    - 1~~~ranked~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '55':
+    Commands:
+    - 1~~~kiteditor~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '56':
+    Commands:
+    - 1~~~botduel~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

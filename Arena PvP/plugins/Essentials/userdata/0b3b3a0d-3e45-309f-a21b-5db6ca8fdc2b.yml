@@ -1,0 +1,21 @@
+lastAccountName: Deathz
+timestamps:
+  login: 1543683940928
+  logout: 1543684593625
+  lastteleport: 1543684544328
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: -7638.691311840857
+  y: 88.0
+  z: -8024.230906775722
+  yaw: -340.46753
+  pitch: 2.0160062
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7636.648925022385
+  y: 88.0
+  z: -8021.354876852085
+  yaw: 94.47494
+  pitch: -14.077982

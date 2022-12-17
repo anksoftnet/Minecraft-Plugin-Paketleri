@@ -1,0 +1,20 @@
+lastAccountName: kralgolem
+timestamps:
+  login: 1580468609747
+  logout: 1580469709209
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -111.77545371548077
+  y: 96.0
+  z: -419.33198876426115
+  yaw: -273.705
+  pitch: 7.627168

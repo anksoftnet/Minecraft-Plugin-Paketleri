@@ -1,0 +1,21 @@
+lastAccountName: Zewz
+timestamps:
+  login: 1543252698705
+  lastteleport: 1543233852473
+  logout: 1543252702249
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: -7658.127027793086
+  y: 91.0
+  z: -7950.7179884276475
+  yaw: 99.16412
+  pitch: 0.7124318
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7696.421841369993
+  y: 152.0
+  z: -8017.0056310815935
+  yaw: -130.78587
+  pitch: 3.112412

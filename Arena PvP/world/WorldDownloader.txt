@@ -1,0 +1,6 @@
+#
+#Sun Dec 09 18:09:28 EET 2018
+LinkedWorlds=
+Entity.FireworksRocketEntity.Enabled=false
+Entity.Hologram.Enabled=false
+ServerName=play.betacraft.org

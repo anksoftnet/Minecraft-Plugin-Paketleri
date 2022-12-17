@@ -1,0 +1,20 @@
+lastAccountName: xRegin
+timestamps:
+  login: 1543174283463
+  logout: 1543174745108
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: 190.0
+  y: 64.0
+  z: 335.0
+  yaw: 0.0
+  pitch: 0.0
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7686.728300052707
+  y: 152.0
+  z: -8074.250753028575
+  yaw: -359.82486
+  pitch: 9.507334

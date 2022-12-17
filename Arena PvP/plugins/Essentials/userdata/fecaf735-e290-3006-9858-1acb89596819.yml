@@ -1,0 +1,20 @@
+lastAccountName: HzFireless
+timestamps:
+  login: 1580674399838
+  logout: 1580674496620
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -90.53058849424811
+  y: 100.0
+  z: -418.6173467038087
+  yaw: 67.54763
+  pitch: 0.5013681

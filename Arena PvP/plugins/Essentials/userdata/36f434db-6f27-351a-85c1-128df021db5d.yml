@@ -1,0 +1,20 @@
+lastAccountName: Ricedeluxe
+timestamps:
+  login: 1580461367244
+  logout: 1580462591405
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -104.19370661991977
+  y: 108.7531999805212
+  z: -405.7638706753342
+  yaw: -188.73975
+  pitch: 32.33289
+money: '500.0'

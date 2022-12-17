@@ -1,0 +1,20 @@
+lastAccountName: Rawven
+timestamps:
+  login: 1580552879761
+  logout: 1580553034735
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -134.2600498074863
+  y: 96.0
+  z: -410.92936537525645
+  yaw: -289.1866
+  pitch: 3.721199

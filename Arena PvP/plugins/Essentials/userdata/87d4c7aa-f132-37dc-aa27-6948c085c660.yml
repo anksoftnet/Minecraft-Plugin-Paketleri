@@ -1,0 +1,21 @@
+lastAccountName: spokeh
+timestamps:
+  login: 1580657883807
+  logout: 1580658172814
+  lastteleport: 1580493111462
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -129.31950535491904
+  y: 96.0
+  z: -413.1056558179977
+  yaw: -185.33508
+  pitch: 46.835262
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168

@@ -1,0 +1,20 @@
+lastAccountName: AmerikaCocugu
+timestamps:
+  login: 1543571889082
+  logout: 1543572108356
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: 190.0
+  y: 64.0
+  z: 335.0
+  yaw: 0.0
+  pitch: 0.0
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7688.8542143267005
+  y: 153.0
+  z: -8041.99493429565
+  yaw: 64.12048
+  pitch: 12.773101

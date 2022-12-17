@@ -1,0 +1,32 @@
+# 
+#  SkinsRestorer Config.yml  #
+SkinWithoutPerm: false
+SkinExpiresAfter: 1584
+SkinChangeCooldown: 30
+Locale: english
+DefaultSkins:
+  Enabled: false
+  Names:
+  - Steve
+  ApplyForPremium: false
+DisabledSkins:
+  Enabled: false
+  ApplyForPremium: false
+  Names:
+  - Steve
+MultiBungee:
+  Enabled: false
+MySQL:
+  Enabled: false
+  Host: localhost
+  Port: 3306
+  Database: db
+  Username: root
+  Password: pass
+  SkinTable: Skins
+  PlayerTable: Players
+Proxies:
+  Enabled: false
+Updater:
+  Enabled: true
+DisableOnJoinSkins: false

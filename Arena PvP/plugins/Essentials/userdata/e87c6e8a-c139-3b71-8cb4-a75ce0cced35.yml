@@ -1,0 +1,23 @@
+lastAccountName: squadz
+timestamps:
+  login: 1580828574948
+  logout: 1580828953545
+  lastteleport: 1580828816817
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -93.94999998807907
+  y: 101.0
+  z: -412.82509243283494
+  yaw: -240.08644
+  pitch: 16.378761
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -220.0700370207555
+  y: -36.990416443208254
+  z: -492.8211692155731
+  yaw: -63.6362
+  pitch: -43.317245
+afk: false
+nickname: §cAdem

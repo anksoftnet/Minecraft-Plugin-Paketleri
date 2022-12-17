@@ -1,0 +1,20 @@
+lastAccountName: FakeYagizlol
+timestamps:
+  login: 1580570716398
+  logout: 1580571364218
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -141.78439861482576
+  y: 96.0
+  z: -419.50572260607055
+  yaw: -46.66561
+  pitch: 29.141205

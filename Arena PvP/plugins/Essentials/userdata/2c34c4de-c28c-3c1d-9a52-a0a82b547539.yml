@@ -1,0 +1,20 @@
+lastAccountName: zed6
+timestamps:
+  login: 1580296649679
+  logout: 1580296700751
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -111.82710401043173
+  y: 101.16610926093821
+  z: -419.24531952830375
+  yaw: -287.05487
+  pitch: 18.727167

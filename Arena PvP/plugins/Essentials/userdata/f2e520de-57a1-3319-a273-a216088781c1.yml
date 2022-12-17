@@ -1,0 +1,20 @@
+lastAccountName: UxL2allien
+timestamps:
+  login: 1580580539513
+  logout: 1580581837512
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -276.19394
+  pitch: 2.0373755
+money: '500.0'

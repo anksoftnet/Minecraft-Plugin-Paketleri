@@ -1,0 +1,23 @@
+lastAccountName: G_Zus
+timestamps:
+  login: 1543740794417
+  lastteleport: 1543665491424
+  logout: 1543740847378
+  mute: 0
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: -7700.927107236772
+  y: 153.5
+  z: -8016.10776371375
+  yaw: 310.23904
+  pitch: 58.933384
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7713.792922792893
+  y: 88.0
+  z: -7998.217241661518
+  yaw: -131.60443
+  pitch: 29.466413
+muted: false

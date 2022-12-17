@@ -1,0 +1,21 @@
+lastAccountName: HzAres
+timestamps:
+  login: 1580831876392
+  logout: 1580831876394
+  lastteleport: 1580551236747
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -111.96152775075943
+  y: 96.0
+  z: -415.9153001387073
+  yaw: -82.30524
+  pitch: 30.727163
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -101.39969632166296
+  y: 100.0
+  z: -419.4950541943655
+  yaw: -269.80493
+  pitch: 2.227168

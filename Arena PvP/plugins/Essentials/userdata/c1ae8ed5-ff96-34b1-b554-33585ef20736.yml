@@ -1,0 +1,20 @@
+lastAccountName: _NE_game_
+timestamps:
+  login: 1580466851142
+  logout: 1580467148443
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -112.01264962585722
+  y: 96.0
+  z: -420.26600889801273
+  yaw: -270.93484
+  pitch: 2.47577
+money: '500.0'

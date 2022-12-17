@@ -1,0 +1,21 @@
+lastAccountName: simparo
+timestamps:
+  login: 1580743782082
+  logout: 1580743816277
+  lastteleport: 1580741939779
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -107.27938804182385
+  y: 100.0625
+  z: -419.5107028966705
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -134.91710464434206
+  y: 97.0
+  z: -435.8748499272136
+  yaw: -152.62451
+  pitch: 5.0924215

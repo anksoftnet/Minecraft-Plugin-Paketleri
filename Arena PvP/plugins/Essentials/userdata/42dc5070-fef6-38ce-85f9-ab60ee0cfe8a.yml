@@ -1,0 +1,20 @@
+lastAccountName: Killer_Gon
+timestamps:
+  login: 1580562515084
+  logout: 1580562522422
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -130.69999998807907
+  y: 95.0
+  z: -416.8212813408638
+  yaw: -282.45874
+  pitch: 71.542946
+money: '500.0'

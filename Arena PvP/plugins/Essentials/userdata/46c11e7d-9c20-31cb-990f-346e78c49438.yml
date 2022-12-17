@@ -1,0 +1,20 @@
+lastAccountName: Primmatiq
+timestamps:
+  login: 1580498488241
+  logout: 1580498492678
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -120.69326378855787
+  y: 96.0
+  z: -416.721656429864
+  yaw: -279.73087
+  pitch: 3.8075051
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -116.12753764694347
+  y: 96.0
+  z: -418.6429938870453
+  yaw: -273.7852
+  pitch: -2.2574136

@@ -1,0 +1,81 @@
+﻿options:
+	p: &6&lAnk&fSOFT &e»
+	noperm: &6&lCraft&fSpear &e» &cBu komutu kullanabilmek için yeterli yetkin yok!
+command /mute [<offlineplayer>] [<text>] [<text>]:
+	trigger:
+		player has permission "essentials.mute":
+			if arg 1 is set:
+				if arg 2 is set:
+					if arg 3 is set:
+						if {muteli::%arg-1%} isn't set:
+							set {muteli::%arg-1%} to "1"
+							set {_sure} to arg-2
+							if arg-2 contains "10y" or "30y":
+								replace all "10y" with "Sınırsız" in {_sure}
+								replace all "30y" with "Sınırsız" in {_sure}
+							if arg-2 contains "m":
+								replace all "m" with " Dakika" in {_sure}
+							if arg-2 contains "h":
+								replace all "h" with " Saat" in {_sure}
+							if arg-2 contains "y":
+								replace all "y" with " Yıl" in {_sure}
+							if arg-2 contains "w":
+								replace all "w" with " Hafta" in {_sure}
+							if arg-2 contains "s":
+								replace all "s" with " Saniye" in {_sure}
+							if arg-2 contains "mo":
+								replace all "mo" with " Ay" in {_sure}
+							if arg-2 contains "d":
+								replace all "d" with " Gün" in {_sure}
+							send "&7&m--------&r &e« {@p} &7&m--------" to all players
+							send "&r" to all players
+							send "&aSusturulan Oyuncu: &f%arg 1%" to all players
+							send "&aSusturan Kişi: &r%player's display name%" to all players
+							send "&aSüre: &f%{_sure}%" to all players
+							send "&aSebep: &f%arg 3%" to all players
+							send "&r" to all players
+							send "&7&m--------&r &e« {@p} &7&m--------" to all players
+							execute console command "essentials:mute %arg 1% %arg 2%"
+							log "%arg 1% adlı oyuncu %executor% tarafından %arg 3% sebebinden  %{_sure}% süre susturuldu." to "mute.log"
+						else:
+							send "{@p} &cBu oyuncu zaten susturulmuş." to player
+					else:
+						send "{@p} &cSebep girmelisin." to player
+				else:
+					send "{@p} &cSüre girmelisin." to player
+			else:
+				send "{@p} &cOyuncu ismi girmelisin." to player
+		else:
+			send "{@noperm}"
+command /unmute [<offlineplayer>]:
+	trigger:
+		if arg 1 is set:
+			execute console command "essentials:mute %arg 1% 0"
+			delete {muteli::%arg-1%}
+		else:
+			send "{@p} &cOyuncu ismi girmelisin." to player
+command /cezaver [<offlineplayer>] [<text>]:
+	trigger:
+		player has permission "cezaver.yetkili":
+			if arg 1 is set:
+				open virtual chest with size 4 named "&c&lCEZA &f&lMENU" to player
+				wait 1 tick
+				make gui slot 0 of player with nether star named "&4Kapat" with lore "" to close
+				make gui slot 8 of player with nether star named "&4Kapat" with lore "" to close
+				make gui slot 4 of player with fire charge named "&eOyuncu &a&n%arg 1%" with lore "" to nothing
+				make gui slot 22 of player with rose red named "&cSunucudan At" with lore "" to close then run player command "kick %arg 1%"
+				make gui slot 20 of player with light green dye named "&aSustur" with lore "" to close then run player command "cezaver %arg 1% sustur"
+				make gui slot 29 of player with gray dye named "&7Sustur Kaldır" with lore "" to close then run player command "unmute %arg 1%"
+				make gui slot 24 of player with redstone named "&4Yetkin Yok" with lore "" to close then run player command "cezaver %arg 1%"
+				make gui slot 33 of player with gray dye named "&7Ban Kadir Yetkin Yok" with lore "" to close then run player command "cezaver %arg 1%"
+			else:
+				send "{@p} &cOyuncu ismi girmelisin."
+			if arg 2 is "sustur":
+				open virtual chest with size 4 named "&3&n%arg 1% &aSustur" to player
+				wait 1 tick
+				make gui slot 10 of player with yellow glass block named "10 dakika" with lore "Spam&Harf uzatma" to close then run player command "mute %arg 1% 10m Spam&Harf uzatma"
+				make gui slot 12 of player with orange glass block named "15 dakika" with lore "Küfür&Hakaret" to close then run player command "mute %arg 1% 15m Küfür&Hakaret"
+				make gui slot 14 of player with light green glass block named "1 Saat" with lore "Reklam" to close then run player command "mute %arg 1% 1h Reklam"
+				make gui slot 16 of player with pink glass block named "1 Gün" with lore "Ağır Küfür" to close then run player command "mute %arg 1% 1d Ağır Küfür"
+				make gui slot 22 of player with red glass block named "1 Hafta" with lore "Yetkiliyi boş yere rahatsız etme" to close then run player command "mute %arg 1% 1w Yetkiliyi boş yere rahatsız etme"
+				make gui slot 35 of player with redstone block named "&4Geri dön" with lore "" to close then run player command "cezaver %arg 1%"

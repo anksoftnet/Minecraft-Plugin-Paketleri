@@ -1,0 +1,20 @@
+lastAccountName: adempl
+timestamps:
+  login: 1580820546354
+  logout: 1580820727990
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -106.50653388647974
+  y: 100.0625
+  z: -419.46104926165947
+  yaw: -274.3799
+  pitch: 18.521057

@@ -1,0 +1,20 @@
+lastAccountName: OROSPU
+timestamps:
+  login: 1580555876441
+  logout: 1580557666625
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -140.46406013218737
+  y: 97.0
+  z: -406.92759722207046
+  yaw: -275.42932
+  pitch: 3.5953338

@@ -1,0 +1,20 @@
+lastAccountName: GENERALKSA
+timestamps:
+  login: 1580210272295
+  logout: 1580211366056
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -144.56442245551744
+  y: 100.0625
+  z: -420.4480382985037
+  yaw: -58.546192
+  pitch: 30.004448

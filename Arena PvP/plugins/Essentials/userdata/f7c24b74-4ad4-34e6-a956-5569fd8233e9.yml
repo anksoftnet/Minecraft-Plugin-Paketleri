@@ -1,0 +1,20 @@
+lastAccountName: uhuh
+timestamps:
+  login: 1580223452777
+  logout: 1580223658260
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -123.91155030415494
+  y: 96.0
+  z: -426.12370036415274
+  yaw: -88.30151
+  pitch: 9.396699

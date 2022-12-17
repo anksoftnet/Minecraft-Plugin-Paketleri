@@ -1,0 +1,20 @@
+lastAccountName: Casue
+timestamps:
+  login: 1580581642671
+  logout: 1580581817439
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -126.45325677634925
+  y: 96.0
+  z: -423.6901373233586
+  yaw: -93.76868
+  pitch: 68.89925
+money: '500.0'

@@ -1,0 +1,20 @@
+lastAccountName: DoganTR35
+timestamps:
+  login: 1580628589888
+  logout: 1580628802898
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -104.67166639897071
+  y: 100.78502770378924
+  z: -419.4201107334518
+  yaw: -272.87842
+  pitch: 2.9435732
+money: '500.0'
+logoutlocation:
+  world: arena
+  x: 284.03388991227916
+  y: 76.0
+  z: 1625.1507509582193
+  yaw: -88.47451
+  pitch: 9.207574

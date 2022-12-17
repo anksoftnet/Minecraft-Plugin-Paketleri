@@ -1,0 +1,117 @@
+# Use whitelist to allow typing some of words.
+# Example: If you add to censoring words word ass, and somebody type Grass on the chat, plugin detect it.
+# To prevent accidents, add word Grass to whitelist.
+
+Whitelist:
+- grass
+Words:
+- nitrado
+- ntrado
+- batihost
+- batıhost
+- ＣＯＭ
+- ＮＩＴＲＡＤＯ
+- ŃĨŤŔÁĎŐ
+- '[̲̅n̲̅][̲̅i̲̅][̲̅t̲̅][̲̅r̲̅][̲̅a̲̅][̲̅d̲̅][̲̅o̲̅]'
+- ⓝⓘⓣⓡⓐⓓⓞ
+- ⓝⓔⓣ
+- ｎｅｔ
+- ŃĔŤ
+- '[̲̅n̲̅][̲̅e̲̅][̲̅t̲̅]'
+- ＮＥＴ
+- ₦ĒŦ
+- cƦαŦ†
+- ©ⓡⓐⓕⓣ
+- '|͇̿'
+- ｃｒａｆｔ
+- ƈʀᾄғҭ
+- '[̲̅c̲̅][̲̅r̲̅][̲̅a̲̅][̲̅f̲̅][̲̅t̲̅]'
+- ＣＲＡＦＴ
+- čřăft
+- axitrbilisim
+- com
+- axitr
+- ＣＯＭ
+- ＰＬＡＹ
+- '|͇̿'
+- ｃｒａｆｔ
+- ＣＲＡＦＴ
+- ᶜʳᵃᶠᵗ
+- ｎｉｔｒａｄｏ
+- ᴺᴵᵀᴿᴬᴰᴼ
+- ＮＩＴＲＡＤＯ
+- ᶰᶤᵗʳᵃᵈᵒ
+- '[̲̅n̲̅][̲̅i̲̅][̲̅t̲̅][̲̅r̲̅][̲̅a̲̅][̲̅d̲̅][̲̅o̲̅]'
+- ŃĨŤŔÁĎŐ
+- иıтяɒαo
+- иıтяαđø
+- ⓟⓛⓐⓨ๏ⓢⓐⓚⓛⓘⓞⓨⓤⓝ©ⓤ๏©ⓞⓜ
+- ｎ
+- ｉ
+- ｔ
+- ｒ
+- ａ
+- ｄ
+- ｏ
+- ｎ
+- ｅ
+- ｔ
+- －
+- １．７．２
+- ．
+- notrodo
+- notrodo
+- not
+- '*'
+- '-'
+- '-'
+- '['
+- ']'
+- '#'
+- '%'
+- '!'
+- pixel
+- '-'
+- †
+- ø
+- πι
+- '''[0;31;22m[21m»'''
+- n i t r a d o
+- ni t r a d o
+- nit r a d o
+- nitr a d o
+- nitra d o
+- nitrad o
+- n it r a d o
+- n itr a d o
+- n i t
+- n it
+- nit
+- n tr
+- nıt
+- nıtrado
+- nitr
+- ni t
+- porno
+- sex
+- sikerim
+- siksene
+- amını
+- ananın amını
+- orospu
+- oç
+- orospu evladı
+- o ç
+- anneni sikerim
+- sikmek
+- annen
+- anan
+- piç
+- annesiz
+- ananı sikerim
+- bacını sikiyim
+- sikiyim
+- skiyim
+- sikrm
+- orspu çocu
+- yarrak

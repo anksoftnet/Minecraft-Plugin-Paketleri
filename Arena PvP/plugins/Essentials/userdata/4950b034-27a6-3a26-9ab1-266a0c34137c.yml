@@ -1,0 +1,21 @@
+lastAccountName: karagos
+timestamps:
+  login: 1580369740853
+  logout: 1580370752348
+  lastteleport: 1580243290494
+ipAddress: 185.9.156.198
+lastlocation:
+  world: arena
+  x: -31.140237604932324
+  y: 105.0
+  z: 1685.8513571904205
+  yaw: 219.49966
+  pitch: 9.599992
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -144.1069259661469
+  y: 100.0625
+  z: -419.9225838987263
+  yaw: -177.02039
+  pitch: 30.747015

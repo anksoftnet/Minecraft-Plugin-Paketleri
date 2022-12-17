@@ -1,0 +1,6 @@
+# 
+# Read CloudeLecaw post to see what going on here: http://dev.bukkit.org/bukkit-plugins/supercensor/forum/ideas/68797-new-idea-word-replacerlist/
+# How to use:
+# 1. Add to list shortcut world (this world what you want to change)
+Enabled: false
+Separate symbol: /

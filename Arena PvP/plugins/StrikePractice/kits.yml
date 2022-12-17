@@ -1,0 +1,2394 @@
+kits:
+- ==: BattleKit
+  types: ANY
+  merged-editable-kit: builduhc
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  name: builduhcelo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lBuild UHC§7 (Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  elo: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Golden Head
+  - ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: COBBLESTONE
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 48
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOD
+    amount: 64
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+- ==: BattleKit
+  types: PARTY_VS_PARTY, DUEL, PARTY_SPLIT, QUEUE, PARTY_FFA
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  name: builduhc
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lBuildUHC
+      lore:
+      - §c
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Golden Head
+  - ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: COBBLESTONE
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 48
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOD
+    amount: 64
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HELMET
+  name: sg
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lSG
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT_AND_STEEL
+    damage: 61
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_CARROT
+  - ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 2
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+- ==: BattleKit
+  types: PARTY_VS_PARTY, DUEL, PARTY_SPLIT, QUEUE, PARTY_FFA
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  name: combo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lCombo
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  combo: true
+  inventory:
+  - &id001
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+  - &id002
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 64
+  - &id003
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8290
+    amount: 3
+  - &id004
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8297
+    amount: 3
+  - &id005
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id006
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id007
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id008
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id009
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id010
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id011
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id012
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id013
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id014
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id015
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id016
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id017
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id018
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id019
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id020
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id021
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id022
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id023
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id024
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id025
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id026
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id027
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id028
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id029
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id030
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id031
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id032
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id033
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id034
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id035
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - &id036
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HELMET
+  name: sg1v1elo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lSG§7 (Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+  elo: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT_AND_STEEL
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_CARROT
+  - ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 2
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+- ==: BattleKit
+  types: QUEUE
+  merged-editable-kit: gapple
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  name: gappleelo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lGapple§7 (Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  elo: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8290
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8297
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- ==: BattleKit
+  types: PARTY_VS_PARTY, DUEL, PARTY_SPLIT, QUEUE, PARTY_FFA
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  name: gapple
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lGapple
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8290
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8297
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- ==: BattleKit
+  types: PARTY_VS_PARTY, DUEL, PARTY_SPLIT, QUEUE, PARTY_FFA
+  best-of: 1
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lCombo§r §7(Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  combo: true
+  elo: true
+  inventory:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+  - *id016
+  - *id017
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - *id022
+  - *id023
+  - *id024
+  - *id025
+  - *id026
+  - *id027
+  - *id028
+  - *id029
+  - *id030
+  - *id031
+  - *id032
+  - *id033
+  - *id034
+  - *id035
+  - *id036
+  merged-editable-kit: combo
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  build: true
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  name: combo1v1elo
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- ==: BattleKit
+  types: QUEUE
+  merged-editable-kit: potion
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  name: potionelo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPotion§7 (Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  elo: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  name: potion
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPotion
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  chest-access: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+- ==: BattleKit
+  types: QUEUE
+  merged-editable-kit: soup
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+  name: soupelo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lSoup§7 (Dereceli)
+      lore:
+      - §7''Dereceli sırasına katılmak için tıkla''
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+  elo: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+  name: soup
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lSoup
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+  chest-access: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+- ==: BattleKit
+  only-bow: true
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  name: premadecustomkit-7
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SPADE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: premadecustomkit-7
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        PROTECTION_FALL: 4
+  combo: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lPremade CustomKit
+  - ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+  - ==: org.bukkit.inventory.ItemStack
+    type: COBBLESTONE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT_AND_STEEL
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_LEGGINGS
+- ==: BattleKit
+  types: ANY
+  only-bow: true
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_CHESTPLATE
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_HELMET
+  name: archer
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lArcher
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+  inventory:
+  - &id037
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 2
+        ARROW_INFINITE: 1
+  - null
+  - null
+  - &id038
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 3
+  - null
+  - null
+  - null
+  - null
+  - &id039
+    ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_LEGGINGS
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  build: true
+  editable: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  name: ironbuilduhc
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lIronBuildUHC
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  inventory:
+  - &id040
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+  - &id041
+    ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+  - &id042
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 2
+  - &id043
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 6
+  - &id044
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Golden Head
+  - &id045
+    ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+  - &id046
+    ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lIronBuildUHC
+  - &id047
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+  - &id048
+    ==: org.bukkit.inventory.ItemStack
+    type: COBBLESTONE
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - &id049
+    ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 48
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - &id050
+    ==: org.bukkit.inventory.ItemStack
+    type: LAVA_BUCKET
+  - &id051
+    ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+  - &id052
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+  - &id053
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD
+    amount: 64
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+- ==: BattleKit
+  types: ANY
+  only-bow: true
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_CHESTPLATE
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_HELMET
+  name: archer1v1elo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lArcher§r §7(Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+  elo: true
+  inventory:
+  - *id037
+  - null
+  - null
+  - *id038
+  - null
+  - null
+  - null
+  - null
+  - *id039
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_LEGGINGS
+- ==: BattleKit
+  types: ANY
+  merged-editable-kit: ironbuilduhc
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  name: ironbuilduhc1v1elo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lIronBuildUHC§r §7(Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  elo: true
+  inventory:
+  - *id040
+  - *id041
+  - *id042
+  - *id043
+  - *id044
+  - *id045
+  - *id046
+  - *id047
+  - *id048
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - *id049
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - *id050
+  - *id051
+  - *id052
+  - *id053
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+  name: diamond
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lDiamond
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+        PROTECTION_FALL: 4
+  inventory:
+  - &id054
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+  - &id055
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - null
+  - null
+  - null
+  - &id056
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 32
+  - null
+  - null
+  - &id057
+    ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 32
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+  name: diamond1v1elo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lDiamond§r §7(Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+        PROTECTION_FALL: 4
+  elo: true
+  inventory:
+  - *id054
+  - *id055
+  - null
+  - null
+  - null
+  - *id056
+  - null
+  - null
+  - *id057
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+  name: iron
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lIron
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 4
+  inventory:
+  - &id058
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+  - &id059
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - null
+  - null
+  - null
+  - &id060
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 32
+  - null
+  - null
+  - &id061
+    ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 32
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+- ==: BattleKit
+  types: ANY
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  build: true
+  best-of: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+  name: iron1v1elo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lIron§r §7(Dereceli)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 4
+  elo: true
+  inventory:
+  - *id058
+  - *id059
+  - null
+  - null
+  - null
+  - *id060
+  - null
+  - null
+  - *id061
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS

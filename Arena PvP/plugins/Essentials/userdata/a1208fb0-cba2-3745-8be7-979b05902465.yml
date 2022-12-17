@@ -1,0 +1,20 @@
+lastAccountName: PvPSkills
+timestamps:
+  login: 1580587472846
+  logout: 1580588337029
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -104.8138192511572
+  y: 100.0
+  z: -419.5246058104081
+  yaw: -265.06293
+  pitch: -7.63945
+money: '500.0'

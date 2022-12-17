@@ -1,0 +1,19 @@
+lastAccountName: Bool17
+timestamps:
+  login: 1580594935548
+  logout: 1580594974129
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -145.65692285142654
+  y: 96.5
+  z: -431.7231352704318
+  yaw: -177.38057
+  pitch: 18.506449

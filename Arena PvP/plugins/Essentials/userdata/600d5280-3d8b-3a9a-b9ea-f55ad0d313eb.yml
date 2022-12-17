@@ -1,0 +1,22 @@
+lastAccountName: HackerJojuk
+timestamps:
+  login: 1543689194417
+  logout: 1543689218932
+  lastteleport: 1543240962708
+ipAddress: 37.123.99.198
+logoutlocation:
+  world: world
+  x: -7700.328431160793
+  y: 154.0
+  z: -8013.613134536446
+  yaw: -130.18588
+  pitch: 2.6624117
+lastlocation:
+  world: world
+  x: -7675.645802201742
+  y: 89.0
+  z: -8030.6847844313315
+  yaw: -191.36073
+  pitch: -1.339447
+afk: false
+money: '100.0'

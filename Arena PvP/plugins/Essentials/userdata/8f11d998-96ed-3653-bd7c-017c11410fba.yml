@@ -1,0 +1,20 @@
+lastAccountName: killersurf
+timestamps:
+  login: 1580464099688
+  logout: 1580464155165
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -107.63593522394977
+  y: 100.0
+  z: -417.78047094854855
+  yaw: -260.40005
+  pitch: 42.749996

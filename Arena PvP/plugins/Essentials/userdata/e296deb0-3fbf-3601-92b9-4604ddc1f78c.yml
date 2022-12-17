@@ -1,0 +1,20 @@
+lastAccountName: xxStrafexx
+timestamps:
+  login: 1580389977041
+  logout: 1580390063448
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -119.31738901000968
+  y: 96.0
+  z: -405.378752936585
+  yaw: -245.23376
+  pitch: 34.8264
+money: '500.0'

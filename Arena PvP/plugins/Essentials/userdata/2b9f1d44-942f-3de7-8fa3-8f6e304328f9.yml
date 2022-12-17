@@ -1,0 +1,20 @@
+lastAccountName: Alican40
+timestamps:
+  login: 1580297982727
+  logout: 1580298394837
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -106.40614371209715
+  y: 100.0625
+  z: -419.0998336626719
+  yaw: -269.77563
+  pitch: 3.827969
+money: '500.0'

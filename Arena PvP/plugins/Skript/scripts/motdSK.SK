@@ -1,0 +1,15 @@
+﻿on join:
+	wait 0.2 seconds
+	loop 100 times:
+		message "&f"
+	wait 0.4 seconds
+	send "&7&l&m-------------------------------------------"
+	send "&f"
+	send "&3ArenaPvP &8» &eSunucumuza Hosgeldin &8, &6%player% &r"
+	send "&f"
+	send "&3ArenaPvP &8» &eBurayı skript'den ayarla!"
+	send "&3ArenaPvP &8» &eBurayı skript'den ayarla!"
+	send "&3ArenaPvP &8» &eBurayı skript'den ayarla!"
+	send "&f"
+	send "&7&l&m------------------------------------------"
+	

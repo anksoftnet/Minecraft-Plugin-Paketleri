@@ -1,0 +1,32 @@
+punishment: kick <player> &4» Hile Tespit Elildi «\n\n&6OttomanEmpire hile Koruması\n&6.minecraft klasörünüzde hile bulundu\n\n&f- &a%appdata% &8» &a.minecraft &7içindeki tüm hile dosyalarını silin\n&f- &a%appdata% &8» &a.minecraft &8» &aversions &7içindeki tüm hileleri silin\n&7Sonra tekrar giriş yapmayı deneyin\n\n &6Destek almak için\n&fhttp://www.craftspear.com/ - CraftSpear
+blacklist:
+   # Some cheats that creates config files in ".minecraft"
+   - 'Crest1.7/Options.json'
+   - 'Crest1.6/Options.json'
+   - 'Jigsaw/Options.json'
+   - 'Jigsaw 1.12/settings.json'
+   - 'LiquidBounce-1.8/modules.json'
+   - 'Wolfram/windowData.wolfram'
+   - 'Akrien/modules.txt'
+   - 'Snow/Modules/Fly.json'
+   - 'Metro/settings.properties'
+   - 'wurst/options.json'
+   - 'Dumbo/modsettings.json'
+   - 'huzuni/settings.json'
+   - 'Virtue/settings.json'
+
+   # Jar files in ".minecraft/versions"
+   - 'versions/Crest1.7/Crest1.7.jar'
+   - 'versions/Crest1.6/Crest1.6.jar'
+   - 'versions/Jigsaw 1.12.2/Jigsaw 1.12.2.jar'
+   - 'versions/LiquidBounce1.8/LiquidBounce1.8.jar'
+   - 'versions/Wolfram/Wolfram.jar'
+   - 'versions/Akrien/Akrien.jar'
+   - 'versions/Snow/Snow.jar'
+   - 'versions/Metro6.0/Metro6.0.jar'
+   - 'versions/Wurst/Wurst.jar'
+   - 'versions/Wurst MC 1.8 OF/Wurst MC 1.8 OF.jar'
+   - 'Dumbo/Dumbo.jar'
+   - 'huzuni/huzuni.jar'
+   - 'Virtue/virtue.jar'
+config_version: 1

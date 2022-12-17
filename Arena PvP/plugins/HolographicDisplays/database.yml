@@ -1,0 +1,69 @@
+top1:
+  location: world, -150.498, 102.800, -403.527
+  lines:
+  - '&C&LEfsane'
+  - ''
+  - '&b<kills_name_1>'
+  - '&e<kills_score_1> &7Öldürme'
+top3:
+  location: world, -148.529, 101.800, -402.409
+  lines:
+  - '&6&LŞövalye'
+  - ''
+  - '&b<kills_name_3>'
+  - '&e<kills_score_3> &7Öldürme'
+top2:
+  location: world, -151.487, 101.800, -405.517
+  lines:
+  - '&D&LKral'
+  - ''
+  - '&b<kills_name_2>'
+  - '&e<kills_score_2> &7Öldürme'
+top4:
+  location: world, -152.553, 100.800, -407.501
+  lines:
+  - '&a&LÜstat'
+  - ''
+  - '&b<kills_name_4>'
+  - '&e<kills_score_4> &7Öldürme'
+top5:
+  location: world, -146.483, 100.800, -401.463
+  lines:
+  - '&3&LUsta'
+  - ''
+  - '&b<kills_name_5>'
+  - '&e<kills_score_5> &7Öldürme'
+stats:
+  location: world, -148.455, 98.780, -405.511
+  lines:
+  - '&6&lSTATS'
+  - '&eOyun &abilgilerine &ebakabilirsin'
+  - '&eBuraya Bas'
+normal:
+  location: world, -137.487, 101.900, -436.469
+  lines:
+  - '&6&lSAG TIKLA'
+  - ''
+  - '&aNormal'
+  - '&eNormal Maç atabilirsin'
+dereceli:
+  location: world, -135.481, 101.900, -439.417
+  lines:
+  - '&6&lSAG TIKLA'
+  - ''
+  - '&aDereceli'
+  - '&eDereceli Maç atabilirsin'
+duello:
+  location: world, -133.516, 101.900, -442.527
+  lines:
+  - '&6&lSAG TIKLA'
+  - ''
+  - '&aKit Düzenleyici'
+  - '&eKit editleyebilirsin'
+botlar:
+  location: world, -131.573, 101.900, -445.551
+  lines:
+  - '&6&lSAG TIKLA'
+  - ''
+  - '&ABotlar'
+  - '&eBot antrenmanı yapabilirsin'

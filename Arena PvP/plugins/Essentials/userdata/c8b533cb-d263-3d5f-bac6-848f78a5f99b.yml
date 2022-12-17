@@ -1,0 +1,19 @@
+lastAccountName: BANK
+timestamps:
+  login: 1580302306849
+  logout: 1580302315343
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -114.54271031018536
+  y: 96.0
+  z: -417.1305325001637
+  yaw: -287.65497
+  pitch: 4.927167

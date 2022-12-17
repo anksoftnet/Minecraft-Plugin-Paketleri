@@ -1,0 +1,21 @@
+lastAccountName: saviorangelss
+timestamps:
+  login: 1580575193289
+  logout: 1580575407965
+  lastteleport: 1580575291320
+ipAddress: 185.9.156.198
+lastlocation:
+  world: arena
+  x: 256.7036941479274
+  y: 76.0
+  z: 1597.723721889245
+  yaw: -167.57867
+  pitch: 35.10821
+logoutlocation:
+  world: world
+  x: -136.7891336526804
+  y: 99.0
+  z: -371.2340010394498
+  yaw: -11.284839
+  pitch: 37.001083
+money: '500.0'

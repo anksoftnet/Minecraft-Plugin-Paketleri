@@ -1,0 +1,21 @@
+lastAccountName: OxM2_TR
+timestamps:
+  login: 1580553802746
+  logout: 1580553946844
+  lastteleport: 1580402824432
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -138.47358922410373
+  y: 96.0
+  z: -412.5393604218021
+  yaw: -101.67839
+  pitch: 10.667609
+logoutlocation:
+  world: world
+  x: -117.65808416090482
+  y: 96.0
+  z: -424.3694636727845
+  yaw: -269.1386
+  pitch: 0.2491992
+money: '500.0'

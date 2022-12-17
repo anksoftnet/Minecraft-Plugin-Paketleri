@@ -1,0 +1,21 @@
+lastAccountName: DreamArrow
+timestamps:
+  login: 1580562900188
+  logout: 1580562900942
+  lastteleport: 1580383934039
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -117.86350793296731
+  y: 96.0
+  z: -421.56644991446433
+  yaw: -72.24588
+  pitch: -15.076877
+logoutlocation:
+  world: world
+  x: -101.12446622714737
+  y: 100.0625
+  z: -419.49412910434705
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'

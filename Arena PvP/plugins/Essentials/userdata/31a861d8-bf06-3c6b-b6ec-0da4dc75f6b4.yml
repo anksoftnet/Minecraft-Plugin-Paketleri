@@ -1,0 +1,22 @@
+lastAccountName: KeremEO2
+timestamps:
+  login: 1543685804189
+  lastteleport: 1543686290406
+  logout: 1543686993778
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: -7731.693710963489
+  y: 85.35475832955574
+  z: -7959.275864104661
+  yaw: 273.55536
+  pitch: -34.70085
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7658.260861534149
+  y: 33.0
+  z: -8070.5261150307315
+  yaw: 14.502686
+  pitch: 7.190264
+afk: false

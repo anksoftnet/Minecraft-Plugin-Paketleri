@@ -1,0 +1,22 @@
+lastAccountName: Aze_Ilkin
+timestamps:
+  login: 1580890864824
+  lastteleport: 1580635482706
+  logout: 1580894571573
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+socialspy: true
+logoutlocation:
+  world: world
+  x: -155.69999998807904
+  y: 98.0
+  z: -412.30000001192093
+  yaw: -323.65527
+  pitch: 32.849987
+afk: false

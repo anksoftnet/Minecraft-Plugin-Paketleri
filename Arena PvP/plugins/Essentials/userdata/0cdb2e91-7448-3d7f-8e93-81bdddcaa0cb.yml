@@ -1,0 +1,21 @@
+lastAccountName: FearlesTR
+timestamps:
+  login: 1580382983135
+  logout: 1580384271138
+  lastteleport: 1580384169810
+ipAddress: 185.9.156.198
+lastlocation:
+  world: KitEdit
+  x: 167.33263954024278
+  y: 172.0
+  z: -63.10701304833527
+  yaw: -95.62935
+  pitch: 2.6932168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -129.26942994263416
+  y: 96.0
+  z: -420.83295255568567
+  yaw: -158.07982
+  pitch: 11.286331

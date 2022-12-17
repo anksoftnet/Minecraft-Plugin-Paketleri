@@ -1,0 +1,20 @@
+lastAccountName: FakeAlihan
+timestamps:
+  login: 1583524533234
+  logout: 1583524549024
+ipAddress: 88.224.140.65
+lastlocation:
+  world: arena
+  x: 279.73017193145955
+  y: 80.0
+  z: 1565.9023878281644
+  yaw: 302.9777
+  pitch: 13.136751
+money: '500.0'
+logoutlocation:
+  world: arena
+  x: -1087.4686646493562
+  y: 111.0
+  z: 1817.8159189386
+  yaw: -9.748489
+  pitch: 68.667366

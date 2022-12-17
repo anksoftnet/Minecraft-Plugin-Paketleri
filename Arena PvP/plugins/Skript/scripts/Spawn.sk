@@ -1,0 +1,19 @@
+command /spawncek:
+	permission: sk.admin
+	trigger:
+		set {spawn} to location of player
+		send  " &3ArenaPvP &8» &eSpawn Ayarlandi"
+	
+on join:
+	teleport player to {spawn}
+on first join:
+    teleport player to {spawn}
+	
+command /sil:
+ permission: sil.sil
+ trigger:
+  loop 100 times:
+   send " " to all players
+  broadcast "&3ArenaPvP &8» &eSohbet temizlendi"
+  stop	
+  

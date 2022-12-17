@@ -1,0 +1,20 @@
+lastAccountName: BlackScreen_V1
+timestamps:
+  login: 1580822573970
+  logout: 1580823138463
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: arena
+  x: -6.903337676693273
+  y: 111.21886680679012
+  z: 1699.769826808381
+  yaw: -349.74945
+  pitch: 84.599976

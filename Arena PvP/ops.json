@@ -1,0 +1,62 @@
+[
+  {
+    "uuid": "e87c6e8a-c139-3b71-8cb4-a75ce0cced35",
+    "name": "squadz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "61e1fd61-2240-39f5-b14b-1b718ad843e5",
+    "name": "Aze_Ilkin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ffcb77d9-421b-3c75-860b-d442e3158ef3",
+    "name": "SafTirik",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "31efce80-36dd-3ded-94f4-5b0d6f8c652c",
+    "name": "uqhalavld",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5399ec72-ac3e-3fb0-8bd3-e1f3a6e2840b",
+    "name": "LilBahiscimiz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fd4669e7-be76-379e-81e7-612f80301d77",
+    "name": "SouthWinds",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6d2e1723-c58d-3280-82a6-612dc804f95c",
+    "name": "ErenayTuncel",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0ff3d667-2771-31ec-aee8-c6eb87c559c6",
+    "name": "RitimsizFurkan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c9e392e0-7afe-363f-b38d-e46dee3e1aeb",
+    "name": "RulingDevs",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a622ad13-ed2e-359c-8441-4a5951eac8bc",
+    "name": "cheraphp",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,19 @@
+lastAccountName: xrakey
+timestamps:
+  login: 1580581752893
+  logout: 1580581755449
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -103.571579476902
+  y: 100.0
+  z: -419.52828972746016
+  yaw: -263.80496
+  pitch: 3.427168

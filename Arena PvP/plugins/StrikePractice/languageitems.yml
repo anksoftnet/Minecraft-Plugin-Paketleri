@@ -1,0 +1,23 @@
+language-items:
+- ==: LanguageItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    damage: 11
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSuomi (Finnish)
+  language: suomi
+  slot: 15
+- ==: LanguageItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    damage: 14
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lTürkçe
+  language: English
+  slot: 11

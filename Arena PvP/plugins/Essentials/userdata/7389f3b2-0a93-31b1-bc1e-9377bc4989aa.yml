@@ -1,0 +1,20 @@
+lastAccountName: MrSakem
+timestamps:
+  login: 1580400454046
+  logout: 1580400830460
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -129.12165023024272
+  y: 96.0
+  z: -428.6284648279176
+  yaw: -275.76248
+  pitch: 2.9659915

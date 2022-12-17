@@ -1,0 +1,20 @@
+lastAccountName: yenerdeniz
+timestamps:
+  login: 1580561728434
+  logout: 1580561995539
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -152.33994411752445
+  y: 97.5546255304959
+  z: -409.2046472043808
+  yaw: -205.88513
+  pitch: 28.90224

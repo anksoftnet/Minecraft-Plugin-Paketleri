@@ -1,0 +1,20 @@
+lastAccountName: iFrows
+timestamps:
+  login: 1580828796632
+  logout: 1580829189707
+ipAddress: 185.9.156.198
+lastlocation:
+  world: arena
+  x: 275.6247307509641
+  y: 81.0
+  z: 1559.413744752867
+  yaw: 57.159176
+  pitch: 22.632145
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -110.67626247415451
+  y: 100.0
+  z: -417.21016082600744
+  yaw: -297.61743
+  pitch: 6.379437

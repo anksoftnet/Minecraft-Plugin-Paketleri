@@ -1,0 +1,592 @@
+2018-12-09 18:58:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-09 18:58:14 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 18:58:14 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 18:58:15 [INFO] [Multiverse-Core] 2 - World(s) loaded.
+2018-12-09 19:10:06 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-09 19:10:06 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 19:10:06 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 19:10:08 [INFO] [Multiverse-Core] 2 - World(s) loaded.
+2018-12-09 19:10:34 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: null
+2018-12-09 19:13:20 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-09 19:13:20 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 19:13:20 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2018-12-09 19:13:20 [WARNING] [Multiverse-Core] Original Location: X: -100 Y: 100 Z: -420 P: 0 Y: 0 
+2018-12-09 19:13:20 [INFO] [Multiverse-Core] New Spawn for 'world' is Located at: world:-98.50,100.00,-418.50:0.00:0.00
+2018-12-09 19:13:20 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 19:13:21 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 19:13:23 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-09 20:08:55 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-09 20:08:55 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 20:08:55 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 20:08:57 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 20:08:57 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-09 20:16:48 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-09 20:16:48 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 20:16:48 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 20:16:49 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 20:16:49 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-09 20:17:30 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-09 20:17:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 20:17:31 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-09 20:17:32 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-09 20:17:32 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-10 20:04:29 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-10 20:04:29 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-10 20:04:29 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-10 20:04:29 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-10 20:04:30 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-10 20:13:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-10 20:13:25 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-10 20:13:25 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-10 20:13:27 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-10 20:13:27 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-10 20:19:46 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-10 20:19:47 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-10 20:19:47 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-10 20:19:48 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-10 20:19:48 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-11 20:35:24 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-11 20:35:24 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-11 20:35:24 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-11 20:35:25 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-11 20:35:26 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2018-12-11 20:36:21 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: null
+2018-12-12 07:34:29 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-12 07:34:29 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-12 07:34:29 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2018-12-12 07:34:29 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2018-12-12 07:34:29 [INFO] [Multiverse-Core] New Spawn for 'world_nether' is Located at: world_nether:-7,50,8,00,-4,50:0,00:0,00
+2018-12-12 07:34:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-12 07:34:30 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2018-12-12 07:34:30 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2018-12-12 07:34:30 [INFO] [Multiverse-Core] New Spawn for 'world_the_end' is Located at: world_the_end:0,00,62,00,0,00:0,00:0,00
+2018-12-12 07:34:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-12 07:34:30 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-12 07:34:31 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-12 07:34:31 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-12 07:34:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-12 07:34:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-12 07:34:32 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 16:08:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 16:08:25 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:08:25 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:08:26 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:08:27 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:08:28 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:08:28 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:08:28 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 16:39:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 16:39:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:39:34 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:39:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:39:36 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:39:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:39:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:39:36 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 16:42:15 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 16:42:15 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:42:15 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:42:16 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:42:17 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:42:17 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:42:18 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:42:18 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 16:43:41 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 16:43:41 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:43:41 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:43:42 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:43:43 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:43:44 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:43:44 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:43:44 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 16:46:01 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 16:46:01 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:46:01 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:46:02 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 16:46:03 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 16:46:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:46:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 16:46:04 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 17:35:35 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 17:35:35 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 17:35:35 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 17:35:37 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 17:35:37 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 17:35:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 17:35:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 17:35:38 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 17:42:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 17:42:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 17:42:34 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 17:42:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 17:42:36 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 17:42:37 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 17:42:37 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 17:42:37 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 17:46:46 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 17:46:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 17:46:46 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 17:46:48 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 17:46:48 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 17:46:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 17:46:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 17:46:49 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 19:08:51 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 19:08:51 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:08:51 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:08:52 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:08:52 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:08:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:08:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:08:53 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 19:28:41 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 19:28:41 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:28:41 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:28:42 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:28:43 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:28:44 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:28:44 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:28:44 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 19:31:24 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 19:31:24 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:31:24 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:31:25 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:31:25 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:31:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:31:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:31:26 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 19:31:52 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 19:31:52 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:31:52 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:31:53 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 19:31:53 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 19:31:54 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:31:54 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 19:31:54 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-13 20:52:35 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-13 20:52:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 20:52:36 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 20:52:37 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-13 20:52:37 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-13 20:52:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 20:52:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-13 20:52:38 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-16 13:12:36 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-16 13:12:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-16 13:12:36 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-16 13:12:37 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-16 13:12:38 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-16 13:12:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-16 13:12:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-16 13:12:38 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2018-12-16 13:59:28 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-12-16 13:59:28 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-16 13:59:28 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-16 13:59:29 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2018-12-16 13:59:30 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2018-12-16 13:59:31 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2018-12-16 13:59:31 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2018-12-16 13:59:31 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-01-27 20:26:39 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-01-27 20:26:39 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-27 20:26:39 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-27 20:26:41 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-27 20:26:41 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-27 20:26:42 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-01-27 20:26:42 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-01-27 20:26:42 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-01-28 12:03:47 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-01-28 12:03:47 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-28 12:03:47 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-28 12:03:49 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-28 12:03:51 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-28 12:03:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-01-28 12:03:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-01-28 12:03:53 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-01-30 19:53:45 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-01-30 19:53:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-30 19:53:46 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-30 19:53:47 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-30 19:53:47 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-30 19:53:48 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-01-30 19:53:48 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-01-30 19:53:48 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-01-30 19:54:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-01-30 19:54:13 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-30 19:54:14 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-30 19:54:15 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-01-30 19:54:15 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-01-30 19:54:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-01-30 19:54:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-01-30 19:54:16 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-05-26 13:32:09 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-05-26 13:32:09 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-05-26 13:32:09 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-05-26 13:32:10 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-05-26 13:32:11 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-05-26 13:32:12 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-05-26 13:32:12 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-05-26 13:32:12 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-06-03 22:01:44 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-06-03 22:01:44 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-06-03 22:01:44 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-06-03 22:01:46 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-06-03 22:01:46 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-06-03 22:01:47 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-06-03 22:01:47 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-06-03 22:01:47 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-06-06 18:01:46 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-06-06 18:01:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-06-06 18:01:46 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-06-06 18:01:47 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-06-06 18:01:47 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-06-06 18:01:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-06-06 18:01:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-06-06 18:01:49 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-06-21 19:02:12 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-06-21 19:02:12 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-06-21 19:02:12 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-06-21 19:02:13 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-06-21 19:02:14 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-06-21 19:02:15 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-06-21 19:02:15 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-06-21 19:02:15 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-07 10:46:26 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-07 10:46:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 10:46:26 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 10:46:28 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 10:46:29 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 10:46:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 10:46:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 10:46:30 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-07 10:59:53 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-07 10:59:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 10:59:53 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 10:59:55 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 10:59:55 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 10:59:57 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 10:59:57 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 10:59:57 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-07 22:40:30 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-07 22:40:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:40:30 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:40:32 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:40:33 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:40:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:40:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:40:34 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-07 22:42:22 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-07 22:42:22 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:42:22 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:42:24 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:42:24 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:42:25 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:42:25 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:42:25 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-07 22:42:43 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-07 22:42:43 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:42:43 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:42:45 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:42:45 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:42:45 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:42:45 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:42:45 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-07 22:43:19 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-07 22:43:19 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:43:19 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:43:21 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-07 22:43:22 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-07 22:43:23 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:43:23 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-07 22:43:23 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-11 13:15:29 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-07-11 13:15:29 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-11 13:15:29 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-11 13:15:31 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-07-11 13:15:32 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-07-11 13:15:33 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-07-11 13:15:33 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-07-11 13:15:33 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2019-07-11 13:22:36 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: null
+2019-08-13 00:33:49 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2019-08-13 00:33:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2019-08-13 00:33:49 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-08-13 00:33:51 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2019-08-13 00:33:51 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2019-08-13 00:33:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2019-08-13 00:33:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2019-08-13 00:33:53 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2019-08-13 00:33:54 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 12:23:16 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 12:23:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 12:23:16 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 12:23:19 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 12:23:20 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 12:23:21 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 12:23:21 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 12:23:21 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 12:23:22 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 13:08:44 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 13:08:44 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 13:08:44 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 13:08:47 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 13:08:48 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 13:08:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 13:08:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 13:08:50 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 13:08:51 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 15:00:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 15:00:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 15:00:35 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 15:00:36 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 15:00:36 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 15:00:37 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 15:00:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 15:00:38 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 15:00:38 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 15:03:56 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 15:03:56 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 15:03:56 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 15:03:59 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 15:03:59 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 15:04:01 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 15:04:01 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 15:04:01 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 15:04:02 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 16:19:00 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 16:19:01 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 16:19:01 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 16:19:03 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 16:19:03 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 16:19:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 16:19:05 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 16:19:06 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 16:19:06 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 16:52:30 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 16:52:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 16:52:30 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 16:52:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 16:52:37 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 16:52:41 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 16:52:41 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 16:52:41 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 16:52:42 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 17:57:08 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 17:57:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 17:57:08 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 17:57:11 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 17:57:12 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 17:57:13 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 17:57:13 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 17:57:13 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 17:57:14 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-27 18:13:16 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-27 18:13:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 18:13:17 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 18:13:19 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-27 18:13:20 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-27 18:13:22 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 18:13:22 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-27 18:13:22 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-27 18:13:23 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-28 14:40:26 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-28 14:40:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 14:40:27 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 14:40:32 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 14:40:33 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 14:40:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 14:40:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 14:40:36 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-28 14:40:37 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-28 15:13:55 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-28 15:13:56 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 15:13:56 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 15:14:02 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 15:14:04 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 15:14:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 15:14:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 15:14:08 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-28 15:14:10 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-28 15:34:30 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-28 15:34:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 15:34:30 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 15:34:34 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 15:34:35 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 15:34:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 15:34:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 15:34:38 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-28 15:34:39 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-28 19:34:52 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-28 19:34:52 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 19:34:53 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 19:34:59 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 19:35:00 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 19:35:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 19:35:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 19:35:04 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-28 19:35:05 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-28 20:24:03 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-28 20:24:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 20:24:04 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 20:24:18 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-28 20:24:22 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-28 20:24:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 20:24:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-28 20:24:26 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-28 20:24:28 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-29 17:54:46 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-29 17:54:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-29 17:54:46 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-29 17:54:48 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-29 17:54:48 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-29 17:54:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-29 17:54:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-29 17:54:49 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-29 17:54:50 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-01-31 02:02:08 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-31 02:02:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-31 02:02:08 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-31 02:03:26 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-01-31 02:03:26 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-31 02:03:26 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-31 02:03:28 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-01-31 02:03:28 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-01-31 02:03:29 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2020-01-31 02:03:29 [WARNING] [Multiverse-Core] Original Location: X: 160 Y: 128 Z: 1.449 P: 0 Y: 0 
+2020-01-31 02:03:29 [INFO] [Multiverse-Core] New Spawn for 'KitEdit' is Located at: KitEdit:157,50,128,00,1454,50:0,00:0,00
+2020-01-31 02:03:29 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-01-31 02:03:29 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-01-31 02:03:29 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-01-31 02:03:29 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-02-03 17:14:42 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-02-03 17:14:42 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-02-03 17:14:42 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-02-03 17:14:44 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-02-03 17:14:44 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-02-03 17:14:45 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-02-03 17:14:45 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-02-03 17:14:45 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-02-03 17:14:46 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-05 15:37:18 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-05 15:37:18 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-05 15:37:18 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-05 15:37:20 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-05 15:37:20 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-05 15:37:22 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-05 15:37:22 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-05 15:37:22 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-05 15:37:23 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-05 15:44:33 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-05 15:44:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-05 15:44:34 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-05 15:44:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-05 15:44:35 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-05 15:44:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-05 15:44:36 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-05 15:44:37 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-05 15:44:37 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-05 15:47:00 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-05 15:47:00 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-05 15:47:00 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-05 15:47:01 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-05 15:47:01 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-05 15:47:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-05 15:47:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-05 15:47:02 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-05 15:47:02 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-11 15:13:54 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-11 15:13:54 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-11 15:13:54 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-11 15:13:57 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-11 15:13:57 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-11 15:14:00 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-11 15:14:00 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-11 15:14:00 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-11 15:14:01 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-11 16:05:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-11 16:05:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-11 16:05:34 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-11 16:05:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-11 16:05:36 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-11 16:05:37 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-11 16:05:37 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-11 16:05:37 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-11 16:05:37 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-18 22:22:56 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-18 22:22:56 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-18 22:22:56 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-18 22:22:58 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-18 22:22:58 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-18 22:23:00 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-18 22:23:00 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-18 22:23:00 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-18 22:23:01 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-18 22:25:37 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-18 22:25:38 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-18 22:25:38 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-18 22:25:39 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-18 22:25:39 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-18 22:25:40 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-18 22:25:40 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-18 22:25:40 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-18 22:25:41 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2020-03-18 22:36:05 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-03-18 22:36:06 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-18 22:36:06 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-18 22:36:12 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2020-03-18 22:36:13 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2020-03-18 22:36:15 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2020-03-18 22:36:15 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2020-03-18 22:36:15 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2020-03-18 22:36:17 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2021-09-13 12:48:30 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2021-09-13 12:48:30 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2021-09-13 12:48:30 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2021-09-13 12:48:33 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2021-09-13 12:48:34 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2021-09-13 12:48:35 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -1754769641482468263
+2021-09-13 12:48:41 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -1754769641482468263
+2021-09-13 12:48:44 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2021-09-13 12:48:45 [INFO] [Multiverse-Core] 7 - World(s) loaded.
+2022-12-03 16:01:06 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2022-12-03 16:01:06 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-03 16:01:06 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-03 16:01:08 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-03 16:01:08 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-03 16:01:10 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2022-12-03 16:01:10 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2022-12-07 16:27:46 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2022-12-07 16:27:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 16:27:46 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 16:27:48 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 16:27:48 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 16:27:49 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2022-12-07 16:27:50 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2022-12-07 17:07:45 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2022-12-07 17:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:07:47 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:07:48 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:07:49 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2022-12-07 17:07:49 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2022-12-07 17:08:16 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2022-12-07 17:08:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:08:16 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:08:18 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:08:18 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:08:19 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2022-12-07 17:08:20 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2022-12-07 17:26:04 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2022-12-07 17:26:04 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:26:04 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:26:06 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:26:06 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:26:07 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2022-12-07 17:26:07 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2022-12-07 17:37:31 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2022-12-07 17:37:31 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:37:31 [INFO] [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:37:33 [INFO] [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+2022-12-07 17:37:33 [INFO] [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+2022-12-07 17:37:34 [INFO] [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+2022-12-07 17:37:34 [INFO] [Multiverse-Core] 5 - World(s) loaded.

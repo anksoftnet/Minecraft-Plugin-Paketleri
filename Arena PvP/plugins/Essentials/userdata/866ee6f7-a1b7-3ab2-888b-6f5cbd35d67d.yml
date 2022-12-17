@@ -1,0 +1,20 @@
+lastAccountName: xKusursuz
+timestamps:
+  login: 1580485993900
+  logout: 1580486017319
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -140.52432266050747
+  y: 100.0
+  z: -371.0096966958617
+  yaw: -176.14026
+  pitch: 13.906849
+money: '500.0'

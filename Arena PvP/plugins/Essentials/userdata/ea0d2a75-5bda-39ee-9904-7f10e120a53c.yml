@@ -1,0 +1,20 @@
+lastAccountName: feroplay
+timestamps:
+  login: 1543329590849
+  logout: 1543329629979
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: 190.0
+  y: 64.0
+  z: 335.0
+  yaw: 0.0
+  pitch: 0.0
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7672.341242557082
+  y: 152.0
+  z: -8029.3316922887125
+  yaw: -88.20601
+  pitch: 19.454363

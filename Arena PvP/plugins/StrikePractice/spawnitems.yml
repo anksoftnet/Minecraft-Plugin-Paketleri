@@ -1,0 +1,142 @@
+﻿spawn-items:
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bDereceli \xa77(Sağ Tıkla)"
+  name: ranked
+  slot: 3
+  command: /ranked
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SADDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bMaç Tekrarı \xa77(Sağ Tıkla)"
+  name: playback
+  slot: 8
+  command: /playback
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bTakım Dövüşü \xa77(Sağ Tıkla)"
+  name: partyfight
+  slot: 1
+  command: /party fight
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: "\xa7bTakım Bilgi \xa77(Sağ Tıkla)"
+  name: partyinfo
+  slot: 2
+  command: /party info
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SIGN
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bTakım Sohbet \xa77(Sağ Tıkla)"
+  name: partychat
+  slot: 4
+  command: /party chat
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bTakım Ayarları \xa77(Sağ Tıkla)"
+  name: partysettings
+  slot: 6
+  party-owner-only: true
+  command: /party settings
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7c\xa7lTakımı Kapat \xa77(Sağ Tıkla)"
+  name: partydisband
+  slot: 8
+  party-owner-only: true
+  command: /party disband
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bTakım Kur \xa77(Sağ Tıkla)"
+  name: partycreate
+  slot: 1
+  command: /party create
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_POWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bKit Düzenle \xa77(Sağ Tıkla)"
+  name: kiteditor
+  slot: 7
+  command: /kiteditor
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SLIME_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bNormal \xa77(Sağ Tıkla)"
+  name: unranked
+  slot: 4
+  command: /unranked
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FERMENTED_SPIDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7bPvP Bot \xa77(Sağ Tıkla)"
+  name: botduel
+  slot: 5
+  command: /botduel
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xa7c\xa7lSıradan Ayrıl \xa77(Sağ Tıkla)"
+  name: leavequeue
+  slot: 8
+  queue: true
+  command: /queue leave

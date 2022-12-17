@@ -1,0 +1,20 @@
+lastAccountName: MasterObey
+timestamps:
+  login: 1580470202646
+  logout: 1580470372233
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: arena
+  x: -1102.9626627473554
+  y: 111.0
+  z: 1769.1561393931588
+  yaw: -106.31864
+  pitch: 37.334873

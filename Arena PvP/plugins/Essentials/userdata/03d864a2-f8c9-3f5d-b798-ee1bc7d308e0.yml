@@ -1,0 +1,21 @@
+lastAccountName: RediTuk
+timestamps:
+  login: 1543700063766
+  lastteleport: 1543700192648
+  logout: 1543700712909
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: -7664.563076934855
+  y: -25.340695809900286
+  z: -8043.9058704697345
+  yaw: -25.892706
+  pitch: -76.2
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7662.300000011921
+  y: 80.0
+  z: -7988.300000011921
+  yaw: 301.8887
+  pitch: 1.8132219

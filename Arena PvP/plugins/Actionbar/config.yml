@@ -1,0 +1,46 @@
+# Actionbar v1.3.2.6 by sn1cko
+# Time is set in milliseconds which means every 20 = 1 second
+# for example: 6000 = 5 minuntes OR 300 = 15 seconds
+# 
+# The announcer will never stop if the time is set to 0
+# Else it will stop after the amount of milliseconds you wish
+# 
+# There are currently 15 variables available which can be built in
+# for example %player% - will display the playername or %health% - will give out the health
+# all other variables can be found on the website
+# https://dev.bukkit.org/projects/actionbar/pages/variables
+# You can also add PlaceholderAPI to your server to get way more variables
+# Download-Link (with instructions):
+# https://www.spigotmc.org/resources/placeholderapi.6245/
+Actionbar:
+  Settings:
+    FirstJoin:
+      Toggle: true
+      Time: 5
+      Messages:
+      - ''
+    Join:
+      Toggle: true
+      Time: 3
+      Messages:
+      - ''
+    Staff:
+      Permission: actionbar.staff
+    ColorCodes:
+      Toggle: true
+    ActionMessage:
+      Toggle: true
+    ShowVanishedPlayerOnVariable:
+      Toggle: false
+      ChangeText:
+        Toggle: false
+        UsersSeeOnlineText: '%online%'
+        StaffsSeeOnlineText: '%online% | %vanished%'
+ActionbarAnnouncer:
+  Settings:
+    Toggle: true
+    StopTime: 0
+    Time: 0
+    Messages:
+      Messages:
+      - '&e&lCPS &8» &a%strikepractice_cps%'

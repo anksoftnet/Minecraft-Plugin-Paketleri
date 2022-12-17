@@ -1,0 +1,21 @@
+lastAccountName: DogukanVR
+timestamps:
+  login: 1580650295660
+  logout: 1580650428670
+  lastteleport: 1580494717279
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -117.40348848892187
+  y: 96.0
+  z: -419.48605021176587
+  yaw: -98.62186
+  pitch: 4.4973917
+logoutlocation:
+  world: world
+  x: -130.8401229187428
+  y: 96.0
+  z: -423.8822592439473
+  yaw: 36.270836
+  pitch: -1.0463183
+money: '500.0'

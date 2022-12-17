@@ -1,0 +1,20 @@
+lastAccountName: Neerox
+timestamps:
+  login: 1580319490028
+  logout: 1580319871873
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -144.7394814598884
+  y: 97.0
+  z: -407.7386644799938
+  yaw: -307.59055
+  pitch: 11.695323
+money: '500.0'

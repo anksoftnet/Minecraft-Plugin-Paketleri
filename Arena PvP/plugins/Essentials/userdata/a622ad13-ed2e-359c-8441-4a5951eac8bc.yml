@@ -1,0 +1,20 @@
+lastAccountName: cheraphp
+timestamps:
+  login: 1670074142569
+  logout: 1670074212976
+ipAddress: 212.252.138.24
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -103.17725706116182
+  y: 100.0
+  z: -419.48150578657453
+  yaw: -297.70486
+  pitch: -8.272833

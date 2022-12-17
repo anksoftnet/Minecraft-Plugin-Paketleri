@@ -1,0 +1,20 @@
+lastAccountName: MasterBlade
+timestamps:
+  login: 1543421695796
+  logout: 1543421834092
+ipAddress: 37.123.99.198
+lastlocation:
+  world: world
+  x: 190.0
+  y: 64.0
+  z: 335.0
+  yaw: 0.0
+  pitch: 0.0
+money: '100.0'
+logoutlocation:
+  world: world
+  x: -7684.300000011921
+  y: 95.36075
+  z: -8017.699999988079
+  yaw: 80.26446
+  pitch: 25.462412

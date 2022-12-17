@@ -1,0 +1,21 @@
+lastAccountName: EfeZZZ
+timestamps:
+  login: 1580827416427
+  logout: 1580828019560
+  lastteleport: 1580753096997
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -154.30000001192093
+  y: 81.23763996967686
+  z: -405.67751111295365
+  yaw: 258.78677
+  pitch: 32.09854
+logoutlocation:
+  world: world
+  x: -104.30008524910001
+  y: 100.0625
+  z: -417.92085775616033
+  yaw: -279.88565
+  pitch: 25.43605
+money: '500.0'

@@ -1,0 +1,20 @@
+lastAccountName: Rapheal
+timestamps:
+  login: 1580742402475
+  logout: 1580742428036
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -135.30934468929752
+  y: 96.0
+  z: -391.96644128561934
+  yaw: -179.0586
+  pitch: 7.935316
+money: '500.0'

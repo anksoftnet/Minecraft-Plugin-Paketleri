@@ -1,0 +1,21 @@
+lastAccountName: uqhalavld
+timestamps:
+  login: 1583530068627
+  logout: 1583530069363
+  lastteleport: 1583516989176
+ipAddress: 94.55.132.231
+lastlocation:
+  world: world
+  x: -106.35705092744831
+  y: 100.0625
+  z: -419.5017971848248
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -271.31223
+  pitch: 2.590093

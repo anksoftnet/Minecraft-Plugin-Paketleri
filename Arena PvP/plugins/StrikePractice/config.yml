@@ -1,0 +1,607 @@
+# 
+#  OR
+#  - '&eClick for inventories'
+#  - '&aWinner: <winner>&7[&e<winner_pots>&7] - &cLoser: <loser>[&e<loser_pots>&7]'
+prefix: '&3ArenaPvP &8» '
+notify-updates: true
+circle-radius: 10
+wait-before-teleport: 3
+wait-before-leaving-ffa-arena: 10
+wait-before-spectator: 0
+allow-spectating: true
+spectator-teleporter-distance: 150
+spectator-stay-away: false
+hide-other-spectators: false
+spectator-timer-period: 20
+spectator-teleport-item: COMPASS
+spectator-teleport-name: '&aOyuncuya ışınlan!'
+spectator-leave-item: BARRIER
+spectator-leave-name: '&c&lAyrıl &7(Sağ Tıkla)'
+separate-queues: true
+max-ranked-queue-ping: 500
+queue-cooldown: false
+queue-cooldown-time: 10
+elo-queue-cooldown: false
+elo-queue-cooldown-time: 20
+combo-hit-delay: 5
+default-hit-delay: 20
+spawnitem-cooldown: 500
+lag-broadcast: true
+autostack-arenas-on-enable: 0
+build-fights-in-main-arenas-world: false
+make-arenas-automatically: false
+arenas-world: arena
+empty-arenas-world: true
+no-arenas-in-default-world: true
+replace-dirt-with-grass: false
+combo-kb-modifier: 0.8
+combo-kb-modifier-y: 0.6
+player-kits-auto-save-period: 600
+player-stats-auto-save-period: 300
+inventory-message-your: '&8Takımın: '
+inventory-message-opponent: '&8Rakip takım: '
+fight-inventory-message:
+- '&8&m----------------------------'
+- '&6&lEnvanterine Bakmak Icin Tıkla'
+- '&aWinner: &f<winner>&7[&e<winner_pots>&7]'
+- '&cLoser: &f<loser>&7[&e<loser_pots>&7]'
+- '&8&m----------------------------'
+inventory-separator: '&e, '
+insta-soup: true
+insta-void: true
+bot-fast-potions: true
+bot-attack-range: 3.2
+fix-bot-damage: true
+fix-bot-kb: false
+bot-kb-amount: 0.2
+bot-kb-amount-upward: 0.35
+bot-name: <player>_BOT
+always-same-skin: true
+bot-skin: SafTirik
+ffa-reset-delay: 30
+death:
+  disable-message: true
+  lightning: true
+  disable-keep-inventory: true
+tab-list:
+  enabled: true
+  update-time: 100
+  async-update: true
+  slots:
+  - '&a&lStrikePractice'
+  - '&a&lStrikePractice'
+  - '&a&lStrikePractice'
+  - '&7&m----------------'
+  - '&7&m----------------'
+  - '&7&m----------------'
+  - ''
+  - ''
+  - ''
+  - '&6&l&nELO'
+  - '&6&l&nStats'
+  - '&6&l&nInfo'
+  - ''
+  - ''
+  - ''
+  - '&6&lBuildUHC: &e<elo_builduhcelo>'
+  - '&6&lKills: &e<kills>'
+  - '&6&lTime: &e<time>'
+  - '&6&lPotion: &e<elo_potionelo>'
+  - '&6&lDeaths: &e<deaths>'
+  - '&6&lPing: &e<ping>'
+  - '&6&lGapple: &e<elo_gappleelo>'
+  - '&6&lBrackets: &e<brackets_wins>'
+  - '&6&lStaff Online: &e<online_staff>'
+  - '&6&lSoup: &e<elo_soupelo>'
+  - '&6&lLMS Wins: &e<lms_wins>'
+  - '&6&lOnline: &e<players>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+scoreboard:
+  enabled: true
+  update-time: 20
+  teleport-update: true
+  async-update: false
+  enderpearl-cooldown-only-in-fight: true
+  title: '&e&lARENAPVP'
+  default:
+  - '&7'
+  - '&fAd: &a<player>'
+  - '&fElo: &a<global_elo>'
+  - '&7'
+  - '&fÖldürme: &a<kills>'
+  - '&fÖlme: &a<deaths>'
+  - '&7'
+  - '&fSonraki Event:'
+  - '&e▸ &8(&b<next_event_name>&8) &a<next_event_time>'
+  - '&7'
+  - '&fÇevrimiçi: &a<players>'
+  - '&fBekleyen: &e<in_queue>'
+  - '&fOyunda: &e<in_fight>'
+  - '&7'
+  - '&ewww.anksoft.net'
+  duel:
+  - ''
+  - '&fAd: &7<player>'
+  - ''
+  - '&fPing: &e<ping>'
+  - '&fKit: &e<kit>'
+  - '&fRakip: &e<opponent>'
+  - ''
+  - '&fSüre: &a<duration>'
+  - ''
+  - '&ewww.anksoft.net'
+  party-ffa:
+  - ''
+  - '&fAd: &7<player>'
+  - ''
+  - '&fPing: &e<ping>'
+  - '&fKit: &e<kit>'
+  - '&fKalan: &e<enemy_team_left>&6/&e<party_members>'
+  - ''
+  - '&fSüre: &a<duration>'
+  - ''
+  - '&ewww.anksoft.net'
+  party-split:
+  - ''
+  - '&fAd: &7<player>'
+  - ''
+  - '&fPing: &e<ping>'
+  - '&fKit: &e<kit>'
+  - '&fSüre: &e<duration>'
+  - ''
+  - '&fTakımın: &a<own_team_left>&6/&a<own_team_members>'
+  - '&fRakip: &a<own_team_left>&6/&a<own_team_members>'
+  - ''
+  - '&ewww.anksoft.net'
+  party-vs-bots:
+  - ''
+  - '&fAd: &7<player>'
+  - ''
+  - '&fPing: &e<ping>'
+  - '&fKit: &e<kit>'
+  - '&fSüre: &e<duration>'
+  - ''
+  - '&fTakımın: &a<own_team_left>&6/&a<own_team_members>'
+  - '&fRakip: &a<enemy_team_left>&6/&a<enemy_team_members>'
+  - ''
+  - '&ewww.anksoft.net'
+  party-vs-party:
+  - '&8&m------------------------'
+  - '&6Party Vs Party'
+  - '&6Enemy Team: &e<enemy_team_owner>&6''s Party'
+  - '&6Your Team Left: &e<own_team_left>&6/&e<party_members>'
+  - '&6Enemy Team Left: &e<enemy_team_left>&6/&e<enemy_team_members>'
+  - '&6Fight duration: &e<duration>'
+  brackets:
+  - '&8&m------------------------'
+  - '&6Brackets'
+  - '&6Fight: &e<current_fight_player1> &6vs &e<current_fight_player2>'
+  - '&6Event Duration: &e<total_duration>'
+  juggernaut:
+  - '&8&m------------------------'
+  - '&6Juggernaut: &e<juggernaut>'
+  - '&6Event Duration: &e<total_duration>'
+  lms:
+  - '&8&m------------------------'
+  - '&6Last Man Standing'
+  - '&6Players Left: &e<alive>&6/&e<lms_players>'
+  - '&6Event Duration: &e<total_duration>'
+  koth:
+  - '&8&m------------------------'
+  - '&9King of The Hill'
+  - '&6Capper: &e<capper> &6(&e<capper_team>&6)'
+  - '&6Timer: &e<timer>'
+  - '&6Event Duration: &e<total_duration>'
+  queue:
+  - ''
+  - '&fSen: &7<player>'
+  - ''
+  - '&fKit: &e<kit>'
+  - '&fELO: &e<search_range1>&6-&e<search_range2>'
+  - ''
+  - '&fBekleyen: &e<in_queue>'
+  - '&fOynayan: &e&e<in_fight>'
+  - ''
+  - ' &ewww.anksoft.net'
+  party-addition:
+  - ''
+  enderpearl-cooldown-addition:
+  - ''
+economy:
+  enabled: false
+  kill-give: false
+  kill-amount: 10
+  death-withdraw: false
+  withdraw-amount: 5
+bot-difficulty:
+  title: '&8Zorluk'
+  inventory-size: 9
+  easy-name: '&e&lKolay'
+  easy-material: WOOD_SWORD
+  easy-data: 0
+  normal-name: '&e&lNormal'
+  normal-material: STONE_SWORD
+  normal-data: 0
+  hard-name: '&e&lZor'
+  hard-material: IRON_SWORD
+  hard-data: 0
+  hacker-name: '&e&lInanılmaz'
+  hacker-material: DIAMOND_SWORD
+  hacker-data: 0
+player-spawn-hider:
+  enabled: true
+  spawn-corner1: 75.47384251283107, 172.14449269282937, 1364.6826386332543, 311.4592, 73.1676, world
+  spawn-corner2: 236.75738336838145, 46.543053241824055, 1449.0116872233612, 145.31798, -11.659307, world
+player-settings:
+  inventory-size: 27
+  item-slot-addition: 10
+  title: '&a&lSettings'
+  language-item: PAPER
+  language-name: '&eChange Language'
+  duel-requests-item: BLAZE_ROD
+  duel-requests-name: '&eDuel Settings'
+  scoreboard-item: BOOK
+  scoreboard-name: '&eToggle Scoreboard'
+  hide-players-item: SLIME_BALL
+  hide-players-name: '&eToggle Player Hider'
+  default-values:
+    scoreboard-disabled: false
+    hide-players: false
+    duel-requests-disabled: false
+    admin-scoreboard: false
+cache-messages: true
+enable-colored-names: true
+rollback-arenas: true
+rollback-on-enable-if-crashed: false
+cache-rollback-blocks: true
+join-lobby-teleport: true
+allow-teleporting-in-fight: false
+allow-short-teleports: true
+max-teleport-distance: 10
+disable-grass-spread: true
+disable-crafting-in-fight: true
+anti-rain: true
+anti-fire: true
+anti-lava-generator: false
+remove-arrows: true
+golden-heads: true
+disable-building-without-build-kit: false
+disable-regen-with-uhc-kits: true
+prevent-item-dropping: true
+build-limit: 25
+remove-all-drops-on-startup: true
+enderpearl-cooldown:
+  enabled: true
+  cooldown: 10
+  format: '0'
+  interval: 20
+  pearl-name: '&7Tekrar kullanmak için &c<time> &7saniye beklemelisin.'
+database:
+  mysql: false
+  port: 3306
+  user: root
+clickable-messages: true
+clickable-message: Tıkla
+save-elo-fights: false
+save-all-fights: false
+max-recording-time: 600
+record-all-fights: true
+record-elo-fights: true
+playback-bot-name: '&c<player>'
+remove-record-after: 7.0
+date-format: dd/MM HH:mm:ss
+current-time-format: HH:mm
+server-time-increase: 0
+ranked:
+  kills-required: 10
+  elo-range-time: 5
+  elo-range-increase: 50
+  anyone-after: 60
+match:
+  block-all-commands: false
+  blocked-commands:
+  - /kit
+  - /essentials:kit
+  - /exampleblockedcommand
+  - /examplepluginname:exampleblockedcommand
+spectator-block-all-commands: false
+spectator-blocked-commands:
+- /kit
+- /essentials:kit
+- /examplepluginname:exampleblockedcommand
+default-language: english
+countdown-time: 4
+countdown-sound: NOTE_PLING
+match-start-sound: LEVEL_UP
+party-settings-title: '&8Takım Ayarları'
+max-party-members: 10
+playback-gui-title: '&8Maç Tekrarı'
+inventory-title: '&8Kit Seç'
+queue-inventory-title: '&8Normal'
+ranked-queue-inventory-title: '&8Dereceli'
+quit-item-name: '&8Sıradan Ayrıl'
+kit-editor-in-kit-selector: false
+leave-queue-item: false
+kit-selector-editor-name: '&8Kit Düzenle'
+kit-selector-editor-material: BOOK
+kit-editor-title: '&8Kit Düzenle'
+kit-editor-anvil: false
+kit-editor-save-sing-line-1: Kiti Kaydet
+kit-editor-leave-line-1: Ayrıl
+kit-editor-reset-kit-line-1: Kiti Sıfırla
+remove-drops: 3
+automatic-max-rollback-rate: false
+max-block-changes-per-tick-per-arena: 5
+max-block-checks-per-tick-per-arena: 300
+max-block-changes-per-tick-brackets-arena: 10
+max-block-checks-per-tick-brackets-arena: 1000
+in-queue: '&e&l* &fBekleyen: &e<players>'
+in-match: '&e&l* &fOynayan: &e<players>'
+duel-inventory: true
+duel-inventory-title: '&8Düello'
+duel-inventory-duel: '&eDüello isteği yolla'
+duel-inventory-pending: '&eGelen düello istekleri'
+duel-inventory-toggle-disabled: '&eDüello istekleri &7(&cKapalı&7)'
+duel-inventory-toggle-enabled: '&eDüello istekleri &7(&aAçık&7)'
+fight-inventory:
+  item-start-slot: 1
+  helmet-slot: 36
+  chestplate-slot: 37
+  leggings-slot: 38
+  boots-slot: 39
+  food-slot: 48
+  playback-slot: 46
+  health-slot: 47
+  pots-slot: 50
+  pots-left-slot: 49
+  name-slot: 51
+  food: '&eYemek: &f<food>/20'
+  health: '&eCan: &f<health>/20'
+  dead: '&c&lÖlü'
+  pots: '&eTip - Amplifikatör - Süre'
+  effect: '&b<type> - <amplifier> - <duration> minutes'
+  inventory: '&8Envanter'
+  pots-left: '&cHealth Potions Left: <potions>'
+  soups-left: '&cSoups Left: <soups>'
+  name: '&6<name> oyuncunun envanteri'
+starting-elo: 1000
+show-stats:
+  deaths: true
+  kills: true
+  elo: true
+  party-wins: true
+  lms: true
+  brackets: true
+  global-elo: true
+party:
+  in-match-party: '&c<name> takımı (şu an savaşta)'
+  not-in-match-party: '&e<name> takımı (rakip bekliyor)'
+  your-party: '&eSenin takımın'
+  inventory-title: '&8Takım Savaşları'
+  party-ffa-enabled: true
+  ffa-item: SUGAR
+  ffa-item-name: '&eTakım FFA'
+  ffa-item-lore:
+  - ''
+  - '&fTakımızdaki diğer oyunculara karşı savaşın.'
+  - ''
+  ffa-item-slot: 48
+  party-split-enabled: true
+  split-item: GLOWSTONE_DUST
+  split-item-name: '&eIç Savaş'
+  split-item-lore:
+  - ''
+  - '&fTakımınızı ikiye ayırıp'
+  - '&fkendi aranızda savaşın.'
+  - ''
+  split-item-slot: 49
+  party-playback-enabled: false
+  party-playback-item: PAPER
+  party-playback-item-name: '&bParty Playback'
+  party-playback-item-lore:
+  - '&8Replay matches with your party'
+  party-playback-item-slot: 49
+  party-vs-bots-enabled: true
+  party-vs-bots-item: CLAY_BALL
+  party-vs-bots-item-name: '&eTakım Vs Bot'
+  party-vs-bots-item-lore:
+  - ''
+  - '&fBotlara karşı savaşın.'
+  - ''
+  party-vs-bots-item-slot: 50
+  chat-format: '&bTakım &8| &3<player> &8» &7<message>'
+  player-chat-prefix: '@'
+  create:
+    costs: false
+    amount: 20
+  settings:
+    open-party: {}
+    public-party: {}
+request-cooldown: 5000
+party-invite-cooldown: 3000
+team1-prefix: '&a'
+team2-prefix: '&c'
+back-button-name: '&cDön'
+preview-custom-kit: '&6Kiti incelemek icin tıkla'
+public-party-broadcast-time: 15
+overwatch:
+  judgements-required: 30
+  minimum-judgement-rate: 0.9
+  ban-command: /tempban <player> 30d Overwatch banned
+language:
+  automatic-language: true
+  title: '&3Dilini sec'
+  your-language-item: WOOL
+  your-language: '&b&lKullanilan Dil: <language>'
+  inv-size: 18
+preview:
+  shift-click-preview: true
+  select-kit-title: '&9Select Kit To Preview'
+  title: '&9Kit Preview'
+  pots: '&cEffects:'
+  potions: '&b<type> - <amplifier> - <duration> minutes'
+  elo-item: GOLD_INGOT
+  elo-name: '&cELO: <value>'
+custom-kit:
+  enabled: true
+  default-name: '&9Custom Kit'
+  icon-material: DIAMOND_SWORD
+  premade: premadecustomkit
+  second-line: STAINED_GLASS_PANE:2
+  main-title: '&cCustom Kit'
+  new-name: '&6New name: &r<name>'
+  custom-kit-name: '&cCustom Kit Icon'
+  helmets: '&cCustom Kit Helmets'
+  chestplates: '&cCustom Kit Chestplates'
+  leggings: '&cCustom Kit Leggings'
+  boots: '&cCustom Kit Boots'
+  item: '&cCustom Kit Item: '
+  air: '&6Air'
+  horse: '&cHorse: <value>'
+  combo: '&cCombo: <value>'
+  bow: '&cBow: <value>'
+  build: '&cBuild: <value>'
+  horse-item: GOLD_BARDING
+  combo-item: CLAY
+  bow-item: BOW
+  build-item: DIAMOND_PICKAXE
+  use-custom-items: false
+  replaces-kits:
+  - thisKitWillBeReplacedWithThePlayersCustomKit
+sign-stats:
+  line-1: '&3[&4Stats&3 ]'
+  line-2: '&4Bana Tıkla!'
+  player-line: '&5<player>'
+  brackets-line: '&5Brackets Kazanma'
+  kills-line: '&5Öldürme'
+  deaths-line: '&5Ölme'
+  lms-line: '&5LMS Kazanma'
+  party-wins-line: '&5Party Kazanma'
+  elo-line: '&5<kit> Elo'
+  global-elo-line: '&5Küresel Elo'
+  value: '&3<value>'
+  locations:
+    kills: 3.0, 78.0, -2.0, 0.0, 0.0, world
+    deaths: 3.0, 78.0, -1.0, 0.0, 0.0, world
+    elo:
+      builduhc: 3.0, 78.0, 0.0, 0.0, 0.0, world
+    party-wins: 3.0, 78.0, 0.0, 0.0, 0.0, world
+    lms: 3.0, 78.0, 1.0, 0.0, 0.0, world
+automatic-events:
+  broadcast:
+    delay: 10
+    times: 5
+    lms: '&eLMS eventi basliyor! Katılmak icin &b/lms join!'
+    brackets: '&eBrackets eventi basliyor! Katılmak icin &b/brackets join!'
+    juggernaut: '&cJuggernaut eventi basliyor! Katılmak icin &b/juggernaut join!'
+    koth: '&eKoth eventi basliyor! Katılmak icin &b/koth join!'
+  juggernaut-kit: gapple
+  juggernaut-player-kit: potion
+  koth-kit: potion
+  lms-kit: soup
+  brackets-kit: potion
+  times:
+  - 15:30:lms
+brackets:
+  winner-cmd: eco give <player> 100
+  auto-start: 15
+  auto-start-after-seconds: 10
+  lobby:
+    ==: Location
+    world: world
+    x: 0.555206036065329
+    y: 77.0
+    z: 0.4992079523577584
+    pitch: 6.449999
+    yaw: 91.19998
+koth:
+  anytime-join: true
+  team1: '&a&lYesil Takım'
+  team2: '&c&lKırmızı Takım'
+  timer: 300
+  corner1:
+    ==: Location
+    world: arena
+    x: -537.6999999880791
+    y: 177.20000004768372
+    z: 2831.300000011921
+    pitch: 6.820634
+    yaw: 308.47473
+  corner2:
+    ==: Location
+    world: arena
+    x: -459.30805223435163
+    y: 146.0
+    z: 2957.699999988079
+    pitch: 75.000015
+    yaw: 89.851654
+  spawn1:
+    ==: Location
+    world: arena
+    x: -502.4550485558382
+    y: 149.0
+    z: 2946.348093707084
+    pitch: -4.500013
+    yaw: 178.50153
+  spawn2:
+    ==: Location
+    world: arena
+    x: -501.7827885496448
+    y: 149.0
+    z: 2841.573415461518
+    pitch: 13.435399
+    yaw: 4.319214
+strikecheat:
+  download: '&c&lYou are required to download StrikeCheat ForgeMod to join that queue.'
+lobby: -101.02646802530029, 100.0625, -419.49353718319264, -269.65494, 1.927168, world
+lms:
+  spawn:
+    ==: Location
+    world: LMS
+    x: -1.7218609700437713
+    y: 51.0
+    z: 5.0191182136440755
+    pitch: 25.532267
+    yaw: -231.16939
+editing-place: 163.83695207711443, 172.0625, -63.062291662102766, -89.76434, 0.44702733, KitEdit
+events-gui: {}
+elo-rewards: {}
+knockback: {}
+version: 2.3.1
+elo-ranks:
+  ranks: {}
+a: '["",{"text":"§8Rakip takım:  ","clickEvent":{"action":"run_command","value":"/clickedchatwithoutaction"}},{"text":"§e§aAltuYumusakG_BOT","clickEvent":{"action":"run_command","value":"/clickablefightinventory
+  1fb89805-fc38-4d34-97b9-4fb49bd00b0e"}},{"text":"§e, §e§acheraphp_BOT","clickEvent":{"action":"run_command","value":"/clickablefightinventory
+  0f71d588-434d-43d1-ac6a-814a951fa3db"}}]'

@@ -1,0 +1,20 @@
+lastAccountName: Apolliii
+timestamps:
+  login: 1580142253418
+  logout: 1580142695296
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -265.15494
+  pitch: 0.427168
+logoutlocation:
+  world: world
+  x: -148.86893226752267
+  y: 96.5
+  z: -415.61369015541055
+  yaw: 154.21667
+  pitch: 17.826061
+money: '500.0'

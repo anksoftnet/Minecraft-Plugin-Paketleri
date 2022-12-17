@@ -1,0 +1,20 @@
+lastAccountName: Ardawai
+timestamps:
+  login: 1580237210145
+  logout: 1580237934474
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -121.5370615936776
+  y: 96.0
+  z: -415.24352406593863
+  yaw: -280.23035
+  pitch: 28.953087
+money: '500.0'

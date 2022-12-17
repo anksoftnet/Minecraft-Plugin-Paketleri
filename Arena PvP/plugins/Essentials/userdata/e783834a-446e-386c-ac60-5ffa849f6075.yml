@@ -1,0 +1,20 @@
+lastAccountName: OldCrime
+timestamps:
+  login: 1580557268773
+  logout: 1580557452212
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -128.34701724732093
+  y: 97.0
+  z: -393.8322138395039
+  yaw: -308.31403
+  pitch: 5.1305485
+money: '500.0'

@@ -1,0 +1,21 @@
+lastAccountName: BeastVaaler
+timestamps:
+  login: 1580811115512
+  lastteleport: 1580493054264
+  logout: 1580811152021
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -139.69999998807907
+  y: 96.0
+  z: -409.0777999026239
+  yaw: -68.41272
+  pitch: 5.92689
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168

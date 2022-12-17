@@ -1,0 +1,20 @@
+lastAccountName: ImAce
+timestamps:
+  login: 1580462696892
+  logout: 1580463384414
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+logoutlocation:
+  world: world
+  x: -110.4157210266678
+  y: 100.0
+  z: -420.3752867654602
+  yaw: -261.22885
+  pitch: 20.629976
+money: '500.0'

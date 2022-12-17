@@ -1,0 +1,365 @@
+﻿# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  kurucu:
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    - minecraft.command.op
+    - nte.kurucu
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - essentials.msg
+    - skript.staff.is
+    - essentials.ban
+    - essentials.mute
+    - essentials.ban.offline
+    - essentials.msg
+    - strikepractice.*
+    - worldedit.*
+    - worldguard.*
+    inheritance:
+    info:
+      build: true
+      prefix: '&4Kurucu &c'
+      suffix: ''
+  mvip:
+    default: false
+    permissions:
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - essentials.msg
+    - essentials.msg
+    - nte.mvip    
+    inheritance:
+    info:
+      build: false
+      prefix: '&aMVIP &e'
+      suffix: ''
+  mvip+:
+    default: false
+    permissions:
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - essentials.msg
+    - essentials.msg
+    - nte.mvip+
+    inheritance:
+    info:
+      build: false
+      prefix: '&aMVIP&c+ &e'
+      suffix: ''    
+  vip:
+    default: false
+    permissions:
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - essentials.msg
+    - essentials.msg
+    - nte.vip    
+    inheritance:
+    info:
+      build: false
+      prefix: '&6VIP &e'
+      suffix: ''  
+  vip+:
+    default: false
+    permissions:
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - essentials.msg
+    - essentials.msg
+    - nte.vip+    
+    inheritance:
+    info:
+      build: false
+      prefix: '&6VIP&c+ &e'
+      suffix: ''        
+  moderator:
+    default: false
+    permissions:
+    - -vanish.
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - strikepractice.*
+    - essentials.*
+    - essentials.ban
+    - essentials.mute
+    - essentials.ban.offline
+    - essentials.gamemode.0
+    - essentials.gamemode.1
+    - essentials.msg
+    - nte.mod
+    inheritance:
+    info:
+      build: true
+      prefix: '&bMod &6'
+      suffix: ''
+  builder:
+    default: false
+    permissions:
+    - essentials.*
+    - essentials.gamemode.0
+    - essentials.gamemode.1
+    - essentials.msg
+    - essentials.ban
+    - essentials.mute
+    - essentials.ban.offline
+    - strikepractice.*
+    - nte.builder
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    inheritance:
+    info:
+      build: true
+      prefix: '&3Builder &e'
+      suffix: ''
+  Admin:
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    - essentials.msg
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - essentials.*
+    - essentials.ban
+    - essentials.mute
+    - essentials.ban.offline
+    - essentials.gamemode.0
+    - essentials.gamemode.1
+    - essentials.tp
+    - minecraft.command.ban
+    - minecraft.command.ban-ip
+    - minecraft.command.banlist
+    - nte.admin
+    - skinsrestorer.cmds
+    - skinsrestorer.playercmds
+    - skript.staff.is
+    - strikepractice.*
+    - worldedit.*
+    - worldguard.*
+    inheritance:
+    info:
+      build: true
+      prefix: '&cAdmin &8» &e'
+      suffix: ''  
+  oyuncu:
+    default: true
+    permissions:
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - nte.oyuncu
+    - essentials.msg
+    - tab.oyuncu
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&7'
+      suffix: ''
+  youtuber:
+    default: false
+    permissions:
+    - essentials.fly
+    - essentials.tp
+    - essentials.msg
+    - nte.youtuber
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&4You&fTuber &e'
+      suffix: ''
+  yardımcı:
+    default: false
+    permissions:
+    - essentials.afk
+    - essentials.feed
+    - essentials.fly
+    - essentials.hat
+    - essentials.heal
+    - strikepractice.stats
+    - strikepractice.playersettings
+    - strikepractice.playback
+    - strikepractice.fightinfo
+    - strikepractice.previewkit
+    - strikepractice.party
+    - strikepractice.spectate
+    - strikepractice.kiteditor
+    - strikepractice.duel
+    - strikepractice.botduel
+    - strikepractice.customkit
+    - strikepractice.queue
+    - strikepractice.koth.command
+    - strikepractice.brackets.command
+    - strikepractice.juggernaut.command
+    - strikepractice.lms.command
+    - strikepractice.*
+    - essentials.ban
+    - essentials.mute
+    - nte.yardımcı    
+    - essentials.ban.offline
+    inheritance:
+    info:
+      build: false
+      prefix: '&6Rehber &a'
+      suffix: ''
+      

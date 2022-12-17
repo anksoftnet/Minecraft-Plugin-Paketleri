@@ -1,0 +1,20 @@
+lastAccountName: BotchTots
+timestamps:
+  login: 1580395462102
+  logout: 1580395719436
+ipAddress: 185.9.156.198
+lastlocation:
+  world: world
+  x: -101.02646802530029
+  y: 100.0625
+  z: -419.49353718319264
+  yaw: -269.65494
+  pitch: 1.927168
+money: '500.0'
+logoutlocation:
+  world: world
+  x: -150.840755663369
+  y: 99.76636799395752
+  z: -404.37421951606854
+  yaw: -181.27559
+  pitch: 26.417707

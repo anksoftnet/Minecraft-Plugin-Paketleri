@@ -1,0 +1,275 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -1092.832941152673
+    y: 112.0
+    z: 1759.8795789108447
+    pitch: -1.4244015
+    yaw: 3.916071
+  loc1:
+    ==: Location
+    world: arena
+    x: -1082.2728636182915
+    y: 112.0
+    z: 1863.0431069914582
+    pitch: -0.37440535
+    yaw: -178.33392
+  display-name: §e4
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: -1094.3201914049707
+    y: 115.03776021939163
+    z: 1804.9665236829856
+    pitch: -0.37440535
+    yaw: -178.33392
+  name: '4'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -319.7876729967553
+    y: 89.0
+    z: 1879.5238039042797
+    pitch: 2.9999967
+    yaw: -177.91547
+  loc1:
+    ==: Location
+    world: arena
+    x: -325.5221277022555
+    y: 89.0
+    z: 1785.5103185707167
+    pitch: 0.7499985
+    yaw: -0.16554695
+  display-name: §e3
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: -323.2729370075635
+    y: 88.9989002147581
+    z: 1825.5401741604892
+    pitch: 0.7499985
+    yaw: -0.16554695
+  name: '3'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -6.77041708329559
+    y: 107.0
+    z: 1622.9459364179695
+    pitch: -2.6741502
+    yaw: -358.98444
+  loc1:
+    ==: Location
+    world: arena
+    x: -5.565209866556339
+    y: 107.0
+    z: 1697.0120390845098
+    pitch: 3.1079812
+    yaw: -180.84937
+  display-name: §e2
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: -5.613505539772101
+    y: 106.88393783179727
+    z: 1666.9030250864457
+    pitch: 3.1079812
+    yaw: -180.84937
+  name: '2'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -1164.8313287340738
+    y: 145.0
+    z: 2186.688503253269
+    pitch: -2.0475917
+    yaw: 315.2508
+  ffa: true
+  loc1:
+    ==: Location
+    world: arena
+    x: -1081.008511970175
+    y: 145.0
+    z: 2248.062739583446
+    pitch: -9.8476
+    yaw: 135.573
+  display-name: §e7
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: -1136.9274712709387
+    y: 148.50959939293125
+    z: 2202.248140103946
+    pitch: 7.4024024
+    yaw: 130.62292
+  name: '7'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: 308.82691430183326
+    y: 77.0
+    z: 1622.0703824751677
+    pitch: 0.44990805
+    yaw: -268.78384
+  loc1:
+    ==: Location
+    world: arena
+    x: 228.5916388362066
+    y: 78.0
+    z: 1627.8071308468484
+    pitch: -3.150092
+    yaw: -89.83386
+  display-name: §e1
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: 276.4382151490208
+    y: 77.0
+    z: 1622.5445708012367
+    pitch: 1.200003
+    yaw: -269.68393
+  name: '1'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -1573.084080201263
+    y: 124.0
+    z: 2449.542044694686
+    pitch: 2.025604
+    yaw: 179.86617
+  ffa: true
+  loc1:
+    ==: Location
+    world: arena
+    x: -1575.911036431869
+    y: 124.0
+    z: 2369.1909540182396
+    pitch: 2.7756042
+    yaw: -0.73382914
+  display-name: §e6
+  center:
+    ==: Location
+    world: arena
+    x: -1573.1193378401026
+    y: 128.7336287386946
+    z: 2409.901687817324
+    pitch: 2.7756042
+    yaw: -0.73382914
+  name: '6'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: 282.29746556829787
+    y: 25.0
+    z: 1429.6946002896875
+    pitch: 7.1999807
+    yaw: 176.8421
+  corner1:
+    ==: Location
+    world: arena
+    x: 256.7228396854266
+    y: 21.82314770042437
+    z: 1369.6552872566574
+    pitch: -27.299995
+    yaw: 328.27228
+  corner2:
+    ==: Location
+    world: arena
+    x: 308.75371955954085
+    y: 34.58122642774633
+    z: 1437.67392439324
+    pitch: 4.649996
+    yaw: 322.8723
+  loc1:
+    ==: Location
+    world: arena
+    x: 282.5750928741978
+    y: 25.0
+    z: 1375.8462099465737
+    pitch: 16.049994
+    yaw: 0.89227295
+  display-name: §espleef
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: 282.50890978808394
+    y: 27.05160198817419
+    z: 1403.3447252968363
+    pitch: 90.0
+    yaw: 183.29199
+  name: spleef
+  kits:
+  - spleef
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -1481.3744049420911
+    y: 131.0
+    z: 1737.9156534690314
+    pitch: -2.100027
+    yaw: -0.5841675
+  ffa: true
+  loc1:
+    ==: Location
+    world: arena
+    x: -1478.4692607515199
+    y: 131.0
+    z: 1852.5738514725094
+    pitch: -7.5000296
+    yaw: -180.58409
+  display-name: §e5
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: -1479.2865693554068
+    y: 133.48419890683962
+    z: 1810.0603371026284
+    pitch: 9.149971
+    yaw: -180.7341
+  name: '5'
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arena
+    x: -44.67390940987368
+    y: 19.0
+    z: 1332.1594183570826
+    pitch: 0.18302292
+    yaw: -178.58627
+  loc1:
+    ==: Location
+    world: arena
+    x: -44.39555138422283
+    y: 19.0
+    z: 1266.4428312215846
+    pitch: 1.4999903
+    yaw: -357.21542
+  display-name: §espleef
+  build: true
+  center:
+    ==: Location
+    world: arena
+    x: -44.58976118094849
+    y: 21.851540541832914
+    z: 1299.523512756518
+    pitch: 5.283024
+    yaw: -179.78622
+  name: spleef2
+  kits:
+  - spleef

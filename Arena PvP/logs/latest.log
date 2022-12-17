@@ -1,0 +1,824 @@
+[17:37:28] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:37:28] [Server thread/INFO]: Loading properties
+[17:37:28] [Server thread/INFO]: Default game type: SURVIVAL
+[17:37:28] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:37:28] [Server thread/INFO]: Debug logging is disabled
+[17:37:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:37:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:37:28] [Server thread/INFO]: Generating keypair
+[17:37:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:37:28] [Server thread/INFO]: Using default channel type
+[17:37:28] [Server thread/ERROR]: Ambiguous plugin name `UnioAntiCrash' for files `plugins\UnioAntiCrash[TR].jar' and `plugins\UnioAntiCrash.jar' in `plugins'
+[17:37:28] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:37:29] [Server thread/INFO]: [TigerReports] Loading TigerReports v4.9.9
+[17:37:29] [Server thread/INFO]: [ModChecker] Loading ModChecker v1.0.0
+[17:37:29] [Server thread/INFO]: [UnioAntiCrash] Loading UnioAntiCrash v1.0
+[17:37:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[17:37:29] [Server thread/INFO]: [Skript] Loading Skript v2.1.2
+[17:37:29] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[17:37:29] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.1.31 (Phoenix)
+[17:37:29] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.8.2
+[17:37:29] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.1.3
+[17:37:29] [Server thread/INFO]: [SuperCensor] Loading SuperCensor v2.8
+[17:37:29] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[17:37:29] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[17:37:29] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.5.1-SNAPSHOT
+[17:37:29] [Server thread/INFO]: [MVdWPlaceholderAPI] Loading MVdWPlaceholderAPI v1.0.0
+[17:37:29] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[17:37:29] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.6.0
+[17:37:29] [Server thread/INFO]: [ViaVersion] ViaVersion 1.6.0 is now loaded, injecting!
+[17:37:29] [Server thread/INFO]: [ViaVersion] Loading block mapping...
+[17:37:29] [Server thread/INFO]: [ViaVersion] Loading item mapping...
+[17:37:29] [Server thread/INFO]: [ViaVersion] Loading new tags...
+[17:37:29] [Server thread/INFO]: [ViaVersion] Loading enchantments...
+[17:37:29] [Server thread/INFO]: [ViaVersion] Loading sound mapping...
+[17:37:29] [Server thread/INFO]: [Vault] Loading Vault v1.7.1-b91
+[17:37:29] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[17:37:29] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.3.4
+[17:37:29] [Server thread/INFO]: [Actionbar] Loading Actionbar v1.3.2.6
+[17:37:29] [Server thread/INFO]: [ArmorStandTools] Loading ArmorStandTools v2.1.4
+[17:37:29] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
+[17:37:30] [Server thread/INFO]: [AAC] Loading AAC v3.6.4
+[17:37:30] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1308)
+[17:37:30] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[17:37:30] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[17:37:30] [Server thread/INFO]: [StrikePractice] Loading StrikePractice v2.3.1
+[17:37:30] [Server thread/INFO]: [LeaderHeads] Loading LeaderHeads v3.1.5
+[17:37:30] [Server thread/INFO]: [ModChecker] Enabling ModChecker v1.0.0
+[17:37:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.1-b91
+[17:37:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:37:30] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[17:37:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:37:30] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[17:37:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.1-b91
+[17:37:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
+[17:37:30] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[17:37:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:37:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:37:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:37:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:37:30] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:37:30] [Server thread/INFO]: Preparing level "world"
+[17:37:30] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:37:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:30] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:30] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:30] [Server thread/INFO]: Structure Info Saving: true
+[17:37:30] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:30] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:30] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:30] [Server thread/INFO]: View Distance: 10
+[17:37:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:30] [Server thread/INFO]: Clear tick list: false
+[17:37:30] [Server thread/INFO]: Anti X-Ray: true
+[17:37:30] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[17:37:30] [Server thread/INFO]: [TigerReports] Enabling TigerReports v4.9.9
+[17:37:30] [Server thread/ERROR]: Error occurred while enabling TigerReports v4.9.9 (Is it up to date?)
+java.lang.IllegalArgumentException: The embedded resource 'confıg.yml' cannot be found in plugins\TigerReports.jar
+	at org.bukkit.plugin.java.JavaPlugin.saveResource(JavaPlugin.java:252) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at fr.mrtigreroux.tigerreports.data.config.ConfigFile.reset(ConfigFile.java:68) ~[?:?]
+	at fr.mrtigreroux.tigerreports.data.config.ConfigFile.load(ConfigFile.java:34) ~[?:?]
+	at fr.mrtigreroux.tigerreports.TigerReports.load(TigerReports.java:45) ~[?:?]
+	at fr.mrtigreroux.tigerreports.TigerReports.onEnable(TigerReports.java:53) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+[17:37:30] [Server thread/INFO]: [UnioAntiCrash] Enabling UnioAntiCrash v1.0
+[17:37:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[17:37:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:37:30] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[17:37:30] [Server thread/INFO]: [Skript] Enabling Skript v2.1.2
+[17:37:30] [Server thread/ERROR]: [Skript] The plugin priority has to be one of lowest, low, normal, high, or highest.
+[17:37:31] [Server thread/INFO]: [Skript] Loaded a total of 11504 english aliases
+[17:37:31] [Server thread/WARN]: [Skript] There are no aliases defined for the following ids: 165, 166, 167, 168, 169, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 409, 410, 411, 412, 413, 414, 415, 416, 423, 424, 425, 427, 428, 429, 430, 431
+[17:37:31] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[17:37:31] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[17:37:31] [Server thread/INFO]: Surum uyumsuz.
+[17:37:31] [Server thread/INFO]: git-Spigot-db6de12-18fbb24 (MC: 1.8.8)
+[17:37:31] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
+[17:37:31] [Server thread/INFO]: Using locale tr_TR
+[17:37:31] [Server thread/INFO]: Using locale tr_TR
+[17:37:31] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[17:37:31] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[17:37:31] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[17:37:31] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.1.31 (Phoenix)
+[17:37:31] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[17:37:31] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[17:37:31] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[17:37:31] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[17:37:31] [Server thread/INFO]: GroupManager version 2.1.31 (Phoenix) is enabled!
+[17:37:31] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[17:37:31] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[17:37:31] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[17:37:31] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
+[17:37:31] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.8.2
+[17:37:31] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:37:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[17:37:31] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion list from extendedclip.com...
+[17:37:31] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.1.3
+[17:37:31] [Server thread/INFO]: [NametagEdit] Found GroupManager! Hooking in.
+[17:37:31] [Server thread/INFO]: [SuperCensor] Enabling SuperCensor v2.8
+[17:37:31] [Server thread/INFO]: [0;37;1m[0;30;1m[[0;33;22mSuperCensor[0;30;1m][0;37;1m Loading SuperCensor. Version: 2.8[m
+[17:37:31] [Server thread/INFO]: [0;37;1m[0;30;1m[[0;33;22mSuperCensor[0;30;1m][0;37;1m SuperCensor loaded.[m
+[17:37:31] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[17:37:31] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[17:37:31] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[17:37:31] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 0
+[17:37:31] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'arena' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+[17:37:31] [Server thread/INFO]: -------- World Settings For [arena] --------
+[17:37:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:31] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:31] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:31] [Server thread/INFO]: Structure Info Saving: true
+[17:37:31] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:31] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:31] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:31] [Server thread/INFO]: View Distance: 10
+[17:37:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:31] [Server thread/INFO]: Clear tick list: false
+[17:37:31] [Server thread/INFO]: Anti X-Ray: true
+[17:37:31] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:31] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4216530450634206070)
+[17:37:32] [Server thread/INFO]: Preparing spawn area for arena, 61%
+[17:37:32] [Thread-15/INFO]: UUID of player AltuYumusakG is 9e034084-040e-3932-bc3c-65eafe0d62b7
+[17:37:33] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Spawn' - Env: NORMAL - Type: FLAT & seed: 0
+[17:37:33] [Server thread/INFO]: -------- World Settings For [Spawn] --------
+[17:37:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:33] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:33] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:33] [Server thread/INFO]: Structure Info Saving: true
+[17:37:33] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:33] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:33] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:33] [Server thread/INFO]: View Distance: 10
+[17:37:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:33] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:33] [Server thread/INFO]: Clear tick list: false
+[17:37:33] [Server thread/INFO]: Anti X-Ray: true
+[17:37:33] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:33] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:33] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:33] [Server thread/INFO]: Preparing start region for level 2 (Seed: 0)
+[17:37:33] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'KitEdit' - Env: NORMAL - Type: FLAT & seed: -4216530450634206070
+[17:37:33] [Server thread/INFO]: -------- World Settings For [KitEdit] --------
+[17:37:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:33] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:33] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:33] [Server thread/INFO]: Structure Info Saving: true
+[17:37:33] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:33] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:33] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:33] [Server thread/INFO]: View Distance: 10
+[17:37:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:33] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:33] [Server thread/INFO]: Clear tick list: false
+[17:37:33] [Server thread/INFO]: Anti X-Ray: true
+[17:37:33] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:33] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:33] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:33] [Server thread/INFO]: Preparing start region for level 3 (Seed: -4216530450634206070)
+[17:37:34] [Server thread/INFO]: Preparing spawn area for KitEdit, 93%
+[17:37:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'LMS' - Env: NORMAL - Type: FLAT & seed: -7655910585973073185
+[17:37:34] [Server thread/INFO]: -------- World Settings For [LMS] --------
+[17:37:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:34] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:34] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:34] [Server thread/INFO]: Structure Info Saving: true
+[17:37:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:34] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:34] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:34] [Server thread/INFO]: View Distance: 10
+[17:37:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:34] [Server thread/INFO]: Clear tick list: false
+[17:37:34] [Server thread/INFO]: Anti X-Ray: true
+[17:37:34] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:34] [Server thread/INFO]: Preparing start region for level 4 (Seed: -7655910585973073185)
+[17:37:34] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[17:37:34] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[17:37:35] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:37:35] [Server thread/INFO]: [WorldGuard] (arena) TNT ignition is PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (arena) Lighters are PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (arena) Lava fire is blocked.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (arena) Fire spread is UNRESTRICTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'arena'
+[17:37:35] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is blocked.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[17:37:35] [Server thread/INFO]: [WorldGuard] (KitEdit) TNT ignition is PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (KitEdit) Lighters are PERMITTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (KitEdit) Lava fire is blocked.
+[17:37:35] [Server thread/INFO]: [WorldGuard] (KitEdit) Fire spread is UNRESTRICTED.
+[17:37:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'KitEdit'
+[17:37:35] [Server thread/ERROR]: [WorldGuard] Error parsing configuration for world LMS. 
+[17:37:35] [Server thread/ERROR]: Error occurred while enabling WorldGuard v6.1.2;e38d98d (Is it up to date?)
+org.yaml.snakeyaml.parser.ParserException: expected '<document start>', but found FlowMappingStart
+ in 'reader', line 12, column 1:
+    {}
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseDocumentStart.produce(ParserImpl.java:225) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:393) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at com.sk89q.util.yaml.YAMLProcessor.load(YAMLProcessor.java:111) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldConfiguration.loadConfiguration(WorldConfiguration.java:334) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldConfiguration.<init>(WorldConfiguration.java:210) ~[?:?]
+	at com.sk89q.worldguard.bukkit.ConfigurationManager.get(ConfigurationManager.java:228) ~[?:?]
+	at com.sk89q.worldguard.bukkit.ConfigurationManager.load(ConfigurationManager.java:195) ~[?:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.onEnable(WorldGuardPlugin.java:175) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+[17:37:35] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.5.1-SNAPSHOT
+[17:37:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_8_R3[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[17:37:35] [Server thread/INFO]: [MVdWPlaceholderAPI] Enabling MVdWPlaceholderAPI v1.0.0
+[17:37:35] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[17:37:35] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.6.0
+[17:37:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[17:37:35] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.3.4
+[17:37:35] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-* MyCommand *-=-=-=-=-=-=-=-=-=-=-*
+[17:37:35] [Server thread/INFO]: | You are using an not fully supported server version. (v1_8_R3)
+[17:37:35] [Server thread/INFO]: | Vault  : Ok. Hooked on Vault 1.7.1-b91
+[17:37:35] [Server thread/INFO]: | Command file(s) found : 1
+[17:37:35] [Server thread/INFO]: | Config : Ready.
+[17:37:35] [Server thread/INFO]: | PlaceholderAPI: Hooked, Ok.
+[17:37:35] [Server thread/INFO]: | Custom commands loaded : 2
+[17:37:35] [Server thread/INFO]: | Version: 5.3.4
+[17:37:35] [Server thread/INFO]: | Author : emmerrei a.k.a Ivanpro
+[17:37:35] [Server thread/INFO]: | New update available : MyCommand v5.7.3
+[17:37:35] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[17:37:35] [Server thread/INFO]: [Actionbar] Enabling Actionbar v1.3.2.6
+[17:37:35] [Server thread/INFO]: Actionbar> You have installed PlaceholderAPI feel free to use it !
+[17:37:35] [Server thread/INFO]: Actionbar> Actionbar v1.3.2.6 enabled!!
+[17:37:35] [Server thread/INFO]: [ArmorStandTools] Enabling ArmorStandTools v2.1.4
+[17:37:35] [Server thread/INFO]: [ArmorStandTools] WorldGuard plugin found. WorldGuard support enabled.
+[17:37:35] [Server thread/INFO]: [AAC] Enabling AAC v3.6.4
+[17:37:36] [Server thread/INFO]: [AAC] A new version of AAC is available!
+[17:37:36] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.16-SNAPSHOT (build 1308)
+[17:37:36] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[17:37:36] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[17:37:36] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy found! Economy support for CommandNPC has been enabled.[m
+[17:37:36] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+[17:37:36] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+[17:37:36] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+[17:37:36] [Thread-53/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+[17:37:36] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[17:37:36] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[17:37:36] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[17:37:36] [Server thread/INFO]: [StrikePractice] Enabling StrikePractice v2.3.1
+[17:37:36] [Server thread/INFO]: StrikePractice>> Version supported! (v1_8_R3)
+[17:37:36] [Server thread/INFO]: Using older empty world generator!
+[17:37:36] [Server thread/INFO]: [StrikePractice] Preloading recorded matches in async thread...
+[17:37:36] [Server thread/WARN]: Tab list was disabled because the server is not running 1.7!
+[17:37:36] [Server thread/WARN]: Could not start FFA fight because the kit is not valid. Arena: 5
+[17:37:36] [Server thread/WARN]: Could not start FFA fight because the kit is not valid. Arena: 7
+[17:37:36] [Server thread/WARN]: Could not start FFA fight because the kit is not valid. Arena: 6
+[17:37:37] [Server thread/WARN]: Arenas-stacking is not enabled. Build arenas in main arenas world are used.
+[17:37:37] [Server thread/INFO]: [StrikePractice] StrikePractice was enabled in 1122 ms.
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Enabling LeaderHeads v3.1.5
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Cracked by DirectLeaks.net[m
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Correctly initialized skin manager
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-spıder
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-gıant
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-zombıe
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-slıme
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-pıgzombıe
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-cavespıder
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-sılverfısh
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-wıther
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-wıtch
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-endermıte
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-guardıan
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-pıg
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-chıcken
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-squıd
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-ırongolem
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-rabbıt
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Statistic is not in list, adding it: va-vıllager
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Loaded automatic reward: kills
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Loaded automatic reward: votes
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Hooked into Citizens
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Hooked into HolographicDisplays
+[17:37:37] [Server thread/INFO]: [LeaderHeads] Hooked into SkinsRestorer
+[17:37:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:37:38] [Server thread/INFO]: Done (7,871s)! For help, type "help" or "?"
+[17:37:38] [Craft Scheduler Thread - 0/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Checking for the latest version of Skript...[m
+[17:37:38] [Server thread/WARN]: [Skript] Using an ID instead of an alias is discouraged and will likely not be supported in future versions of Skript anymore. Please replace '19' with e.g. 'sponge'. (AntiBug.sk, line 6: on walking on 19:')
+[17:37:38] [Skript update thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mAn internal error occurred while checking for the latest version of Skript. Please refer to the server log for details.[m
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! [Skript] Severe Error:
+[17:37:38] [Skript update thread/ERROR]: #!#! Unexpected error while checking for a new version of Skript
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! If you're developing an add-on for Skript this likely means that you have done something wrong.
+[17:37:38] [Skript update thread/ERROR]: #!#! If you're a server admin however please go to http://dev.bukkit.org/server-mods/skript/tickets/
+[17:37:38] [Skript update thread/ERROR]: #!#! and check whether this error has already been reported.
+[17:37:38] [Skript update thread/ERROR]: #!#! If not please create a new ticket with a meaningful title, copy & paste this whole error into it,
+[17:37:38] [Skript update thread/ERROR]: #!#! and describe what you did before it happened and/or what you think caused the error.
+[17:37:38] [Skript update thread/ERROR]: #!#! If you think that it's a trigger that's causing the error please post the trigger as well.
+[17:37:38] [Skript update thread/ERROR]: #!#! By following this guide fixing the error should be easy and done fast.
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! Stack trace:
+[17:37:38] [Skript update thread/ERROR]: #!#! javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+[17:37:38] [Skript update thread/ERROR]: #!#!     at com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(Unknown Source)
+[17:37:38] [Skript update thread/ERROR]: #!#!     at com.sun.xml.internal.stream.XMLEventReaderImpl.nextEvent(Unknown Source)
+[17:37:38] [Skript update thread/ERROR]: #!#!     at ch.njol.skript.Updater.getChangelogs(Updater.java:286)
+[17:37:38] [Skript update thread/ERROR]: #!#!     at ch.njol.skript.Updater$2.run(Updater.java:210)
+[17:37:38] [Skript update thread/ERROR]: #!#!     at java.lang.Thread.run(Unknown Source)
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! Version Information:
+[17:37:38] [Skript update thread/ERROR]: #!#!   Skript: 2.1.2
+[17:37:38] [Skript update thread/ERROR]: #!#!   Bukkit: 1.8.8-R0.1-SNAPSHOT
+[17:37:38] [Skript update thread/ERROR]: #!#!   Minecraft: 1.8.8
+[17:37:38] [Skript update thread/ERROR]: #!#!   Java: 1.8.0_351
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! Running CraftBukkit: false
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! Current node: if player don't have permissions "illegal.yetkiler": (AntiBug.sk, line 175)
+[17:37:38] [Skript update thread/ERROR]: #!#! Current item: null
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! Thread: Skript update thread
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/ERROR]: #!#! End of Error.
+[17:37:38] [Skript update thread/ERROR]: #!#! 
+[17:37:38] [Skript update thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running the latest stable version of Skript.[m
+[17:37:38] [Server thread/ERROR]: [Skript] 'virtual chest with size 4 named "&c&lCEZA &f&lMENU"' is not an entity type (ceza.sk, line 61: open virtual chest with size 4 named "&c&lCEZA &f&lMENU" to player')
+[17:37:38] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: make gui slot 0 of player with nether star named "&4Kapat" with lore "" to close (ceza.sk, line 63: make gui slot 0 of player with nether star named "&4Kapat" with lore "" to close')
+[17:37:38] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: make gui slot 8 of player with nether star named "&4Kapat" with lore "" to close (ceza.sk, line 64: make gui slot 8 of player with nether star named "&4Kapat" with lore "" to close')
+[17:37:38] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: make gui slot 4 of player with fire charge named "&eOyuncu &a&n%arg 1%" with lore "" to nothing (ceza.sk, line 65: make gui slot 4 of player with fire charge named "&eOyuncu &a&n%arg 1%" with lore "" to nothing')
+[17:37:38] [Server thread/ERROR]: [Skript] '"&cSunucudan At" with lore "" to close then run player' is not a text (ceza.sk, line 66: make gui slot 22 of player with rose red named "&cSunucudan At" with lore "" to close then run player command "kick %arg 1%"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"&aSustur" with lore "" to close then run player' is not a text (ceza.sk, line 67: make gui slot 20 of player with light green dye named "&aSustur" with lore "" to close then run player command "cezaver %arg 1% sustur"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"&7Sustur Kaldır" with lore "" to close then run player' is not a text (ceza.sk, line 68: make gui slot 29 of player with gray dye named "&7Sustur Kaldır" with lore "" to close then run player command "unmute %arg 1%"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"&4Yetkin Yok" with lore "" to close then run player' is not a text (ceza.sk, line 69: make gui slot 24 of player with redstone named "&4Yetkin Yok" with lore "" to close then run player command "cezaver %arg 1%"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"&7Ban Kadir Yetkin Yok" with lore "" to close then run player' is not a text (ceza.sk, line 70: make gui slot 33 of player with gray dye named "&7Ban Kadir Yetkin Yok" with lore "" to close then run player command "cezaver %arg 1%"')
+[17:37:38] [Server thread/ERROR]: [Skript] 'virtual chest with size 4 named "&3&n%arg 1% &aSustur"' is not an entity type (ceza.sk, line 74: open virtual chest with size 4 named "&3&n%arg 1% &aSustur" to player')
+[17:37:38] [Server thread/ERROR]: [Skript] '"10 dakika" with lore "Spam&Harf uzatma" to close then run player' is not a text (ceza.sk, line 76: make gui slot 10 of player with yellow glass block named "10 dakika" with lore "Spam&Harf uzatma" to close then run player command "mute %arg 1% 10m Spam&Harf uzatma"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"15 dakika" with lore "Küfür&Hakaret" to close then run player' is not a text (ceza.sk, line 77: make gui slot 12 of player with orange glass block named "15 dakika" with lore "Küfür&Hakaret" to close then run player command "mute %arg 1% 15m Küfür&Hakaret"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"1 Saat" with lore "Reklam" to close then run player' is not a text (ceza.sk, line 78: make gui slot 14 of player with light green glass block named "1 Saat" with lore "Reklam" to close then run player command "mute %arg 1% 1h Reklam"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"1 Gün" with lore "Ağır Küfür" to close then run player' is not a text (ceza.sk, line 79: make gui slot 16 of player with pink glass block named "1 Gün" with lore "Ağır Küfür" to close then run player command "mute %arg 1% 1d Ağır Küfür"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"1 Hafta" with lore "Yetkiliyi boş yere rahatsız etme" to close then run player' is not a text (ceza.sk, line 80: make gui slot 22 of player with red glass block named "1 Hafta" with lore "Yetkiliyi boş yere rahatsız etme" to close then run player command "mute %arg 1% 1w Yetkiliyi boş yere rahatsız etme"')
+[17:37:38] [Server thread/ERROR]: [Skript] '"&4Geri dön" with lore "" to close then run player' is not a text (ceza.sk, line 81: make gui slot 35 of player with redstone block named "&4Geri dön" with lore "" to close then run player command "cezaver %arg 1%"')
+[17:37:38] [Server thread/INFO]: [Skript] Loaded 5 scripts with a total of 98 triggers and 8 commands in 0.66 seconds
+[17:37:38] [Server thread/INFO]: [Skript] Finished loading.
+[17:37:38] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.0
+[17:37:38] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[17:37:38] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
+[17:37:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[17:37:38] [Server thread/INFO]: [Citizens] Loaded 5 NPCs.
+[17:37:38] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[17:37:38] [Craft Scheduler Thread - 6/INFO]: StrikePractice >> No updates found.
+[17:37:38] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[17:37:38] [Craft Scheduler Thread - 12/INFO]: [PlaceholderAPI] Failed to check for a update on spigot.
+[17:37:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@f75d56[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:8853) lost connection: Disconnected
+[17:37:38] [Craft Scheduler Thread - 7/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.7.1
+[17:37:38] [Craft Scheduler Thread - 7/WARN]: [Vault] Update at: https://dev.bukkit.org/projects/vault
+[17:37:38] [Server thread/INFO]: [AAC] Beginning Enable...
+[17:37:39] [Craft Scheduler Thread - 14/INFO]: Preloaded 8 matches in 2 seconds.
+[17:37:39] [Server thread/INFO]: [AAC] Checking config file...
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check chat.Spam
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.Hitbox
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.Fastbow
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.FightSpeed
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Check combat.Knockback is disabled
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.Regen
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.FastUse
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.Killaura
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Speed
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Phase
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Fly
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Vehicles
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Elytra
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.NoFall
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Jesus
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check movement.Derp
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check combat.Criticals
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check world.FastBreak
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check world.FastPlace
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check world.Nuker
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check world.NoSwing
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check world.Interact
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Enabling check world.Velocity
+[17:37:39] [Server thread/INFO]: [AAC] (CheckManager) Check MovementManager is disabled
+[17:37:39] [Server thread/INFO]: [AAC] Starting API...
+[17:37:39] [Server thread/INFO]: [AAC] AAC has been enabled.
+[17:37:39] [Server thread/WARN]: [ViaVersion] There is a newer version available: 4.4.2, you're on: 1.6.0
+[17:37:39] [Server thread/INFO]: [AAC] Disabling check movement.Vehicles as server is 1.8.8
+[17:37:39] [Server thread/INFO]: [AAC] Disabling check movement.Elytra as server is 1.8.8
+[17:37:39] [Server thread/INFO]: Spawning a test npc 'SafTirik' to fetch npcs' skin. The npc will be removed in 10 seconds.
+[17:37:39] [Craft Scheduler Thread - 4/WARN]: [SpigetUpdate] Invalid SemVer versions specified [1351-SNAPSHOT] [1423]
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.5.1-SNAPSHOT[m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[17:37:39] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[17:37:44] [Thread-102/INFO]: UUID of player AltuYumusakG is 9e034084-040e-3932-bc3c-65eafe0d62b7
+[17:37:44] [Server thread/INFO]: AltuYumusakG[/212.253.220.29:8393] logged in with entity id 139 at ([world]-101.02646802530029, 100.0625, -419.49353718319264)
+[17:37:44] [Craft Scheduler Thread - 11/ERROR]: [MVdWPlaceholderAPI] Unable to replace placeholders. No MVdW Placeholder plugin found!
+[17:37:44] [Craft Scheduler Thread - 11/ERROR]: [MVdWPlaceholderAPI] Unable to replace placeholders. No MVdW Placeholder plugin found!
+[17:37:44] [Server thread/INFO]: [0;37;22m[[0;32;1m+[0;37;22m] [0;33;1mAltuYumusakG[m
+[17:37:44] [Server thread/INFO]: Loaded AltuYumusakG's data in 77 ms.
+[17:37:44] [Server thread/ERROR]: Could not pass event PlayerVelocityEvent to AAC v3.6.4
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTrackerEntry.track(EntityTrackerEntry.java:231) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTracker.updatePlayers(EntityTracker.java:177) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:803) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+Caused by: java.lang.IllegalStateException: Cannot run world.Velocity check with move check disabled
+	at me.konsolas.aac.cc.a(cc.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 10 more
+[17:37:44] [Server thread/ERROR]: Could not pass event PlayerVelocityEvent to AAC v3.6.4
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTrackerEntry.track(EntityTrackerEntry.java:231) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTracker.updatePlayers(EntityTracker.java:177) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:803) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+Caused by: java.lang.IllegalStateException: Cannot run world.Velocity check with move check disabled
+	at me.konsolas.aac.cc.a(cc.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 10 more
+[17:37:48] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[17:38:15] [Server thread/INFO]: AltuYumusakG issued server command: /gmc
+[17:38:15] [Server thread/INFO]: §3ArenaPvP §8» §bAltuYumusakG §7Gerekli izini bulunmuyor.
+[17:38:20] [Server thread/INFO]: AltuYumusakG issued server command: /gamemode 1
+[17:38:20] [Server thread/INFO]: §3ArenaPvP §8» §bAltuYumusakG §7Gerekli izini bulunmuyor.
+[17:38:37] [Server thread/INFO]: Opped AltuYumusakG
+[17:38:38] [Server thread/INFO]: AltuYumusakG issued server command: /gamemode 1
+[17:38:50] [Server thread/INFO]: AltuYumusakG issued server command: /gamemode C
+[17:38:51] [Server thread/INFO]: AltuYumusakG issued server command: /gamemode S
+[17:38:55] [Server thread/INFO]: Opped AltuYumusakG
+[17:38:57] [Server thread/INFO]: De-opped AltuYumusakG
+[17:39:16] [Server thread/INFO]: AltuYumusakG has just earned the achievement [Getting Wood]
+[17:39:56] [Server thread/INFO]: CONSOLE issued server command: /ban 
+[17:39:56] [Server thread/INFO]: Bans a player.[m
+[17:39:56] [Server thread/INFO]: /ban <player> [reason][m
+[17:40:09] [Server thread/INFO]: CONSOLE issued server command: /ban AltuYumusakG niye spawnı kırıyon pezevenkl
+[17:40:09] [Server thread/INFO]: AltuYumusakG lost connection: §3ArenaPvP §8» §bniye spawnı kırıyon pezevenkl §7adlı oyundan uzaklaştırıldı.
+[17:40:09] [Server thread/INFO]: §3ArenaPvP §8» §6AltuYumusakG §7adlı oyuncu banlandı §6Sebep §3ArenaPvP §8» §7§3ArenaPvP §8» §bniye spawnı kırıyon pezevenkl §7adlı oyundan uzaklaştırıldı..
+[17:40:09] [Server thread/WARN]: handleDisconnection() called twice
+[17:40:14] [Thread-113/INFO]: UUID of player AltuYumusakG is 9e034084-040e-3932-bc3c-65eafe0d62b7
+[17:40:14] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@34edd1[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:9036): §6[AAC] §r> §6Wait a few seconds before logging back in.
+[17:40:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@34edd1[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:9036) lost connection: §6[AAC] §r> §6Wait a few seconds before logging back in.
+[17:40:17] [Thread-114/INFO]: UUID of player AltuYumusakG is 9e034084-040e-3932-bc3c-65eafe0d62b7
+[17:40:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1b5c719[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:8363): You are banned from this server!
+Reason: niye spawnı kırıyon pezevenkl
+[17:40:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@1b5c719[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:8363) lost connection: You are banned from this server!
+Reason: niye spawnı kırıyon pezevenkl
+[17:40:24] [Thread-115/INFO]: UUID of player AltuYumusakG is 9e034084-040e-3932-bc3c-65eafe0d62b7
+[17:40:24] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@9fdbae[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:9216): You are banned from this server!
+Reason: niye spawnı kırıyon pezevenkl
+[17:40:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@9fdbae[id=9e034084-040e-3932-bc3c-65eafe0d62b7,name=AltuYumusakG,properties={},legacy=false] (/212.253.220.29:9216) lost connection: You are banned from this server!
+Reason: niye spawnı kırıyon pezevenkl
+[17:40:26] [Server thread/INFO]: CONSOLE issued server command: /unban altuyumusakg
+[17:40:26] [Server thread/INFO]: §3ArenaPvP §8» §eConsole §7isimli Yönetici §eAltuYumusakG §7isimli oyuncunun yasaklama cezasını kaldırdı.
+[17:40:29] [Thread-116/INFO]: UUID of player AltuYumusakG is 9e034084-040e-3932-bc3c-65eafe0d62b7
+[17:40:29] [Server thread/INFO]: AltuYumusakG[/212.253.220.29:9042] logged in with entity id 147 at ([world]-101.02646802530029, 100.0625, -419.49353718319264)
+[17:40:29] [Craft Scheduler Thread - 8/ERROR]: [MVdWPlaceholderAPI] Unable to replace placeholders. No MVdW Placeholder plugin found!
+[17:40:29] [Craft Scheduler Thread - 8/ERROR]: [MVdWPlaceholderAPI] Unable to replace placeholders. No MVdW Placeholder plugin found!
+[17:40:29] [Server thread/INFO]: [0;37;22m[[0;32;1m+[0;37;22m] [0;33;1mAltuYumusakG[m
+[17:40:29] [Server thread/INFO]: Loaded AltuYumusakG's data in 93 ms.
+[17:40:29] [Server thread/ERROR]: Could not pass event PlayerVelocityEvent to AAC v3.6.4
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTrackerEntry.track(EntityTrackerEntry.java:231) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTracker.updatePlayers(EntityTracker.java:177) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:803) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+Caused by: java.lang.IllegalStateException: Cannot run world.Velocity check with move check disabled
+	at me.konsolas.aac.cc.a(cc.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 10 more
+[17:40:29] [Server thread/ERROR]: Could not pass event PlayerVelocityEvent to AAC v3.6.4
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTrackerEntry.track(EntityTrackerEntry.java:231) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.EntityTracker.updatePlayers(EntityTracker.java:177) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:803) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+Caused by: java.lang.IllegalStateException: Cannot run world.Velocity check with move check disabled
+	at me.konsolas.aac.cc.a(cc.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	... 10 more
+[17:40:58] [Server thread/INFO]: Opped AltuYumusakG
+[17:42:14] [Server thread/INFO]: Usage: /say <message ...>
+[17:42:19] [Server thread/INFO]: [Server] /Regon flag spawn buld-deny
+[17:42:29] [Server thread/INFO]: AltuYumusakG issued server command: /region
+[17:42:39] [Server thread/INFO]: AltuYumusakG issued server command: /region flag 1
+[17:42:46] [Server thread/INFO]: AltuYumusakG issued server command: /region flag 1 build-deny 31
+[17:42:46] [Server thread/WARN]: [WorldGuard] WorldGuard encountered an unexpected error
+java.lang.NullPointerException
+	at com.sk89q.worldguard.bukkit.RegionContainer.getSaveFailures(RegionContainer.java:254) ~[WorldGuard.jar:?]
+	at com.sk89q.worldguard.bukkit.commands.region.RegionCommandsBase.warnAboutSaveFailures(RegionCommandsBase.java:297) ~[WorldGuard.jar:?]
+	at com.sk89q.worldguard.bukkit.commands.region.RegionCommands.flag(RegionCommands.java:463) ~[WorldGuard.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at com.sk89q.minecraft.util.commands.CommandsManager.invokeMethod(CommandsManager.java:528) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:516) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:471) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.execute(CommandsManager.java:409) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.onCommand(WorldGuardPlugin.java:260) [WorldGuard.jar:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:54) [worldedit-bukkit-6.1.7.3.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:641) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1162) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:997) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_351]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_351]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+[17:44:14] [Server thread/INFO]: Usage: [0;37;22m/[0;33;22mskript [0;36;1m...[m
+[17:44:14] [Server thread/INFO]:   [0;36;1mreload [0;37;22m-[m Reloads the config, all scripts, everything, or a specific script[m
+[17:44:14] [Server thread/INFO]:   [0;36;1menable [0;37;22m-[m Enables all scripts or a specific one[m
+[17:44:14] [Server thread/INFO]:   [0;36;1mdisable [0;37;22m-[m Disables all scripts or a specific one[m
+[17:44:14] [Server thread/INFO]:   [0;36;1mupdate [0;37;22m-[m Check for updates, read the changelog, or download the latest version of Skript[m
+[17:44:14] [Server thread/INFO]:   [0;36;1mhelp [0;37;22m-[m Prints this help message. Use '/skript reload/enable/disable/update' to get more info[m
+[17:44:16] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading the config and all scripts...[m
+[17:44:17] [Server thread/INFO]: Loaded a total of 11504 english aliases
+[17:44:17] [Server thread/WARN]: There are no aliases defined for the following ids: 165, 166, 167, 168, 169, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 409, 410, 411, 412, 413, 414, 415, 416, 423, 424, 425, 427, 428, 429, 430, 431
+[17:44:17] [Server thread/WARN]: Using an ID instead of an alias is discouraged and will likely not be supported in future versions of Skript anymore. Please replace '19' with e.g. 'sponge'. (AntiBug.sk, line 6: on walking on 19:')
+[17:44:17] [Server thread/ERROR]: 'virtual chest with size 4 named "&c&lCEZA &f&lMENU"' is not an entity type (ceza.sk, line 61: open virtual chest with size 4 named "&c&lCEZA &f&lMENU" to player')
+[17:44:17] [Server thread/ERROR]: Can't understand this condition/effect: make gui slot 0 of player with nether star named "&4Kapat" with lore "" to close (ceza.sk, line 63: make gui slot 0 of player with nether star named "&4Kapat" with lore "" to close')
+[17:44:17] [Server thread/ERROR]: Can't understand this condition/effect: make gui slot 8 of player with nether star named "&4Kapat" with lore "" to close (ceza.sk, line 64: make gui slot 8 of player with nether star named "&4Kapat" with lore "" to close')
+[17:44:17] [Server thread/ERROR]: Can't understand this condition/effect: make gui slot 4 of player with fire charge named "&eOyuncu &a&n%arg 1%" with lore "" to nothing (ceza.sk, line 65: make gui slot 4 of player with fire charge named "&eOyuncu &a&n%arg 1%" with lore "" to nothing')
+[17:44:17] [Server thread/ERROR]: '"&cSunucudan At" with lore "" to close then run player' is not a text (ceza.sk, line 66: make gui slot 22 of player with rose red named "&cSunucudan At" with lore "" to close then run player command "kick %arg 1%"')
+[17:44:17] [Server thread/ERROR]: '"&aSustur" with lore "" to close then run player' is not a text (ceza.sk, line 67: make gui slot 20 of player with light green dye named "&aSustur" with lore "" to close then run player command "cezaver %arg 1% sustur"')
+[17:44:17] [Server thread/ERROR]: '"&7Sustur Kaldır" with lore "" to close then run player' is not a text (ceza.sk, line 68: make gui slot 29 of player with gray dye named "&7Sustur Kaldır" with lore "" to close then run player command "unmute %arg 1%"')
+[17:44:17] [Server thread/ERROR]: '"&4Yetkin Yok" with lore "" to close then run player' is not a text (ceza.sk, line 69: make gui slot 24 of player with redstone named "&4Yetkin Yok" with lore "" to close then run player command "cezaver %arg 1%"')
+[17:44:17] [Server thread/ERROR]: '"&7Ban Kadir Yetkin Yok" with lore "" to close then run player' is not a text (ceza.sk, line 70: make gui slot 33 of player with gray dye named "&7Ban Kadir Yetkin Yok" with lore "" to close then run player command "cezaver %arg 1%"')
+[17:44:17] [Server thread/ERROR]: 'virtual chest with size 4 named "&3&n%arg 1% &aSustur"' is not an entity type (ceza.sk, line 74: open virtual chest with size 4 named "&3&n%arg 1% &aSustur" to player')
+[17:44:17] [Server thread/ERROR]: '"10 dakika" with lore "Spam&Harf uzatma" to close then run player' is not a text (ceza.sk, line 76: make gui slot 10 of player with yellow glass block named "10 dakika" with lore "Spam&Harf uzatma" to close then run player command "mute %arg 1% 10m Spam&Harf uzatma"')
+[17:44:17] [Server thread/ERROR]: '"15 dakika" with lore "Küfür&Hakaret" to close then run player' is not a text (ceza.sk, line 77: make gui slot 12 of player with orange glass block named "15 dakika" with lore "Küfür&Hakaret" to close then run player command "mute %arg 1% 15m Küfür&Hakaret"')
+[17:44:17] [Server thread/ERROR]: '"1 Saat" with lore "Reklam" to close then run player' is not a text (ceza.sk, line 78: make gui slot 14 of player with light green glass block named "1 Saat" with lore "Reklam" to close then run player command "mute %arg 1% 1h Reklam"')
+[17:44:17] [Server thread/ERROR]: '"1 Gün" with lore "Ağır Küfür" to close then run player' is not a text (ceza.sk, line 79: make gui slot 16 of player with pink glass block named "1 Gün" with lore "Ağır Küfür" to close then run player command "mute %arg 1% 1d Ağır Küfür"')
+[17:44:17] [Server thread/ERROR]: '"1 Hafta" with lore "Yetkiliyi boş yere rahatsız etme" to close then run player' is not a text (ceza.sk, line 80: make gui slot 22 of player with red glass block named "1 Hafta" with lore "Yetkiliyi boş yere rahatsız etme" to close then run player command "mute %arg 1% 1w Yetkiliyi boş yere rahatsız etme"')
+[17:44:17] [Server thread/ERROR]: '"&4Geri dön" with lore "" to close then run player' is not a text (ceza.sk, line 81: make gui slot 35 of player with redstone block named "&4Geri dön" with lore "" to close then run player command "cezaver %arg 1%"')
+[17:44:17] [Server thread/INFO]: Loaded 6 scripts with a total of 100 triggers and 8 commands in 0.63 seconds
+[17:44:17] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 16 errors while reloading the config and all scripts![m
+[17:44:30] [Server thread/INFO]: De-opped AltuYumusakG
+[17:45:13] [Server thread/INFO]: [0;31;1m/region <flag|select|migrateuuid|setpriority|teleport|save|addowner|removeowner|list|remove|addmember|redefine|load|removemember|define|claim|setparent|info|migratedb>[m
+[17:45:15] [Server thread/INFO]: [0;31;1mToo few arguments.[m
+[17:45:15] [Server thread/INFO]: [0;31;1m/region flag [-e] <id> <flag> [-w world] [-g group] [value][m
+[17:45:54] [Server thread/INFO]: [0;36;22mArenaPvP [0;30;1m» [0;33;1mBilinmeyen bir komut girdiniz[m
+[17:46:03] [Server thread/INFO]: [0;36;22mArenaPvP [0;30;1m» [0;33;1mBilinmeyen bir komut girdiniz[m
+[17:46:14] [Server thread/INFO]: [0;36;22mArenaPvP [0;30;1m» [0;33;1mBilinmeyen bir komut girdiniz[m
+[17:46:15] [Server thread/INFO]: [0;37;22m[[0;33;22mAAC[0;37;22m] [0;32;22m[CONSOLE] [mAltuYumusakG in world might be trying to avoid fall damage (ping = 16, tps = 19.94) [m
+[17:46:47] [Server thread/INFO]: AltuYumusakG issued server command: /rg flag 1 build deny
+[17:46:47] [Server thread/WARN]: [WorldGuard] WorldGuard encountered an unexpected error
+java.lang.NullPointerException
+	at com.sk89q.worldguard.bukkit.RegionContainer.getSaveFailures(RegionContainer.java:254) ~[WorldGuard.jar:?]
+	at com.sk89q.worldguard.bukkit.commands.region.RegionCommandsBase.warnAboutSaveFailures(RegionCommandsBase.java:297) ~[WorldGuard.jar:?]
+	at com.sk89q.worldguard.bukkit.commands.region.RegionCommands.flag(RegionCommands.java:463) ~[WorldGuard.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at com.sk89q.minecraft.util.commands.CommandsManager.invokeMethod(CommandsManager.java:528) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:516) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:471) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.execute(CommandsManager.java:409) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.onCommand(WorldGuardPlugin.java:260) [WorldGuard.jar:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:54) [worldedit-bukkit-6.1.7.3.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:641) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1162) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:997) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_351]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_351]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+[17:46:51] [Server thread/INFO]: AltuYumusakG issued server command: /rg flag __global__ build deny
+[17:46:51] [Server thread/WARN]: [WorldGuard] WorldGuard encountered an unexpected error
+java.lang.NullPointerException
+	at com.sk89q.worldguard.bukkit.RegionContainer.getSaveFailures(RegionContainer.java:254) ~[WorldGuard.jar:?]
+	at com.sk89q.worldguard.bukkit.commands.region.RegionCommandsBase.warnAboutSaveFailures(RegionCommandsBase.java:297) ~[WorldGuard.jar:?]
+	at com.sk89q.worldguard.bukkit.commands.region.RegionCommands.flag(RegionCommands.java:463) ~[WorldGuard.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_351]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_351]
+	at com.sk89q.minecraft.util.commands.CommandsManager.invokeMethod(CommandsManager.java:528) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:516) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:471) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.minecraft.util.commands.CommandsManager.execute(CommandsManager.java:409) ~[worldedit-bukkit-6.1.7.3.jar:?]
+	at com.sk89q.worldguard.bukkit.WorldGuardPlugin.onCommand(WorldGuardPlugin.java:260) [WorldGuard.jar:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:54) [worldedit-bukkit-6.1.7.3.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:641) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1162) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:997) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_351]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_351]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+[17:47:27] [Server thread/INFO]: [0;36;22mArenaPvP [0;30;1m» [0;33;1mBilinmeyen bir komut girdiniz[m
+[17:47:29] [Server thread/INFO]: Usage: [0;37;22m/[0;33;22mskript [0;36;1m...[m
+[17:47:29] [Server thread/INFO]:   [0;36;1mreload [0;37;22m-[m Reloads the config, all scripts, everything, or a specific script[m
+[17:47:29] [Server thread/INFO]:   [0;36;1menable [0;37;22m-[m Enables all scripts or a specific one[m
+[17:47:29] [Server thread/INFO]:   [0;36;1mdisable [0;37;22m-[m Disables all scripts or a specific one[m
+[17:47:29] [Server thread/INFO]:   [0;36;1mupdate [0;37;22m-[m Check for updates, read the changelog, or download the latest version of Skript[m
+[17:47:29] [Server thread/INFO]:   [0;36;1mhelp [0;37;22m-[m Prints this help message. Use '/skript reload/enable/disable/update' to get more info[m
+[17:47:31] [Server thread/INFO]: Usage: [0;37;22m/[0;33;22mskript [0;36;1mreload [0;31;22m...[m
+[17:47:31] [Server thread/INFO]:   [0;31;22mall [0;37;22m-[m Reloads all configs and all scripts[m
+[17:47:31] [Server thread/INFO]:   [0;31;22mconfig [0;37;22m-[m Reloads the main config[m
+[17:47:31] [Server thread/INFO]:   [0;31;22maliases [0;37;22m-[m Reloads the aliases configs (aliases-*.sk)[m
+[17:47:31] [Server thread/INFO]:   [0;31;22mscripts [0;37;22m-[m Reloads all scripts[m
+[17:47:31] [Server thread/INFO]:   [0;31;22m[0;37;22m<[0;31;22mscript[0;37;22m> [0;37;22m-[m Reloads a specific script or a folder of scripts[m
+[17:47:33] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mblok.sk[m...[m
+[17:47:33] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Successfully reloaded [0;33;22mblok.sk[m.[m
+[17:47:37] [Server thread/INFO]: [0;36;22mArenaPvP [0;30;1m» [0;33;1mBilinmeyen bir komut girdiniz[m
+[17:47:38] [Server thread/INFO]: [0;32;1mA��ld�[m
+[17:47:38] [Server thread/INFO]: [0;36;22mArenaPvP [0;30;1m» [0;33;1mBilinmeyen bir komut girdiniz[m
+[18:03:36] [Server thread/INFO]: AltuYumusakG lost connection: Disconnected

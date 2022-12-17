@@ -1,0 +1,28 @@
+command /engel:
+    trigger:
+        if {engeldurum} is true:
+            delete {engeldurum}
+            send "&bKapatýldý"
+            stop
+        set {engeldurum} to true
+        send "&aAçýldý"
+
+
+on damage:
+    damage cause is fall
+    {engeldurum} is true
+    cancel event
+
+on break:
+    {engeldurum} is true
+    cancel event
+
+on place:
+    {engeldurum} is true
+    cancel event
+
+on damage:
+    attacker is a player
+    victim is a player
+    {engeldurum} is true
+    cancel event
