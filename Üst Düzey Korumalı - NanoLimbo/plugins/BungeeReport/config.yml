@@ -1,0 +1,60 @@
+REPORT:
+  COOLDOWN: 60
+  USAGE:
+    INCORRECT:
+      - '&8[&5&l*&8] &fUsage: &d/report <player> <reason>'
+    NO-REASON:
+      - '&8[&5&l*&8] &fPlease put the reason why you would report to &e<target>&f.'
+      - '&8[&5&l*&8] &fUsage: &d/report <target> <reason>'
+    UNKNOWN-REASON:
+      - '&8[&5&l*&8] &fUnknown reason, List of reasons...'
+      - '  &8&l* &fCheats: &cAntiKnockBack, KillAura, Fly.'
+      - '  &8&l* &fOthers: &cCamping, Spam.'
+    SUCCESSFULLY:
+      - '&8[&5&l*&8] &fYou have reported &e<target>&f successfully.'
+  REASONS:
+    USE-CUSTOM-REASON: false
+    LIST:
+      - 'KillAura'
+      - 'AntiKnockBack'
+      - 'Fly'
+      - 'Camping'
+      - 'Spam'
+  NOTIFY-MESSAGE:
+    - '&d&l&m------&5&l&m--------&8&l&m-----------&5&l&m--------&d&l&m------'
+    - '&8[&5&l*&8] &d<player>&f has reported &c<target>&f.'
+    - '  &8&l* &fReason: &a<reason>'
+    - '  &8&l* &fServer: &9<server>'
+    - '&d&l&m------&5&l&m--------&8&l&m-----------&5&l&m--------&d&l&m------'
+  TOGGLE-MESSAGE:
+    ENABLED: '&8[&5&l*&8] &fYou have &aenabled &fthe visibility of reports.'
+    DISABLED: '&8[&5&l*&8] &fYou have &cdisabled &fthe visibility of reports.'
+  HOVER:
+    MESSAGE: '&e◂ Click to connect to <server> ◂'
+    COMMAND: '/server <server>'
+  TITLE:
+    ENABLED: true
+    LINES:
+      1: '&e⋆ &5&lNEW REPORT &e⋆'
+      2: '&a<player> &8▸ &c<target>'
+CANCEL-SERVERS:
+  REPORT-COMMAND:
+    - 'Hub'
+    - 'PreHub'
+    - 'PreLobby'
+  NOTIFY-MESSAGE:
+    - 'PreHub'
+    - 'PreLobby'
+OTHERS:
+  NO-ONLINE: '&8[&5&l*&8] &d<target> &fis not connected.'
+  NO-SERVER: '&8[&5&l*&8] &fYou cannot report players in &d<server>&f.'
+  NO-CONSOLE: '&8[&5&l*&8] &fOnly players can execute this command.'
+  NO-REPORTS: '&8[&5&l*&8] &fThere are no players reported.'
+  NO-YOURSELF: '&8[&5&l*&8] &fYou cannot report yourself.'
+  NO-PERMISSIONS: '&8[&5&l*&8] &fYou do not have permissions to execute the command.'
+  COOLDOWN-FORMAT:
+    SECOND: 'second'
+    SECONDS: 'seconds'
+    MINUTE: 'minute'
+    MINUTES: 'minutes'
+  COOLDOWN: '&8[&5&l*&8] &fPlease wait &b<cooldown> &fto report again to a player.'

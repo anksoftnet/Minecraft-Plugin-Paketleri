@@ -1,0 +1,41 @@
+# You can add as many languages as you want.
+# The language will change depending on the client language.
+# Supported Languages: https://minecraft.gamepedia.com/Language
+default: "en"
+
+# You can add as many languages as you want.
+langs:
+  en:
+    cleared: "&8[&5&l*&8] &fThe chat was cleared by &d%player%&f!"
+    reload: "&8[&5&l*&8] &fPlugin successfully reloaded!"
+    help: |-
+      &8[&5&l*&8] &fChatSentinel Help.
+      &6
+      &5Commands:
+      &8&l  * &f/chatsentinel help
+      &8&l  * &f/chatsentinel reload
+      &6
+    unknown_command: "&8[&5&l*&8] &fUnknown command. Use &d/chatsentinel help &fto see available commands!"
+    no_permission: "&8[&5&l*&8] &fYou dont have permission to use this command!"
+    blacklist_warn_message: "&8[&5&l*&8] &fYou cant type '%message%'! (%warns%/%maxwarns%)"
+    caps_warn_message: "&8[&5&l*&8] &fYou are using too many caps!"
+    cooldown_warn_message: "&8[&5&l*&8] &fWait &b%cooldown%s &fbefore sending another message!"
+    flood_warn_message: "&8[&5&l*&8] &fYou cant send too large messages!"
+    syntax_warn_message: "&8[&5&l*&8] &fSyntax is disabled in this server!"
+  es:
+    cleared: "&8[&5&l*&8] &fThe chat was cleared by &d%player%&f!"
+    reload: "&8[&5&l*&8] &fPlugin successfully reloaded!"
+    help: |-
+      &8[&5&l*&8] &fChatSentinel Help.
+      &6
+      &5Commands:
+      &8&l  * &f/chatsentinel help
+      &8&l  * &f/chatsentinel reload
+      &6
+    unknown_command: "&8[&5&l*&8] &fUnknown command. Use &d/chatsentinel help &fto see available commands!"
+    no_permission: "&8[&5&l*&8] &fYou dont have permission to use this command!"
+    blacklist_warn_message: "&8[&5&l*&8] &fYou cant type '%message%'! (%warns%/%maxwarns%)"
+    caps_warn_message: "&8[&5&l*&8] &fYou are using too many caps!"
+    cooldown_warn_message: "&8[&5&l*&8] &fWait &b%cooldown%s &fbefore sending another message!"
+    flood_warn_message: "&8[&5&l*&8] &fYou cant send too large messages!"
+    syntax_warn_message: "&8[&5&l*&8] &fSyntax is disabled in this server!"

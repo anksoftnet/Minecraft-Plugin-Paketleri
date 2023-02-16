@@ -1,0 +1,17 @@
+VALID_URL: '&8[&5&l*&8] &fPlease provide a valid URL.'
+USAGE: '&8[&5&l*&8] &fCorrect usage is: &d/{0} <link> [message]'
+NO_PERMISSIONS: '&8[&5&l*&8] &fYou have no permissions to perform that.'
+COOLDOWN_ACTIVE: '&8[&5&l*&8] &fPlease wait &b{0} &fto use this again.'
+CLICK_MESSAGE: '&e◂ Click to watch {0} livestream ◂'
+CLICK_HERE: '&a&o(( Click here to enter the live! ))'
+HOVER_MESSAGE:
+- '&d&l*&5&l*&d&l*'
+- ''
+- '&c[ⓁⒾⓋⒺ] &8┃ &d{0} &fis livestreaming!'
+- $CLICKABLE
+- ''
+- $MESSAGE
+- ''
+- '&d&l*&5&l*&d&l*'
+SUCCESSFULLY: '&8[&5&l*&8] &fYou have successfully sent the message to the server.'
+SUCCESSFULLY_RELOAD: '&8[&5&l*&8] &fPlugin has been successfully reloaded.'

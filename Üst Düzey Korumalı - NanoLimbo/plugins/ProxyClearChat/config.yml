@@ -1,0 +1,33 @@
+#How many line do you want to clear
+lineToClear: 120
+#Customize your message here. Color code supported!
+message:
+  noPermission: '&8[&5&l*&8] &fYou do not have permission to use this command!'
+  help: '&8[&5&l*&8] &fUse: &d/clearchat <me|server|global|player|lock|reload>'
+  playerSpecify: '&8[&5&l*&8] &fPlease specify player name!'
+  targetNotOnline: '&8[&5&l*&8] &fTarget player not online!'
+  targetExempt: '&8[&5&l*&8] &fYou cannot clear &d%player% &fchat!'
+  targetExemptNotify: '&8[&5&l*&8] &d%player% &ftrying to clear your chat! But fail!'
+  targetCleared: '&8[&5&l*&8] &fYou have &a&lCLEARED &d%player% &fchat!'
+  targetGotCleared: '&8[&5&l*&8] &fYour chat has been &a&lCLEARED&f by &d%player%&f.'
+  globalExempt: '&8[&5&l*&8] &fChat has been &a&lCLEARED &fby &d%player%&f. But you have been exempted from being clearchat!'
+  globalCleared: '&8[&5&l*&8] &fChat has been &a&lCLEARED &fby &d%player%&f.'
+  globalClearedFromConsole: '&8[&5&l*&8] &fYou have successfully clear the global chat!'
+  serverConsole: '&8[&5&l*&8] &fYou are using console, please specify the server name!'
+  serverInvalid: '&8[&5&l*&8] &fInvalid server!'
+  serverClearedExempt: '&8[&5&l*&8] &fChat in server &e%server% &fhas been &a&lCLEARED&f by &d%player%&f. But you have been exempted from being clearchat!'
+  serverCleared: '&8[&5&l*&8] &fChat in server &e%server% &fhas been &a&lCLEARED&f by &d%player%&f.'
+  serverClearedNotify: '&8[&5&l*&8] &fChat in server &e%server% &fhas been &a&lCLEARED&f by &d%player%&f!'
+  serverClearedFromConsole: '&8[&5&l*&8] &fYou have successfully clear &e%server% &fchat!'
+  serverNoPermission: '&8[&5&l*&8] &fYou do not have permission to clear &e%server% &fchat!'
+  meCleared: '&8[&5&l*&8] &fYou have &a&lCLEARED&f your own chat!'
+  chatLocked: '&8[&5&l*&8] &fYou have &c&lLOCKED &fthe chat!'
+  chatUnlocked: '&8[&5&l*&8] &fYou have &c&lUNLOCKED &fthe chat!'
+  chatLockedPlayer: '&8[&5&l*&8] &fYou cannot talk while chat is locked!'
+  chatLockedNotify: '&8[&5&l*&8] &fChat has been &c&lLOCKED &fby staff!'
+  chatUnlockedNotify: '&8[&5&l*&8] &fChat has been &c&lUNLOCKED &fby staff. You can now chat!'
+  reload: '&8[&5&l*&8] &fProxyClearChat has been reloaded!'
+#List of command to block while chat is locked
+chatLockedCommandBlock:
+- global
+- g

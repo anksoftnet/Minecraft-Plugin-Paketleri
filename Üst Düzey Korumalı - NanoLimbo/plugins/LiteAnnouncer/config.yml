@@ -1,0 +1,52 @@
+Settings:
+  messagesOrder: NORMAL
+  interval: 60
+  minOnlineCountForWork: 1
+  noPermMessage: §8[§5§l*§8] §fYou don't have permissions!
+  enableVariables: true
+  debugJsonErrors: false
+Messages:
+  '1':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+    - ''
+    - '&d❖ &5&lANNOUNCEMENT &8▏ &fGet advantages in our'
+    - '&fvirtual store and improve your gameplay.'
+    - ''
+    - '[{"text":"  &fLink &8▸ "},{"text":"[Click Here]","color":"green","underlined":false,"clickEvent":{"action":"open_url","value":"https://magaza.sunucuadi.net"}}]'
+    - ''
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+  '2':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+    - ''
+    - '&d❖ &5&lANNOUNCEMENT &8▏ &fHave you seen a player'
+    - '&fbreak the rules? Report it!'
+    - ''
+    - '  &fUse &8▸ &d/report <player> <reason>'
+    - ''
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+  '3':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+    - ''
+    - '&d❖ &5&lANNOUNCEMENT &8▏ &fFollow us on &bTwitter &fto'
+    - '&ffind out about our latest news.'
+    - ''
+    - '[{"text":"  &fLink &8▸ "},{"text":"[Click Here]","color":"aqua","underlined":false,"clickEvent":{"action":"open_url","value":"https://twitter.com/sunucuadi"}}]'
+    - ''
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+  '4':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'
+    - ''
+    - '&d❖ &5&lANNOUNCEMENT &8▏ &fJoin our &9Discord &fserver'
+    - '&fto chat with more members of our community.'
+    - ''
+    - '[{"text":"  &fLink &8▸ "},{"text":"[Click Here]","color":"blue","underlined":false,"clickEvent":{"action":"open_url","value":"https://discord.gg/davetlink"}}]'
+    - ''
+    - '&d&l&m-----&5&l&m-------&8&l&m----------&5&l&m-------&d&l&m-----'

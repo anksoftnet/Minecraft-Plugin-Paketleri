@@ -1,0 +1,35 @@
+# This plugin uses Regex for checking messages.
+expressions:
+  # IPs and Websites
+  - ([\d]{1,3}[., ]{1,}){3,}([\d]{1,3})
+  - ([ &.,]|^)([\w]{5,})([., ]){1,}(com|org|net|biz|info|name|mobi|kz|tk|server.pro|serv.nu)([ &.,]|$)
+  # Swearing (Spanish)
+  - boludito
+  - chot(o|a)
+  - concha
+  - (ca|k)gon
+  - forrit(o|a)
+  - fracasad(o|a)
+  - garcha
+  - imbecil
+  - maric(on|a)
+  - mierda
+  - ojete
+  - put(o|a|ito)
+  - pija
+  - pelotudo
+  - poronga
+  - rat(a|ita)
+  - trol(o|a)
+  # Spaglish
+  - idiot(a)?
+  # Swearing (English)
+  - asshole
+  - bitch
+  - cunt
+  - dick
+  - fuck(er)?
+  - loser
+  - pussy
+  # Miscelaneous
+  - (LiquidBounce)([ ])(Hacked)([ ])(Client)([ ])(by)([ ])(CCBlueX)

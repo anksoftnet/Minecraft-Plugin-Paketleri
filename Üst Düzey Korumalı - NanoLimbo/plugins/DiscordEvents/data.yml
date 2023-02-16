@@ -1,0 +1,10 @@
+data:
+  today-peak:
+    peak: 2
+    day: 7
+  week-peak:
+    peak: 2
+    week: 19
+  month-peak:
+    peak: 1
+    month: 4

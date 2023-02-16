@@ -1,0 +1,61 @@
+##################################################
+#                                                #
+#          BUNGEECORD MESSAGE PLUGIN             #
+#                by @iFedeFC                     #
+#                                                #
+##################################################
+
+Prefix: '&8[&5&l*&8] '
+Player_Offline: '&fThis player not is online'
+Usage: '&fIncorrect, usage: &d/msg <player> <msg>'
+Reply_Usage: '&fIncorrect, usage: &d/reply <msg> &for &d/r <msg>'
+No_Player_Reply: '&fYou dont have any player to reply'
+No_Message_Yourself: '&fYou can not send a message to yourself'
+No_Permission: '&fYou dont have permission to use this command'
+No_Reply_Permission: '&fYou dont have permission to reply message'
+
+
+# Format variables:
+# - %sender-name%
+# - %sender-server%
+# - %receiver-name%
+# - %receiver-server%
+# - %msg%
+
+Sender_Format: '&5&lYou &8▸ &d(%receiver-server%) &f%receiver-name%&8: &7%msg%'
+Receiver_Format: '&d(%sender-server%) &f%sender-name% &8▸ &5&lYou&8: &7%msg%'
+
+
+StaffChat_Enabled: true
+StaffChat_Disabled: '&fSorry, but this function is disabled'
+StaffChat_Format: '&d❖ &5&lSTAFF &8▏ &d(%server%) &f%player%&8: &7%msg%'
+Staff_Chat_Off: '&fStaff chat: &c&l●'
+Staff_Chat_On: '&fStaff chat: &a&l●'
+
+SocialSpy_Off: '&fSocial spy: &c&l●'
+SocialSpy_On: '&fSocial spy: &a&l●'
+SocialSpy_Format: '&d❖ &5&lSOCIALSPY &8▏ &f%sender% &8▸ &f%receiver%&8: &7%msg%'
+
+
+HelpOp_Enabled: true
+HelpOp_Disabled: '&fSorry, but this function is disabled'
+#Time in seconds
+HelpOp_Cooldown: 30
+Cooldown_Wait: '&fYou must wait &b%time% &fto use the helpop again'
+HelpOp_Format: '&d❖ &5&lHELPOP &8▏ &d(%server%) &f%player%&8: &7%msg%'
+HelpOp_Sended: '&fYou have successfully sent the help by helpop'
+HelpOp_Usage: '&fUsage: &d/helpop <msg>'
+
+
+BroadCast_Enabled: false
+BroadCast_Disabled: '&fSorry, but this function is disabled'
+#Time in seconds
+BroadCast_Cooldown: 3
+BroadCast_Cooldown_Wait: '&fYou must wait &b%time% &fto use the broadcast again'
+BroadCast_Format: '&d❖ &5&lALERT &8▏ &f%msg%'
+BroadCast_Sended: '&fThe broadcast has been sent correctly'
+BroadCast_Usage: '&fUsage: &d/bc <msg>'
+
+Messages_Disabled: '&fSorry, &d%player% &fhave messages disabled, you can not send one'
+ReceiveMessages_Enabled: '&fPrivate messages: &a&l●'
+ReceiveMessages_Disabled: '&fPrivate messages: &c&l●'

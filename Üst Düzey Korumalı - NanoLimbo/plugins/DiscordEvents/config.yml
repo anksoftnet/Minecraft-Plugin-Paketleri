@@ -1,0 +1,141 @@
+# Plugin by LIPETL.EU version 1.3
+# Discord: BESSGEORG#9763
+
+#DO NOT TOUCH THIS!
+config-version: 1.1
+#Set server name
+server-name: "AnkSOFT - NanoLimbo"
+
+#If you are using redis, true on just one proxy
+bot-commands: true
+
+#Enable which events do you like to see
+enabled-events:
+  - chat
+  - tps
+  - status
+  - join
+  - notify
+  - switch
+  - leave
+  - peak
+
+#If you want registration event you might set true
+lobby-server: true
+
+#Interval of automatic events in MINUTES
+intervals:
+  events-rate: 15
+  peak-check-rate: 15
+  peak-report: 15
+
+#! IMPORTANT !
+#SETUP DISCORD BOT IF YOU DONT KNOW WHAT IS THIS
+#LOOK AT SETUP SECTION ON SPIGOT PAGE
+discord:
+  bot-token: "BOT_TOKEN_HERE"
+  prefix: "."
+  status-type: "WATCHING" #DEFAULT, WATCHING, LISTENING
+  status-text: "AnkSOFT - NanoLimbo"
+  bot-activity: "ONLINE" #IDLE, INVISIBLE, ONLINE, DO_NOT_DISTURB
+  guild-id: "YOUR_GUILD_ID"
+  log-channel-id: "LOGS_CHANNEL_ID"
+  admin-log-channel-id: "ADMIN_LOGS_CHANNEL_ID"
+  staff:
+    - "DISCORD_STAFF_USER_ID"
+  chat-option: true
+  chat-log: true
+  chat-log-channel-id: "ADMIN_LOGS_CHANNEL_ID"
+  chat-channel-id: "CHAT_CHANNEL_ID"
+  chat-format: "&d❖ &9&lDISCORD &8▏ &f%sender%: &7%message%"
+  chat-log-format: "[%server%] %sender% > %message%"
+
+#Customize discord embeds
+  status:
+    title: "Current Status"
+    link: "https://google.com"
+    image: "https://cdn.discordapp.com/emojis/507340024786845706.png?v=1"
+    text:
+    - ":gear: __**%server%**__\n"
+    - "> - Total servers: **%servers%**\n"
+    - "> - Online servers: **%serversonline%**\n"
+    - "> - Total online: **%online%**\n"
+    - "> - Uptime: **%uptime%**\n"
+    - "> - CPU: **%cpu%**\n"
+    - "> - RAM: %memory%\n"
+    footer: "https://anksoft.net"
+    admin-log: true
+    staff-cmd: true
+
+  player:
+    staff-cmd: true
+
+  list:
+    header: "Online players: **%online%**\n"
+    player-line: "%player%, "
+    end-line: "%player%"
+    staff-cmd: true
+
+  registrations:
+    title: "https://anksoft.net"
+    link: "https://google.com"
+    image: "https://cdn.discordapp.com/emojis/507340024786845706.png?v=1"
+    text:
+    - "> New registered players: **%registered%**"
+    footer: "https://anksoft.net"
+    admin-log: true
+
+  join:
+    text: "**%player%** joined the server."
+    footer: "https://anksoft.net"
+    admin-log: false
+
+  peak:
+    text:
+    - "**Today** current peak: **%today_peak%** players!"
+    - "**Month** current peak: **%month_peak%** players!"
+    - "**Week** current peak: **%week_peak%** players!"
+    footer: "https://anksoft.net"
+    admin-log: true
+
+  leave:
+    text: "**%player%** left the server."
+    footer: "https://anksoft.net"
+    admin-log: false
+
+  chat:
+    format: "[Minecraft] %sender% ▸ %message%"
+
+  switch:
+    text: "The **%player%** switched from server **%from%** ▸ **%target%**"
+    footer: "https://anksoft.net"
+    admin-log: true
+
+#Customize discord embeds color
+  colors:
+    online-color: "#9B0FCE"
+    offline-color: "#9B0FCE"
+    maintance-color: "#9B0FCE"
+    main-color: "#9B0FCE"
+    status-color: "#9B0FCE"
+    join-color: "#9B0FCE"
+    switch-color: "#9B0FCE"
+    register-color: "#9B0FCE"
+    leave-color: "#9B0FCE"
+    kick-color: "#9B0FCE"
+    peak-color: "#9B0FCE"
+
+#Customize messages
+  messages:
+    online-title: "The server started successfully!"
+    offline-title: "The server is now offline..."
+    online-text: "> Server: __%server%__"
+    offline-text: "> Server: __%server%__"
+    online-image: "https://imgur.com/hjkl"
+    offline-image: "https://imgur.com/hjkl"
+    online-icon: "https://imgur.com/hjkl"
+    offline-icon: "https://imgur.com/hjkl"
+
+minecraft:
+  find-player: ":purple_circle:  |  **%player%** is now on **%server%**"
+  notfound-player: ":red_circle:  |  **%player%** not found on proxy..."
