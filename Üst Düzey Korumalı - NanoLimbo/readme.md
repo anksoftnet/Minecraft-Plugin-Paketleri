@@ -57,7 +57,11 @@ Kimsenin yazmaması için sohbeti global olarak kapatıp açabilirsiniz. (Person
 /contact
 
 ✧ DİSCORD BOTU | Aşağıdakiler gibi çeşitli işlevlere sahip discord botu:
+
 Global Sohbet: Herhangi bir sunucudan mesaj gönderebilirsiniz ve bu Discord'a yansıtılır ve Discord üzerinden mesaj gönderirseniz, sunucuya yansıtılır.
+
 Oyuncu Bulucu/Listesi: Ağa bağlı tüm oyuncuların gerçek zamanlı bir listesini görebileceksiniz.
+
 Ağ Durumu: Bot bir sunucu loglarını, ram, cpu, aktif oyuncuları ve daha fazlasını gönderir. Bir sunucu kapatıldığında/açıldığında da bildirim alırsınız.
+
 Loglar: Bot, yeni bir oyuncu sunucuya girdiğinde, ayrıldığında veya sunucu değiştirdiğinde mesaj gönderir.
